@@ -22,7 +22,7 @@
 		{
 		"name": "The Solo Adventure's Toolbox",
 		"id": "TSAT",
-		"coverUrl": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%201;%20Cover.jpg",
+		"coverUrl": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%201;%20Cover.jpg",
 		"source": "TheSoloAdventurersToolbox",
 		"contents": [
 			{
@@ -246,7 +246,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%203;%20Dragon%20+%20Traveler.jpg"
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%203;%20Dragon%20+%20Traveler.jpg"
 									},
 									"width": 259,
 									"height": 185
@@ -272,7 +272,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%205%3B%20Woman%20%2B%20Wolf.jpg"
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%205%3B%20Woman%20%2B%20Wolf.jpg"
 									},
 									"width": 397,
 									"height": 515
@@ -296,7 +296,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%206%3B%20Dice.jpg"
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%206%3B%20Dice.jpg"
 									},
 									"width": 767,
 									"height": 310
@@ -458,7 +458,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%209%3B%20Example%20Flipmat.jpg"
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%209%3B%20Example%20Flipmat.jpg"
 									},
 									"width": 898,
 									"height": 494
@@ -478,7 +478,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%2010%3B%20Dragon.jpg"
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%2010%3B%20Dragon.jpg"
 									},
 									"width": 365,
 									"height": 506
@@ -787,7 +787,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%2013;%20Party%20Exploring.jpg"
+												"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%2013;%20Party%20Exploring.jpg"
 											}
 										}
 									]
@@ -1155,7 +1155,7 @@
 											"type": "image",
 											"href": {
 												"type": "external",
-												"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%2016;%20Campfire.jpg"
+												"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%2016;%20Campfire.jpg"
 											}
 										},
 										{
