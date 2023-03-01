@@ -1,0 +1,1803 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheSoloAdventurersToolbox",
+				"abbreviation": "TSAT",
+				"full": "The Solo Adventure's Toolbox",
+				"authors": [
+					"5e Solo Gamebooks (Paul Bimler)"
+				],
+				"convertedBy": [
+					"asdfgn#2399"
+				],
+				"version": "1.0.0",
+				"url": "https://www.dmsguild.com/product/252355/The-Solo-Adventurers-Toolbox"
+			}
+		],
+		"dateAdded": 1676421169,
+		"dateLastModified": 1676510259
+	},
+	"book": [
+		{
+		"name": "The Solo Adventure's Toolbox",
+		"id": "TSAT",
+		"coverUrl": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%201;%20Cover.jpg",
+		"source": "TheSoloAdventurersToolbox",
+		"contents": [
+			{
+				"name": "Introduction",
+				"headers": [
+					"Getting Started: Freeform Solo Play",
+					"Getting Started: Quest-Based Solo Play",
+					"Your Creativity Required",
+					"Skill Checks",
+					"Overview Of The Book’s Structure",
+					"Journalling",
+					"Satisfying Gameplay"
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 1
+				}
+			},
+			{
+				"name": "Unique Question/Answer Mechanic",
+				"headers": [
+					"Maybe",
+					"Trick To Remember",
+					"Specific Questions"
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 2
+				}
+			},
+			{
+				"name": "Travelling/Camping/Arriving in Settlements",
+				"headers": [
+					"Modes of Travel & Travel Speeds",
+					"Weather",
+					"Geographic Features",
+					"Table to Generate Number of Wilderness Encounters",
+					"Unmarked Settlements",
+					"Arriving In Settlements",
+					"Tavern Table",
+					"Generating Rumours",
+					"Rumour Location Table",
+					"Proactive PCs",
+					"Table to Generate Number of Urban Encounters"
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 3
+				}
+			},
+			{
+				"name": "Wilderness Encounters",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 4
+				}
+			},
+			{
+				"name": "Urban Encounters",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 5
+				}
+			},
+			{
+				"name": "Dungeon Encounters",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 6
+				}
+			},
+			{
+				"name": "Quest Generator",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 7
+				}
+			},
+			{
+				"name": "Random Dungeon Generation",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 8
+				}
+			},
+			{
+				"name": "Random Wilderness Generation",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 9
+				}
+			},
+			{
+				"name": "Merchants & Shopping",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 10
+				}
+			},
+			{
+				"name": "Downtime Activities",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 11
+				}
+			},
+			{
+				"name": "Roleplay in the Solo Format",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 12
+				}
+			},
+			{
+				"name": "NPC Generator",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 13
+				}
+			},
+			{
+				"name": "Story Element Interaction Tables",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 14
+				}
+			},
+			{
+				"name": "What Do The Monsters Do?",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 15
+				}
+			},
+			{
+				"name": "Monster Encounters For The Solo PC",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 16
+				}
+			},
+			{
+				"name": "Loot Tables",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 17
+				}
+			},
+			{
+				"name": "Example Gameplay Session",
+				"headers": [
+					""
+				],
+				"ordinal": {
+					"type": "chapter",
+					"identifier": 18
+				}
+			}
+		],
+		"published": "2018-09-14",
+		"group": "homebrew"
+		}
+	],
+	"bookData": [
+		{
+			"id": "TSAT",
+			"source": "TheSoloAdventurersToolbox",
+			"data": [
+				{
+					"type": "section",
+					"name": "Chapter 1 &#x2014; Introduction",
+					"page": 4,
+					"id": "001",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%203;%20Dragon%20+%20Traveler.jpg"
+									},
+									"width": 259,
+									"height": 185
+								},
+								"This book was written with the intention of providing a comprehensive method for playing D&D without a dungeon master. Some might argue this goes against the spirit of the game. I strongly disagree. Some of the first D&D products came with solo adventures included, to help beginning players learn the basics of the game. So that’s one use for a solo adventure. Another is that not all players can find a game. Some may live in a remote town where they are the only person interested in D&D, or they may simply not know how to go about joining a group. Also, there are many longsuffering Dungeon Masters who seem to always be the ones putting their hands up to run the game. This book was written for them, probably more than anyone else!",
+								"The contents menu on the left-hand side of this book is how you will navigate between the many tables and resources in this book. Eventually, you will become familiar with where the tables you like to use are and will know how to get to them quickly. Adapt this menu as you see fit.",
+								"Within these pages, you will find a wealth of resources to help you enjoy detailed, immersive solo adventures. There are random encounter tables, quest and encounter generators, urban and wilderness encounter tables, merchant tables, instructions about travel, downtime activities, and much more. Using this supplement and a simple question/answer mechanic, you can enjoy hours of DM-less play using the 5th Edition system.",
+								"Over the years I have developed my own style of solo play which involves the use of a question/answer mechanic (Mythic GM Emulator), random dungeon generation tables (from the DMG), loot tables (also DMG, as well as a number of resources from DM’s Guild), encounter tables (DM’s Guild / several useful websites) and a number of tools of my own. That’s a lot of different resources to access in one session. The idea came to me recently that a collection of all such tables could be gathered into one product.",
+								"But obviously, creating tables for everything that your PC might encounter during a solo play session is a big task! Crafting my own versions of the tools I’ve been using has taken a while. Some of you who are experienced with this style of play will use the tables you want from this product and add other tables of your choosing to accentuate your adventures. This is highly encouraged. This book has been designed as a  catch-all, but if you feel something is missing please let the author know through DM’s Guild. That way, subsequent revisions can be even more comprehensive, based on your input! The idea is that you should be able to generate all of your adventure elements just using this supplement, and I certainly don’t pretend like I’m going to be able to think of everything the first time.",
+								{
+									"type": "entries",
+									"name": "How To Use This Book",
+									"page": 5,
+									"id": "002",
+									"entries": [
+										"Spend a few minutes now to skim through the whole book, taking in the  basics of each chapter. You’ll probably discover that some of the chapters and systems will be suited to your style of play, and in other instances, you will have your own systems that you prefer to use instead. The final chapter contains an example of gameplay using the mechanics in this book, which would be ideal to read after your skim-through. You might find that useful, to put everything into context.",
+										"Also, don’t overlook the Dungeon Master’s Guide. Within its pages, you will find a wealth of resources for solo adventuring. Suggestions are given throughout this book as to how to use the mechanics, tables and generators to facilitate your solo play, but in reality, you can use the resources you find in here however you want. There are no firm rules. You may decide to use the whole book, but choose encounters rather than rolling for them - that's fine.",
+										"You may choose to use Chapter 14, (the Story Element Interaction tables), in conjunction with Chapter 2 (the question/answer mechanic), and nothing else, and that’s fine also.",
+										"Simply think of this book as a collection of resources that hopefully contain some (and maybe all) of the resources you need for a satisfying solo experience. If you have a copy of Dungeon Master’s Guide and the Player’s Handbook, these will be extremely useful resources."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%205%3B%20Woman%20%2B%20Wolf.jpg"
+									},
+									"width": 397,
+									"height": 515
+								},
+								{
+									"type": "entries",
+									"name": "Solo Adventuring Within D&D",
+									"page": 5,
+									"id": "003",
+									"entries": [
+										"When the Red Basic Box was issued back in the early 80s, I vividly remember playing through the little dungeon that served as the intro to the Player’s Handbook. I was in my sister’s apartment / flat with Thompson Twins and Billy Idol playing in the background, and making maps in my school maths book. What a great experience, rolling those light blue dice which were so different and cool, defeating monsters and exploring dungeons! I’d already had some experience playing a solo RPG-based system. Ian Livingstone and Steve Jackson’s Fighting Fantasy Gamebooks such as Warlock of Firetop Mountain and Citadel of Chaos were already making their mark, and in the pre-internet, Pac-Man days, those adventures were a revelation.",
+										"Of course, Dungeons & Dragons is all about group play, and it wasn’t long before I’d assembled a cast of fellow nerds from my neighbourhood. Together we would regularly play, with me usually filling the role of DM. I delighted in creating megadungeons full of nasty traps and surprises, and we had loads of fun. And I still continue to play in groups to this day, mostly through Roll20, which is an amazing tool that I use for many purposes. These days, I don’t seem to be able to get a D&D game together (despite living in a city of close to 400k people) but I’ve got friends who are into board games, so at least I get to scratch that itch. But there are always times between games when a group isn’t available, and this is where solo gaming comes in. I’ve been inspired towards writing solo adventures for Fifth Edition because I’ve always been into them, right from the days of Fighting Fantasy, Lone Wolf, Demonspawn, Grail Quest, Way of the Tiger, and the original Basic Red Box.",
+										"I have devoted the last couple of years to writing solo gamebook-style adventures for D&D. A few of my titles are Death Knight’s Squire, Tyrant of Zhentil Keep, and Citadel of the Raven. These are structured, multi-path adventures with premade encounters, and are available on Dungeon Master’s Guild. I put a lot of time and love into crafting these quests, and the feedback has been brilliant.",
+										"A system called Mythic GM Emulator caught my attention last year (although it’s older than that), with its system of asking questions and crafting your own adventure as it is played. Used in conjunction with all sorts of random encounter generators, dungeon generators and the like which I found online, it was like a light turning on. This was a fantastic way to adventure freely within the Forgotten Realms (or any world) and placed no restrictions on choice or anything else.",
+										"I came up with another system to tie in with D&D called \"Tables of Doom\" which was more open-ended than my gamebook adventures. This presented random rooms that connected together, accompanied by a large array of tables to generate loot, monsters, traps etc. This was well received also.",
+										"Recently the idea occurred to me that all these elements could be combined into one system, to bridge those times between more established quests like the gamebooks, or modules run using supplements such as Olly Gibson’s Elminster’s Guide to Solo Adventuring (also available on DM’s Guild) which is a guide to converting full party adventures into solos. Hence the supplement you are now perusing! I have combined a question/answer mechanic (a seriously pared-down version of the Mythic mechanic) with encounter tables, and a whole lot of generators, as well as guidelines on travel and the like, to give players a system that they can use either between adventures, or as the basis for a full solo campaign. This has been in the works for some time, and it is great to finally pass it over to you, the player, to see what you think!",
+										"There are a number of DM-friendly resources in here also, such as NPC generators, Story and encounter generators, weather tables, Wilderness and Urban encounter tables and many other things that could be useful in crafting a campaign (possibly as you, the DM, plays through it!) Thanks for picking up this supplement, now go ahead and get stuck into some proper adventuring! I really hope you enjoy it."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%206%3B%20Dice.jpg"
+									},
+									"width": 767,
+									"height": 310
+								},
+								{
+									"type": "entries",
+									"name": "Getting Started: Freeform Solo Play",
+									"page": 7,
+									"id": "006",
+									"entries": [
+										"If you want to simply start your character’s story, and see where events take them, then your best approach is probably to pick a location within your setting and place them there. Start interacting with local elements (accessing information from whatever setting or campaign resources you have to hand), or, pick a destination for them to travel to, send them on their way and see what happens.",
+										"Go to Chapter 3 “Travelling” and follow the directions in there."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Getting Started: Quest-Based Solo Play",
+									"page": 7,
+									"id": "007",
+									"entries": [
+										"If you want to just rip straight into the action without any mucking around, then go to Chapter 7: Quest Generator and create a quest for your character to hear about. Perhaps they hear it in a tavern (of all places) or perhaps an NPC gives it to them. There are tables in that chapter for generating quests, and a table for determining how you hear about it, which will generate additional story elements.",
+										"You can base your PC or PCs in a village, which they can use as the base for their adventures, and have an NPC (a local noble/priest / important identity) act as their quest-giver. For an example of gameplay using the quest-based play model, go to Chapter 18: Example Gameplay Session."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Your Creativity Required",
+									"page": 7,
+									"id": "008",
+									"entries": [
+										"Since you are playing the part of DM and player, you will need to exercise your creativity in giving your PCs a surprising and interesting experience. Fortunately, there are many tools included herein to help you achieve that purpose. Have a look below for a summary of each chapter and its contents."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Skill Checks",
+									"page": 7,
+									"id": "009",
+									"entries": [
+										"It is expected that, as you play, you will make skill checks as you see appropriate for your PCs. For this purpose, and if no other option is apparent, you can use the DCs given on p.238 of the DMG as your guide.",
+										{
+											"type": "table",
+											"id": "009b",
+											"page": 7,
+											"colLabels": [
+												"Difficulty",
+												"DC"
+											],
+											"colStyles": [
+												"col-4 text-center",
+												"col-1 text-center "
+											],
+											"rows": [
+												[
+													"Very Easy",
+													"5"
+												],
+												[
+													"Easy",
+													"10"
+												],
+												[
+													"Moderate",
+													"15"
+												],
+												[
+													"Hard",
+													"20"
+												],
+												[
+													"Very Hard",
+													"25"
+												],
+												[
+													"Nearly Impossible",
+													"30"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Overview Of The Book’s Structure",
+									"page": 8,
+									"id": "00a",
+									"entries": [
+										"I have tried to arrange this book logically so that each chapter follows naturally on from the last.",
+										"Chapter 2: In the next chapter, we will examine the question/answer mechanic that I have created for use with the resources in this book. This simple system allows you to gain answers to questions, much in the same way as a system like Mythic. You may prefer to use the Mythic system, or another similar system, in place of this. A question/answer mechanic is indispensable for free-form solo adventuring. The one I have created for this supplement is a simplified version of those offered elsewhere.",
+										"Chapter 3: Deals with travel, modes of travel, weather, camping, unmarked settlements and the like. It follows naturally on to the next chapter…",
+										"Chapter 4: Wilderness encounters. In this chapter, you will find 100 random wilderness encounters, all with an openended nature so that they can be interpreted differently every time.",
+										"Chapter 5: The same as above, but for urban settings.",
+										"Chapter 6: The same as above, but for dungeon settings.",
+										"Chapter 7: Contains tools for generating quests for your solo PC or PCs.",
+										"Chapter 8: Contains tables for the random generation of dungeons and their contents.",
+										"Chapter 9: Contains tables for the random generation of wilderness and its contents.",
+										"Chapter 10: Contains guidance on merchants and shopping while in cities.",
+										"Chapter 11: Contains guidance on downtime activities for your solo PC.",
+										"Chapter 12: Contains ideas to guide roleplay in the solo format.",
+										"Chapter 13: Tables for the random generations of any number of NPCs you might meet on your travels.",
+										"Chapter 14: A collection of tables designed to generate an infinite number of random encounters, and also answer detailed questions framed by the player.",
+										"Chapter 15: Deals with monster tactics and intentions during combat encounters.",
+										"Chapter 16: A method for generating endless monster encounters for your PC or PCs. Organized by terrain and CR.",
+										"Chapter 17: Loot Tables. Individual and hoard charts organized by CR.",
+										"Chapter 18: Example Solo Play Session. If you are a bit overwhelmed by all this material and want to see how it works in action, head to this chapter for a breakdown of an example session run by the author using these mechanics."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dice, Mechanics, Action!",
+									"page": 8,
+									"id": "00b",
+									"entries": [
+										"The tables contained herein are designed to provide adventure and excitement for your characters. But what to do if there is not much happening?",
+										"Well, the first thing you could do is switch to quest-based play. Rather than having your PCs interact with the environment and seeing what results, you could explicitly give them quests to carry out.",
+										"But sometimes, you might feel that your PCs aren’t expected to always be engaged in a quest. At times, they might travel to a town and spend several days there with nothing really happening. This is probably a bit closer to how their lives would really play out, but it may not be exactly what you desire from your solo roleplaying experience.",
+										"However, if constant excitement is your thing, there is another, very simple way to generate action.",
+										"Ask questions.",
+										"Use the question/answer mechanic (Chapter 2) to ask questions that might generate action.",
+										"Below are some sample questions to get things moving again.",
+										{
+											"type": "list",
+											"items": [
+												"Does anyone noteworthy learn of the player’s arrival in town?",
+												"Do things appear normal here?",
+												"Is my character’s progress left undisturbed?",
+												"Are there any interesting rumours circulating?",
+												"Do I see someone interesting in this tavern?",
+												"Is there an Adventurer’s Guild in this town?",
+												"Is everything well in this town?",
+												"Is anyone acting strange?",
+												"Is anything threatening the town at this stage?",
+												"Do we meet any other adventurers here?"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Journalling",
+									"page": 9,
+									"id": "00c",
+									"entries": [
+										"It is recommended that you keep a journal of your PC’s adventures. It gives you a reference and helps to solidify the events as they take place. It also makes for great reading. You can even turn the storyline into an adventure if you’re a DM (which many solo players are - DMs who never get a chance to play as a PC and thus are driven to the solo style of play!)",
+										"A hands-on, non-computer-based roleplay style is also satisfying and moves the solo style of gaming even closer to the feel of actual D&D. Obviously, this means that you’ll probably only make cursory notes into your journal (if you’re doing it by hand). However, the combination of minis, a flipmat, dice, and printed versions of your solo adventuring resources can give rise to an authentic-feeling style of play."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Satisfying Gameplay",
+									"page": 9,
+									"id": "00d",
+									"entries": [
+										"My personal conviction as a player is that solo D&D, using this style of gameplay, is best when you remove all other distractions. If you are playing from a laptop, it is recommended you close all other tabs except the ones relevant to your gameplay, and just hone your focus down to the gameplay, and nothing else. Switch off social media and email, and resist the temptation to look at it. Such distractions break the immersion of your game and result in an inferior experience. Perhaps look up some appropriate “RPG Adventuring Music” to provide a bit of ambient background. This will result in a much more satisfying experience.",
+										"If possible, you could even set yourself up with a flipmat, a large map of your world, your favourite dice, printed resources and miniatures, as well as your journal and some printed information on the area you are journeying through. Using these resources, you can play a tabletop solo D&D adventure. If journeying through the Forgotten Realms, you could even go and pick up a resource like the Forgotten Realms Campaign Guide which was published for Fourth Edition, or a guide for a different setting such as Adventurer’s Guide to Eberron. Setting yourself up like this will take your soloing to another level and should result in a highly satisfying solo experience."
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%209%3B%20Example%20Flipmat.jpg"
+									},
+									"width": 898,
+									"height": 494
+								},
+								{
+									"type": "entries",
+									"name": "Flipmats & Other Accessories",
+									"page": 10,
+									"id": "00e",
+									"entries": [
+										"Flipmats (available online or from your local game store) are excellent for adding that extra dimension to your solo play. Buy the dry marker erasable kind and get yourself a nice little selection of whiteboard markers. Random dungeon generation tools such as those included herein work well with flipmats, as you can just draw in as you go!",
+										"In the scenario pictured above, I used the miniatures I have available (a very small selection) to dictate the characters and villains making up the adventure. These miniatures are from The Legend of Drizzt and Dungeonquest board games, and I simply rolled up PCs to fit their visual characteristics.",
+										"The circular tokens are metal washers with sticky paper (on which I have printed tokens) adhered to their surface. Work with what you’ve got!"
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%2010%3B%20Dragon.jpg"
+									},
+									"width": 365,
+									"height": 506
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 2 &#x2014; Unique Question/Answer Mechanic",
+					"page": 11,
+					"id": "00f",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"There are a few excellent question/answer systems out there. The Mythic system is outstanding and has been extensively used by the author, and by many others, in generating hours of enjoyable solo play. In Olly Gibson’s Elminster’s Guide to Solo Adventuring (available on DM’s Guild) an elegant mechanic for answering questions is provided, which could also be used in this context. This pdf is a useful resource and should be considered if you’re interested in solo adventuring.",
+								"The website RPG Solo is another great resource that supports solo adventuring and incorporates Q/A mechanics, and should be explored also.",
+								"If you are unfamiliar with question/answer systems, the basic idea is that the player asks questions to find out where the story goes next.",
+								{
+									"type": "inset",
+									"page": 10,
+									"name": "Example",
+									"id": "010",
+									"entries": [
+										"The player is in a tavern, and is being harassed by a group of bards who insist on serenading him until he gives them some gold to go away.",
+										"In this situation, the player may ask the question:",
+										"“If I yell at them to go away, will they?” The player rolls, and discerns that they seem determined, and that this might not work, so instead, he tries a different route. “If I act completely crazy, will they go away?”",
+										"The likelihood of this is determined to be Possible and so the player attempts the roll, a straight d20 in this case, no modifier. (Consult the table below). It is your discretion to decide what modifier to use with the roll. The different modifiers are found in the table below.",
+										"He rolls a 9, which is a maybe, and subsequently decides that a performance check is necessary in order to convince the bards that he really is insane. Check made successfully, he decides that his player picks up his tankard of ale and pours it over his head, and then takes off his socks and stuffs them in his ears. Somewhat perplexed and unsettled, the bards depart."
+									]
+								},
+								{
+									"type": "entries",
+									"page": 11,
+									"entries": [
+										"The question/answer system provided in this chapter should be used whenever you need to know an answer that isn’t supplied by a table or some other mechanic. In general, through my system of quest and environment generation, I have tried to provide a concrete system of adventure creation that is revealed as the PC moves through the adventure. However, there is only so deep that I can go with detail, and so a question/answer mechanic is necessary. I’ve provided a simple method of providing an answer to any question that might need to be asked in the context of an adventure.",
+										{
+											"type": "entries",
+											"name": "STEP 1: FRAME A YES/NO QUESTION",
+											"page": 11,
+											"id": "012",
+											"entries": [
+												"The first stage is to come up with a question. This question needs to be framed in such a way that it can be answered with one of the following three words: yes, no, maybe.",
+												"Example: Is this town currently peaceful?"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "STEP 2: DETERMINE DIFFICULTY MODIFIER",
+											"page": 11,
+											"id": "013",
+											"entries": [
+												"Given all circumstances, how likely is the occurrence?",
+												{
+													"type": "table",
+													"page": 11,
+													"id": "013b",
+													"colLabels": [
+														"Likelihood",
+														"Modifier"
+													],
+													"colStyles": [
+														"col-3 text-center",
+														"col-2 text-center"
+													],
+													"rows": [
+														[
+															"Impossible",
+															"-6"
+														],
+														[
+															"Highly Unlikely",
+															"-4"
+														],
+														[
+															"Unlikely",
+															"-2"
+														],
+														[
+															"Possible",
+															"0"
+														],
+														[
+															"Likely",
+															"+2"
+														],
+														[
+															"Highly Likely",
+															"+4"
+														],
+														[
+															"A Certainty",
+															"+6"
+														]
+													]
+												},
+												"With the example question given above, (“Is this town currently peaceful?”) some factors that would influence the likelihood are the political situation in the area, recent events, the demographic, etc.",
+												"NOTE: From now on, we will refer to the question/answer mechanic and its associated d20 roll as the “Q/A roll”."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "STEP 3: MAKE A D20 Q/A ROLL",
+											"page": 12,
+											"id": "014",
+											"entries": [
+												"(adding or subtracting the modifier)",
+												{
+													"type": "table",
+													"page": 12,
+													"id": "014b",
+													"colLabels": [
+														"{@dice d20}",
+														"RESULT"
+													],
+													"colStyles": [
+														"col-2 text-center",
+														"col-3 text-center"
+													],
+													"rows": [
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 1,
+																	"max": 6,
+																	"pad": true
+																}
+															},
+															"NO"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 7,
+																	"max": 12,
+																	"pad": true
+																}
+															},
+															"MAYBE"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 13,
+																	"max": 20,
+																	"pad": true
+																}
+															},
+															"YES"
+														]
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Maybe?",
+									"page": 12,
+									"id": "015",
+									"entries": [
+										"If your result is maybe, then there is some other condition that needs to be fulfilled for the thing to happen (or not happen, as the case may be), perhaps an appropriate ability check to overcome a relevant obstacle or achieve a stated goal. Or, it could be that other yes/no/maybe questions need to be asked in order to determine what the condition is. Another way of getting answers to a maybe is to make a roll or two on the Situations table in Chapter 15. That might add the necessary detail. Or, if you get a maybe roll, you can just decide whether it’s yes or no yourself."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Trick to Remember",
+									"page": 12,
+									"id": "016",
+									"entries": [
+										"To avoid having to repeatedly refer back to this chapter, memorise this: 7-12 = maybe. If you can remember that, everything else will fall into place. You’ll notice the modifiers also scale up and down by twos. They shouldn’t be too hard to memorise either."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Your Creativity is Paramount",
+									"page": 12,
+									"id": "017",
+									"entries": [
+										"Although you can answer every question with this mechanic, that doesn’t necessarily mean that you should. Not everything needs to be answered using this. Recently while soloing, my adventurers (I play solo with 2 PCs) were given an eagle by two female witches. A Q/A roll determined that the eagle could talk, and another that it was a human spirit trapped inside an eagle’s body. I rolled on the NPC tables to find out who it was, and it was an 80-year-old female commoner, and then the thought struck me that she paid to be transferred there because she was sick and dying, and liked the idea of being able to fly. Perhaps so she could shit on all the people who had wronged her in life!",
+										"This story that just occurred to me out of the blue was too good not to use, and so my 2 PCs now had a new (and possibly quite useful) companion!"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Specific Questions",
+									"page": 12,
+									"id": "018",
+									"entries": [
+										"If you have a specific question that needs answering, which cannot be framed as a yes/no question, then use the Situations (Verbs) Table in Chapter 14. This is a list of 499 verbs that give single word answers to any questions, which you can loosely interpret to formulate an answer.",
+										{
+											"type": "inset",
+											"page": 12,
+											"id": "019",
+											"name": "Example",
+											"entries": [
+												"Recently, my solo PC Kite in the Wind, a tabaxi fighter, came across a deserted battlefield. He wanted to search the area. rolled investigation, and it came up 19, so he definitely found something. But what?",
+												"I rolled on the Chapter 15 Verbs list, and got the word “bribe.”",
+												"I related this to a similar word, “payment”, and decided that the winning force appeared to be mercenaries, paid mercenaries, due to the assassin-like wounds on the bodies of the defeated army."
+											]
+										},
+										"So a bit of a reach was necessary, but it provided an interesting plot hook. Onwards to the next town, where the story behind this slaughter might be discovered."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 3 &#x2014; Travelling / Camping / Arriving in Settlements",
+					"page": 13,
+					"id": "01a",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Introduction",
+									"page": 13,
+									"id": "01b",
+									"entries": [
+										"What follows is a stripped-down set of rules for travelling solo between settlements. These rules will be useful if you are not particularly bothered about wilderness adventures and would rather get to a dungeon or town and involved in some adventuring in urban or subterranean settings.",
+										"Chapter 9 contains expanded rules for wilderness travel, and, paired with this chapter, will generate wilderness-based solo adventures."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Start & End Points",
+									"page": 13,
+									"id": "01c",
+									"entries": [
+										"The start and end points of your travel are instrumental in determining what you encounter along the way. What sort of terrain are your PCs travelling through? What is the current weather? What about finding suitable campsites? And of course, there is always the question of random encounters.",
+										"There is a wealth of information available in published WotC and DM’s Guild material (and also on various wikis such as the Forgotten Realms Wiki) to help you furnish your travel with interesting detail. But, keep in mind that your PCs will not always be cognizant of all of this information."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Modes of Travel & Travel Speeds",
+									"page": 13,
+									"id": "01d",
+									"entries": [
+										"Determine how you are travelling between locations. Are you using a mount? (This will need to be purchased). If so, you will need to go to Chapter 10: Merchants & Shopping to determine the likelihood of finding a horse trader in the town where you are. Prices for mounts are found in the PHB p.157, and on the table below. The use of a mount will determine how quickly you travel between locations, but bear in mind that a standard riding horse only travels 30 miles per day. To really increase your speed, you need a warhorse which is quite a sizable investment, especially for a low-level PC.",
+										"The next step is to determine the distance between your locations. This is crucial in determining how many days it will take you to get from point to point, and thus how many encounters you might have.",
+										"See DMG pp.242-243, and PHB pp.155-157 and pp.181-183 for more details on travel and travel speeds, and the carrying capacity of various mounts. Once you have the details of your mount, note them down on your character sheet so you don’t have to keep referring back to the rulebooks. Remember that the following speeds are halved when travelling over difficult terrain.",
+										{
+											"type": "table",
+											"page": 14,
+											"id": "01db",
+											"colLabels": [
+												"MODE OF TRAVEL",
+												"COST",
+												"Miles per day"
+											],
+											"colStyles": [
+												"col-3 text-center",
+												"col-1 text-center",
+												"col-5 text-center"
+											],
+											"rows": [
+												[
+													"Foot",
+													"0 gp",
+													"24 (30 with -5 penalty to passive perception)"
+												],
+												[
+													"Riding Horse",
+													"75 gp",
+													"30 (60 with fresh mounts avail. every 8-10 miles)"
+												],
+												[
+													"Draft Horse (for cart)",
+													"50 gp",
+													"40"
+												],
+												[
+													"War Horse",
+													"400 gp",
+													"60"
+												],
+												[
+													"Donkey / Mule",
+													"8 gp",
+													"40"
+												],
+												[
+													"Cart (need draft horses)",
+													"15 gp",
+													"30"
+												],
+												[
+													"Mastiff (suitable for small humanoid)",
+													"25 gp",
+													"40"
+												]
+											]
+										},
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%2013;%20Party%20Exploring.jpg"
+											}
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Weather",
+									"page": 14,
+									"id": "01e",
+									"entries": [
+										"Weather is a major consideration when travelling. Consult the DMG (p.109) or use the table below to determine what the weather is doing on any particular day or night. Where the weather gives the option Hot, if the roll is towards the lower end of the range, it is warm. If higher, it is hot. The results scale upwards.",
+										"Adjust by terrain also. If in a desert, add 5. If in mountains or ice steppes, subtract 5.",
+										{
+											"type": "table",
+											"page": 14,
+											"id": "01eb",
+											"colLabels": [
+												"{@dice d20}",
+												"Summer",
+												"Autumn",
+												"Winter",
+												"Spring"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-2 text-center",
+												"col-2 text-center",
+												"col-2 text-center",
+												"col-2 text-center"
+											],
+											"rows": [
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 1,
+															"pad": true
+														}
+													},
+													"Unseasonably cold",
+													"Sleet / Blizzard",
+													"Heavy snow",
+													"Sleet / Blizzard"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"min": 2,
+															"max": 4,
+															"pad": true
+														}
+													},
+													"Rainy",
+													"Rainy",
+													"Snowstorm",
+													"Rain"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"min": 5,
+															"max": 8,
+															"pad": true
+														}
+													},
+													"Overcast",
+													"Light rain",
+													"Rain",
+													"Overcast"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"min": 9,
+															"max": 11,
+															"pad": true
+														}
+													},
+													"Clear, Warm",
+													"Overcast",
+													"Overcast",
+													"Clear Skies"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"min": 12,
+															"max": 18,
+															"pad": true
+														}
+													},
+													"Clear, Hot",
+													"Clear Skies",
+													"Clear Skies",
+													"Warm"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"min": 19,
+															"max": 20,
+															"pad": true
+														}
+													},
+													"Very Hot",
+													"Hot",
+													"Unseasonably warm",
+													"Hot"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Geographic Features",
+									"page": 14,
+									"id": "01f",
+									"entries": [
+										"Inspect the map of the area you are travelling through carefully. Is there a river that you must cross? If so, has it been raining lately? The river could be raging, or if high summer, only ankle deep. If there is a range of mountains, how will you get across? You may need more information in order to discover the pass that leads through. Or, perhaps like a certain famous adventuring party, there is a legendary tunnel under the mountains that you must enter to get through the mountain range."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Table to Generate Number of Wilderness Encounters",
+									"page": 15,
+									"id": "020",
+									"entries": [
+										"Use the table below to determine how many encounters your PC might have on the road while travelling. If they are camped up and resting, there is a different mode for determining whether they are disturbed. This table below is for when your character is on the move, whether they choose to travel during the day or at night.",
+										{
+											"type": "table",
+											"page": 15,
+											"id": "020b",
+											"colLabels": [
+												"POPULATION DENSITY",
+												"DAY",
+												"NIGHT"
+											],
+											"colStyles": [
+												"col-3 text-center",
+												"col-2 text-center",
+												"col-2 text-center"
+											],
+											"rows": [
+												[
+													"Low",
+													"2*",
+													"1*"
+												],
+												[
+													"Medium",
+													"4*",
+													"2*"
+												],
+												[
+													"High",
+													"6*",
+													"3*"
+												]
+											],
+											"footnotes": [
+												"*(Number of d100 rolls per 12 hours)"
+											]
+										},
+										"Determine how many d100 rolls to make using the table above. Whatever number you arrive at, make that many d100 rolls. For every roll of 25 or below, you have an encounter.",
+										"You could use the pre-made Wilderness Encounter Tables (Chapter 4), or you could use the Story Element Interaction Tables (Chapter 14) to determine what it is you meet on the road."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Unmarked Settlements",
+									"page": 15,
+									"id": "021",
+									"entries": [
+										"As you travel, you will come across settlements and villages that aren’t necessarily marked on maps. These “empty spaces” on the official maps of the Forgotten Realms (or whatever setting you are adventuring through) are where you can really begin to exercise your creativity. Are the settlements human? What are they known for? What is the general attitude of the population, and what significant events are happening in the area currently? The question/answer mechanic will help you in this regard, or you could consult the tables on pp.112-116 of the DMG."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Possibility of Finding Unmarked Settlements",
+									"page": 15,
+									"id": "022",
+									"entries": [
+										"Roll 1d4-1 to determine how many chance rolls to make between each marked settlement. For example, a d4 roll of 4 means 3 chance rolls. In a highly populated part of the Forgotten Realms (or wherever your solo campaign is set), that means 3 rolls of a d100. For every one of these that is 20 or below (20% chance for a highdensity population area), you find one unmarked settlement. It might take you 4 days to travel from one marked settlement to another. Space out these chance rolls however you like. (Note: this means 3 chance rolls during your entire travel time between the two marked settlements. Not 3 chance rolls per day).",
+										"Unmarked settlements will be villages, hamlets, stationed garrisons, forestry worker encampments and the like - nothing larger than that.",
+										{
+											"type": "table",
+											"page": 15,
+											"id": "022b",
+											"colLabels": [
+												"POPULATION DENSITY",
+												"CHANCE"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-1 text-center"
+											],
+											"rows": [
+												[
+													"Low",
+													"5%"
+												],
+												[
+													"Medium",
+													"10%"
+												],
+												[
+													"High",
+													"20%"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Nature of Unmarked Settlements",
+									"page": 15,
+									"id": "023",
+									"entries": [
+										"Use the following table to establish the size and nature of your settlement. NOTE: Wherever you see a percentage value in a table, that is a direction to make a d100 roll. For example, “25% abandoned” means roll a d100. If you get 25 or below, the camp is abandoned.",
+										"Use Q/A rolls to garner more information about the settlement, for example, whether it is inhabited by humans or orcs!",
+										{
+											"type": "table",
+											"page": 16,
+											"id": "023b",
+											"colLabels": [
+												"{@dice d10}",
+												"Type of Settlement",
+												"Population"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-5 text-center",
+												"col-3 text-center"
+											],
+											"rows": [
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 1,
+															"pad": true
+														}
+													},
+													"Large camp / caravan (25% abandoned)",
+													"1-20"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 2,
+															"pad": true
+														}
+													},
+													"Cottage",
+													"1-10"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 3,
+															"pad": true
+														}
+													},
+													"Large encampment",
+													"50-100"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 4,
+															"pad": true
+														}
+													},
+													"Hamlet",
+													"50-150"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 5,
+															"pad": true
+														}
+													},
+													"Work crew (eg: woodcutters)",
+													"50-200"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 6,
+															"pad": true
+														}
+													},
+													"Stationed garrison",
+													"100-300"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 7,
+															"pad": true
+														}
+													},
+													"Fort",
+													"200-400"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 8,
+															"pad": true
+														}
+													},
+													"Village",
+													"300-1000"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 9,
+															"pad": true
+														}
+													},
+													"Encamped Army",
+													"1000- 3000"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 10,
+															"pad": true
+														}
+													},
+													"Refugee encampment",
+													"500-5000"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Camping",
+									"page": 16,
+									"id": "024",
+									"entries": [
+										"When travelling in the wilderness, it is obviously necessary that you make camp at some stage. Your adventurers need rest and replenishment, and finding a suitable campsite is the way to achieve that. Below are some guidelines as to how to manage this.",
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew-Images/main/TSAT/Page%2016;%20Campfire.jpg"
+											}
+										},
+										{
+											"type": "entries",
+											"name": "Survival Check DC to Find Campsite",
+											"page": 16,
+											"id": "024b",
+											"entries": [
+												{
+													"type": "table",
+													"colLabels": [
+														"Terrain",
+														"DC"
+													],
+													"colStyles": [
+														"col-4 text-center",
+														"col-1 text-center"
+													],
+													"rows": [
+														[
+															"Forest",
+															"6"
+														],
+														[
+															"Coastal",
+															"8"
+														],
+														[
+															"Desert",
+															"8"
+														],
+														[
+															"Grassland",
+															"8"
+														],
+														[
+															"Hills",
+															"6"
+														],
+														[
+															"Subterranean",
+															"10"
+														],
+														[
+															"Swamp",
+															"12"
+														],
+														[
+															"Mountain / Ice Steppe",
+															"14"
+														]
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Rain",
+											"page": 16,
+											"id": "024c",
+											"entries": [
+												"If it’s raining, do you have a tent? If not, another survival check might be required to see if you can construct a bivouac. If so, what materials are around? Adjust DC accordingly, and make the roll."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "No Campsite?",
+											"page": 16,
+											"id": "024d",
+											"entries": [
+												"If the players fail to find a campsite, they can attempt to rest anyway, but one of two things will happen:",
+												{
+													"type": "list",
+													"items": [
+														"The likelihood of being disturbed is increased.",
+														"They may not get a full rest which may result in them only getting a short rest rather than a long rest."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Solutions",
+											"page": 16,
+											"id": "024e",
+											"entries": [
+												"They can continue travelling, which will result in another d100 roll to see whether they encounter something. For every roll of 25 and below, they have an encounter. After travelling for this amount of time, another mile or two, they can roll to find a campsite again.",
+												"This is why it is sometimes a good idea to solo with 2 (or even more) PCs! Different characters bring different strengths. Once you get adept at this style of play, you may wish to give your solo PC a companion or two."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Disturbances While Camping",
+											"page": 17,
+											"id": "024f",
+											"entries": [
+												"Make a Q/A roll to determine whether your PC is disturbed while asleep. Adjust likelihood modifier according to population area, and how much you aced the Survival check by.",
+												"For example, Leytra, an elven ranger, got a 15 on his survival check to find a camp. He then makes a Q/A roll to answer the question “Am I disturbed while resting”, with the modifier of “Unlikely” (-2). This modifier is used since he did well on the survival check, finding a nice, secluded campsite.",
+												"Rolling a 14, the result is 12 when the modifier is subtracted. This results in an answer of “Maybe.”",
+												"Player decides that it’s 50/50, so she makes a d100 roll, getting a 16. Leytra is disturbed while resting."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "What Wakes You?",
+											"page": 17,
+											"id": "024g",
+											"entries": [
+												{
+													"type": "table",
+													"colLabels": [
+														"{@dice d100}",
+														"DISTURBANCE"
+													],
+													"colStyles": [
+														"col-1 text-center",
+														"col-4 text-center"
+													],
+													"rows": [
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 1,
+																	"max": 20,
+																	"pad": true
+																}
+															},
+															"Loud Noise"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 21,
+																	"max": 35,
+																	"pad": true
+																}
+															},
+															"Animal (indifferent)"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 36,
+																	"max": 50,
+																	"pad": true
+																}
+															},
+															"Animal (hostile) (Creatures table, Chapter 14)"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 51,
+																	"max": 60,
+																	"pad": true
+																}
+															},
+															"Disturbing dream/vision"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 61,
+																	"max": 80,
+																	"pad": true
+																}
+															},
+															"NPC (curious)"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 81,
+																	"max": 85,
+																	"pad": true
+																}
+															},
+															"Bandit / Thief"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 86,
+																	"max": 90,
+																	"pad": true
+																}
+															},
+															"Monster (Roll for monster by terrain, Chapter 16)"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"exact": 91,
+																	"pad": true
+																}
+															},
+															"Natural disaster"
+														],
+														[
+															{
+																"type": "cell",
+																"roll": {
+																	"min": 92,
+																	"max": 100,
+																	"pad": true
+																}
+															},
+															"Storm / Weather change"
+														]
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arriving In Settlements",
+									"page": 17,
+									"id": "025",
+									"entries": [
+										"Arriving in settlements that are marked on the map increases the chances of encounters, as there is more to interact with, concentrated in a small space.",
+										"For Forgotten Realms settlements, consult a resource such as Forgotten Realms Campaign Setting (available on DM’s Guild) locating details of that town, notable locations and persons, and local history that your PCs might discover while they are there. This will inform your adventures within the town, giving them a unique flavour.",
+										"Obviously, there is a lot more going on in a town than out in the wilderness. There are more people, and more events and situations to interact with. So your PC or PCs will probably be kept quite busy keeping up with the events in the town, and any plot threads they might be following. Towns and cities, after all, are where adventures start.",
+										"Then of course, there’s the old tavern. A great place to meet NPCs. Use the (slightly racy) tavern name generator below, or use the more generic one in the DMG (p.113). Then, proceed to the following table which will provide more information on what sort of establishment you have found."
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Tavern Name Generator Table",
+									"page": 18,
+									"id": "026",
+									"colLabels": [
+										"{@dice d20}",
+										"First Part",
+										"Second Part"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-4 text-left",
+										"col-4 text-left"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1,
+													"pad": true
+												}
+											},
+											"The Gilded",
+											"Anvil"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2,
+													"pad": true
+												}
+											},
+											"The Frog and",
+											"Eye"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3,
+													"pad": true
+												}
+											},
+											"The Hammer and",
+											"Rogue"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4,
+													"pad": true
+												}
+											},
+											"The Golden",
+											"Assassin"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5,
+													"pad": true
+												}
+											},
+											"The Black",
+											"Dagger"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6,
+													"pad": true
+												}
+											},
+											"Eye of the",
+											"Spadger"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 7,
+													"pad": true
+												}
+											},
+											"The Sword and",
+											"Quipper"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 8,
+													"pad": true
+												}
+											},
+											"The Filthy",
+											"King"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 9,
+													"pad": true
+												}
+											},
+											"The Evil",
+											"Wizard"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 10,
+													"pad": true
+												}
+											},
+											"The Good",
+											"Toad"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 11,
+													"pad": true
+												}
+											},
+											"The Stroppy",
+											"Bullock"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 12,
+													"pad": true
+												}
+											},
+											"The Greasy",
+											"Bollock"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 13,
+													"pad": true
+												}
+											},
+											"The Naughty",
+											"Buttock"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 14,
+													"pad": true
+												}
+											},
+											"The Queen and",
+											"Cuckold"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 15,
+													"pad": true
+												}
+											},
+											"The Leper and",
+											"Sabre"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 16,
+													"pad": true
+												}
+											},
+											"The Dog and",
+											"Strumpet"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 17,
+													"pad": true
+												}
+											},
+											"The Sweaty",
+											"Nonce"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 18,
+													"pad": true
+												}
+											},
+											"The Blessed",
+											"Scoundrel"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 19,
+													"pad": true
+												}
+											},
+											"The Cunning",
+											"Knave"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 20,
+													"pad": true
+												}
+											},
+											"The Knight’s",
+											"Cock"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Tavern Table (Roll 5 times)",
+									"page": 19,
+									"id": "027",
+									"colLabels": [
+										"{@dice d10}",
+										"Rooms",
+										"Quality",
+										"Innkeep",
+										"Rumours",
+										"Customer service"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-2 text-center",
+										"col-2 text-center",
+										"col-2 text-center",
+										"col-2 text-center",
+										"col-6 text-center"
+									],
+									"rows": [
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 1,
+													"pad": true
+												}
+											},
+											"None",
+											"Atrocious",
+											"Male gnome",
+											"None",
+											"Unfriendly"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 2,
+													"pad": true
+												}
+											},
+											"1",
+											"Poor",
+											"Female halfling",
+											"1",
+											"Neutral"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 3,
+													"pad": true
+												}
+											},
+											"2",
+											"Poor",
+											"Male dwarf",
+											"1",
+											"Neutral"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 4,
+													"pad": true
+												}
+											},
+											"3",
+											"Average",
+											"Tiefling",
+											"2",
+											"Civil"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 5,
+													"pad": true
+												}
+											},
+											"4",
+											"Average",
+											"Human male",
+											"2",
+											"Civil"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 6,
+													"pad": true
+												}
+											},
+											"5",
+											"Average",
+											"Human female",
+											"2",
+											"Cordial"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 7,
+													"pad": true
+												}
+											},
+											"6",
+											"Good",
+											"Male Halfling",
+											"3",
+											"Cordial"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 8,
+													"pad": true
+												}
+											},
+											"8",
+											"Good",
+											"Female gnome",
+											"3",
+											"Warm & Welcoming"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 9,
+													"pad": true
+												}
+											},
+											"10",
+											"Excellent",
+											"Orc or Half-orc",
+											"4",
+											"Warm & Welcoming"
+										],
+										[
+											{
+												"type": "cell",
+												"roll": {
+													"exact": 10,
+													"pad": true
+												}
+											},
+											"20",
+											"Outstanding",
+											"Player’s Choice",
+											"4",
+											"Treated like a monarch!"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
