@@ -6,17 +6,18 @@
 				"abbreviation": "TSAT",
 				"full": "The Solo Adventure's Toolbox",
 				"authors": [
-					"5e Solo Gamebooks (Paul Bimler)"
+					"Paul Bimler",
+					"5e Solo Gamebooks"
 				],
 				"convertedBy": [
 					"asdfgn#2399"
 				],
-				"version": "1.0.0",
+				"version": "1.0.1",
 				"url": "https://www.dmsguild.com/product/252355/The-Solo-Adventurers-Toolbox"
 			}
 		],
 		"dateAdded": 1676421169,
-		"dateLastModified": 1676510259
+		"dateLastModified": 1677719186
 	},
 	"book": [
 		{
