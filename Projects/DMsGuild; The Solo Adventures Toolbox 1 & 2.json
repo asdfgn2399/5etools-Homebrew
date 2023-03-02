@@ -14,6 +14,20 @@
 				],
 				"version": "1.0.1",
 				"url": "https://www.dmsguild.com/product/252355/The-Solo-Adventurers-Toolbox"
+			},
+			{
+				"json": "TheSoloAdventurersToolboxPart2",
+				"abbreviation": "TSAT2",
+				"full": "The Solo Adventure's Toolbox - Part Two: The Toolbox Expanded",
+				"authors": [
+					"Paul Bimler",
+					"5e Solo Gamebooks"
+				],
+				"convertedBy": [
+					"asdfgn#2399"
+				],
+				"version": "1.0.1",
+				"url": "https://www.dmsguild.com/product/348555/The-Solo-Adventurers-Toolbox-Part-Two-The-Toolbox-Expanded"
 			}
 		],
 		"dateAdded": 1676421169,
