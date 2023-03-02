@@ -1807,6 +1807,287 @@
 											"Treated like a monarch!"
 										]
 									]
+								},
+								{
+									"type": "entries",
+									"name": "Generating Rumours",
+									"page": 19,
+									"id": "028",
+									"entries": [
+										"STEP 1: Roll for the subject of the rumour.",
+										{
+											"type": "table",
+											"page": 19,
+											"colLabels": [
+												"{@dice d4}",
+												"Subject",
+												"Notes"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-2 text-center",
+												"col-4 text-center"
+											],
+											"rows": [
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 1,
+															"pad": true
+														}
+													},
+													"Person",
+													"Consult NPC tables (Chapter 13)"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 2,
+															"pad": true
+														}
+													},
+													"Creature",
+													"Consult creature table (Chapter 14)"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 3,
+															"pad": true
+														}
+													},
+													"Place",
+													"Consult Rumour location table (below)"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": 4,
+															"pad": true
+														}
+													},
+													"Thing",
+													"Consult Situations table (Chapter 14)"
+												]
+											]
+										},
+										"STEP 2: Roll for the substance of the rumour. 4-5 (or however many necessary) rolls on the Situations Table, Chapter 14.",
+										{
+											"type": "table",
+											"caption": "Rumour Location Table",
+											"page": 20,
+											"id": "028b",
+											"colLabels": [
+												"{@dice d12}",
+												"Place"
+											],
+											"colStyles": [
+												"col-1 text-center",
+												"col-5 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "1",
+															"pad": true
+														}
+													},
+													"In this settlement/area"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "2",
+															"pad": true
+														}
+													},
+													"Just outside settlement"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "3",
+															"pad": true
+														}
+													},
+													"{@dice 1d4} miles away, in a structure (consult Structure Table, Chapter 9)"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "4",
+															"pad": true
+														}
+													},
+													"In the nearest forest"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "5",
+															"pad": true
+														}
+													},
+													"In the nearest hills"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "6",
+															"pad": true
+														}
+													},
+													"In the nearest mountains"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "7",
+															"pad": true
+														}
+													},
+													"In the nearest swamp"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "8",
+															"pad": true
+														}
+													},
+													"In/beside the nearest body of water"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "9",
+															"pad": true
+														}
+													},
+													"In the next village"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "10",
+															"pad": true
+														}
+													},
+													"In the next large town"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "11",
+															"pad": true
+														}
+													},
+													"In the capital of the realm"
+												],
+												[
+													{
+														"type": "cell",
+														"roll": {
+															"exact": "12",
+															"pad": true
+														}
+													},
+													"In the next realm"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Proactive PCs",
+									"page": 20,
+									"id": "029",
+									"entries": [
+										"Good adventurers don’t just sit around waiting for action to come to them. They go out and find it. Get out and about and see what you can dig up. What’s the state of affairs in the city? What interests do your characters have? Are they more likely to go and watch an underground pit fight or visit a tavern, or are they more suited to spending hours burrowing through the stacks of some obscure library? Any one of these can lead to a quest. Adventure hooks are everywhere.",
+										"Also, the multiple NPCs that your characters meet can deliver quests to them as well. Usually, these will be tied up with those NPC’s interests. Who is that mysterious dwarf who occupies the same corner table of the inn you are staying at, every evening without fail? She keeps to herself, but you are certain something is going on with her…",
+										"Every day as you are moving about, getting your business done, you will also have random encounters, just like in the wild."
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Table to Generate Number of Urban Encounters",
+									"page": 20,
+									"id": "02a",
+									"colLabels": [
+										"Type of Settlement",
+										"Day",
+										"Night"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-1 text-center",
+										"col-1 text-center"
+									],
+									"intro": [
+										"Use the table below to determine how many encounters your PC might have while moving about the settlement they are currently visiting."
+									],
+									"outro": [
+										"Determine how many d100 rolls to make using the table above. If you are in a metropolis, you make 10 d100 rolls per day. For every roll of 25 or below, something happens. Use either the Urban Encounter tables (Chapter 5), the Story Element Interaction Tables (Chapter 14), or a combination of both. You may also have your own encounter tables you wish to use. Feel free to bring whatever resources you want to your personalized solo campaign."
+									],
+									"rows": [
+										[
+											"Encampment or other",
+											"2",
+											"1"
+										],
+										[
+											"Hamlet",
+											"2",
+											"1"
+										],
+										[
+											"Village",
+											"4",
+											"2"
+										],
+										[
+											"Town",
+											"6",
+											"3"
+										],
+										[
+											"City",
+											"8",
+											"4"
+										],
+										[
+											"Metropolis",
+											"10",
+											"5"
+										]
+									],
+									"footnotes": [
+										"{@i (Number of d100 rolls per 12 hours)}"
+									]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/asdfgn2399/5etools-Homebrew/main/Images/TSAT/Page%2021;%20Village.jpg"
+									}
 								}
 							]
 						}
