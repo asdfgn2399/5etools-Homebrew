@@ -2092,6 +2092,54 @@
 							]
 						}
 					]
+				},
+				{
+					"type": "section",
+					"name": "Chapter 4 &#x2014; Wilderness Encounters",
+					"page": 22,
+					"id": "O2c",
+					"entries": [
+						"What follows is a d100 table of premade wilderness encounters. You can use these every now and then to provide ready-made events for your PCs. Alternately, you can use the tables in Chapter 16 to generate an infinite number of random encounters.",
+						"Some of the encounters listed below will result in quests, the generation of which is covered in Chapter 7. Other rolls will result in a monster being encountered, which will take you to Chapter 16.",
+						"The encounters below have been somewhat left open-ended so that there is potential for them to be different every time. Use the question/answer mechanic (Chapter 2) to fill in the details. Or, you could use the Story Element Interaction tables (Chapter 14) to spice things up a bit.",
+						{
+							"type": "table",
+							"caption": "Wilderness Encounters",
+							"page": 22,
+							"id": "02d",
+							"colLabels": [
+								"{@dice d100}",
+								"Encounter"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-8 text-center"
+							],
+							"rows": [
+								[
+									"1-4 Small dungeon or crypt found. Purpose and history unknown. If entering, go to Chapter 8: Random Dungeon Generation.",
+									"5 Ready-made camp found, or cosy cave, that could potentially be used as shelter for the night, or a base while exploring. Inhabited?",
+									"6 A small creek, babbling pleasantly. Or a large crack, bubbling pungently.",
+									"7 A storm on the horizon, lightning dancing underneath dark grey clouds.",
+									"8 A sinkhole has opened up nearby.",
+									"9 Abandoned, empty town.",
+									"10- 15 NPC met, who gives PC information about possible quest. Go to Chapter 7 and generate a quest, which you may or may not choose to accept.",
+									"16 Abandoned campsite found. Use Q/A rolls to find out more.",
+									"17 A tree with what looks like Druid markings.",
+									"18 You find survivors of some sort of attack, and they have a tale to tell...",
+									"19 Plundered barrow / burial mound. But did they get everything? And what still waits there? (50% mostly empty)",
+									"10 On the road, a dropped item. A backpack, a purse with interesting contents / a hat with a note tucked inside / an engraved ring… could be anything. Use Q/A roll to find out details.",
+									"21 Interesting traveller. This character has obviously seen some things...",
+									"22 Cemetery. Some of the graves have been looted, and most of the tombstones are so old that the names have worn off.",
+									"23 Prisoner(s) being escorted in a heavily-armoured cart."
+								],
+								[
+									"",
+									""
+								]
+							]
+						}
+					]
 				}
 			]
 		}
