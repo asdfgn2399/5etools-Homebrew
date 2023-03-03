@@ -588,6 +588,7 @@
 			"name": "Núr-o i Nimloth",
 			"source": "MyHomebrewRaces",
 			"page": 0,
+			"lineage": "VRGR",
 			"creatureTypes": [
 				"fey"
 			],
@@ -659,58 +660,6 @@
 					"entries": [
 						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. You also have resistance to piercing damage."
 					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Elvish"
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"weighted": {
-							"from": [
-								"str",
-								"dex",
-								"con",
-								"int",
-								"wis",
-								"cha"
-							],
-							"weights": [
-								2,
-								1
-							]
-						}
-					}
-				},
-				{
-					"choose": {
-						"weighted": {
-							"from": [
-								"str",
-								"dex",
-								"con",
-								"int",
-								"wis",
-								"cha"
-							],
-							"weights": [
-								1,
-								1,
-								1
-							]
-						}
-					}
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"elvish": true
 				}
 			]
 		}
