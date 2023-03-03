@@ -45,7 +45,7 @@
         "col-1 text-center"
       ],
       "intro": [
-        "This is intended as a replacement for the Creating Quick Monster Stats section of the DMG, page 273."
+        "This is intended as a replacement for the {@table Creating Quick Monster Stats; Monster Statistics by Challenge Rating|DMG|Creating Quick Monster Stats} section of the DMG, page 273."
       ],
       "outro": [
         "{@b Example:} Incendia, a CR3 spellcaster. AC 13 (1 point low based on the monster concept); HP 45 (25% low based on the concept); Int and Wis saves +4, other saves +2; spell DC 12. Damage budget: 25 (25% high): Fireball 1/day (28 damage, costing 14 points of the damage budget); Fire Blast cantrip, 11 damage; dagger attack +3, 3 damage (not budgeted since there’s a more damaging at-will option).  You can add traits, such as fire resistance, to taste, and fill out the spell list with non-damaging spells such as Faerie Fire and Continual Flame. "
