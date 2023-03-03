@@ -12,7 +12,7 @@
 				"convertedBy": [
 					"asdfgn#2399"
 				],
-				"version": "1.2.1",
+				"version": "1.2.2",
 				"color": "00bb00",
 				"url": "https://www.blogofholding.com/?p=7338",
 				"dateReleased": "2018-07-31"
@@ -45,7 +45,7 @@
 				"col-1 text-center"
 			],
 			"intro": [
-				"This is intended as a replacement for the {@table Creating Quick Monster Stats; Monster Statistics by Challenge Rating|DMG|Creating Quick Monster Stats} section of the DMG, page 273."
+				"This is intended as a replacement for the {@table Creating Quick Monster Stats; Monster Statistics by Challenge Rating|DMG|Creating Quick Monster Stats} section of the DMG, page 273. See {@link Blog of Holding|https://www.blogofholding.com/?p=7338} for more details and explanation"
 			],
 			"outro": [
 				{
