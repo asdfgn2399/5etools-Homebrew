@@ -33,6 +33,9 @@
         },
         {
           "name": "Introduction"
+        },
+        {
+          "name": "Why These Tactics?"
         }
       ],
       "published": "2019-10-29",
@@ -117,7 +120,7 @@
             {
               "type": "inset",
               "page": 13,
-              "name": "Caveat Arbiter {@i (Not all monsters' tactics are inresting)}",
+              "name": "Caveat Arbiter (Not all monsters' tactics are inresting)",
               "entries": [
                 "Despite what I say about monsters knowing the best way to make use of their features and traits, the sad truth is that there are some monsters, including a few I've omitted from this book, whose features and traits don't lend themselves to anything but \"Rrrraaaahhhh, stab stab stab.\" Most of these are brutes with only one means of attack, no special movement, and no feature synergy to give them any kind of advantage. Some could pose a special threat to particular opponents but don't, because they're too stupid to distinguish one opponent from another. Some are simplistic in a different way: They're too weak and fragile to do anything but run away when encountered.",
                 "The fact that the monster isn't interesting doesn't absolve you of the need to make the encounter interesting. Keep the following in mind when the situation that you're devising (or that appears in a published adventure) calls for a tactically dull monster:",
