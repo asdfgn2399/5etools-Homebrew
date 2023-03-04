@@ -21,5 +21,47 @@
     "status": "wip",
     "dateAdded": 1677903148,
     "dateLastModified": 1677903148
-  }
+  },
+  "book": [
+    {
+      "name": "The Monsters Know What They're Doing",
+      "id": "TMKWTD",
+      "source": "TheMonstersKnowWhatTheyreDoing",
+      "contents": [
+        {
+          "name": "Preface"
+        }
+      ],
+      "published": "2019-10-29",
+      "group": "supplement"
+    }
+  ],
+  "bookData": [
+    {
+      "id": "TMKWTD",
+      "source": "TheMonstersKnowWhatTheyreDoing",
+      "data": [
+        {
+          "type": "section",
+          "name": "Preface",
+          "page": 3,
+          "entries": [
+            "In 1979, as a precocious ten-year-old with a yen for puzzles, I was always excited to get my hands on a copy of Games magazine. The September/October 1979 issue, though, seized my attention like no other had, because it included a feature article that described an entirely new kind of game—one involving maps, monsters, and hunting for treasure—called “Dungeons & Dragons.” I showed the article to my mother, and before long, I had the Dungeons & Dragons Basic Set in my hands. It contained a rulebook, an adventure module called “The Keep on the Borderlands,” and a set of the exact same hard polymer polyhedral dice I’d seen advertised in my mom’s teacher supply catalogs.",
+            "We sat down to play it, and… neither of us could figure out what to do.",
+            "It sat on my shelf for a long time.",
+            "Later, in high school, I got together with a group of friends who had figured it out and were playing D&D along with other roleplaying games such as Villains & Vigilantes and Call of Cthulhu. Four of us formed a tight group that played D&D, taking turns as Dungeon Master, starting with my friend Julian. I was last in the rotation, so I got to see three different examples of how to be a DM before taking on the job myself.",
+            "In those years, I didn’t think of what we were doing in our D&D games in strategic or tactical terms. None of us did. We had plan A (“Get ’em!”) and plan B (“Run!”), and that was the extent of it.",
+            "That group disbanded when, one by one, we stopped coming home from college over the summer. I kept playing D&D for a year or two after that in college, but I’d begun to lose interest in the high-fantasy roleplaying genre; then early adulthood hit, and multiple intercity moves in pursuit of work, and I never managed to find another gaming group that I clicked with. Eventually, I returned home to Chicago and reconnected with Julian and some other players—but by that time, they’d moved on from D&D as well. They were playing GURPS (the Generic Universal Role-Playing System), which worked with any genre, including fantasy.",
+            "Everything changed in 2015, when my wife came home from work one day and asked me whether I could help get a D&D game going with some of her coworkers. (Someone at her office had referred to a client as “someone who looks like he’d play Dungeons & Dragons in his mother’s basement,” to which one of the aforementioned coworkers had replied, deadpan, “I would totally play Dungeons & Dragons.”) My first thought was to run a fantasy campaign using GURPS, but my wife said her coworkers wanted to play D&D, and she prevailed on me to stick with the biggest name in roleplaying games.",
+            "I hadn’t played D&D since shortly after the second edition of the game came out, and I hadn’t kept any of my books, so I went to a friendly local game store and bought the D&D Starter Set. The timing couldn’t have been better: Wizards of the Coast, which had bought the rights to D&D from its original publisher, TSR Inc., had recently released the fifth edition of the game. This edition had taken a hulking gallimaufry of accumulated rules and options and streamlined it into a tight, consistent system that treated all its core functions—attack rolls, saving throws, and ability checks—the same way, reducing a plethora of lookup tables to simple calculations, while preserving the game’s high-fantasy soul. The more I got into it, the more I liked it (even though I still favored anchored fantasy over wild, fantastic, superheroic fantasy). I also began to recognize certain emergent properties of some of fifth edition D&D’s mechanics—properties with tactical implications.",
+            "As a young person, I’d always been interested in strategy games, but I’d also never been particularly good at them, because I never learned to think strategically. What really drove this fact home for me, a couple of years before discovering fifth edition D&D, was playing the computer game XCOM: Enemy Unknown. Over and over, I kept getting massacred, even on the easiest levels. What was I doing wrong? I had no idea. However, by that time, after many hard years, I had finally learned how to learn. And I figured out that I was failing at XCOM because of something I hadn’t known I didn’t know: specifically, smallunit tactics. When I started reading up on them, my XCOM game changed overnight.",
+            "As I ran a fifth edition D&D campaign for my wife and her coworkers, I began to think something was missing in how I was running monsters and non-player characters in combat. Reflecting back on my XCOM experience, I decided I needed to understand those monsters and NPCs more deeply and to come up with action plans for them before, rather than during, our game sessions.",
+            "Once I’d come up with these plans, it seemed selfish to keep them to myself. So I created a blog, The Monsters Know What They’re Doing (themonstersknow.com), where I analyzed the stat blocks of monster after monster for the benefit of other DMs, figuring that what was helpful to me might be helpful to them as well.",
+            "I began writing The Monsters Know What They’re Doing in August 2016. Six months later, I noticed a spike in my traffic, seemingly driven by Reddit. Users of D&D-related subreddits were answering “How I do I run [monster x]?” questions by sharing links to my blog. Eventually, I realized that a growing number of other DMs were visiting my blog as a routine step in their combat encounter planning. The comments rolled in: “I love what you’re doing here.” “This resource is fantastic!” “Thank you for doing this. It’s saved me a lot of work.”",
+            "I now have the honor of presenting The Monsters Know What They’re Doing to you in book form—consolidated, revised, in some cases corrected, and supplemented with additional material, including analyses of monsters not examined on the blog. Note well: This is not a substitute for the Monster Manual (or any other D&D core book); for the actual abilities, traits, and other stats of D&D monsters, as well as the official lore attached to them, you’ll need the Monster Manual. But if you want advice from a D&D veteran about what to do with those abilities, traits, and other stats when the fur starts to fly, The Monsters Know What They’re Doing is the book for you."
+          ]
+        }
+      ]
+    }
+  ]
 }
