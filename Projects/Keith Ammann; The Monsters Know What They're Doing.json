@@ -12,7 +12,7 @@
         "convertedBy": [
           "asdfgn#2399"
         ],
-        "version": "1.0",
+        "version": "1.0.1",
         "color": "ffffff",
         "url": "https://www.themonstersknow.com/",
         "dateReleased": "2019-10-29"
@@ -20,7 +20,7 @@
     ],
     "status": "ready",
     "dateAdded": 1677903148,
-    "dateLastModified": 1677958454
+    "dateLastModified": 1677958455
   },
   "book": [
     {
@@ -81,7 +81,6 @@
             "This book is aimed at:",
             {
               "type": "list",
-              "style": "list-hang-notitle",
               "page": 8,
               "items": [
                 "Beginning DMs, especially younger DMs and adult DMs with little or no strategy gaming experience",
