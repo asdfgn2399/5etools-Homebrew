@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "TheMonstersKnowWhatTheyreDoing",
+        "abbreviation": "TMKWTD",
+        "full": "The Monsters Know What They're Doing",
+        "authors": [
+          "Keith Ammann"
+        ],
+        "convertedBy": [
+          "asdfgn#2399"
+        ],
+        "version": "1.0",
+        "color": "ffffff",
+        "url": "https://www.themonstersknow.com/",
+        "dateReleased": "2019-10-29"
+      }
+    ],
+    "status": "wip",
+    "dateAdded": 1677903148,
+    "dateLastModified": 1677903148
+  }
+}
