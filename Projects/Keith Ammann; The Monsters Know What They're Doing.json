@@ -18,9 +18,9 @@
         "dateReleased": "2019-10-29"
       }
     ],
-    "status": "wip",
+    "status": "ready",
     "dateAdded": 1677903148,
-    "dateLastModified": 1677907023
+    "dateLastModified": 1677958454
   },
   "book": [
     {
@@ -30,6 +30,9 @@
       "contents": [
         {
           "name": "Preface"
+        },
+        {
+          "name": "Introduction"
         }
       ],
       "published": "2019-10-29",
@@ -59,6 +62,34 @@
             "Once I’d come up with these plans, it seemed selfish to keep them to myself. So I created a blog, The Monsters Know What They’re Doing (themonstersknow.com), where I analyzed the stat blocks of monster after monster for the benefit of other DMs, figuring that what was helpful to me might be helpful to them as well.",
             "I began writing The Monsters Know What They’re Doing in August 2016. Six months later, I noticed a spike in my traffic, seemingly driven by Reddit. Users of D&D-related subreddits were answering “How I do I run [monster x]?” questions by sharing links to my blog. Eventually, I realized that a growing number of other DMs were visiting my blog as a routine step in their combat encounter planning. The comments rolled in: “I love what you’re doing here.” “This resource is fantastic!” “Thank you for doing this. It’s saved me a lot of work.”",
             "I now have the honor of presenting The Monsters Know What They’re Doing to you in book form—consolidated, revised, in some cases corrected, and supplemented with additional material, including analyses of monsters not examined on the blog. Note well: This is not a substitute for the Monster Manual (or any other D&D core book); for the actual abilities, traits, and other stats of D&D monsters, as well as the official lore attached to them, you’ll need the Monster Manual. But if you want advice from a D&D veteran about what to do with those abilities, traits, and other stats when the fur starts to fly, The Monsters Know What They’re Doing is the book for you."
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Introduction",
+          "page": 6,
+          "entries": [
+            "Any creature that has evolved to survive in a given environment instinctively knows how to make the best use of its particular adaptations.",
+            "That seems like a straightforward principle, doesn’t it? Yet monsters in Dungeons & Dragons campaigns often fail to follow it.",
+            "No doubt this is largely because many of us begin playing D&D when we’re teens (or even preteens) and don’t yet have much experience with how the world works. Or we come to D&D as adults with little or no background in evolutionary biology, military service, martial arts, or even tactical simulation games, so we don’t consider how relative strengths and weaknesses, the environment, and simple survival sense play into the way a creature fights, hunts, or defends itself. Consequently, we think of combat as a situation in which two opponents swing/shoot/claw/bite at each other until one or the other goes down or runs away. Not so.",
+            "Primitive societies may fight battles by charging out into the open and stabbing at each other, but trained soldiers don’t. They use ranged weapons and shoot from cover. They strive to occupy high ground, where they can see farther and from which it’s easier to shoot or charge. While one soldier or fire team moves from cover to cover, another stays put and watches for danger; then they switch. They’ve learned this from centuries of experience with what wins a battle and what loses it. They know what they’re capable of, and they make the most of it. This is what makes them effective.",
+            "What makes the predators of the natural world effective is evolution: behavior fine-tuned into instincts over countless generations. Lions, crocodiles, and bears are all potentially deadly to humans. Yet lions and crocodiles don’t charge at us from out in the open. They use cover and stealth, and they strike when they’re close enough that we have little chance of running away. This is their most effective strategy: A crocodile isn’t fast enough to give chase over land, and a lion will tire itself out before catching an impala or wildebeest if its prey has enough of a lead. Black and brown bears, which are also deadly up close—and are more than fast enough to chase a human down—use stealth hardly at all. Why? Because, by and large, they don’t hunt. They scavenge, forage, and fish. Their environment is different, and their diet is different, so their habits are different.",
+            "In a game of D&D, what distinguishes goblins from kobolds from orcs from lizardfolk? In many campaigns, hardly anything. They’re all low-level humanoids who go, “Rrrrahhhh, stab stab stab,” then (if the player characters are above level 2) get wiped out. They’re cannon fodder. Only the packaging is different.",
+            "Yet the simple fact that they have different names tells us there should be differences among them, including differences in behavior. One of the great things about the fifth edition of D&D is that not only the ability scores but the skills and features of monsters are specified precisely and consistently. Those skills and features give us clues as to how these monsters ought to fight.",
+            "However, because a Dungeon Master has to make one decision after another in response to player behavior (and the better the players, the more unpredictable their behavior), it doesn’t take long for decision fatigue to set in. It’s easy for even an excellent DM, well acquainted with their monsters’ stat blocks and lore, to allow combat to devolve into monsters running directly at the PCs and going, “Rrrrahhhh, stab stab stab.”",
+            "The way to avoid this is to make as many of these tactical decisions as possible before the session begins, just as a trained soldier—or an accomplished athlete or musician—relies on reflexes developed from thousands of hours of training and practice, and just as an animal acts from evolved instinct. A lion doesn’t wait until the moment after it first spots a herd of tasty wildebeests to reflect upon how it should go about nabbing one, soldiers don’t whip out their field manuals for the first time when they’re already under fire, and a DM shouldn’t be contemplating for the first time how bullywugs move and fight when the PCs have just encountered twelve of them. Rather than try to make those decisions on the fly, the DM needs heuristics to follow so that combat can progress smoothly, sensibly, and satisfyingly. That’s what I set out to provide in this book.",
+            "This book is aimed at:",
+            {
+              "type": "list",
+              "style": "list-hang-notitle",
+              "page": 8,
+              "items": [
+                "Beginning DMs, especially younger DMs and adult DMs with little or no strategy gaming experience",
+                "Intermediate DMs who are looking for ways to add more flavor and challenge for their players",
+                "Advanced DMs who could figure all this out perfectly well on their own but are too busy to put the time into it",
+                "And players. Yes, players! I don’t see anything wrong with your scoping this book for intel. If your DM is using these tips, it’s going to make your characters’ lives a little tougher, and I don’t want them to get slaughtered. If your PCs know something about the creatures they’re up against, they can begin to plan for it, and that’s part of the fun of D&D."
+              ]
+            }
           ]
         }
       ]
