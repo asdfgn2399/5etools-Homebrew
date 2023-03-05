@@ -20,7 +20,7 @@
     ],
     "status": "ready",
     "dateAdded": 1677903148,
-    "dateLastModified": 1678050913
+    "dateLastModified": 1678050920
   },
   "book": [
     {
@@ -39,6 +39,43 @@
         },
         {
           "name": "What Monsters Want"
+        },
+        {
+          "name": "Humanoids",
+          "headers": [
+            "Goblinoids",
+            "Kobolds",
+            "Orcs",
+            "Gnolls",
+            "Lizardfolk",
+            "Yuan-ti",
+            "Bullywugs",
+            "Kuo-toa",
+            "Merfolk",
+            "Sahuagin",
+            "Aarakocra",
+            "Kenku",
+            "Thri-kreen",
+            "Lycanthropes",
+            "Jackalweres",
+            "Drow",
+            "Duergar",
+            "Quaggoths",
+            "Githyanki",
+            "Githzerai"
+          ]
+        },
+        {
+          "name": "NPCs",
+          "headers": [
+            "Commoners and Nobles",
+            "Guards, Thugs, Veterans, and Knights",
+            "Bandits and Assassins",
+            "Tribal Warriors and Berserkers",
+            "Cultists, Acolytes, Priests, and Druids",
+            "Mages",
+            "Archmages"
+          ]
         }
       ],
       "published": "2019-10-29",
