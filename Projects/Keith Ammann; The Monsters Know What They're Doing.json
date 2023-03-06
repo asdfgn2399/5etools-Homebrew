@@ -20,7 +20,7 @@
     ],
     "status": "ready",
     "dateAdded": 1677903148,
-    "dateLastModified": 1678050930
+    "dateLastModified": 1678050940
   },
   "book": [
     {
@@ -206,7 +206,7 @@
   "monster": [
     {
       "name": "Goblin",
-      "source": "TMKWTD",
+      "source": "TheMonstersKnowWhatTheyreDoing",
 
       "_copy": {
         "name": "Goblin",
@@ -227,7 +227,7 @@
       "fluff": {
         "_monsterFluff": {
           "name": "Goblin",
-          "source": "TMKWTD"
+          "source": "TheMonstersKnowWhatTheyreDoing"
         }
       }
     }
@@ -235,7 +235,7 @@
   "monsterFluff": [
     {
       "name": "Goblin",
-      "source": "TMKWTD",
+      "source": "TheMonstersKnowWhatTheyreDoing",
 
       "_copy": {
         "name": "Goblin",
