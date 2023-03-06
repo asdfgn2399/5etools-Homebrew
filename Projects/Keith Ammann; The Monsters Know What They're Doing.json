@@ -1,273 +1,273 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-  "_meta": {
-    "sources": [
-      {
-        "json": "TheMonstersKnowWhatTheyreDoing",
-        "abbreviation": "TMKWTD",
-        "full": "The Monsters Know What They're Doing",
-        "authors": [
-          "Keith Ammann"
-        ],
-        "convertedBy": [
-          "asdfgn#2399"
-        ],
-        "version": "1.0",
-        "color": "780206",
-        "url": "https://www.themonstersknow.com/",
-        "dateReleased": "2019-10-29"
-      }
-    ],
-    "status": "ready",
-    "dateAdded": 1677903148,
-    "dateLastModified": 1678050940
-  },
-  "book": [
-    {
-      "name": "The Monsters Know What They're Doing",
-      "id": "TMKWTD",
-      "source": "TheMonstersKnowWhatTheyreDoing",
-      "contents": [
-        {
-          "name": "Preface"
-        },
-        {
-          "name": "Introduction"
-        },
-        {
-          "name": "Why These Tactics?"
-        },
-        {
-          "name": "What Monsters Want"
-        },
-        {
-          "name": "Humanoids",
-          "headers": [
-            "Goblinoids",
-            "Kobolds",
-            "Orcs",
-            "Gnolls",
-            "Lizardfolk",
-            "Yuan-ti",
-            "Bullywugs",
-            "Kuo-toa",
-            "Merfolk",
-            "Sahuagin",
-            "Aarakocra",
-            "Kenku",
-            "Thri-kreen",
-            "Lycanthropes",
-            "Jackalweres",
-            "Drow",
-            "Duergar",
-            "Quaggoths",
-            "Githyanki",
-            "Githzerai"
-          ]
-        },
-        {
-          "name": "NPCs",
-          "headers": [
-            "Commoners and Nobles",
-            "Guards, Thugs, Veterans, and Knights",
-            "Bandits and Assassins",
-            "Tribal Warriors and Berserkers",
-            "Cultists, Acolytes, Priests, and Druids",
-            "Mages",
-            "Archmages"
-          ]
-        }
-      ],
-      "published": "2019-10-29",
-      "group": "supplement"
-    }
-  ],
-  "bookData": [
-    {
-      "id": "TMKWTD",
-      "source": "TheMonstersKnowWhatTheyreDoing",
-      "data": [
-        {
-          "type": "section",
-          "name": "Preface",
-          "page": 3,
-          "entries": [
-            "In 1979, as a precocious ten-year-old with a yen for puzzles, I was always excited to get my hands on a copy of Games magazine. The September/October 1979 issue, though, seized my attention like no other had, because it included a feature article that described an entirely new kind of game—one involving maps, monsters, and hunting for treasure—called \"Dungeons & Dragons.\" I showed the article to my mother, and before long, I had the Dungeons & Dragons Basic Set in my hands. It contained a rulebook, an adventure module called \"The Keep on the Borderlands,\" and a set of the exact same hard polymer polyhedral dice I'd seen advertised in my mom's teacher supply catalogs.",
-            "We sat down to play it, and… neither of us could figure out what to do.",
-            "It sat on my shelf for a long time.",
-            "Later, in high school, I got together with a group of friends who had figured it out and were playing D&D along with other roleplaying games such as Villains & Vigilantes and Call of Cthulhu. Four of us formed a tight group that played D&D, taking turns as Dungeon Master, starting with my friend Julian. I was last in the rotation, so I got to see three different examples of how to be a DM before taking on the job myself.",
-            "In those years, I didn't think of what we were doing in our D&D games in strategic or tactical terms. None of us did. We had plan A (\"Get 'em!\") and plan B (\"Run!\"), and that was the extent of it.",
-            "That group disbanded when, one by one, we stopped coming home from college over the summer. I kept playing D&D for a year or two after that in college, but I'd begun to lose interest in the high-fantasy roleplaying genre; then early adulthood hit, and multiple intercity moves in pursuit of work, and I never managed to find another gaming group that I clicked with. Eventually, I returned home to Chicago and reconnected with Julian and some other players—but by that time, they'd moved on from D&D as well. They were playing GURPS (the Generic Universal Role-Playing System), which worked with any genre, including fantasy.",
-            "Everything changed in 2015, when my wife came home from work one day and asked me whether I could help get a D&D game going with some of her coworkers. (Someone at her office had referred to a client as \"someone who looks like he'd play Dungeons & Dragons in his mother's basement,\" to which one of the aforementioned coworkers had replied, deadpan, \"I would totally play Dungeons & Dragons.\") My first thought was to run a fantasy campaign using GURPS, but my wife said her coworkers wanted to play D&D, and she prevailed on me to stick with the biggest name in roleplaying games.",
-            "I hadn't played D&D since shortly after the second edition of the game came out, and I hadn't kept any of my books, so I went to a friendly local game store and bought the D&D Starter Set. The timing couldn't have been better: Wizards of the Coast, which had bought the rights to D&D from its original publisher, TSR Inc., had recently released the fifth edition of the game. This edition had taken a hulking gallimaufry of accumulated rules and options and streamlined it into a tight, consistent system that treated all its core functions—attack rolls, saving throws, and ability checks—the same way, reducing a plethora of lookup tables to simple calculations, while preserving the game's high-fantasy soul. The more I got into it, the more I liked it (even though I still favored anchored fantasy over wild, fantastic, superheroic fantasy). I also began to recognize certain emergent properties of some of fifth edition D&D's mechanics—properties with tactical implications.",
-            "As a young person, I'd always been interested in strategy games, but I'd also never been particularly good at them, because I never learned to think strategically. What really drove this fact home for me, a couple of years before discovering fifth edition D&D, was playing the computer game XCOM: Enemy Unknown. Over and over, I kept getting massacred, even on the easiest levels. What was I doing wrong? I had no idea. However, by that time, after many hard years, I had finally learned how to learn. And I figured out that I was failing at XCOM because of something I hadn't known I didn't know: specifically, smallunit tactics. When I started reading up on them, my XCOM game changed overnight.",
-            "As I ran a fifth edition D&D campaign for my wife and her coworkers, I began to think something was missing in how I was running monsters and non-player characters in combat. Reflecting back on my XCOM experience, I decided I needed to understand those monsters and NPCs more deeply and to come up with action plans for them before, rather than during, our game sessions.",
-            "Once I'd come up with these plans, it seemed selfish to keep them to myself. So I created a blog, The Monsters Know What They're Doing (themonstersknow.com), where I analyzed the stat blocks of monster after monster for the benefit of other DMs, figuring that what was helpful to me might be helpful to them as well.",
-            "I began writing The Monsters Know What They're Doing in August 2016. Six months later, I noticed a spike in my traffic, seemingly driven by Reddit. Users of D&D-related subreddits were answering \"How I do I run [monster x]?\" questions by sharing links to my blog. Eventually, I realized that a growing number of other DMs were visiting my blog as a routine step in their combat encounter planning. The comments rolled in: \"I love what you're doing here.\" \"This resource is fantastic!\" \"Thank you for doing this. It's saved me a lot of work.\"",
-            "I now have the honor of presenting The Monsters Know What They're Doing to you in book form—consolidated, revised, in some cases corrected, and supplemented with additional material, including analyses of monsters not examined on the blog. Note well: This is not a substitute for the Monster Manual (or any other D&D core book); for the actual abilities, traits, and other stats of D&D monsters, as well as the official lore attached to them, you'll need the Monster Manual. But if you want advice from a D&D veteran about what to do with those abilities, traits, and other stats when the fur starts to fly, The Monsters Know What They're Doing is the book for you."
-          ]
-        },
-        {
-          "type": "section",
-          "name": "Introduction",
-          "page": 6,
-          "entries": [
-            "Any creature that has evolved to survive in a given environment instinctively knows how to make the best use of its particular adaptations.",
-            "That seems like a straightforward principle, doesn't it? Yet monsters in Dungeons & Dragons campaigns often fail to follow it.",
-            "No doubt this is largely because many of us begin playing D&D when we're teens (or even preteens) and don't yet have much experience with how the world works. Or we come to D&D as adults with little or no background in evolutionary biology, military service, martial arts, or even tactical simulation games, so we don't consider how relative strengths and weaknesses, the environment, and simple survival sense play into the way a creature fights, hunts, or defends itself. Consequently, we think of combat as a situation in which two opponents swing/shoot/claw/bite at each other until one or the other goes down or runs away. Not so.",
-            "Primitive societies may fight battles by charging out into the open and stabbing at each other, but trained soldiers don't. They use ranged weapons and shoot from cover. They strive to occupy high ground, where they can see farther and from which it's easier to shoot or charge. While one soldier or fire team moves from cover to cover, another stays put and watches for danger; then they switch. They've learned this from centuries of experience with what wins a battle and what loses it. They know what they're capable of, and they make the most of it. This is what makes them effective.",
-            "What makes the predators of the natural world effective is evolution: behavior fine-tuned into instincts over countless generations. Lions, crocodiles, and bears are all potentially deadly to humans. Yet lions and crocodiles don't charge at us from out in the open. They use cover and stealth, and they strike when they're close enough that we have little chance of running away. This is their most effective strategy: A crocodile isn't fast enough to give chase over land, and a lion will tire itself out before catching an impala or wildebeest if its prey has enough of a lead. Black and brown bears, which are also deadly up close—and are more than fast enough to chase a human down—use stealth hardly at all. Why? Because, by and large, they don't hunt. They scavenge, forage, and fish. Their environment is different, and their diet is different, so their habits are different.",
-            "In a game of D&D, what distinguishes goblins from kobolds from orcs from lizardfolk? In many campaigns, hardly anything. They're all low-level humanoids who go, \"Rrrrahhhh, stab stab stab,\" then (if the player characters are above level 2) get wiped out. They're cannon fodder. Only the packaging is different.",
-            "Yet the simple fact that they have different names tells us there should be differences among them, including differences in behavior. One of the great things about the fifth edition of D&D is that not only the ability scores but the skills and features of monsters are specified precisely and consistently. Those skills and features give us clues as to how these monsters ought to fight.",
-            "However, because a Dungeon Master has to make one decision after another in response to player behavior (and the better the players, the more unpredictable their behavior), it doesn't take long for decision fatigue to set in. It's easy for even an excellent DM, well acquainted with their monsters' stat blocks and lore, to allow combat to devolve into monsters running directly at the PCs and going, \"Rrrrahhhh, stab stab stab.\"",
-            "The way to avoid this is to make as many of these tactical decisions as possible before the session begins, just as a trained soldier—or an accomplished athlete or musician—relies on reflexes developed from thousands of hours of training and practice, and just as an animal acts from evolved instinct. A lion doesn't wait until the moment after it first spots a herd of tasty wildebeests to reflect upon how it should go about nabbing one, soldiers don't whip out their field manuals for the first time when they're already under fire, and a DM shouldn't be contemplating for the first time how bullywugs move and fight when the PCs have just encountered twelve of them. Rather than try to make those decisions on the fly, the DM needs heuristics to follow so that combat can progress smoothly, sensibly, and satisfyingly. That's what I set out to provide in this book.",
-            "This book is aimed at:",
-            {
-              "type": "list",
-              "page": 8,
-              "items": [
-                "Beginning DMs, especially younger DMs and adult DMs with little or no strategy gaming experience",
-                "Intermediate DMs who are looking for ways to add more flavor and challenge for their players",
-                "Advanced DMs who could figure all this out perfectly well on their own but are too busy to put the time into it",
-                "And players. Yes, players! I don't see anything wrong with your scoping this book for intel. If your DM is using these tips, it's going to make your characters' lives a little tougher, and I don't want them to get slaughtered. If your PCs know something about the creatures they're up against, they can begin to plan for it, and that's part of the fun of D&D."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "section",
-          "name": "Why These Tactics?",
-          "page": 9,
-          "entries": [
-            "To analyze the stat blocks of the creatures in the Monster Manual and other books, I proceed from a certain set of assumptions:",
-            {
-              "type": "list",
-              "page": 9,
-              "items": [
-                "With only a small number of exceptions (mostly constructs and undead), every creature wants, first and foremost, to survive. Seriously wounded creatures will try to flee, unless they're fanatics or intelligent beings who believe they'll be hunted down and killed if they do flee. Some creatures will flee even sooner.",
-                "Ability scores, particularly physical ability scores, influence fighting styles. In this book, I use the phrase \"ability contour\" to refer to the pattern of high and low scores in a creature's stat block and how it defines that creature's overall approach to combat. Two key elements in a creature's ability contour are its primary defensive ability and primary offensive ability. The primary defensive ability is either Constitution or Dexterity, and it determines whether a creature relies on its toughness to absorb incoming damage or on its nimbleness and mobility to avoid it. The primary offensive ability may be Strength, Dexterity, or a mental ability, and it determines whether a creature prefers to do damage via brute-force melee attacks, finesse or ranged attacks, or magical powers. Small, low-Strength creatures try to compensate with numbers, and when their numbers are reduced enough, they scatter. Low-Constitution creatures prefer to attack from range, from hiding, or both. Low-Dexterity creatures must choose their battles judiciously, because they're not likely to be able to get out of a fight once they're in it. High-Strength, high-Constitution creatures are brutes that welcome a close-quarters slugfest. High-Strength, high-Dexterity creatures are hard-hitting predators or shock attackers that count on finishing fights quickly; they'll often use Stealth and go for bigdamage ambushes. High-Dexterity, high-Constitution creatures are scrappy skirmishers that deal steady, moderate damage and don't mind a battle of attrition. High-Dexterity creatures without high Strength or Constitution snipe at range with missile weapons or spells. If all three physical abilities are low, a creature seeks to avoid fighting altogether unless it has some sort of circumstantial advantage—or it simply flees without hesitation.",
-                "A creature with Intelligence 7 or less operates wholly or almost wholly from instinct. This doesn't mean it uses its features ineffectively, only that it has one preferred modus operandi and can't adjust if it stops working. A creature with Intelligence 8 to 11 is unsophisticated in its tactics and largely lacking in strategy, but it can tell when things are going wrong and adjust to some degree. A creature with Intelligence 12 or higher can come up with a good plan and coordinate with others; it probably also has multiple ways of attacking and/or defending and knows which works better in which situation. A creature with Intelligence 14 or higher can not only plan but also accurately assess its enemies' weaknesses and target accordingly. (A creature with Intelligence greater than 18 can do this to a superhuman degree, detecting even hidden weaknesses.)",
-                "A creature with Wisdom 7 or less has an underdeveloped survival instinct and may wait too long to flee. A creature with Wisdom 8 to 11 knows when to flee but is indiscriminate in choosing targets to attack. A creature with Wisdom 12 or higher selects targets carefully and may even refrain from combat in favor of parley if it recognizes that it's outmatched. A creature with Wisdom 14 or higher chooses its battles, fights only when it's sure it will win (or will be killed if it doesn't fight), and is always willing to bargain, bully, or bluff if this will further its interests with less resistance.",
-                "Creatures that rely on numbers have an instinctive sense of how many of them are needed to take down a foe. Usually this is at least three to one. This sense isn't perfect, but it's accurate given certain base assumptions (which player characters may defy). The smarter a creature is, the more it accounts for such things as its target's armor, weaponry, and behavior; the stupider it is, the more it bases its estimate of the danger its enemy poses solely on physical size.",
-                "A creature with a feature that gives it advantage on a roll (or gives its enemy disadvantage) will always prefer to use that feature. If it uses such a feature to initiate combat and the circumstances aren't right for it, it may never attack in the first place. On average, advantage or disadvantage is worth approximately ±4 on a d20 roll; with midrange target numbers, it can be worth as much as ±5. It can turn a fifty-fifty chance into three-to-one odds, or three-to-one odds into fifteen-to-one odds… or the reverse. By comparison, the rarest and most powerful magic weapons in fifth edition D&D are +3. Advantage and disadvantage are a big deal!",
-                "A creature with a feature that requires a saving throw to avoid will often favor this feature over a simple attack, even if the average damage may be slightly less. This is because the presumption of an attack action is failure, and the burden is on the attacker to prove success; the presumption of a feature that requires a saving throw is success, and the burden is on the defender to prove failure. Moreover, attacks that miss do no damage at all, ever; features that require saving throws often have damaging effects even if the targets succeed on their saves.",
-                "In fifth edition Dungeons & Dragons, unless otherwise specified, any creature gets one action and up to one bonus action in a combat round, plus movement and up to one reaction. Any creature that exists in the D&D game world will have evolved in accordance with this rule: It seeks to obtain the best possible result from whatever movement, actions, bonus actions, and reactions are available to it. If it can combine two of them for a superior outcome, it will. This principle is widely referred to as \"action economy,\" and that's how I refer to it here.",
-                "I make frequent reference to the Targets in Area of Effect table in chapter 8 of the Dungeon Master's Guide. It's intended primarily for resolution of area-effect spells and other abilities in \"theater of the mind\"–style play, but here I use it as a guide to the minimum number of targets against whom a limited-use area-effect spell or feature is worth using. For instance, if the table indicates four creatures in a spell's area of effect, I conclude that the caster is disinclined to waste it against three or fewer if it has any other reasonable choice of action.",
-                "Good creatures tend to be friendly by default, neutral creatures indifferent, and evil creatures hostile. However, lawful creatures, even lawful good creatures, will be hostile toward chaotic creatures causing ruckus; chaotic creatures, even chaotic good creatures, will be hostile toward attempts by lawful creatures to constrain or interfere with them; and nearly all creatures, regardless of alignment, are territorial to some degree or another. Intelligent lawful monsters may try to capture and either imprison or enslave characters whom intelligent chaotic monsters would simply drive off or kill.",
-                "I consider a creature that's lost 10 percent of its average hit point maximum to be lightly wounded, 30 percent moderately wounded, and 60 percent severely wounded. I use these thresholds to determine whether a creature will flee or otherwise alter its behavior or attitude toward its opponents. Except in rare and specific cases (such as trolls using the \"Loathsome Limbs\" variant rule), they don't affect what the creature can do."
-              ]
-            },
-            {
-              "type": "inset",
-              "page": 13,
-              "name": "Caveat Arbiter (Not all monsters' tactics are inresting)",
-              "entries": [
-                "Despite what I say about monsters knowing the best way to make use of their features and traits, the sad truth is that there are some monsters, including a few I've omitted from this book, whose features and traits don't lend themselves to anything but \"Rrrraaaahhhh, stab stab stab.\" Most of these are brutes with only one means of attack, no special movement, and no feature synergy to give them any kind of advantage. Some could pose a special threat to particular opponents but don't, because they're too stupid to distinguish one opponent from another. Some are simplistic in a different way: They're too weak and fragile to do anything but run away when encountered.",
-                "The fact that the monster isn't interesting doesn't absolve you of the need to make the encounter interesting. Keep the following in mind when the situation that you're devising (or that appears in a published adventure) calls for a tactically dull monster:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Sometimes monsters exist just to soften the PCs up, increasing the danger level of a subsequent encounter. When this is the case, make them weaker and more numerous. This way, the monsters' lack of sophistication is obscured by the challenge of having to fend off a horde of them. If there's no weaker version of the monster you're looking at, reduce its hit points to something at the lower end of its range (remember, you don't have to use the default average hit points or roll for them—you can assign any value within the random range).",
-                    "Sometimes a monster is narratively and/or thematically appropriate but otherwise not that interesting. Find other ways to enliven the encounter, such as unusual terrain that the PCs can exploit to outmaneuver a less mobile brute, environmental hazards, distracting developments taking place around the combatants, or an item that the PCs want and the monster has taken (or eaten).",
-                    "Sometimes a monster is less of an enemy and more of an obstacle. Offer your PCs two or three ways around it that they can discover if they're creative. A monster encounter doesn't always have to be a combat encounter.",
-                    "Sometimes monsters fight other monsters! Not every fight has to be two-sided. Introduce a more complex monster as a foil for the simpler one—and for your PCs. Your players will delight in the chaos of a three-way battle.",
-                    "If no other solution presents itself, let the battle end quickly, so that you and your players can move on to more interesting things."
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "section",
-          "name": "What Monsters Want",
-          "page": 15,
-          "entries": [
-            "Fifth edition Dungeons & Dragons organizes monsters into fourteen different types. In most cases, a monster's type is an excellent indicator of its basic goals and desires.",
-            "Beasts and monstrosities are easily grouped together, because their priorities are simple: They want food. Also, perhaps, territory, but territory is mainly a way to ensure uncontested access to food, along with individual survival. Monstrosities tend to have animal-level intelligence, although there are a handful of exceptions, notably krakens, sphinxes, nagas, lamias, and those yuan-ti that are considered monstrosities rather than humanoids. Even these exceptions will possess an animal-like instinct to establish and defend territory, despite coming up with more sophisticated rationalizations for this behavior. Combat with a beast or a monstrosity most often occurs for one of four reasons: It's trying to eat you; you're hunting it because it's been eating something or someone else; you've stumbled onto its turf, and it feels threatened; or another foe is employing it as a watchbeast.",
-            "Dragons are über-monstrosities with distinctive personalities. They want food and territory, but they also crave two more things: treasure and domination. The treasure thing is a compulsion, because it's not as though they're going shopping with all those hoarded coins and gems. They like beautiful, expensive things, and they want them—end of story. They also have a deep-seated desire to demonstrate their superiority over other beings. Although they generally don't have any interest in the practical aspects of ruling, they're quite fond of being rulers, and they think they're entitled to it. Thus, they may act like mafia bosses over a region, extorting wealth in exchange for “protection,” by which they mainly mean protection from them. Even good-aligned dragons share this tendency, although their rule is benevolent rather than exploitative.",
-            "Other creatures in the dragon family lack either the power or the intelligence to dominate other beings in the way that true dragons do, but they still exhibit draconic avarice and wrath in the limited ways they're capable of. Pseudodragons gather shiny objects like magpies, wyverns exhibit dominance behaviors as they hunt and fight, and so forth.",
-            "Humanoid enemies (as opposed to humanoids just going about their business) are driven by the things you don't talk about at the dinner table: politics and religion. They're social creatures, and therefore their goals are typically social in nature, as are the units they form to bring these goals about. A humanoid boss enemy is a leader of like-minded humanoids who all want the same thing, and the sophistication and abstraction of the goal is proportional to the intelligence of the humanoid(s) pursuing it. Although they may still be fundamentally interested in territory, wealth, and domination, it's shared territory, wealth, and domination, and the superficial justifications for those pursuits take the form of ideologies built around tribal, clan, or national identity; moral or theological doctrine; sex or gender roles; caste roles; hierarchies of rulership and allegiance; or rules of trade. The psychologist Jonathan Haidt's moral foundations (fairness, kindness, loyalty, obedience, and sanctity) and their opposites (injustice, abuse, treachery, rebellion, and corruption) come into play: The “bad guys” may be committing one or more of the latter group of sins, or they may be going overboard in their attempts to root those sins out.",
-            "If dragons are über-monstrosities, then giants are über-humanoids. However, while dragons have broader interests than most monstrosities do, giants' interests tend to be narrower than those of most humanoids, and they're tightly dictated by their species and their place in the Ordning—the giants' status hierarchy. In terms of social ideology, giants are chiefly interested in their relationships with other giants, and this impinges upon humanoid society only to the extent that giants need to claim humanoids' territory, humanoids' wealth, humanoids' food supplies, or rulership over a humanoid group in order to establish their intragigantic status. In other words, giants' goals revolve around rivalries, and when this makes them the villains, it's usually because of the collateral damage they're causing around them.",
-            "Undead creatures are driven by compulsions generated by whatever spell, influence, or event caused them to rise from the dead. The simplest undead creatures are compelled by the orders of whoever or whatever controls them (or once controlled them). Ghosts are compelled by the need to resolve unfinished business. Other mid- and high-level undead are compelled by hunger, malice, and megalomania. Whatever the compulsion of an undead creature, everything it does revolves around that compulsion and serves it in some way. It supersedes everything else, sometimes including the creature's continued existence.",
-            "Celestials and fiends are two sides of the same coin. They're embodiments of good and evil, but they're not just quasi-humanoids that meander through everyday situations and always do the good or evil thing. They're concerned with cosmic order, and their goals revolve around purification and corruption. Celestials aren't just about doing good things—they're about purging evil influences. Fiends aren't just about doing bad things—they're about introducing evil influences, tempting people to do wicked things they might not otherwise do. For these reasons, while celestial and fiend goals differ from humanoid goals, they make excellent complements to these goals. The involvement of a fiend might push a group of humanoids to take their ideological pursuits in an evil direction—or desperate humanoids might enlist the aid of a fiend in the pursuit of their goal, corrupting them and their goal in the process. Celestial involvement in humanoid affairs is a trickier needle to thread, and if you're going to make a celestial into a villain, it's almost by necessity going to have to be misinformed or overzealous—or corrupted and on the verge of a fall.",
-            "Aberrations, by definition, are beings whose ultimate goals make no sense to us, and for this reason, coming up with decent, plausible schemes for aberration villains can be challenging. Fall back on conventional schemes of domination, and you risk making your aberration into a funny-looking humanoid, for all intents and purposes. An aberration's behavior has to be weird. But also, for an aberration to be a villain rather than a mere curiosity, it has to pose some kind of threat. A good solution for aberrations with mind-control powers is to have them brainwashing ordinary people into participating in their weird schemes. No one wants to be a part of that. Aberrations' activities can have deleterious side effects on nearby habitations. Maybe they're causing nightmares, spooking livestock (the livestock are always first to know when bad juju is going down), disrupting the local economy with excessive demand for some random commodity, or using up a natural resource. Or maybe, like the stereotypical gray alien, they're abducting people, probing them with weird devices, then returning them to their homes. Aberrations' behavior doesn't have to make obvious sense—although, in at least some respects, it should make internal sense.",
-            "Fey creatures' goals, in terms of how much sense they make to an outside observer, aren't all that different from those of aberrations. However, while aberrations' goals are simply inscrutable, fey goals always have a clear emotional or aesthetic aspect, something that might not make logical sense but would seem perfectly sensible in a dream or to a child. Mischief is common; outright malice is unusual. The seven deadly sins are all well represented, however, as is every primary or secondary emotion, turned up to 11. A fey antagonist is an id without an ego to ground it. No matter how large or small the scale of a fey's goals, they're always personal, and the motivations behind them are explainable, if not excusable.",
-            "Constructs don't have goals, only instructions—specifically, the last instructions they were given. When the instructions no longer fit the circumstances, they sometimes go haywire trying to resolve unresolvable contradictions.",
-            "Oozes don't have goals either; they're sub-beasts that aren't even interested in territory, just food. Most plants are the same, although there are a small number of monsters categorized as plants that possess above-animal intelligence. Even an intelligent plant, however, is unlikely to possess any goal beyond survival, selfpropagation, and protection of its environment; it simply develops more sophisticated means of pursuing these goals, ones that involve understanding other creatures, anticipating causation, and planning for the future. Cursed plants, like blights, have a wee dram of undead-ish compulsion in their mentalities.",
-            "That leaves elementals, which I find the hardest type to sum up. They're not full-on alien, like aberrations; simple, like beasts and monstrosities; mechanistic, like constructs; nor defined by their social structures, like humanoids. What they are, I think, is temperamental, in the sense that they're defined by temperaments associated with their elements. However, the classical humors, which you'd think might be a natural fit for this purpose, aren't. While it's easy to imagine elemental beings of fire as choleric (i.e., bad-tempered and irritable) and their goals as primarily involving destroying things out of anger, phlegmatic water elementals, melancholy earth elementals, and sanguine air elementals fit poorly in adventure narratives and feel off base, somehow. Traits drawn from Chinese astrology and traditional medicine fit better—elemental beings of fire being angry and volatile, those of water being aimless and impulsive, those of earth being stolid and hidebound—but they offer us no insight into air, which isn't one of the five wǔ xíng elements. It looks like we have to abandon ancient natural philosophy and rely on our imaginations.",
-            "In both literal and figurative senses, elementals are forces of nature, difficult for ordinary mortals to redirect once they get going. There has to be a sense of out-of-controlness about them, even—perhaps especially—the intelligent ones, like genies. We all share a pretty good sense that elemental beings of fire are about burning everything down, but what can we intuitively say about the rest? Elemental beings of earth want to solidify, to suffocate, to entomb—at least metaphorically, if not literally. Elemental beings of water are the flood, the tsunami—inexorable forces carrying away anything and anyone that's not tightly secured, whether it be a seaside village or people's common sense. Elemental beings of air are entropic—they want to scatter what's ordered, create disarray, rearrange everything, then rearrange it again, the opposite of their earthy complements, which seek to hold everything in place. In this respect, they're a bit like fey, except that fey can be reasoned with, if you know the rules of their antilogic, while elementals can't.",
-            "All the tactics I discuss in this book describe how to use a monster's features effectively, considering what it's capable of. The monster's type, as described here, tells us why the monster is doing what it's doing. Ultimately, a monster's choices, in or out of combat, are a function of this motivation, and when you're writing your own adventures, you should use this information not only to generate plot— to determine why your monster is a threat in the first place—but also to contemplate in advance how your monster is going to react when it realizes that the player characters aren't going to let it have what it wants."
-          ]
-        }
-      ]
-    }
-  ],
-  "monster": [
-    {
-      "name": "Goblin",
-      "source": "TheMonstersKnowWhatTheyreDoing",
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheMonstersKnowWhatTheyreDoing",
+				"abbreviation": "TMKWTD",
+				"full": "The Monsters Know What They're Doing",
+				"authors": [
+					"Keith Ammann"
+				],
+				"convertedBy": [
+					"asdfgn#2399"
+				],
+				"version": "1.0",
+				"color": "780206",
+				"url": "https://www.themonstersknow.com/",
+				"dateReleased": "2019-10-29"
+			}
+		],
+		"status": "ready",
+		"dateAdded": 1677903148,
+		"dateLastModified": 1678051059
+	},
+	"book": [
+		{
+			"name": "The Monsters Know What They're Doing",
+			"id": "TMKWTD",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"contents": [
+				{
+					"name": "Preface"
+				},
+				{
+					"name": "Introduction"
+				},
+				{
+					"name": "Why These Tactics?"
+				},
+				{
+					"name": "What Monsters Want"
+				},
+				{
+					"name": "Humanoids",
+					"headers": [
+						"Goblinoids",
+						"Kobolds",
+						"Orcs",
+						"Gnolls",
+						"Lizardfolk",
+						"Yuan-ti",
+						"Bullywugs",
+						"Kuo-toa",
+						"Merfolk",
+						"Sahuagin",
+						"Aarakocra",
+						"Kenku",
+						"Thri-kreen",
+						"Lycanthropes",
+						"Jackalweres",
+						"Drow",
+						"Duergar",
+						"Quaggoths",
+						"Githyanki",
+						"Githzerai"
+					]
+				},
+				{
+					"name": "NPCs",
+					"headers": [
+						"Commoners and Nobles",
+						"Guards, Thugs, Veterans, and Knights",
+						"Bandits and Assassins",
+						"Tribal Warriors and Berserkers",
+						"Cultists, Acolytes, Priests, and Druids",
+						"Mages",
+						"Archmages"
+					]
+				}
+			],
+			"published": "2019-10-29",
+			"group": "supplement"
+		}
+	],
+	"bookData": [
+		{
+			"id": "TMKWTD",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"data": [
+				{
+					"type": "section",
+					"name": "Preface",
+					"page": 3,
+					"entries": [
+						"In 1979, as a precocious ten-year-old with a yen for puzzles, I was always excited to get my hands on a copy of Games magazine. The September/October 1979 issue, though, seized my attention like no other had, because it included a feature article that described an entirely new kind of game—one involving maps, monsters, and hunting for treasure—called \"Dungeons & Dragons.\" I showed the article to my mother, and before long, I had the Dungeons & Dragons Basic Set in my hands. It contained a rulebook, an adventure module called \"The Keep on the Borderlands,\" and a set of the exact same hard polymer polyhedral dice I'd seen advertised in my mom's teacher supply catalogs.",
+						"We sat down to play it, and… neither of us could figure out what to do.",
+						"It sat on my shelf for a long time.",
+						"Later, in high school, I got together with a group of friends who had figured it out and were playing D&D along with other roleplaying games such as Villains & Vigilantes and Call of Cthulhu. Four of us formed a tight group that played D&D, taking turns as Dungeon Master, starting with my friend Julian. I was last in the rotation, so I got to see three different examples of how to be a DM before taking on the job myself.",
+						"In those years, I didn't think of what we were doing in our D&D games in strategic or tactical terms. None of us did. We had plan A (\"Get 'em!\") and plan B (\"Run!\"), and that was the extent of it.",
+						"That group disbanded when, one by one, we stopped coming home from college over the summer. I kept playing D&D for a year or two after that in college, but I'd begun to lose interest in the high-fantasy roleplaying genre; then early adulthood hit, and multiple intercity moves in pursuit of work, and I never managed to find another gaming group that I clicked with. Eventually, I returned home to Chicago and reconnected with Julian and some other players—but by that time, they'd moved on from D&D as well. They were playing GURPS (the Generic Universal Role-Playing System), which worked with any genre, including fantasy.",
+						"Everything changed in 2015, when my wife came home from work one day and asked me whether I could help get a D&D game going with some of her coworkers. (Someone at her office had referred to a client as \"someone who looks like he'd play Dungeons & Dragons in his mother's basement,\" to which one of the aforementioned coworkers had replied, deadpan, \"I would totally play Dungeons & Dragons.\") My first thought was to run a fantasy campaign using GURPS, but my wife said her coworkers wanted to play D&D, and she prevailed on me to stick with the biggest name in roleplaying games.",
+						"I hadn't played D&D since shortly after the second edition of the game came out, and I hadn't kept any of my books, so I went to a friendly local game store and bought the D&D Starter Set. The timing couldn't have been better: Wizards of the Coast, which had bought the rights to D&D from its original publisher, TSR Inc., had recently released the fifth edition of the game. This edition had taken a hulking gallimaufry of accumulated rules and options and streamlined it into a tight, consistent system that treated all its core functions—attack rolls, saving throws, and ability checks—the same way, reducing a plethora of lookup tables to simple calculations, while preserving the game's high-fantasy soul. The more I got into it, the more I liked it (even though I still favored anchored fantasy over wild, fantastic, superheroic fantasy). I also began to recognize certain emergent properties of some of fifth edition D&D's mechanics—properties with tactical implications.",
+						"As a young person, I'd always been interested in strategy games, but I'd also never been particularly good at them, because I never learned to think strategically. What really drove this fact home for me, a couple of years before discovering fifth edition D&D, was playing the computer game XCOM: Enemy Unknown. Over and over, I kept getting massacred, even on the easiest levels. What was I doing wrong? I had no idea. However, by that time, after many hard years, I had finally learned how to learn. And I figured out that I was failing at XCOM because of something I hadn't known I didn't know: specifically, smallunit tactics. When I started reading up on them, my XCOM game changed overnight.",
+						"As I ran a fifth edition D&D campaign for my wife and her coworkers, I began to think something was missing in how I was running monsters and non-player characters in combat. Reflecting back on my XCOM experience, I decided I needed to understand those monsters and NPCs more deeply and to come up with action plans for them before, rather than during, our game sessions.",
+						"Once I'd come up with these plans, it seemed selfish to keep them to myself. So I created a blog, The Monsters Know What They're Doing (themonstersknow.com), where I analyzed the stat blocks of monster after monster for the benefit of other DMs, figuring that what was helpful to me might be helpful to them as well.",
+						"I began writing The Monsters Know What They're Doing in August 2016. Six months later, I noticed a spike in my traffic, seemingly driven by Reddit. Users of D&D-related subreddits were answering \"How I do I run [monster x]?\" questions by sharing links to my blog. Eventually, I realized that a growing number of other DMs were visiting my blog as a routine step in their combat encounter planning. The comments rolled in: \"I love what you're doing here.\" \"This resource is fantastic!\" \"Thank you for doing this. It's saved me a lot of work.\"",
+						"I now have the honor of presenting The Monsters Know What They're Doing to you in book form—consolidated, revised, in some cases corrected, and supplemented with additional material, including analyses of monsters not examined on the blog. Note well: This is not a substitute for the Monster Manual (or any other D&D core book); for the actual abilities, traits, and other stats of D&D monsters, as well as the official lore attached to them, you'll need the Monster Manual. But if you want advice from a D&D veteran about what to do with those abilities, traits, and other stats when the fur starts to fly, The Monsters Know What They're Doing is the book for you."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Introduction",
+					"page": 6,
+					"entries": [
+						"Any creature that has evolved to survive in a given environment instinctively knows how to make the best use of its particular adaptations.",
+						"That seems like a straightforward principle, doesn't it? Yet monsters in Dungeons & Dragons campaigns often fail to follow it.",
+						"No doubt this is largely because many of us begin playing D&D when we're teens (or even preteens) and don't yet have much experience with how the world works. Or we come to D&D as adults with little or no background in evolutionary biology, military service, martial arts, or even tactical simulation games, so we don't consider how relative strengths and weaknesses, the environment, and simple survival sense play into the way a creature fights, hunts, or defends itself. Consequently, we think of combat as a situation in which two opponents swing/shoot/claw/bite at each other until one or the other goes down or runs away. Not so.",
+						"Primitive societies may fight battles by charging out into the open and stabbing at each other, but trained soldiers don't. They use ranged weapons and shoot from cover. They strive to occupy high ground, where they can see farther and from which it's easier to shoot or charge. While one soldier or fire team moves from cover to cover, another stays put and watches for danger; then they switch. They've learned this from centuries of experience with what wins a battle and what loses it. They know what they're capable of, and they make the most of it. This is what makes them effective.",
+						"What makes the predators of the natural world effective is evolution: behavior fine-tuned into instincts over countless generations. Lions, crocodiles, and bears are all potentially deadly to humans. Yet lions and crocodiles don't charge at us from out in the open. They use cover and stealth, and they strike when they're close enough that we have little chance of running away. This is their most effective strategy: A crocodile isn't fast enough to give chase over land, and a lion will tire itself out before catching an impala or wildebeest if its prey has enough of a lead. Black and brown bears, which are also deadly up close—and are more than fast enough to chase a human down—use stealth hardly at all. Why? Because, by and large, they don't hunt. They scavenge, forage, and fish. Their environment is different, and their diet is different, so their habits are different.",
+						"In a game of D&D, what distinguishes goblins from kobolds from orcs from lizardfolk? In many campaigns, hardly anything. They're all low-level humanoids who go, \"Rrrrahhhh, stab stab stab,\" then (if the player characters are above level 2) get wiped out. They're cannon fodder. Only the packaging is different.",
+						"Yet the simple fact that they have different names tells us there should be differences among them, including differences in behavior. One of the great things about the fifth edition of D&D is that not only the ability scores but the skills and features of monsters are specified precisely and consistently. Those skills and features give us clues as to how these monsters ought to fight.",
+						"However, because a Dungeon Master has to make one decision after another in response to player behavior (and the better the players, the more unpredictable their behavior), it doesn't take long for decision fatigue to set in. It's easy for even an excellent DM, well acquainted with their monsters' stat blocks and lore, to allow combat to devolve into monsters running directly at the PCs and going, \"Rrrrahhhh, stab stab stab.\"",
+						"The way to avoid this is to make as many of these tactical decisions as possible before the session begins, just as a trained soldier—or an accomplished athlete or musician—relies on reflexes developed from thousands of hours of training and practice, and just as an animal acts from evolved instinct. A lion doesn't wait until the moment after it first spots a herd of tasty wildebeests to reflect upon how it should go about nabbing one, soldiers don't whip out their field manuals for the first time when they're already under fire, and a DM shouldn't be contemplating for the first time how bullywugs move and fight when the PCs have just encountered twelve of them. Rather than try to make those decisions on the fly, the DM needs heuristics to follow so that combat can progress smoothly, sensibly, and satisfyingly. That's what I set out to provide in this book.",
+						"This book is aimed at:",
+						{
+							"type": "list",
+							"page": 8,
+							"items": [
+								"Beginning DMs, especially younger DMs and adult DMs with little or no strategy gaming experience",
+								"Intermediate DMs who are looking for ways to add more flavor and challenge for their players",
+								"Advanced DMs who could figure all this out perfectly well on their own but are too busy to put the time into it",
+								"And players. Yes, players! I don't see anything wrong with your scoping this book for intel. If your DM is using these tips, it's going to make your characters' lives a little tougher, and I don't want them to get slaughtered. If your PCs know something about the creatures they're up against, they can begin to plan for it, and that's part of the fun of D&D."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Why These Tactics?",
+					"page": 9,
+					"entries": [
+						"To analyze the stat blocks of the creatures in the Monster Manual and other books, I proceed from a certain set of assumptions:",
+						{
+							"type": "list",
+							"page": 9,
+							"items": [
+								"With only a small number of exceptions (mostly constructs and undead), every creature wants, first and foremost, to survive. Seriously wounded creatures will try to flee, unless they're fanatics or intelligent beings who believe they'll be hunted down and killed if they do flee. Some creatures will flee even sooner.",
+								"Ability scores, particularly physical ability scores, influence fighting styles. In this book, I use the phrase \"ability contour\" to refer to the pattern of high and low scores in a creature's stat block and how it defines that creature's overall approach to combat. Two key elements in a creature's ability contour are its primary defensive ability and primary offensive ability. The primary defensive ability is either Constitution or Dexterity, and it determines whether a creature relies on its toughness to absorb incoming damage or on its nimbleness and mobility to avoid it. The primary offensive ability may be Strength, Dexterity, or a mental ability, and it determines whether a creature prefers to do damage via brute-force melee attacks, finesse or ranged attacks, or magical powers. Small, low-Strength creatures try to compensate with numbers, and when their numbers are reduced enough, they scatter. Low-Constitution creatures prefer to attack from range, from hiding, or both. Low-Dexterity creatures must choose their battles judiciously, because they're not likely to be able to get out of a fight once they're in it. High-Strength, high-Constitution creatures are brutes that welcome a close-quarters slugfest. High-Strength, high-Dexterity creatures are hard-hitting predators or shock attackers that count on finishing fights quickly; they'll often use Stealth and go for bigdamage ambushes. High-Dexterity, high-Constitution creatures are scrappy skirmishers that deal steady, moderate damage and don't mind a battle of attrition. High-Dexterity creatures without high Strength or Constitution snipe at range with missile weapons or spells. If all three physical abilities are low, a creature seeks to avoid fighting altogether unless it has some sort of circumstantial advantage—or it simply flees without hesitation.",
+								"A creature with Intelligence 7 or less operates wholly or almost wholly from instinct. This doesn't mean it uses its features ineffectively, only that it has one preferred modus operandi and can't adjust if it stops working. A creature with Intelligence 8 to 11 is unsophisticated in its tactics and largely lacking in strategy, but it can tell when things are going wrong and adjust to some degree. A creature with Intelligence 12 or higher can come up with a good plan and coordinate with others; it probably also has multiple ways of attacking and/or defending and knows which works better in which situation. A creature with Intelligence 14 or higher can not only plan but also accurately assess its enemies' weaknesses and target accordingly. (A creature with Intelligence greater than 18 can do this to a superhuman degree, detecting even hidden weaknesses.)",
+								"A creature with Wisdom 7 or less has an underdeveloped survival instinct and may wait too long to flee. A creature with Wisdom 8 to 11 knows when to flee but is indiscriminate in choosing targets to attack. A creature with Wisdom 12 or higher selects targets carefully and may even refrain from combat in favor of parley if it recognizes that it's outmatched. A creature with Wisdom 14 or higher chooses its battles, fights only when it's sure it will win (or will be killed if it doesn't fight), and is always willing to bargain, bully, or bluff if this will further its interests with less resistance.",
+								"Creatures that rely on numbers have an instinctive sense of how many of them are needed to take down a foe. Usually this is at least three to one. This sense isn't perfect, but it's accurate given certain base assumptions (which player characters may defy). The smarter a creature is, the more it accounts for such things as its target's armor, weaponry, and behavior; the stupider it is, the more it bases its estimate of the danger its enemy poses solely on physical size.",
+								"A creature with a feature that gives it advantage on a roll (or gives its enemy disadvantage) will always prefer to use that feature. If it uses such a feature to initiate combat and the circumstances aren't right for it, it may never attack in the first place. On average, advantage or disadvantage is worth approximately ±4 on a d20 roll; with midrange target numbers, it can be worth as much as ±5. It can turn a fifty-fifty chance into three-to-one odds, or three-to-one odds into fifteen-to-one odds… or the reverse. By comparison, the rarest and most powerful magic weapons in fifth edition D&D are +3. Advantage and disadvantage are a big deal!",
+								"A creature with a feature that requires a saving throw to avoid will often favor this feature over a simple attack, even if the average damage may be slightly less. This is because the presumption of an attack action is failure, and the burden is on the attacker to prove success; the presumption of a feature that requires a saving throw is success, and the burden is on the defender to prove failure. Moreover, attacks that miss do no damage at all, ever; features that require saving throws often have damaging effects even if the targets succeed on their saves.",
+								"In fifth edition Dungeons & Dragons, unless otherwise specified, any creature gets one action and up to one bonus action in a combat round, plus movement and up to one reaction. Any creature that exists in the D&D game world will have evolved in accordance with this rule: It seeks to obtain the best possible result from whatever movement, actions, bonus actions, and reactions are available to it. If it can combine two of them for a superior outcome, it will. This principle is widely referred to as \"action economy,\" and that's how I refer to it here.",
+								"I make frequent reference to the Targets in Area of Effect table in chapter 8 of the Dungeon Master's Guide. It's intended primarily for resolution of area-effect spells and other abilities in \"theater of the mind\"–style play, but here I use it as a guide to the minimum number of targets against whom a limited-use area-effect spell or feature is worth using. For instance, if the table indicates four creatures in a spell's area of effect, I conclude that the caster is disinclined to waste it against three or fewer if it has any other reasonable choice of action.",
+								"Good creatures tend to be friendly by default, neutral creatures indifferent, and evil creatures hostile. However, lawful creatures, even lawful good creatures, will be hostile toward chaotic creatures causing ruckus; chaotic creatures, even chaotic good creatures, will be hostile toward attempts by lawful creatures to constrain or interfere with them; and nearly all creatures, regardless of alignment, are territorial to some degree or another. Intelligent lawful monsters may try to capture and either imprison or enslave characters whom intelligent chaotic monsters would simply drive off or kill.",
+								"I consider a creature that's lost 10 percent of its average hit point maximum to be lightly wounded, 30 percent moderately wounded, and 60 percent severely wounded. I use these thresholds to determine whether a creature will flee or otherwise alter its behavior or attitude toward its opponents. Except in rare and specific cases (such as trolls using the \"Loathsome Limbs\" variant rule), they don't affect what the creature can do."
+							]
+						},
+						{
+							"type": "inset",
+							"page": 13,
+							"name": "Caveat Arbiter (Not all monsters' tactics are inresting)",
+							"entries": [
+								"Despite what I say about monsters knowing the best way to make use of their features and traits, the sad truth is that there are some monsters, including a few I've omitted from this book, whose features and traits don't lend themselves to anything but \"Rrrraaaahhhh, stab stab stab.\" Most of these are brutes with only one means of attack, no special movement, and no feature synergy to give them any kind of advantage. Some could pose a special threat to particular opponents but don't, because they're too stupid to distinguish one opponent from another. Some are simplistic in a different way: They're too weak and fragile to do anything but run away when encountered.",
+								"The fact that the monster isn't interesting doesn't absolve you of the need to make the encounter interesting. Keep the following in mind when the situation that you're devising (or that appears in a published adventure) calls for a tactically dull monster:",
+								{
+									"type": "list",
+									"items": [
+										"Sometimes monsters exist just to soften the PCs up, increasing the danger level of a subsequent encounter. When this is the case, make them weaker and more numerous. This way, the monsters' lack of sophistication is obscured by the challenge of having to fend off a horde of them. If there's no weaker version of the monster you're looking at, reduce its hit points to something at the lower end of its range (remember, you don't have to use the default average hit points or roll for them—you can assign any value within the random range).",
+										"Sometimes a monster is narratively and/or thematically appropriate but otherwise not that interesting. Find other ways to enliven the encounter, such as unusual terrain that the PCs can exploit to outmaneuver a less mobile brute, environmental hazards, distracting developments taking place around the combatants, or an item that the PCs want and the monster has taken (or eaten).",
+										"Sometimes a monster is less of an enemy and more of an obstacle. Offer your PCs two or three ways around it that they can discover if they're creative. A monster encounter doesn't always have to be a combat encounter.",
+										"Sometimes monsters fight other monsters! Not every fight has to be two-sided. Introduce a more complex monster as a foil for the simpler one—and for your PCs. Your players will delight in the chaos of a three-way battle.",
+										"If no other solution presents itself, let the battle end quickly, so that you and your players can move on to more interesting things."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "What Monsters Want",
+					"page": 15,
+					"entries": [
+						"Fifth edition Dungeons & Dragons organizes monsters into fourteen different types. In most cases, a monster's type is an excellent indicator of its basic goals and desires.",
+						"Beasts and monstrosities are easily grouped together, because their priorities are simple: They want food. Also, perhaps, territory, but territory is mainly a way to ensure uncontested access to food, along with individual survival. Monstrosities tend to have animal-level intelligence, although there are a handful of exceptions, notably krakens, sphinxes, nagas, lamias, and those yuan-ti that are considered monstrosities rather than humanoids. Even these exceptions will possess an animal-like instinct to establish and defend territory, despite coming up with more sophisticated rationalizations for this behavior. Combat with a beast or a monstrosity most often occurs for one of four reasons: It's trying to eat you; you're hunting it because it's been eating something or someone else; you've stumbled onto its turf, and it feels threatened; or another foe is employing it as a watchbeast.",
+						"Dragons are über-monstrosities with distinctive personalities. They want food and territory, but they also crave two more things: treasure and domination. The treasure thing is a compulsion, because it's not as though they're going shopping with all those hoarded coins and gems. They like beautiful, expensive things, and they want them—end of story. They also have a deep-seated desire to demonstrate their superiority over other beings. Although they generally don't have any interest in the practical aspects of ruling, they're quite fond of being rulers, and they think they're entitled to it. Thus, they may act like mafia bosses over a region, extorting wealth in exchange for “protection,” by which they mainly mean protection from them. Even good-aligned dragons share this tendency, although their rule is benevolent rather than exploitative.",
+						"Other creatures in the dragon family lack either the power or the intelligence to dominate other beings in the way that true dragons do, but they still exhibit draconic avarice and wrath in the limited ways they're capable of. Pseudodragons gather shiny objects like magpies, wyverns exhibit dominance behaviors as they hunt and fight, and so forth.",
+						"Humanoid enemies (as opposed to humanoids just going about their business) are driven by the things you don't talk about at the dinner table: politics and religion. They're social creatures, and therefore their goals are typically social in nature, as are the units they form to bring these goals about. A humanoid boss enemy is a leader of like-minded humanoids who all want the same thing, and the sophistication and abstraction of the goal is proportional to the intelligence of the humanoid(s) pursuing it. Although they may still be fundamentally interested in territory, wealth, and domination, it's shared territory, wealth, and domination, and the superficial justifications for those pursuits take the form of ideologies built around tribal, clan, or national identity; moral or theological doctrine; sex or gender roles; caste roles; hierarchies of rulership and allegiance; or rules of trade. The psychologist Jonathan Haidt's moral foundations (fairness, kindness, loyalty, obedience, and sanctity) and their opposites (injustice, abuse, treachery, rebellion, and corruption) come into play: The “bad guys” may be committing one or more of the latter group of sins, or they may be going overboard in their attempts to root those sins out.",
+						"If dragons are über-monstrosities, then giants are über-humanoids. However, while dragons have broader interests than most monstrosities do, giants' interests tend to be narrower than those of most humanoids, and they're tightly dictated by their species and their place in the Ordning—the giants' status hierarchy. In terms of social ideology, giants are chiefly interested in their relationships with other giants, and this impinges upon humanoid society only to the extent that giants need to claim humanoids' territory, humanoids' wealth, humanoids' food supplies, or rulership over a humanoid group in order to establish their intragigantic status. In other words, giants' goals revolve around rivalries, and when this makes them the villains, it's usually because of the collateral damage they're causing around them.",
+						"Undead creatures are driven by compulsions generated by whatever spell, influence, or event caused them to rise from the dead. The simplest undead creatures are compelled by the orders of whoever or whatever controls them (or once controlled them). Ghosts are compelled by the need to resolve unfinished business. Other mid- and high-level undead are compelled by hunger, malice, and megalomania. Whatever the compulsion of an undead creature, everything it does revolves around that compulsion and serves it in some way. It supersedes everything else, sometimes including the creature's continued existence.",
+						"Celestials and fiends are two sides of the same coin. They're embodiments of good and evil, but they're not just quasi-humanoids that meander through everyday situations and always do the good or evil thing. They're concerned with cosmic order, and their goals revolve around purification and corruption. Celestials aren't just about doing good things—they're about purging evil influences. Fiends aren't just about doing bad things—they're about introducing evil influences, tempting people to do wicked things they might not otherwise do. For these reasons, while celestial and fiend goals differ from humanoid goals, they make excellent complements to these goals. The involvement of a fiend might push a group of humanoids to take their ideological pursuits in an evil direction—or desperate humanoids might enlist the aid of a fiend in the pursuit of their goal, corrupting them and their goal in the process. Celestial involvement in humanoid affairs is a trickier needle to thread, and if you're going to make a celestial into a villain, it's almost by necessity going to have to be misinformed or overzealous—or corrupted and on the verge of a fall.",
+						"Aberrations, by definition, are beings whose ultimate goals make no sense to us, and for this reason, coming up with decent, plausible schemes for aberration villains can be challenging. Fall back on conventional schemes of domination, and you risk making your aberration into a funny-looking humanoid, for all intents and purposes. An aberration's behavior has to be weird. But also, for an aberration to be a villain rather than a mere curiosity, it has to pose some kind of threat. A good solution for aberrations with mind-control powers is to have them brainwashing ordinary people into participating in their weird schemes. No one wants to be a part of that. Aberrations' activities can have deleterious side effects on nearby habitations. Maybe they're causing nightmares, spooking livestock (the livestock are always first to know when bad juju is going down), disrupting the local economy with excessive demand for some random commodity, or using up a natural resource. Or maybe, like the stereotypical gray alien, they're abducting people, probing them with weird devices, then returning them to their homes. Aberrations' behavior doesn't have to make obvious sense—although, in at least some respects, it should make internal sense.",
+						"Fey creatures' goals, in terms of how much sense they make to an outside observer, aren't all that different from those of aberrations. However, while aberrations' goals are simply inscrutable, fey goals always have a clear emotional or aesthetic aspect, something that might not make logical sense but would seem perfectly sensible in a dream or to a child. Mischief is common; outright malice is unusual. The seven deadly sins are all well represented, however, as is every primary or secondary emotion, turned up to 11. A fey antagonist is an id without an ego to ground it. No matter how large or small the scale of a fey's goals, they're always personal, and the motivations behind them are explainable, if not excusable.",
+						"Constructs don't have goals, only instructions—specifically, the last instructions they were given. When the instructions no longer fit the circumstances, they sometimes go haywire trying to resolve unresolvable contradictions.",
+						"Oozes don't have goals either; they're sub-beasts that aren't even interested in territory, just food. Most plants are the same, although there are a small number of monsters categorized as plants that possess above-animal intelligence. Even an intelligent plant, however, is unlikely to possess any goal beyond survival, selfpropagation, and protection of its environment; it simply develops more sophisticated means of pursuing these goals, ones that involve understanding other creatures, anticipating causation, and planning for the future. Cursed plants, like blights, have a wee dram of undead-ish compulsion in their mentalities.",
+						"That leaves elementals, which I find the hardest type to sum up. They're not full-on alien, like aberrations; simple, like beasts and monstrosities; mechanistic, like constructs; nor defined by their social structures, like humanoids. What they are, I think, is temperamental, in the sense that they're defined by temperaments associated with their elements. However, the classical humors, which you'd think might be a natural fit for this purpose, aren't. While it's easy to imagine elemental beings of fire as choleric (i.e., bad-tempered and irritable) and their goals as primarily involving destroying things out of anger, phlegmatic water elementals, melancholy earth elementals, and sanguine air elementals fit poorly in adventure narratives and feel off base, somehow. Traits drawn from Chinese astrology and traditional medicine fit better—elemental beings of fire being angry and volatile, those of water being aimless and impulsive, those of earth being stolid and hidebound—but they offer us no insight into air, which isn't one of the five wǔ xíng elements. It looks like we have to abandon ancient natural philosophy and rely on our imaginations.",
+						"In both literal and figurative senses, elementals are forces of nature, difficult for ordinary mortals to redirect once they get going. There has to be a sense of out-of-controlness about them, even—perhaps especially—the intelligent ones, like genies. We all share a pretty good sense that elemental beings of fire are about burning everything down, but what can we intuitively say about the rest? Elemental beings of earth want to solidify, to suffocate, to entomb—at least metaphorically, if not literally. Elemental beings of water are the flood, the tsunami—inexorable forces carrying away anything and anyone that's not tightly secured, whether it be a seaside village or people's common sense. Elemental beings of air are entropic—they want to scatter what's ordered, create disarray, rearrange everything, then rearrange it again, the opposite of their earthy complements, which seek to hold everything in place. In this respect, they're a bit like fey, except that fey can be reasoned with, if you know the rules of their antilogic, while elementals can't.",
+						"All the tactics I discuss in this book describe how to use a monster's features effectively, considering what it's capable of. The monster's type, as described here, tells us why the monster is doing what it's doing. Ultimately, a monster's choices, in or out of combat, are a function of this motivation, and when you're writing your own adventures, you should use this information not only to generate plot— to determine why your monster is a threat in the first place—but also to contemplate in advance how your monster is going to react when it realizes that the player characters aren't going to let it have what it wants."
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Goblin",
+			"source": "TheMonstersKnowWhatTheyreDoing",
 
-      "_copy": {
-        "name": "Goblin",
-        "source": "MM",
+			"_copy": {
+				"name": "Goblin",
+				"source": "MM",
 
-        "_mod": {
-          "action": {
-            "mode": "appendArr",
-            "items": {
-              "entries": [
-                "<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A typical goblin combat turn goes {@footnote Shortbow (action), move, Hide (bonus action)|The sequence is important. Whenever possible, a goblin must end its turn hidden; otherwise, it's vulnerable. Move/Hide/Shortbow would achieve the same offensive result but leave the goblin exposed to retaliation between turns.}. Because they attack from hiding, they roll with advantage. Regardless of whether they hit or miss, the attack gives their position away, so they change it immediately, because they can.",
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A typical goblin combat turn goes {@footnote Shortbow (action), move, Hide (bonus action)|The sequence is important. Whenever possible, a goblin must end its turn hidden; otherwise, it's vulnerable. Move/Hide/Shortbow would achieve the same offensive result but leave the goblin exposed to retaliation between turns.}. Because they attack from hiding, they roll with advantage. Regardless of whether they hit or miss, the attack gives their position away, so they change it immediately, because they can.",
 								"Being a Small creature, a goblin has a good chance of Hiding successfully behind the trunk of a mature tree; even if it fails, it will still enjoy three-quarters cover (+5 AC). But since you can't hide while someone is looking directly at you, goblins have to use their movement to scramble out of the PCs' field of view, meaning they have to be close enough for their own 30-foot movement speed to describe a significant arc. At the same time, they don't want to be so close that a PC could close the gap between them and attack. So the optimal distance from the targets of their ambush is about 40 feet, no closer—and they don't want to move farther from the PCs than 80 feet, their bows' maximum range for normal shooting."
-              ]
-            }
-          }
-        }
-      },
-      "fluff": {
-        "_monsterFluff": {
-          "name": "Goblin",
-          "source": "TheMonstersKnowWhatTheyreDoing"
-        }
-      }
-    }
-  ],
-  "monsterFluff": [
-    {
-      "name": "Goblin",
-      "source": "TheMonstersKnowWhatTheyreDoing",
+							]
+						}
+					}
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Goblin",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			}
+		}
+	],
+	"monsterFluff": [
+		{
+			"name": "Goblin",
+			"source": "TheMonstersKnowWhatTheyreDoing",
 
-      "_copy": {
-        "name": "Goblin",
-        "source": "MM",
+			"_copy": {
+				"name": "Goblin",
+				"source": "MM",
 
-        "_mod": {
-          "entries": {
-            "mode": "appendArr",
-            "items": {
-              "type": "entries",
-              "name": "Tactics",
-              "entries": [
-                "Here's what we know about goblins from the Monster Manual: First, from the flavor text, they live in dark, dismal settings; congregate in large numbers; and employ alarms and traps. They're low-Strength and high-Dexterity, with a very good Stealth modifier. Their Intelligence and Wisdom are in the average range. They possess darkvision and the Nimble Escape feature, which allows them to Disengage or Hide as a bonus action—very important to their action economy.",
-                "Because of their darkvision, goblins frequently attack under cover of darkness, when their targets may be effectively blinded (attack rolls against a blinded creature have advantage, while the blinded creature's attack rolls have disadvantage). They'll also attack from hiding as much as possible, making use of their high Stealth modifier, and doing so in dim light decreases the likelihood that they'll be discovered, since many player characters will have disadvantage on Perception checks that rely on sight.",
-                "A picture of goblin combat is starting to coalesce, and at the center of it is a strategy of ambush.",
-                "A typical goblin combat turn goes Shortbow (action), move, Hide (bonus action). Because they attack from hiding, they roll with advantage. Regardless of whether they hit or miss, the attack gives their position away, so they change it immediately, because they can. (The sequence is important. Whenever possible, a goblin must end its turn hidden; otherwise, it's vulnerable. Move/Hide/Shortbow would achieve the same offensive result but leave the goblin exposed to retaliation between turns.)",
-                "Being a Small creature, a goblin has a good chance of Hiding successfully behind the trunk of a mature tree; even if it fails, it will still enjoy three-quarters cover (+5 AC). But since you can't hide while someone is looking directly at you, goblins have to use their movement to scramble out of the PCs' field of view, meaning they have to be close enough for their own 30-foot movement speed to describe a significant arc. At the same time, they don't want to be so close that a PC could close the gap between them and attack. So the optimal distance from the targets of their ambush is about 40 feet, no closer—and they don't want to move farther from the PCs than 80 feet, their bows' maximum range for normal shooting.",
-                "As long as they can stay out of the PCs' reach, they'll use this tactic over and over. Suppose, however, that a PC does manage to close with one of them. In that case, the goblin Disengages (bonus action) first. Then, depending on how great a threat the PC poses, it either Dashes (action) out of reach—forcing the PC to use a Dash action as well if they want to catch up—or, if it thinks it may be able to finish the PC off, moves its full distance to a place of cover, then Hides (action) again, preparing to attack with advantage on its next turn.",
-                "Incidentally, the goblins aren't trying to stay together as a group. They aren't looking out for their buddies—goblins don't do that sort of thing. They are, however, trying to goad the PCs into splitting up.",
-                "Goblins are squishy: They have only 7 hp. One good hit will seriously wound them—and also mean that their genius sniping strategy has failed. Therefore, a goblin reduced to just 1 or 2 hp flees the scene, end of story. But a moderately wounded goblin (3 or 4 hp) is thirsty and tries to regain the upper hand. It stalks the PC who wounded it, first retreating to a safe distance, then Hiding and moving with Stealth until it can get back to around 40 feet from its quarry, at which point it returns to its Shortbow/move/Hide sniping tactic. A captured goblin surrenders immediately and grovels for mercy, counting on its ability to escape as soon as its captor's attention wanders.",
-                "What if the PCs have the good sense to take cover themselves? Goblins aren't brilliant, but they aren't stupid either. They won't waste arrows on a target that's behind three-quarters cover, because that would completely negate the advantage they gain when shooting from hiding. Instead, a goblin stealthily repositions itself alongside or behind its target before shooting and giving its own position away.",
-                "A goblin that finishes off its target doesn't immediately go hunting after other targets. If another is already in view, it attacks that one. If not, the greedy goblin first ransacks the body of its victim for anything valuable. A clever and stealthy PC who's counter-stalking the goblins can exploit this weakness.",
-                "So far, the entire discussion has been about ranged attacks. Goblins carry scimitars as well, but they don't use these out in the open, because there's no advantage to it. The only time a goblin willingly engages in melee combat is when it has some other overwhelming advantage, such as a combination of numbers, darkness, and the ability to flank, which in fifth edition D&D means attacking from two opposite sides of a target creature. (Front-and-side isn't enough to gain advantage on attack rolls. See “Optional Rule: Flanking,” Dungeon Master's Guide, chapter 8.)",
-                "A goblin's +4 attack modifier isn't quite good enough to give it two-to-one odds of hitting an armored enemy by itself, but when advantage is brought into play, a hit is almost guaranteed. If three goblins surround a PC in the dark, the chances are very good that they'll land three hits and not have to worry about retaliation. That being said, if those three hits don't finish the PC off, the goblins will realize that they've bitten off more than they can chew, and on their next turn, they'll Disengage (bonus action), go scampering off into the darkness (movement), and Hide (action) someplace where they may later be able to land a surprise hit on a wounded foe.",
-                "Also, goblins can tell the difference between a creature that's lost in the dark and one that has darkvision. They won't attack the latter close up if they can avoid it; instead, they'll prefer to shoot with their shortbows. However, in the narrow passages of a cave, establishing a good line of sight may not always be possible, and melee may be the only way to attack. If this happens, they'll use their knowledge of the terrain to tease the party into overextending itself: A lead goblin may use its Scimitar attack (action), Disengage (bonus action), then retreat down the passageway (movement) until it comes out into a more open cavern where it and several other goblins can all jump the first PC who emerges with Readied attack actions. Meanwhile, while the PCs are being drawn forward, other goblins may shoot or stab at them opportunistically from any side passages that exist along the way.",
-                "There is one other circumstance when goblins may engage in melee fighting: when commanded to do so by hobgoblins or bugbears, which goblins fear and defer to. They'll do it, but they won't like it. They know they're not good at it; they'd rather be sniping. If pressed into an infantry unit, they'll fight without coordination and desert at the first opportunity. However, that doesn't mean they won't keep attacking if they think there's something to be gained by doing it their way.",
-                "Goblins recognize the value of stealth and surprise, and they're not about to let anyone get the same advantage against them. They make extensive use of alarms and traps, but since they're not great inventors, by and large, most of these are crude: metal junk that makes a racket when disturbed, falling rocks, pits (with or without punji sticks), simple snares. Every once in a while, though, a lucky goblin may get its hands on a hunter's trap that both restrains its victim and does damage. These are prized possessions, and the goblins use them to protect their most important locations."
-              ]
-            }
-          }
-        }
-      }
-    }
-  ]  
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Here's what we know about goblins from the Monster Manual: First, from the flavor text, they live in dark, dismal settings; congregate in large numbers; and employ alarms and traps. They're low-Strength and high-Dexterity, with a very good Stealth modifier. Their Intelligence and Wisdom are in the average range. They possess darkvision and the Nimble Escape feature, which allows them to Disengage or Hide as a bonus action—very important to their action economy.",
+								"Because of their darkvision, goblins frequently attack under cover of darkness, when their targets may be effectively blinded (attack rolls against a blinded creature have advantage, while the blinded creature's attack rolls have disadvantage). They'll also attack from hiding as much as possible, making use of their high Stealth modifier, and doing so in dim light decreases the likelihood that they'll be discovered, since many player characters will have disadvantage on Perception checks that rely on sight.",
+								"A picture of goblin combat is starting to coalesce, and at the center of it is a strategy of ambush.",
+								"A typical goblin combat turn goes Shortbow (action), move, Hide (bonus action). Because they attack from hiding, they roll with advantage. Regardless of whether they hit or miss, the attack gives their position away, so they change it immediately, because they can. (The sequence is important. Whenever possible, a goblin must end its turn hidden; otherwise, it's vulnerable. Move/Hide/Shortbow would achieve the same offensive result but leave the goblin exposed to retaliation between turns.)",
+								"Being a Small creature, a goblin has a good chance of Hiding successfully behind the trunk of a mature tree; even if it fails, it will still enjoy three-quarters cover (+5 AC). But since you can't hide while someone is looking directly at you, goblins have to use their movement to scramble out of the PCs' field of view, meaning they have to be close enough for their own 30-foot movement speed to describe a significant arc. At the same time, they don't want to be so close that a PC could close the gap between them and attack. So the optimal distance from the targets of their ambush is about 40 feet, no closer—and they don't want to move farther from the PCs than 80 feet, their bows' maximum range for normal shooting.",
+								"As long as they can stay out of the PCs' reach, they'll use this tactic over and over. Suppose, however, that a PC does manage to close with one of them. In that case, the goblin Disengages (bonus action) first. Then, depending on how great a threat the PC poses, it either Dashes (action) out of reach—forcing the PC to use a Dash action as well if they want to catch up—or, if it thinks it may be able to finish the PC off, moves its full distance to a place of cover, then Hides (action) again, preparing to attack with advantage on its next turn.",
+								"Incidentally, the goblins aren't trying to stay together as a group. They aren't looking out for their buddies—goblins don't do that sort of thing. They are, however, trying to goad the PCs into splitting up.",
+								"Goblins are squishy: They have only 7 hp. One good hit will seriously wound them—and also mean that their genius sniping strategy has failed. Therefore, a goblin reduced to just 1 or 2 hp flees the scene, end of story. But a moderately wounded goblin (3 or 4 hp) is thirsty and tries to regain the upper hand. It stalks the PC who wounded it, first retreating to a safe distance, then Hiding and moving with Stealth until it can get back to around 40 feet from its quarry, at which point it returns to its Shortbow/move/Hide sniping tactic. A captured goblin surrenders immediately and grovels for mercy, counting on its ability to escape as soon as its captor's attention wanders.",
+								"What if the PCs have the good sense to take cover themselves? Goblins aren't brilliant, but they aren't stupid either. They won't waste arrows on a target that's behind three-quarters cover, because that would completely negate the advantage they gain when shooting from hiding. Instead, a goblin stealthily repositions itself alongside or behind its target before shooting and giving its own position away.",
+								"A goblin that finishes off its target doesn't immediately go hunting after other targets. If another is already in view, it attacks that one. If not, the greedy goblin first ransacks the body of its victim for anything valuable. A clever and stealthy PC who's counter-stalking the goblins can exploit this weakness.",
+								"So far, the entire discussion has been about ranged attacks. Goblins carry scimitars as well, but they don't use these out in the open, because there's no advantage to it. The only time a goblin willingly engages in melee combat is when it has some other overwhelming advantage, such as a combination of numbers, darkness, and the ability to flank, which in fifth edition D&D means attacking from two opposite sides of a target creature. (Front-and-side isn't enough to gain advantage on attack rolls. See “Optional Rule: Flanking,” Dungeon Master's Guide, chapter 8.)",
+								"A goblin's +4 attack modifier isn't quite good enough to give it two-to-one odds of hitting an armored enemy by itself, but when advantage is brought into play, a hit is almost guaranteed. If three goblins surround a PC in the dark, the chances are very good that they'll land three hits and not have to worry about retaliation. That being said, if those three hits don't finish the PC off, the goblins will realize that they've bitten off more than they can chew, and on their next turn, they'll Disengage (bonus action), go scampering off into the darkness (movement), and Hide (action) someplace where they may later be able to land a surprise hit on a wounded foe.",
+								"Also, goblins can tell the difference between a creature that's lost in the dark and one that has darkvision. They won't attack the latter close up if they can avoid it; instead, they'll prefer to shoot with their shortbows. However, in the narrow passages of a cave, establishing a good line of sight may not always be possible, and melee may be the only way to attack. If this happens, they'll use their knowledge of the terrain to tease the party into overextending itself: A lead goblin may use its Scimitar attack (action), Disengage (bonus action), then retreat down the passageway (movement) until it comes out into a more open cavern where it and several other goblins can all jump the first PC who emerges with Readied attack actions. Meanwhile, while the PCs are being drawn forward, other goblins may shoot or stab at them opportunistically from any side passages that exist along the way.",
+								"There is one other circumstance when goblins may engage in melee fighting: when commanded to do so by hobgoblins or bugbears, which goblins fear and defer to. They'll do it, but they won't like it. They know they're not good at it; they'd rather be sniping. If pressed into an infantry unit, they'll fight without coordination and desert at the first opportunity. However, that doesn't mean they won't keep attacking if they think there's something to be gained by doing it their way.",
+								"Goblins recognize the value of stealth and surprise, and they're not about to let anyone get the same advantage against them. They make extensive use of alarms and traps, but since they're not great inventors, by and large, most of these are crude: metal junk that makes a racket when disturbed, falling rocks, pits (with or without punji sticks), simple snares. Every once in a while, though, a lucky goblin may get its hands on a hunter's trap that both restrains its victim and does damage. These are prized possessions, and the goblins use them to protect their most important locations."
+							]
+						}
+					}
+				}
+			}
+		}
+	]  
 }
