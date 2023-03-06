@@ -20,7 +20,18 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678051059
+		"dateLastModified": 1678051276,
+		"dependencies": {
+			"monster": [
+				"MM"
+			],
+			"monsterFluff": [
+				"MM"
+			]
+		},
+		"internalCopies": [
+			"monsterFluff"
+		]
 	},
 	"book": [
 		{
