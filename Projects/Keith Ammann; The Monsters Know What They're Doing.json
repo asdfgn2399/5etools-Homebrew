@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678151148,
+		"dateLastModified": 1678159433,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -196,9 +196,9 @@
 					"entries": [
 						"Fifth edition Dungeons & Dragons organizes monsters into fourteen different types. In most cases, a monster's type is an excellent indicator of its basic goals and desires.",
 						"Beasts and monstrosities are easily grouped together, because their priorities are simple: They want food. Also, perhaps, territory, but territory is mainly a way to ensure uncontested access to food, along with individual survival. Monstrosities tend to have animal-level intelligence, although there are a handful of exceptions, notably krakens, sphinxes, nagas, lamias, and those yuan-ti that are considered monstrosities rather than humanoids. Even these exceptions will possess an animal-like instinct to establish and defend territory, despite coming up with more sophisticated rationalizations for this behavior. Combat with a beast or a monstrosity most often occurs for one of four reasons: It's trying to eat you; you're hunting it because it's been eating something or someone else; you've stumbled onto its turf, and it feels threatened; or another foe is employing it as a watchbeast.",
-						"Dragons are über-monstrosities with distinctive personalities. They want food and territory, but they also crave two more things: treasure and domination. The treasure thing is a compulsion, because it's not as though they're going shopping with all those hoarded coins and gems. They like beautiful, expensive things, and they want them—end of story. They also have a deep-seated desire to demonstrate their superiority over other beings. Although they generally don't have any interest in the practical aspects of ruling, they're quite fond of being rulers, and they think they're entitled to it. Thus, they may act like mafia bosses over a region, extorting wealth in exchange for “protection,” by which they mainly mean protection from them. Even good-aligned dragons share this tendency, although their rule is benevolent rather than exploitative.",
+						"Dragons are über-monstrosities with distinctive personalities. They want food and territory, but they also crave two more things: treasure and domination. The treasure thing is a compulsion, because it's not as though they're going shopping with all those hoarded coins and gems. They like beautiful, expensive things, and they want them—end of story. They also have a deep-seated desire to demonstrate their superiority over other beings. Although they generally don't have any interest in the practical aspects of ruling, they're quite fond of being rulers, and they think they're entitled to it. Thus, they may act like mafia bosses over a region, extorting wealth in exchange for \"protection,\" by which they mainly mean protection from them. Even good-aligned dragons share this tendency, although their rule is benevolent rather than exploitative.",
 						"Other creatures in the dragon family lack either the power or the intelligence to dominate other beings in the way that true dragons do, but they still exhibit draconic avarice and wrath in the limited ways they're capable of. Pseudodragons gather shiny objects like magpies, wyverns exhibit dominance behaviors as they hunt and fight, and so forth.",
-						"Humanoid enemies (as opposed to humanoids just going about their business) are driven by the things you don't talk about at the dinner table: politics and religion. They're social creatures, and therefore their goals are typically social in nature, as are the units they form to bring these goals about. A humanoid boss enemy is a leader of like-minded humanoids who all want the same thing, and the sophistication and abstraction of the goal is proportional to the intelligence of the humanoid(s) pursuing it. Although they may still be fundamentally interested in territory, wealth, and domination, it's shared territory, wealth, and domination, and the superficial justifications for those pursuits take the form of ideologies built around tribal, clan, or national identity; moral or theological doctrine; sex or gender roles; caste roles; hierarchies of rulership and allegiance; or rules of trade. The psychologist Jonathan Haidt's moral foundations (fairness, kindness, loyalty, obedience, and sanctity) and their opposites (injustice, abuse, treachery, rebellion, and corruption) come into play: The “bad guys” may be committing one or more of the latter group of sins, or they may be going overboard in their attempts to root those sins out.",
+						"Humanoid enemies (as opposed to humanoids just going about their business) are driven by the things you don't talk about at the dinner table: politics and religion. They're social creatures, and therefore their goals are typically social in nature, as are the units they form to bring these goals about. A humanoid boss enemy is a leader of like-minded humanoids who all want the same thing, and the sophistication and abstraction of the goal is proportional to the intelligence of the humanoid(s) pursuing it. Although they may still be fundamentally interested in territory, wealth, and domination, it's shared territory, wealth, and domination, and the superficial justifications for those pursuits take the form of ideologies built around tribal, clan, or national identity; moral or theological doctrine; sex or gender roles; caste roles; hierarchies of rulership and allegiance; or rules of trade. The psychologist Jonathan Haidt's moral foundations (fairness, kindness, loyalty, obedience, and sanctity) and their opposites (injustice, abuse, treachery, rebellion, and corruption) come into play: The \"bad guys\" may be committing one or more of the latter group of sins, or they may be going overboard in their attempts to root those sins out.",
 						"If dragons are über-monstrosities, then giants are über-humanoids. However, while dragons have broader interests than most monstrosities do, giants' interests tend to be narrower than those of most humanoids, and they're tightly dictated by their species and their place in the Ordning—the giants' status hierarchy. In terms of social ideology, giants are chiefly interested in their relationships with other giants, and this impinges upon humanoid society only to the extent that giants need to claim humanoids' territory, humanoids' wealth, humanoids' food supplies, or rulership over a humanoid group in order to establish their intragigantic status. In other words, giants' goals revolve around rivalries, and when this makes them the villains, it's usually because of the collateral damage they're causing around them.",
 						"Undead creatures are driven by compulsions generated by whatever spell, influence, or event caused them to rise from the dead. The simplest undead creatures are compelled by the orders of whoever or whatever controls them (or once controlled them). Ghosts are compelled by the need to resolve unfinished business. Other mid- and high-level undead are compelled by hunger, malice, and megalomania. Whatever the compulsion of an undead creature, everything it does revolves around that compulsion and serves it in some way. It supersedes everything else, sometimes including the creature's continued existence.",
 						"Celestials and fiends are two sides of the same coin. They're embodiments of good and evil, but they're not just quasi-humanoids that meander through everyday situations and always do the good or evil thing. They're concerned with cosmic order, and their goals revolve around purification and corruption. Celestials aren't just about doing good things—they're about purging evil influences. Fiends aren't just about doing bad things—they're about introducing evil influences, tempting people to do wicked things they might not otherwise do. For these reasons, while celestial and fiend goals differ from humanoid goals, they make excellent complements to these goals. The involvement of a fiend might push a group of humanoids to take their ideological pursuits in an evil direction—or desperate humanoids might enlist the aid of a fiend in the pursuit of their goal, corrupting them and their goal in the process. Celestial involvement in humanoid affairs is a trickier needle to thread, and if you're going to make a celestial into a villain, it's almost by necessity going to have to be misinformed or overzealous—or corrupted and on the verge of a fall.",
@@ -237,7 +237,7 @@
 										"Goblins are squishy: They have only 7 hp. One good hit will seriously wound them—and also mean that their genius sniping strategy has failed. Therefore, a goblin reduced to just 1 or 2 hp flees the scene, end of story. But a moderately wounded goblin (3 or 4 hp) is thirsty and tries to regain the upper hand. It stalks the PC who wounded it, first retreating to a safe distance, then Hiding and moving with Stealth until it can get back to around 40 feet from its quarry, at which point it returns to its Shortbow/move/Hide sniping tactic. A captured goblin surrenders immediately and grovels for mercy, counting on its ability to escape as soon as its captor's attention wanders.",
 										"What if the PCs have the good sense to take cover themselves? Goblins aren't brilliant, but they aren't stupid either. They won't waste arrows on a target that's behind three-quarters cover, because that would completely negate the advantage they gain when shooting from hiding. Instead, a goblin stealthily repositions itself alongside or behind its target before shooting and giving its own position away.",
 										"A goblin that finishes off its target doesn't immediately go hunting after other targets. If another is already in view, it attacks that one. If not, the greedy goblin first ransacks the body of its victim for anything valuable. A clever and stealthy PC who's counter-stalking the goblins can exploit this weakness.",
-										"So far, the entire discussion has been about ranged attacks. Goblins carry scimitars as well, but they don't use these out in the open, because there's no advantage to it. The only time a goblin willingly engages in melee combat is when it has some other overwhelming advantage, such as a combination of numbers, darkness, and the ability to flank, which in fifth edition D&D means attacking from two opposite sides of a target creature. (Front-and-side isn't enough to gain advantage on attack rolls. See “Optional Rule: Flanking,” Dungeon Master's Guide, chapter 8.)",
+										"So far, the entire discussion has been about ranged attacks. Goblins carry scimitars as well, but they don't use these out in the open, because there's no advantage to it. The only time a goblin willingly engages in melee combat is when it has some other overwhelming advantage, such as a combination of numbers, darkness, and the ability to flank, which in fifth edition D&D means attacking from two opposite sides of a target creature. (Front-and-side isn't enough to gain advantage on attack rolls. See \"Optional Rule: Flanking,\" Dungeon Master's Guide, chapter 8.)",
 										"A goblin's +4 attack modifier isn't quite good enough to give it two-to-one odds of hitting an armored enemy by itself, but when advantage is brought into play, a hit is almost guaranteed. If three goblins surround a PC in the dark, the chances are very good that they'll land three hits and not have to worry about retaliation. That being said, if those three hits don't finish the PC off, the goblins will realize that they've bitten off more than they can chew, and on their next turn, they'll Disengage (bonus action), go scampering off into the darkness (movement), and Hide (action) someplace where they may later be able to land a surprise hit on a wounded foe.",
 										"Also, goblins can tell the difference between a creature that's lost in the dark and one that has darkvision. They won't attack the latter close up if they can avoid it; instead, they'll prefer to shoot with their shortbows. However, in the narrow passages of a cave, establishing a good line of sight may not always be possible, and melee may be the only way to attack. If this happens, they'll use their knowledge of the terrain to tease the party into overextending itself: A lead goblin may use its Scimitar attack (action), Disengage (bonus action), then retreat down the passageway (movement) until it comes out into a more open cavern where it and several other goblins can all jump the first PC who emerges with Readied attack actions. Meanwhile, while the PCs are being drawn forward, other goblins may shoot or stab at them opportunistically from any side passages that exist along the way.",
 										"There is one other circumstance when goblins may engage in melee fighting: when commanded to do so by hobgoblins or bugbears, which goblins fear and defer to. They'll do it, but they won't like it. They know they're not good at it; they'd rather be sniping. If pressed into an infantry unit, they'll fight without coordination and desert at the first opportunity. However, that doesn't mean they won't keep attacking if they think there's something to be gained by doing it their way.",
@@ -247,13 +247,46 @@
 							  {
 							    "type": "entries",
 							    "name": "Goblin Boss",
+									"page": 26,
 							    "entries": [
     								"The goblin boss is distinguished from ordinary goblins by its Multiattack and Redirect Attack features and by the fact that it doesn't use a bow. Additionally, the Redirect Attack action is useful only in a context in which goblins are fighting side by side rather than in an ambush or skirmish. Based on this, I conclude that goblin bosses are found only in goblin lairs—caves, ruins, what have you—where large numbers of goblins can fight in close quarters.", 
-    								"By the way, have you read that Redirect Attack feature? The goblin boss uses its reaction to avoid a hit on itself and to cause it to land on one of its goblin minions instead. What a jerk! Here's a critter that's stronger, better at absorbing damage, and capable of landing more blows than most of its kind, and yet it possesses no notion of carrying the team. “Aw, sorry about that, Jixto! Send me a postcard from Hades!”",
-    								"A creature like this, even if it fights in melee, is obnoxiously focused on self- preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has “meat cover” against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",
+    								"By the way, have you read that Redirect Attack feature? The goblin boss uses its reaction to avoid a hit on itself and to cause it to land on one of its goblin minions instead. What a jerk! Here's a critter that's stronger, better at absorbing damage, and capable of landing more blows than most of its kind, and yet it possesses no notion of carrying the team. \"Aw, sorry about that, Jixto! Send me a postcard from Hades!\"",
+    								"A creature like this, even if it fights in melee, is obnoxiously focused on self-preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has \"meat cover\" against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",
     								"If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
 							    ]
-							  }
+							  },
+								{
+									"type": "entries",
+									"name": "Hobgoblins",
+									"page": 27,
+									"entries": [
+										"Hobgoblins are very different from goblins—they're natural soldiers, tough and disciplined where goblins are squishy, lazy, and craven. They have no physical weakness, they're intelligent enough to make and use swords and bows and to conduct reconnaissance, and their Martial Advantage trait gives them bonus damage for fighting in close formation. On the other hand, they have no Stealth proficiency and no Nimble Escape.",
+										"Hobgoblins move and attack at night, when their darkvision gives them an advantage over PCs without it; if they don't have the advantage of darkness, they'll attack only with at least a two-to-one numerical advantage. In groups consisting only of hobgoblins, they move in tight teams of four to six. If there are multiple such teams, one consists of archers, positioned between 60 and 150 feet from the action. With goblin troops, they have to be careful: Hobgoblins don't lack the courage to fight on the front line, but they know that goblins do. Rather than set an example that the goblins won't follow, they give commands from behind the front line, where they can keep an eye on the goblins and shoot at opponents with their longbows. Martial Advantage helps them in this instance, even though they're not engaged in melee themselves, as long as they're choosing targets that the goblins are engaging in melee.",
+										"The more hobgoblin teams that are engaged in melee, the more sophisticated tactics they'll use. For instance, if there are three, one engages directly, one shoots from a distance, and one moves to whichever flank looks weaker before engaging. If there are four, one moves to each flank. Five or more try to encircle the PCs. These movements take place before the battle begins—hobgoblins are intelligent and disciplined enough to prepare. They also take place at a sufficient distance that their lack of Stealth won't be a hindrance.",
+										"Hobgoblins don't flee when they're losing; they execute an orderly retreat. When at least two hobgoblins in a team are seriously injured (reduced to 4 hp or fewer) or killed, the team begins to fall back, starting with the most injured hobgoblins. These Disengage and retreat at their full movement speed. On the next round, the two next-most injured Disengage and also retreat at their full movement speed, while the previous two fall back only 5 feet, so as to remain in contact with the hobgoblins that are now joining them. Meanwhile, in this round, the hobgoblin archer team, if there is one, notices the retreat and focuses its arrows on any potential pursuers, in order to cover the retreat. On the third round, any hobgoblins left in the team Disengage and retreat at full movement speed, joining up with those that have already retreated. They carry out this same maneuver repeatedly, until no enemy is engaging with them anymore.",
+										"Despite being the very model of discipline otherwise, according to the Monster Manual, hobgoblins flip their lids when they see an elf. They attack elves first, \"even if doing so would be a tactical error.\" Does this mean they'll charge into combat prematurely, during daylight, with inadequate reconnaissance, just because they see an elf in the party's camp? That's the DM's call. You could play them this way, but given the extent to which they're built up as being militarily savvy, I'd say that before the action starts, their disciplined nature prevails—they simply construct their battle plans around taking out the elves first. Once the battle commences, though, maybe they allow a human warrior to score free hits on them while they concentrate their attacks on an elf warrior. Maybe the hobgoblin archers keep shooting at an elf mage when they should be covering their fellow hobgoblins' retreat. Maybe the sudden appearance of an elf rogue in its midst causes a hobgoblin melee group to forget what it was doing entirely and fixate on getting that elf. Or maybe they hold true to their disciplined nature, elf or no elf."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hobgoblin Captain",
+									"page": 29,
+									"entries": [
+										"A hobgoblin captain is an extra-tough hobgoblin with Multiattack and Leadership. The Leadership feature is incredible: For 1 minute (that is, 10 rounds), as long as the hobgoblin captain isn't incapacitated, every allied creature within 30 feet of it gets a 1d4 buff on attack rolls and saving throws. It activates this feature just before melee combat begins, so as not to pass up its own attack action. In other respects, it fights as an ordinary hobgoblin. If there are multiple hobgoblin groups but only one hobgoblin captain, it's attached to the main melee group. Hobgoblin captains don't wield bows, but they do carry javelins. They'll hurl one of these at a fleeing opponent rather than break ranks to give chase."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hobgoblin Warlord",
+									"page": 29,
+									"entries": [
+										"A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent prone, and it can Parry a melee blow.",
+										"Parry adds +3 to AC as a reaction, so the decision of when to use it is easy: when a player rolls between 20 and 22 on an attack (assuming the hobgoblin warlord hasn't already used its reaction on something else, of course).",
+										"Shield Bash requires a little math to analyze. The hobgoblin warlord's Multiattack allows three consecutive melee swings in one action. The Longsword attack does the most damage, so it's the default, but when is Shield Bash a reasonable alternative? Assuming a hit, Shield Bash does, on average, 2 hp less damage than a Longsword attack, so the crux is whether the chance to knock the opponent prone is worth these forfeited points. Attacks against a prone opponent have advantage, which raises the probability of a hit by an average of about 20 percentage points. If the hobgoblin warlord uses the Multiattack sequence Shield Bash/Longsword/Longsword, this means it will have advantage on two Longsword attacks after a successful bash. The longsword does an average of 8 damage on a hit,I 15 damage on two. Twenty percent of that is 3, so using Shield Bash before striking twice with a longsword increases the expected damage of those two hits by 3 hp—if it works.",
+										"The trouble is, the DC 14 for Strength saving throws against a Shield Bash isn't very high. Unmodified, the hobgoblin warlord has just shy of a two-thirds chance of knocking its opponent down. Modified by the opponent's Strength—and keep in mind that it's probably the party's toughest front-line fighters who'll confront the hobgoblin warlord—the chance of success recedes to the neighborhood of fifty-fifty, even less against PCs who get to add their proficiency modifiers to their Strength saves.",
+										"Hobgoblins aren't dumb; hobgoblin warlords even less so. They know from experience that a weak opponent (one with a negative Strength modifier) usually won't withstand a Shield Bash, but a stronger opponent often will. However, they also know that if one or more of their allies can land melee attacks on a prone target before they get up—if the advantage applies to their allies' attack rolls as well, not just to the hobgoblin warlord's two attacks—then the expected value of Shield Bash is much more likely to exceed its opportunity cost. Also, in most instances, if an ally of a hobgoblin warlord is near enough to take whacks at its target, it's near enough for the warlord's Martial Advantage trait to kick in, which nearly triples the average damage of one of its Longsword attacks and roughly doubles the average total of the two together. Plus, if the ally is also a hobgoblin, its own Martial Advantage comes into play as well. Add it all together, and the Shield Bash tactic becomes effective enough to try even when it has as little as a one-in-three chance of success."
+									]
+								}
 							]
 						}
 					]
@@ -265,6 +298,7 @@
 		{
 			"name": "Goblin",
 			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 23,
 
 			"_copy": {
 				"name": "Goblin",
@@ -280,7 +314,10 @@
 							]
 						}
 					}
-				}
+				},
+				"_preserve": {
+				"environment": true
+			}
 			},
 			"fluff": {
 				"_monsterFluff": {
@@ -292,7 +329,7 @@
 		{
 			"name": "Goblin Boss",
 			"source": "TheMonstersKnowWhatTheyreDoing",
-			"page": "",
+			"page": 26,
 
 			"_copy": {
 				"name": "Goblin Boss",
@@ -303,7 +340,8 @@
 						"mode": "appendArr",
 						"items": {
 							"entries": [
-								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A creature like this, even if it fights in melee, is obnoxiously focused on self- preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has “meat cover” against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",     								"If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A creature like this, even if it fights in melee, is obnoxiously focused on self- preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has \"meat cover\" against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",
+								"If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
 							]
 						}
 					}
@@ -315,6 +353,100 @@
 			"fluff": {
 				"_monsterFluff": {
 					"name": "Goblin Boss",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 27,
+
+			"_copy": {
+				"name": "Hobgoblin",
+				"source": "MM",
+
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>Hobgoblins move and attack at night, when their darkvision gives them an advantage over PCs without it; if they don't have the advantage of darkness, they'll attack only with at least a two-to-one numerical advantage. In groups consisting only of hobgoblins, they move in tight teams of four to six. If there are multiple such teams, one consists of archers, positioned between 60 and 150 feet from the action. With goblin troops, they have to be careful: Hobgoblins don't lack the courage to fight on the front line, but they know that goblins do. Rather than set an example that the goblins won't follow, they give commands from behind the front line, where they can keep an eye on the goblins and shoot at opponents with their longbows. Martial Advantage helps them in this instance, even though they're not engaged in melee themselves, as long as they're choosing targets that the goblins are engaging in melee.",
+								"The more hobgoblin teams that are engaged in melee, the more sophisticated tactics they'll use. For instance, if there are three, one engages directly, one shoots from a distance, and one moves to whichever flank looks weaker before engaging. If there are four, one moves to each flank. Five or more try to encircle the PCs. These movements take place before the battle begins—hobgoblins are intelligent and disciplined enough to prepare. They also take place at a sufficient distance that their lack of Stealth won't be a hindrance.",
+								"Hobgoblins don't flee when they're losing; they execute an orderly retreat. When at least two hobgoblins in a team are seriously injured (reduced to 4 hp or fewer) or killed, the team begins to fall back, starting with the most injured hobgoblins. These Disengage and retreat at their full movement speed. On the next round, the two next-most injured Disengage and also retreat at their full movement speed, while the previous two fall back only 5 feet, so as to remain in contact with the hobgoblins that are now joining them. Meanwhile, in this round, the hobgoblin archer team, if there is one, notices the retreat and focuses its arrows on any potential pursuers, in order to cover the retreat. On the third round, any hobgoblins left in the team Disengage and retreat at full movement speed, joining up with those that have already retreated. They carry out this same maneuver repeatedly, until no enemy is engaging with them anymore."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin Captain",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 29,
+
+			"_copy": {
+				"name": "Hobgoblin Captain",
+				"source": "MM",
+
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A hobgoblin captain is an extra-tough hobgoblin with Multiattack and Leadership. The Leadership feature is incredible: For 1 minute (that is, 10 rounds), as long as the hobgoblin captain isn't incapacitated, every allied creature within 30 feet of it gets a 1d4 buff on attack rolls and saving throws. It activates this feature just before melee combat begins, so as not to pass up its own attack action. In other respects, it fights as an ordinary hobgoblin. If there are multiple hobgoblin groups but only one hobgoblin captain, it's attached to the main melee group. Hobgoblin captains don't wield bows, but they do carry javelins. They'll hurl one of these at a fleeing opponent rather than break ranks to give chase."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin Captain",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin Warlord",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 29,
+
+			"_copy": {
+				"name": "Hobgoblin Warlord",
+				"source": "MM",
+
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent prone, and it can Parry a melee blow.",
+								"Parry adds +3 to AC as a reaction, so the decision of when to use it is easy: when a player rolls between 20 and 22 on an attack (assuming the hobgoblin warlord hasn't already used its reaction on something else, of course).",
+								"Hobgoblins aren't dumb; hobgoblin warlords even less so. They know from experience that a weak opponent (one with a negative Strength modifier) usually won't withstand a Shield Bash, but a stronger opponent often will. However, they also know that if one or more of their allies can land melee attacks on a prone target before they get up—if the advantage applies to their allies' attack rolls as well, not just to the hobgoblin warlord's two attacks—then the expected value of Shield Bash is much more likely to exceed its opportunity cost. Also, in most instances, if an ally of a hobgoblin warlord is near enough to take whacks at its target, it's near enough for the warlord's Martial Advantage trait to kick in, which nearly triples the average damage of one of its Longsword attacks and roughly doubles the average total of the two together. Plus, if the ally is also a hobgoblin, its own Martial Advantage comes into play as well. Add it all together, and the Shield Bash tactic becomes effective enough to try even when it has as little as a one-in-three chance of success."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin Warlord",
 					"source": "TheMonstersKnowWhatTheyreDoing"
 				}
 			}
@@ -346,7 +478,7 @@
 								"Goblins are squishy: They have only 7 hp. One good hit will seriously wound them—and also mean that their genius sniping strategy has failed. Therefore, a goblin reduced to just 1 or 2 hp flees the scene, end of story. But a moderately wounded goblin (3 or 4 hp) is thirsty and tries to regain the upper hand. It stalks the PC who wounded it, first retreating to a safe distance, then Hiding and moving with Stealth until it can get back to around 40 feet from its quarry, at which point it returns to its Shortbow/move/Hide sniping tactic. A captured goblin surrenders immediately and grovels for mercy, counting on its ability to escape as soon as its captor's attention wanders.",
 								"What if the PCs have the good sense to take cover themselves? Goblins aren't brilliant, but they aren't stupid either. They won't waste arrows on a target that's behind three-quarters cover, because that would completely negate the advantage they gain when shooting from hiding. Instead, a goblin stealthily repositions itself alongside or behind its target before shooting and giving its own position away.",
 								"A goblin that finishes off its target doesn't immediately go hunting after other targets. If another is already in view, it attacks that one. If not, the greedy goblin first ransacks the body of its victim for anything valuable. A clever and stealthy PC who's counter-stalking the goblins can exploit this weakness.",
-								"So far, the entire discussion has been about ranged attacks. Goblins carry scimitars as well, but they don't use these out in the open, because there's no advantage to it. The only time a goblin willingly engages in melee combat is when it has some other overwhelming advantage, such as a combination of numbers, darkness, and the ability to flank, which in fifth edition D&D means attacking from two opposite sides of a target creature. (Front-and-side isn't enough to gain advantage on attack rolls. See “Optional Rule: Flanking,” Dungeon Master's Guide, chapter 8.)",
+								"So far, the entire discussion has been about ranged attacks. Goblins carry scimitars as well, but they don't use these out in the open, because there's no advantage to it. The only time a goblin willingly engages in melee combat is when it has some other overwhelming advantage, such as a combination of numbers, darkness, and the ability to flank, which in fifth edition D&D means attacking from two opposite sides of a target creature. (Front-and-side isn't enough to gain advantage on attack rolls. See \"Optional Rule: Flanking,\" Dungeon Master's Guide, chapter 8.)",
 								"A goblin's +4 attack modifier isn't quite good enough to give it two-to-one odds of hitting an armored enemy by itself, but when advantage is brought into play, a hit is almost guaranteed. If three goblins surround a PC in the dark, the chances are very good that they'll land three hits and not have to worry about retaliation. That being said, if those three hits don't finish the PC off, the goblins will realize that they've bitten off more than they can chew, and on their next turn, they'll Disengage (bonus action), go scampering off into the darkness (movement), and Hide (action) someplace where they may later be able to land a surprise hit on a wounded foe.",
 								"Also, goblins can tell the difference between a creature that's lost in the dark and one that has darkvision. They won't attack the latter close up if they can avoid it; instead, they'll prefer to shoot with their shortbows. However, in the narrow passages of a cave, establishing a good line of sight may not always be possible, and melee may be the only way to attack. If this happens, they'll use their knowledge of the terrain to tease the party into overextending itself: A lead goblin may use its Scimitar attack (action), Disengage (bonus action), then retreat down the passageway (movement) until it comes out into a more open cavern where it and several other goblins can all jump the first PC who emerges with Readied attack actions. Meanwhile, while the PCs are being drawn forward, other goblins may shoot or stab at them opportunistically from any side passages that exist along the way.",
 								"There is one other circumstance when goblins may engage in melee fighting: when commanded to do so by hobgoblins or bugbears, which goblins fear and defer to. They'll do it, but they won't like it. They know they're not good at it; they'd rather be sniping. If pressed into an infantry unit, they'll fight without coordination and desert at the first opportunity. However, that doesn't mean they won't keep attacking if they think there's something to be gained by doing it their way.",
@@ -372,7 +504,84 @@
 							"type": "entries",
 							"name": "Tactics",
 							"entries": [
-								"The goblin boss is distinguished from ordinary goblins by its Multiattack and Redirect Attack features and by the fact that it doesn't use a bow. Additionally, the Redirect Attack action is useful only in a context in which goblins are fighting side by side rather than in an ambush or skirmish. Based on this, I conclude that goblin bosses are found only in goblin lairs—caves, ruins, what have you—where large numbers of goblins can fight in close quarters.",      								"By the way, have you read that Redirect Attack feature? The goblin boss uses its reaction to avoid a hit on itself and to cause it to land on one of its goblin minions instead. What a jerk! Here's a critter that's stronger, better at absorbing damage, and capable of landing more blows than most of its kind, and yet it possesses no notion of carrying the team. “Aw, sorry about that, Jixto! Send me a postcard from Hades!”",     								"A creature like this, even if it fights in melee, is obnoxiously focused on self- preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has “meat cover” against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",     								"If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
+								"The goblin boss is distinguished from ordinary goblins by its Multiattack and Redirect Attack features and by the fact that it doesn't use a bow. Additionally, the Redirect Attack action is useful only in a context in which goblins are fighting side by side rather than in an ambush or skirmish. Based on this, I conclude that goblin bosses are found only in goblin lairs—caves, ruins, what have you—where large numbers of goblins can fight in close quarters.",
+								"By the way, have you read that Redirect Attack feature? The goblin boss uses its reaction to avoid a hit on itself and to cause it to land on one of its goblin minions instead. What a jerk! Here's a critter that's stronger, better at absorbing damage, and capable of landing more blows than most of its kind, and yet it possesses no notion of carrying the team. \"Aw, sorry about that, Jixto! Send me a postcard from Hades!\"",
+								"A creature like this, even if it fights in melee, is obnoxiously focused on self- preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has \"meat cover\" against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",
+								"If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+
+			"_copy": {
+				"name": "Hobgoblin",
+				"source": "MM",
+
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Hobgoblins are very different from goblins—they're natural soldiers, tough and disciplined where goblins are squishy, lazy, and craven. They have no physical weakness, they're intelligent enough to make and use swords and bows and to conduct reconnaissance, and their Martial Advantage trait gives them bonus damage for fighting in close formation. On the other hand, they have no Stealth proficiency and no Nimble Escape.",
+								"Hobgoblins move and attack at night, when their darkvision gives them an advantage over PCs without it; if they don't have the advantage of darkness, they'll attack only with at least a two-to-one numerical advantage. In groups consisting only of hobgoblins, they move in tight teams of four to six. If there are multiple such teams, one consists of archers, positioned between 60 and 150 feet from the action. With goblin troops, they have to be careful: Hobgoblins don't lack the courage to fight on the front line, but they know that goblins do. Rather than set an example that the goblins won't follow, they give commands from behind the front line, where they can keep an eye on the goblins and shoot at opponents with their longbows. Martial Advantage helps them in this instance, even though they're not engaged in melee themselves, as long as they're choosing targets that the goblins are engaging in melee.",
+								"The more hobgoblin teams that are engaged in melee, the more sophisticated tactics they'll use. For instance, if there are three, one engages directly, one shoots from a distance, and one moves to whichever flank looks weaker before engaging. If there are four, one moves to each flank. Five or more try to encircle the PCs. These movements take place before the battle begins—hobgoblins are intelligent and disciplined enough to prepare. They also take place at a sufficient distance that their lack of Stealth won't be a hindrance.",
+								"Hobgoblins don't flee when they're losing; they execute an orderly retreat. When at least two hobgoblins in a team are seriously injured (reduced to 4 hp or fewer) or killed, the team begins to fall back, starting with the most injured hobgoblins. These Disengage and retreat at their full movement speed. On the next round, the two next-most injured Disengage and also retreat at their full movement speed, while the previous two fall back only 5 feet, so as to remain in contact with the hobgoblins that are now joining them. Meanwhile, in this round, the hobgoblin archer team, if there is one, notices the retreat and focuses its arrows on any potential pursuers, in order to cover the retreat. On the third round, any hobgoblins left in the team Disengage and retreat at full movement speed, joining up with those that have already retreated. They carry out this same maneuver repeatedly, until no enemy is engaging with them anymore.",
+								"Despite being the very model of discipline otherwise, according to the Monster Manual, hobgoblins flip their lids when they see an elf. They attack elves first, \"even if doing so would be a tactical error.\" Does this mean they'll charge into combat prematurely, during daylight, with inadequate reconnaissance, just because they see an elf in the party's camp? That's the DM's call. You could play them this way, but given the extent to which they're built up as being militarily savvy, I'd say that before the action starts, their disciplined nature prevails—they simply construct their battle plans around taking out the elves first. Once the battle commences, though, maybe they allow a human warrior to score free hits on them while they concentrate their attacks on an elf warrior. Maybe the hobgoblin archers keep shooting at an elf mage when they should be covering their fellow hobgoblins' retreat. Maybe the sudden appearance of an elf rogue in its midst causes a hobgoblin melee group to forget what it was doing entirely and fixate on getting that elf. Or maybe they hold true to their disciplined nature, elf or no elf."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin Captain",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+
+			"_copy": {
+				"name": "Hobgoblin Captain",
+				"source": "MM",
+
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"A hobgoblin captain is an extra-tough hobgoblin with Multiattack and Leadership. The Leadership feature is incredible: For 1 minute (that is, 10 rounds), as long as the hobgoblin captain isn't incapacitated, every allied creature within 30 feet of it gets a 1d4 buff on attack rolls and saving throws. It activates this feature just before melee combat begins, so as not to pass up its own attack action. In other respects, it fights as an ordinary hobgoblin. If there are multiple hobgoblin groups but only one hobgoblin captain, it's attached to the main melee group. Hobgoblin captains don't wield bows, but they do carry javelins. They'll hurl one of these at a fleeing opponent rather than break ranks to give chase."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin Warlord",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+
+			"_copy": {
+				"name": "Hobgoblin Warlord",
+				"source": "MM",
+
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent prone, and it can Parry a melee blow.",
+								"Parry adds +3 to AC as a reaction, so the decision of when to use it is easy: when a player rolls between 20 and 22 on an attack (assuming the hobgoblin warlord hasn't already used its reaction on something else, of course).",
+								"Shield Bash requires a little math to analyze. The hobgoblin warlord's Multiattack allows three consecutive melee swings in one action. The Longsword attack does the most damage, so it's the default, but when is Shield Bash a reasonable alternative? Assuming a hit, Shield Bash does, on average, 2 hp less damage than a Longsword attack, so the crux is whether the chance to knock the opponent prone is worth these forfeited points. Attacks against a prone opponent have advantage, which raises the probability of a hit by an average of about 20 percentage points. If the hobgoblin warlord uses the Multiattack sequence Shield Bash/Longsword/Longsword, this means it will have advantage on two Longsword attacks after a successful bash. The longsword does an average of 8 damage on a hit,I 15 damage on two. Twenty percent of that is 3, so using Shield Bash before striking twice with a longsword increases the expected damage of those two hits by 3 hp—if it works.",
+								"The trouble is, the DC 14 for Strength saving throws against a Shield Bash isn't very high. Unmodified, the hobgoblin warlord has just shy of a two-thirds chance of knocking its opponent down. Modified by the opponent's Strength—and keep in mind that it's probably the party's toughest front-line fighters who'll confront the hobgoblin warlord—the chance of success recedes to the neighborhood of fifty-fifty, even less against PCs who get to add their proficiency modifiers to their Strength saves.",
+								"Hobgoblins aren't dumb; hobgoblin warlords even less so. They know from experience that a weak opponent (one with a negative Strength modifier) usually won't withstand a Shield Bash, but a stronger opponent often will. However, they also know that if one or more of their allies can land melee attacks on a prone target before they get up—if the advantage applies to their allies' attack rolls as well, not just to the hobgoblin warlord's two attacks—then the expected value of Shield Bash is much more likely to exceed its opportunity cost. Also, in most instances, if an ally of a hobgoblin warlord is near enough to take whacks at its target, it's near enough for the warlord's Martial Advantage trait to kick in, which nearly triples the average damage of one of its Longsword attacks and roughly doubles the average total of the two together. Plus, if the ally is also a hobgoblin, its own Martial Advantage comes into play as well. Add it all together, and the Shield Bash tactic becomes effective enough to try even when it has as little as a one-in-three chance of success."
 							]
 						}
 					}
