@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678151146,
+		"dateLastModified": 1678151148,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -288,6 +288,36 @@
 					"source": "TheMonstersKnowWhatTheyreDoing"
 				}
 			}
+		},
+		{
+			"name": "Goblin Boss",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": "",
+
+			"_copy": {
+				"name": "Goblin Boss",
+				"source": "MM",
+
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A creature like this, even if it fights in melee, is obnoxiously focused on self- preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has “meat cover” against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",     								"If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Goblin Boss",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			}
 		}
 	],
 	"monsterFluff": [
@@ -321,6 +351,28 @@
 								"Also, goblins can tell the difference between a creature that's lost in the dark and one that has darkvision. They won't attack the latter close up if they can avoid it; instead, they'll prefer to shoot with their shortbows. However, in the narrow passages of a cave, establishing a good line of sight may not always be possible, and melee may be the only way to attack. If this happens, they'll use their knowledge of the terrain to tease the party into overextending itself: A lead goblin may use its Scimitar attack (action), Disengage (bonus action), then retreat down the passageway (movement) until it comes out into a more open cavern where it and several other goblins can all jump the first PC who emerges with Readied attack actions. Meanwhile, while the PCs are being drawn forward, other goblins may shoot or stab at them opportunistically from any side passages that exist along the way.",
 								"There is one other circumstance when goblins may engage in melee fighting: when commanded to do so by hobgoblins or bugbears, which goblins fear and defer to. They'll do it, but they won't like it. They know they're not good at it; they'd rather be sniping. If pressed into an infantry unit, they'll fight without coordination and desert at the first opportunity. However, that doesn't mean they won't keep attacking if they think there's something to be gained by doing it their way.",
 								"Goblins recognize the value of stealth and surprise, and they're not about to let anyone get the same advantage against them. They make extensive use of alarms and traps, but since they're not great inventors, by and large, most of these are crude: metal junk that makes a racket when disturbed, falling rocks, pits (with or without punji sticks), simple snares. Every once in a while, though, a lucky goblin may get its hands on a hunter's trap that both restrains its victim and does damage. These are prized possessions, and the goblins use them to protect their most important locations."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Goblin Boss",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+
+			"_copy": {
+				"name": "Goblin Boss",
+				"source": "MM",
+
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"The goblin boss is distinguished from ordinary goblins by its Multiattack and Redirect Attack features and by the fact that it doesn't use a bow. Additionally, the Redirect Attack action is useful only in a context in which goblins are fighting side by side rather than in an ambush or skirmish. Based on this, I conclude that goblin bosses are found only in goblin lairs—caves, ruins, what have you—where large numbers of goblins can fight in close quarters.",      								"By the way, have you read that Redirect Attack feature? The goblin boss uses its reaction to avoid a hit on itself and to cause it to land on one of its goblin minions instead. What a jerk! Here's a critter that's stronger, better at absorbing damage, and capable of landing more blows than most of its kind, and yet it possesses no notion of carrying the team. “Aw, sorry about that, Jixto! Send me a postcard from Hades!”",     								"A creature like this, even if it fights in melee, is obnoxiously focused on self- preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has “meat cover” against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",     								"If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
 							]
 						}
 					}
