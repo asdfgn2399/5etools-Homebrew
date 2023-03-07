@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678159434,
+		"dateLastModified": 1678159436,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -337,7 +337,7 @@
 				"source": "MM",
 
 				"_mod": {
-					"action": {
+					"reaction": {
 						"mode": "appendArr",
 						"items": {
 							"entries": [
@@ -433,7 +433,7 @@
 				"source": "MM",
 
 				"_mod": {
-					"action": {
+					"reaction": {
 						"mode": "appendArr",
 						"items": {
 							"entries": [
