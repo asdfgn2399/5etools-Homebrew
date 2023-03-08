@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678159436,
+		"dateLastModified": 1678159440,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -282,9 +282,27 @@
 									"entries": [
 										"A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent prone, and it can Parry a melee blow.",
 										"Parry adds +3 to AC as a reaction, so the decision of when to use it is easy: when a player rolls between 20 and 22 on an attack (assuming the hobgoblin warlord hasn't already used its reaction on something else, of course).",
-										"Shield Bash requires a little math to analyze. The hobgoblin warlord's Multiattack allows three consecutive melee swings in one action. The Longsword attack does the most damage, so it's the default, but when is Shield Bash a reasonable alternative? Assuming a hit, Shield Bash does, on average, 2 hp less damage than a Longsword attack, so the crux is whether the chance to knock the opponent prone is worth these forfeited points. Attacks against a prone opponent have advantage, which raises the probability of a hit by an average of about 20 percentage points. If the hobgoblin warlord uses the Multiattack sequence Shield Bash/Longsword/Longsword, this means it will have advantage on two Longsword attacks after a successful bash. The longsword does an average of 8 damage on a hit,I 15 damage on two. Twenty percent of that is 3, so using Shield Bash before striking twice with a longsword increases the expected damage of those two hits by 3 hp—if it works.",
+										"Shield Bash requires a little math to analyze. The hobgoblin warlord's Multiattack allows three consecutive melee swings in one action. The Longsword attack does the most damage, so it's the default, but when is Shield Bash a reasonable alternative? Assuming a hit, Shield Bash does, on average, 2 hp less damage than a Longsword attack, so the crux is whether the chance to knock the opponent prone is worth these forfeited points. Attacks against a prone opponent have advantage, which raises the probability of a hit by an average of about 20 percentage points. If the hobgoblin warlord uses the Multiattack sequence Shield Bash/Longsword/Longsword, this means it will have advantage on two Longsword attacks after a successful bash. The longsword does an average of {@footnote 8 damage on a hit|In fifth edition D&D play, the general rule is to round fractions down. In this book, while analyzing damage probabilistically rather than applying it to a PC or monster, I round fractions to the nearest whole number, with one-half rounded to the nearest even whole number.}, 15 damage on two. Twenty percent of that is 3, so using Shield Bash before striking twice with a longsword increases the expected damage of those two hits by 3 hp—if it works.",
 										"The trouble is, the DC 14 for Strength saving throws against a Shield Bash isn't very high. Unmodified, the hobgoblin warlord has just shy of a two-thirds chance of knocking its opponent down. Modified by the opponent's Strength—and keep in mind that it's probably the party's toughest front-line fighters who'll confront the hobgoblin warlord—the chance of success recedes to the neighborhood of fifty-fifty, even less against PCs who get to add their proficiency modifiers to their Strength saves.",
 										"Hobgoblins aren't dumb; hobgoblin warlords even less so. They know from experience that a weak opponent (one with a negative Strength modifier) usually won't withstand a Shield Bash, but a stronger opponent often will. However, they also know that if one or more of their allies can land melee attacks on a prone target before they get up—if the advantage applies to their allies' attack rolls as well, not just to the hobgoblin warlord's two attacks—then the expected value of Shield Bash is much more likely to exceed its opportunity cost. Also, in most instances, if an ally of a hobgoblin warlord is near enough to take whacks at its target, it's near enough for the warlord's Martial Advantage trait to kick in, which nearly triples the average damage of one of its Longsword attacks and roughly doubles the average total of the two together. Plus, if the ally is also a hobgoblin, its own Martial Advantage comes into play as well. Add it all together, and the Shield Bash tactic becomes effective enough to try even when it has as little as a one-in-three chance of success."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bugbear",
+									"page": 30,
+									"entries": [
+										"Bugbears are even stronger than hobgoblins, but they lack hobgoblins’ intelligence and discipline. They do formidable melee damage, thanks to their Brute trait (which is like landing a crit with every hit), and their Surprise Attack ability allows them to nova on the first PC they engage. Bugbears are stealthy, too, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It’s indiscriminate in its target selection: It attacks whoever it can get at first. It doesn’t distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.",
+										"Bugbears carry two weapons: morning star and javelin. They don’t fear in- your-face confrontation, and the morning star does more damage, so the only reason for them to use javelins is if for some reason they can’t get close enough to whomever they want to attack.",
+										"Bugbears love mayhem and will chase down a fleeing opponent. Their survival instinct, however, is powerful. If one is seriously wounded (reduced to 10 hp or fewer), it will become confused and flee, using the Dash action and potentially exposing itself to one or more opportunity attacks. If by some miracle a group of PCs captures a bugbear alive, it will be humiliated, traumatized, and willing to do just about anything to preserve its own life."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bugbear Chief",
+									"page": 31,
+									"entries": [
+										"A bugbear chief is an exceptional member of the species, with Multiattack and the Heart of Hruggek trait, which gives it advantage on saving throws against a variety of conditions. It also has Intimidation +2, so one might suppose that a group of bugbears led by a bugbear chief would initiate a \"parley\" (consisting mostly of taunts and threats) at the beginning of an encounter. However, bugbears’ Stealth proficiency is one of their advantages, so why would they blow their cover simply to hurl taunts and threats? Bugbear chiefs have Intelligence 11 and Wisdom 12; that’s not the sort of mistake they’d make. There can’t be many circumstances in which a party of adventurers and a bugbear chief would have anything like a purposeful conversation, but I can think of a few: Maybe, somehow, the party has managed to surprise the bugbears rather than vice versa. Maybe one side is besieging the other, and they’ve reached a stalemate. Maybe the PCs are high-level enough that the bugbear chief realizes it will be hard to win a fight against them, yet they still have something the bugbears want. (Of course, the bugbear chief’s idea of \"negotiation\" will still consist mainly of demands, threats, and insults.)"
 									]
 								}
 							]
@@ -455,6 +473,70 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin%20Warlord.png"
+		},
+		{
+			"name": "Bugbear",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 30,
+		
+			"_copy": {
+				"name": "Bugbear",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>Bugbears are stealthy, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It’s indiscriminate in its target selection: It attacks whoever it can get at first. It doesn’t distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.",
+								"Bugbears carry two weapons: morning star and javelin. They don’t fear in- your-face confrontation, and the morning star does more damage, so the only reason for them to use javelins is if for some reason they can’t get close enough to whomever they want to attack.",
+								"Bugbears love mayhem and will chase down a fleeing opponent. Their survival instinct, however, is powerful. If one is seriously wounded (reduced to 10 hp or fewer), it will become confused and flee, using the Dash action and potentially exposing itself to one or more opportunity attacks."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Bugbear",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+		"tokenUrl": "https://5e.tools/img/MM/Bugbear.png"
+		},
+		{
+			"name": "Bugbear Chief",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 31,
+		
+			"_copy": {
+				"name": "Bugbear Chief",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A bugbear chief is an exceptional member of the species, with Multiattack and the Heart of Hruggek trait, which gives it advantage on saving throws against a variety of conditions. It also has Intimidation +2, so one might suppose that a group of bugbears led by a bugbear chief would initiate a \"parley\" (consisting mostly of taunts and threats) at the beginning of an encounter. However, bugbears’ Stealth proficiency is one of their advantages, so why would they blow their cover simply to hurl taunts and threats? Bugbear chiefs have Intelligence 11 and Wisdom 12; that’s not the sort of mistake they’d make. There can’t be many circumstances in which a party of adventurers and a bugbear chief would have anything like a purposeful conversation, but I can think of a few: Maybe, somehow, the party has managed to surprise the bugbears rather than vice versa. Maybe one side is besieging the other, and they’ve reached a stalemate. Maybe the PCs are high-level enough that the bugbear chief realizes it will be hard to win a fight against them, yet they still have something the bugbears want. (Of course, the bugbear chief’s idea of \"negotiation\" will still consist mainly of demands, threats, and insults.)"
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Bugbear Chief",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+		"tokenUrl": "https://5e.tools/img/MM/Bugbear%20Chief.png"
 		}
 	],
 	"monsterFluff": [
@@ -587,6 +669,52 @@
 								"Shield Bash requires a little math to analyze. The hobgoblin warlord's Multiattack allows three consecutive melee swings in one action. The Longsword attack does the most damage, so it's the default, but when is Shield Bash a reasonable alternative? Assuming a hit, Shield Bash does, on average, 2 hp less damage than a Longsword attack, so the crux is whether the chance to knock the opponent prone is worth these forfeited points. Attacks against a prone opponent have advantage, which raises the probability of a hit by an average of about 20 percentage points. If the hobgoblin warlord uses the Multiattack sequence Shield Bash/Longsword/Longsword, this means it will have advantage on two Longsword attacks after a successful bash. The longsword does an average of 8 damage on a hit,I 15 damage on two. Twenty percent of that is 3, so using Shield Bash before striking twice with a longsword increases the expected damage of those two hits by 3 hp—if it works.",
 								"The trouble is, the DC 14 for Strength saving throws against a Shield Bash isn't very high. Unmodified, the hobgoblin warlord has just shy of a two-thirds chance of knocking its opponent down. Modified by the opponent's Strength—and keep in mind that it's probably the party's toughest front-line fighters who'll confront the hobgoblin warlord—the chance of success recedes to the neighborhood of fifty-fifty, even less against PCs who get to add their proficiency modifiers to their Strength saves.",
 								"Hobgoblins aren't dumb; hobgoblin warlords even less so. They know from experience that a weak opponent (one with a negative Strength modifier) usually won't withstand a Shield Bash, but a stronger opponent often will. However, they also know that if one or more of their allies can land melee attacks on a prone target before they get up—if the advantage applies to their allies' attack rolls as well, not just to the hobgoblin warlord's two attacks—then the expected value of Shield Bash is much more likely to exceed its opportunity cost. Also, in most instances, if an ally of a hobgoblin warlord is near enough to take whacks at its target, it's near enough for the warlord's Martial Advantage trait to kick in, which nearly triples the average damage of one of its Longsword attacks and roughly doubles the average total of the two together. Plus, if the ally is also a hobgoblin, its own Martial Advantage comes into play as well. Add it all together, and the Shield Bash tactic becomes effective enough to try even when it has as little as a one-in-three chance of success."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Bugbear",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Bugbear",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Bugbears are even stronger than hobgoblins, but they lack hobgoblins’ intelligence and discipline. They do formidable melee damage, thanks to their Brute trait (which is like landing a crit with every hit), and their Surprise Attack ability allows them to nova on the first PC they engage. Bugbears are stealthy, too, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It’s indiscriminate in its target selection: It attacks whoever it can get at first. It doesn’t distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.",
+								"Bugbears carry two weapons: morning star and javelin. They don’t fear in- your-face confrontation, and the morning star does more damage, so the only reason for them to use javelins is if for some reason they can’t get close enough to whomever they want to attack.",
+								"Bugbears love mayhem and will chase down a fleeing opponent. Their survival instinct, however, is powerful. If one is seriously wounded (reduced to 10 hp or fewer), it will become confused and flee, using the Dash action and potentially exposing itself to one or more opportunity attacks. If by some miracle a group of PCs captures a bugbear alive, it will be humiliated, traumatized, and willing to do just about anything to preserve its own life."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Bugbear Chief",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Bugbear Chief",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"A bugbear chief is an exceptional member of the species, with Multiattack and the Heart of Hruggek trait, which gives it advantage on saving throws against a variety of conditions. It also has Intimidation +2, so one might suppose that a group of bugbears led by a bugbear chief would initiate a \"parley\" (consisting mostly of taunts and threats) at the beginning of an encounter. However, bugbears’ Stealth proficiency is one of their advantages, so why would they blow their cover simply to hurl taunts and threats? Bugbear chiefs have Intelligence 11 and Wisdom 12; that’s not the sort of mistake they’d make. There can’t be many circumstances in which a party of adventurers and a bugbear chief would have anything like a purposeful conversation, but I can think of a few: Maybe, somehow, the party has managed to surprise the bugbears rather than vice versa. Maybe one side is besieging the other, and they’ve reached a stalemate. Maybe the PCs are high-level enough that the bugbear chief realizes it will be hard to win a fight against them, yet they still have something the bugbears want. (Of course, the bugbear chief’s idea of \"negotiation\" will still consist mainly of demands, threats, and insults.)"
 							]
 						}
 					}
