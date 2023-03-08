@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678159440,
+		"dateLastModified": 1678302742,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -224,7 +224,7 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Goblins",
+									"name": "{@creature Goblin|TheMonstersKnowWhatTheyreDoing|Goblins}",
 									"page": 23,
 									"entries": [
 										"Here's what we know about goblins from the Monster Manual: First, from the flavor text, they live in dark, dismal settings; congregate in large numbers; and employ alarms and traps. They're low-Strength and high-Dexterity, with a very good Stealth modifier. Their Intelligence and Wisdom are in the average range. They possess darkvision and the Nimble Escape feature, which allows them to Disengage or Hide as a bonus action—very important to their action economy.",
@@ -246,7 +246,7 @@
 								},
 							  {
 							    "type": "entries",
-							    "name": "Goblin Boss",
+							    "name": "{@creature Goblin Boss|TheMonstersKnowWhatTheyreDoing}",
 									"page": 26,
 							    "entries": [
     								"The goblin boss is distinguished from ordinary goblins by its Multiattack and Redirect Attack features and by the fact that it doesn't use a bow. Additionally, the Redirect Attack action is useful only in a context in which goblins are fighting side by side rather than in an ambush or skirmish. Based on this, I conclude that goblin bosses are found only in goblin lairs—caves, ruins, what have you—where large numbers of goblins can fight in close quarters.", 
@@ -257,7 +257,7 @@
 							  },
 								{
 									"type": "entries",
-									"name": "Hobgoblins",
+									"name": "{@creature Hobgoblin|TheMonstersKnowWhatTheyreDoing|Hobgoblins}",
 									"page": 27,
 									"entries": [
 										"Hobgoblins are very different from goblins—they're natural soldiers, tough and disciplined where goblins are squishy, lazy, and craven. They have no physical weakness, they're intelligent enough to make and use swords and bows and to conduct reconnaissance, and their Martial Advantage trait gives them bonus damage for fighting in close formation. On the other hand, they have no Stealth proficiency and no Nimble Escape.",
@@ -269,7 +269,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Hobgoblin Captain",
+									"name": "{@creature Hobgoblin Captain|TheMonstersKnowWhatTheyreDoing}",
 									"page": 29,
 									"entries": [
 										"A hobgoblin captain is an extra-tough hobgoblin with Multiattack and Leadership. The Leadership feature is incredible: For 1 minute (that is, 10 rounds), as long as the hobgoblin captain isn't incapacitated, every allied creature within 30 feet of it gets a 1d4 buff on attack rolls and saving throws. It activates this feature just before melee combat begins, so as not to pass up its own attack action. In other respects, it fights as an ordinary hobgoblin. If there are multiple hobgoblin groups but only one hobgoblin captain, it's attached to the main melee group. Hobgoblin captains don't wield bows, but they do carry javelins. They'll hurl one of these at a fleeing opponent rather than break ranks to give chase."
@@ -277,7 +277,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Hobgoblin Warlord",
+									"name": "{@creature Hobgoblin Warlord|TheMonstersKnowWhatTheyreDoing}",
 									"page": 29,
 									"entries": [
 										"A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent prone, and it can Parry a melee blow.",
@@ -289,7 +289,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Bugbear",
+									"name": "{@creature Bugbear|TheMonstersKnowWhatTheyreDoing|Bugbears}",
 									"page": 30,
 									"entries": [
 										"Bugbears are even stronger than hobgoblins, but they lack hobgoblins’ intelligence and discipline. They do formidable melee damage, thanks to their Brute trait (which is like landing a crit with every hit), and their Surprise Attack ability allows them to nova on the first PC they engage. Bugbears are stealthy, too, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It’s indiscriminate in its target selection: It attacks whoever it can get at first. It doesn’t distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.",
@@ -299,7 +299,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Bugbear Chief",
+									"name": "{@creature Bugbear Chief|TheMonstersKnowWhatTheyreDoing}",
 									"page": 31,
 									"entries": [
 										"A bugbear chief is an exceptional member of the species, with Multiattack and the Heart of Hruggek trait, which gives it advantage on saving throws against a variety of conditions. It also has Intimidation +2, so one might suppose that a group of bugbears led by a bugbear chief would initiate a \"parley\" (consisting mostly of taunts and threats) at the beginning of an encounter. However, bugbears’ Stealth proficiency is one of their advantages, so why would they blow their cover simply to hurl taunts and threats? Bugbear chiefs have Intelligence 11 and Wisdom 12; that’s not the sort of mistake they’d make. There can’t be many circumstances in which a party of adventurers and a bugbear chief would have anything like a purposeful conversation, but I can think of a few: Maybe, somehow, the party has managed to surprise the bugbears rather than vice versa. Maybe one side is besieging the other, and they’ve reached a stalemate. Maybe the PCs are high-level enough that the bugbear chief realizes it will be hard to win a fight against them, yet they still have something the bugbears want. (Of course, the bugbear chief’s idea of \"negotiation\" will still consist mainly of demands, threats, and insults.)"
