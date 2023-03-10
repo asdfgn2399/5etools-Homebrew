@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678422671,
+		"dateLastModified": 1678422685,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -55,6 +55,10 @@
 					"name": "Humanoids",
 					"headers": [
 						"Goblinoids",
+						{
+							"header": "Goblin",
+							"depth": 2
+						},
 						"Kobolds",
 						"Orcs",
 						"Gnolls",
@@ -409,7 +413,7 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "{@creature Goblin|TheMonstersKnowWhatTheyreDoing|Goblins}",
+									"name": "Goblin",
 									"page": 23,
 									"entries": [
 										"Here's what we know about goblins from the Monster Manual: First, from the flavor text, they live in dark, dismal settings; congregate in large numbers; and employ alarms and traps. They're low-Strength and high-Dexterity, with a very good Stealth modifier. Their Intelligence and Wisdom are in the average range. They possess darkvision and the Nimble Escape feature, which allows them to Disengage or Hide as a bonus action—very important to their action economy.",
