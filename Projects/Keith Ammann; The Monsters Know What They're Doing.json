@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678422814,
+		"dateLastModified": 1678422856,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -61,6 +61,26 @@
 						},
 						{
 							"header": "Goblin Boss",
+							"depth": 2
+						},
+						{
+							"header": "Hobgoblin",
+							"depth": 2
+						},
+						{
+							"header": "Hobgoblin Captain",
+							"depth": 2
+						},
+						{
+							"header": "Hobgoblin Warlord",
+							"depth": 2
+						},
+						{
+							"header": "Bugbear",
+							"depth": 2
+						},
+						{
+							"header": "Bugbear Chief",
 							"depth": 2
 						},
 						"Kobolds",
@@ -417,7 +437,7 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Goblin",
+									"name": "{@creature Goblin|TheMonstersKnowWhatTheyreDoing}",
 									"page": 23,
 									"entries": [
 										"Here's what we know about goblins from the Monster Manual: First, from the flavor text, they live in dark, dismal settings; congregate in large numbers; and employ alarms and traps. They're low-Strength and high-Dexterity, with a very good Stealth modifier. Their Intelligence and Wisdom are in the average range. They possess darkvision and the Nimble Escape feature, which allows them to Disengage or Hide as a bonus action—very important to their action economy.",
@@ -450,7 +470,7 @@
 							  },
 								{
 									"type": "entries",
-									"name": "{@creature Hobgoblin|TheMonstersKnowWhatTheyreDoing|Hobgoblins}",
+									"name": "{@creature Hobgoblin|TheMonstersKnowWhatTheyreDoing}",
 									"page": 27,
 									"entries": [
 										"Hobgoblins are very different from goblins—they're natural soldiers, tough and disciplined where goblins are squishy, lazy, and craven. They have no physical weakness, they're intelligent enough to make and use swords and bows and to conduct reconnaissance, and their Martial Advantage trait gives them bonus damage for fighting in close formation. On the other hand, they have no Stealth proficiency and no Nimble Escape.",
@@ -482,7 +502,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@creature Bugbear|TheMonstersKnowWhatTheyreDoing|Bugbears}",
+									"name": "{@creature Bugbear|TheMonstersKnowWhatTheyreDoing}",
 									"page": 30,
 									"entries": [
 										"Bugbears are even stronger than hobgoblins, but they lack hobgoblins’ intelligence and discipline. They do formidable melee damage, thanks to their Brute trait (which is like landing a crit with every hit), and their Surprise Attack ability allows them to nova on the first PC they engage. Bugbears are stealthy, too, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It’s indiscriminate in its target selection: It attacks whoever it can get at first. It doesn’t distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.",
