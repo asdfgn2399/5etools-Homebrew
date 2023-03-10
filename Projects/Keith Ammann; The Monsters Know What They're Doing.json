@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678333735,
+		"dateLastModified": 1678333736,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -780,7 +780,7 @@
 					"source": "TheMonstersKnowWhatTheyreDoing"
 				}
 			},
-			"tokenUrl": "https://5e.tools/img/MM/Orc%20%20War%20Chief.png"
+			"tokenUrl": "https://5e.tools/img/MM/Orc%20War%20Chief.png"
 		},
 		{
 			"name": "Orc Eye of Gruumsh",
