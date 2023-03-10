@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678422794,
+		"dateLastModified": 1678422814,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -57,6 +57,10 @@
 						"Goblinoids",
 						{
 							"header": "Goblin",
+							"depth": 2
+						},
+						{
+							"header": "Goblin Boss",
 							"depth": 2
 						},
 						"Kobolds",
