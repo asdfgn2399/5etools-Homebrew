@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678333973,
+		"dateLastModified": 1678422671,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -131,6 +131,147 @@
 						"Krakens",
 						"Tarrasques"
 					]
+				},
+				{
+					"name": "Dragons",
+					"headers": [
+						"Chromatic Dragons",
+						"Metallic Dragons",
+						"Shadow Dragons and Dracoliches",
+						"Pseudodragons",
+						"Faerie Dragons",
+						"Wyverns",
+						"Dragon Turtles"
+					]
+				},
+				{
+					"name": "Giants",
+					"headers": [
+						"True Giants",
+						"Ettins",
+						"Trolls",
+						"Oni",
+						"Fomorians"
+					]
+				},
+				{
+					"name": "Undead",
+					"headers": [
+						"Skeletons and Zombies",
+						"Shadows",
+						"Ghouls and Ghasts",
+						"Specters, Wights, and Wraiths",
+						"Ghosts and Mummies",
+						"Mummy Lords",
+						"Vampires",
+						"Liches",
+						"Demiliches",
+						"Will-o'-Wisps",
+						"Flameskulls",
+						"Banshees",
+						"Revenants",
+						"Death Knights"
+					]
+				},
+				{
+					"name": "Aberrations",
+					"headers": [
+						"Beholders",
+						"Intellect Devourers",
+						"Mind Flayers",
+						"Grells",
+						"Gibbering Mouthers",
+						"Nothics",
+						"Otynghs",
+						"Cloakers",
+						"Slaadi",
+						"Chuuls",
+						"Aboleths"
+					]
+				},
+				{
+					"name": "Fiends",
+					"headers": [
+						"Lesser Devils",
+						"Greater Devils",
+						"Hell Hounds",
+						"Rakshasas",
+						"Lesser Demons",
+						"Greater Demons",
+						"Quasits",
+						"Succubi/Incubi",
+						"Yugoloths",
+						"Nightmares",
+						"Cambions"
+					]
+				},
+				{
+					"name": "Celestials",
+					"headers": [
+						"Angels",
+						"Empyreans",
+						"Unicorns",
+						"Pegasi",
+						"Couatls"
+					]
+				}, 
+				{
+					"name": "Fey",
+					"headers": [
+						"Pixies, Sprites, and Dryads",
+						"Satyrs",
+						"Hags"
+					]
+				},
+				{
+					"name": "Elementals",
+					"headers": [
+						"Elemental Spirits",
+						"Azers",
+						"Water Weirds, Galeb Duhrs, and Invisible Stalkers",
+						"Mephits",
+						"Magmins",
+						"Gargoyles",
+						"Salamanders",
+						"Xorn",
+						"Djinn",
+						"Efreets",
+						"Marids",
+						"Dao"
+					]
+				},
+				{
+					"name": "Constructs",
+					"headers": [
+						"Animater Objects",
+						"Scarecrows, Helmed Horrors, and Shield Guardians",
+						"Golems",
+						"Modrons"
+					]
+				},
+				{
+					"name": "Oozes and Plants",
+					"headers": [
+						"Oozes",
+						"Blights",
+						"Myconids",
+						"Shambling Mounds",
+						"Treants"
+					]
+				},
+				{
+					"name": "Beasts",
+					"headers": [
+						"Stirges",
+						"Dinosaurs",
+						"Flying Snakes"
+					]
+				},
+				{
+					"name": "Acknowledgments"
+				},
+				{
+					"name": "About the Author"
 				}
 			],
 			"published": "2019-10-29",
