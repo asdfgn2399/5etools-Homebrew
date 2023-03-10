@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678333736,
+		"dateLastModified": 1678333873,
 		"dependencies": {
 			"monster": [
 				"MM"
