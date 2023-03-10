@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678333873,
+		"dateLastModified": 1678333973,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -86,6 +86,50 @@
 						"Cultists, Acolytes, Priests, and Druids",
 						"Mages",
 						"Archmages"
+					]
+				},
+				{
+					"name": "Monstrosities",
+					"headers": [
+						"Ettercaps",
+						"Phase Spiders",
+						"Displacer Beasts",
+						"Owlbears",
+						"Nagas",
+						"Behirs",
+						"Harpies",
+						"Perytons",
+						"Griffons and Hippogriffs",
+						"Ankhegs",
+						"Bulettes",
+						"Umber Hulks",
+						"Remorhazes",
+						"Carrion Crawlers",
+						"Rust Monsters",
+						"Gricks",
+						"Driders",
+						"Hook Horrors",
+						"Ropers and Piercers",
+						"Darkmantles",
+						"Doppelgangers",
+						"Mimics",
+						"Cockatrices",
+						"Chimeras",
+						"Basilisks",
+						"Medusas",
+						"Centaurs",
+						"Merrows",
+						"Yetis",
+						"Minotaurs",
+						"Manticores",
+						"Lamias",
+						"Gorgons",
+						"Hydras",
+						"Sphinxes",
+						"Rocs",
+						"Purple Worms",
+						"Krakens",
+						"Tarrasques"
 					]
 				}
 			],
