@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678509424,
+		"dateLastModified": 1678509430,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -563,7 +563,7 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "{@creature Kobold|TheMonstersKnowWhatTheyreDoing|Kobolds}",
+									"name": "{@creature Kobold|TheMonstersKnowWhatTheyreDoing}",
 									"page": 31,
 									"entries": [
 										"Kobolds differ from goblins in significant ways. Their Intelligence, Wisdom, and Constitution are all lower. They have Sunlight Sensitivity, which means that while goblins may prefer to dwell in the dark, kobolds must. Like goblins, kobolds set traps; unlike goblins, they’re not nimble or stealthy.",
@@ -651,7 +651,7 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Gnoll",
+									"name": "{@creature Gnoll|TheMonstersKnowWhatTheyreDoing}",
 									"page": 39,
 									"entries": [
 										"Gnolls are described in the Monster Manual as rapacious raiders, scavengers, and nomads with hyena-like heads. They have high Strength and low Intelligence; their behavior is driven by their violent and destructive instincts. Like many other humanoid D&D monsters, they have {@sense darkvision}. They wield spears and longbows, according to the Monster Manual, and they have one distinguishing feature, Rampage, which allows them to move half their speed and make a bonus bite attack after reducing a foe to 0 hp in melee.",
@@ -662,7 +662,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Gnoll Pack Lord",
+									"name": "{@creature Gnoll Pack Lord|TheMonstersKnowWhatTheyreDoing}",
 									"page": 40,
 									"entries": [
 										"A pack of gnolls may be led by a gnoll pack lord, which is a more able specimen in every respect, including getting two swings per Multiattack action and having the Incite Rampage feature. (It also wields a glaive, which I have to imagine\u2014given that even the gnoll pack lord's Intelligence is only 8\u2014consists of a pillaged sword lashed to the end of a spear. By gnoll standards, this surely qualifies as technological genius.)",
@@ -672,7 +672,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Gnoll Fang of Yeenoghu",
+									"name": "{@creature Gnoll Fang of Yeenoghu|TheMonstersKnowWhatTheyreDoing}",
 									"page": 40,
 									"entries": [
 										"At first blush, the gnoll Fang of Yeenoghu also appears to be little more than an exceptionally able gnoll, with a Claw/Claw/Bite Multiattack in lieu of weapons. But the Fang of Yeenoghu has some actual intelligence, so it maneuvers around the battlefield and targets vulnerable PCs, particularly those who dish out a lot of damage but can't take it. Gnolls sense weakness and zero in on it, so assume that the Fang of Yeenoghu can \"read\" a PC's hit points and Armor Class and strike accordingly. This also allows the Fang of Yeenoghu to maximize the value of its Rampage feature, because by targeting PCs with fewer hit points first, it increases its chances of getting to Rampage more than once. If you're a tenderhearted DM who wants to protect the fragile flowers in your players' party, don't throw a Fang of Yeenoghu at them, because that thing's gotta follow its nature.",
