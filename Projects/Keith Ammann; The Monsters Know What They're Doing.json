@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678422856,
+		"dateLastModified": 1678509424,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -84,8 +84,44 @@
 							"depth": 2
 						},
 						"Kobolds",
+						{
+							"header": "Kobold",
+							"depth": 2
+						},
+						{
+							"header": "Winged Kobold",
+							"depth": 2
+						},
 						"Orcs",
+						{
+							"header": "Orc",
+							"depth": 2
+						},
+						{
+							"header": "Orog",
+							"depth": 2
+						},
+						{
+							"header": "Orc War Chief",
+							"depth": 2
+						},
+						{
+							"header": "Orc Eye of Gruumsh",
+							"depth": 2
+						},
 						"Gnolls",
+						{
+							"header": "Gnoll",
+							"depth": 2
+						},
+						{
+							"header": "Gnoll Pack Lord",
+							"depth": 2
+						},
+						{
+							"header": "Gnoll Fang of Yeenoghu",
+							"depth": 2
+						},
 						"Lizardfolk",
 						"Yuan-ti",
 						"Bullywugs",
@@ -607,6 +643,43 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "Gnolls",
+							"page": 39,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Gnoll",
+									"page": 39,
+									"entries": [
+										"Gnolls are described in the Monster Manual as rapacious raiders, scavengers, and nomads with hyena-like heads. They have high Strength and low Intelligence; their behavior is driven by their violent and destructive instincts. Like many other humanoid D&D monsters, they have {@sense darkvision}. They wield spears and longbows, according to the Monster Manual, and they have one distinguishing feature, Rampage, which allows them to move half their speed and make a bonus bite attack after reducing a foe to 0 hp in melee.",
+										"Honestly, I'd dispense with the longbow\u2014it doesn't make sense in the context of what else the Monster Manual says about gnolls. Their Strength is high enough that they gain little advantage from using one. They aren't smart enough to craft one or social enough to barter for one. According to the flavor text, gnolls prefer to strike at easy targets; longbows are designed to puncture armor. And gnolls' single unique feature is melee-oriented.",
+										"So my vision of the gnoll is strictly a hand-to-hand fighter. As creatures with high Strength, high-average Dexterity, average Constitution, and a respectable five hit dice, gnolls are shock troops. When they spot a vulnerable target, most likely during a nighttime patrol ({@sense darkvision} provides advantage on attack rolls against PCs who don't have it), they strike at once. They're fearless and aggressive, using their full movement speed to approach their targets, then attacking with spears; if one such attack reduces an enemy to 0 hp, the gnoll Rampages toward another enemy within 15 feet and bites it (bonus action).",
+										"As vicious as they are, however, gnolls are creatures of instinct without ideology, and they place their own survival over such concepts as valor or honor. If one is seriously wounded (reduced to 8 hp or fewer), it turns tail and flees, using the {@action Dash} action to get away as fast as possible and potentially exposing itself to one or more opportunity attacks in the process."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Gnoll Pack Lord",
+									"page": 40,
+									"entries": [
+										"A pack of gnolls may be led by a gnoll pack lord, which is a more able specimen in every respect, including getting two swings per Multiattack action and having the Incite Rampage feature. (It also wields a glaive, which I have to imagine\u2014given that even the gnoll pack lord's Intelligence is only 8\u2014consists of a pillaged sword lashed to the end of a spear. By gnoll standards, this surely qualifies as technological genius.)",
+										"Incite Rampage is part of the gnoll pack lord's Multiattack combo, so the gnoll pack lord doesn't have to forgo attacking to use it. Effectively, what Incite Rampage does is grant another gnoll in the pack (a technicality in the wording of Incite Rampage restricts its application to other gnolls, plus giant hyenas, since these are the only creatures with Rampage) the equivalent of an immediate opportunity attack against its opponent. This happens during the gnoll pack lord's action. Incite Rampage consumes that gnoll's reaction, so if its opponent moves out of its reach, it can't make an actual opportunity attack.",
+										"Aside from this feature, the only other distinctive thing about the gnoll pack lord is the fact that its \"glaive\" (snicker) gives it 10 feet of reach rather than 5 feet. None of this makes the gnoll pack lord's tactics any more elaborate than a regular gnoll's."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Gnoll Fang of Yeenoghu",
+									"page": 40,
+									"entries": [
+										"At first blush, the gnoll Fang of Yeenoghu also appears to be little more than an exceptionally able gnoll, with a Claw/Claw/Bite Multiattack in lieu of weapons. But the Fang of Yeenoghu has some actual intelligence, so it maneuvers around the battlefield and targets vulnerable PCs, particularly those who dish out a lot of damage but can't take it. Gnolls sense weakness and zero in on it, so assume that the Fang of Yeenoghu can \"read\" a PC's hit points and Armor Class and strike accordingly. This also allows the Fang of Yeenoghu to maximize the value of its Rampage feature, because by targeting PCs with fewer hit points first, it increases its chances of getting to Rampage more than once. If you're a tenderhearted DM who wants to protect the fragile flowers in your players' party, don't throw a Fang of Yeenoghu at them, because that thing's gotta follow its nature.",
+										"One other detail about the gnoll Fang of Yeenoghu, which has nothing to do with its tactics but is still worth noting: Unlike gnolls and gnoll pack lords, the Fang of Yeenoghu isn't categorized as a humanoid. It's a fiend, and as such it's detectable by a paladin's Divine Sense or a ranger's Primeval Awareness, and a protection from evil and good spell offers defense against it."
+									]
+								}
+							]
 						}
 					]
 				}
@@ -1025,6 +1098,99 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Orc%20Eye%20of%20Gruumsh.png"
+		},
+		{
+			"name": "Gnoll",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 39,
+		
+			"_copy": {
+				"name": "Gnoll",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>As creatures with high Strength, high-average Dexterity, average Constitution, and a respectable five hit dice, gnolls are shock troops. When they spot a vulnerable target, most likely during a nighttime patrol ({@sense darkvision} provides advantage on attack rolls against PCs who don't have it), they strike at once. They're fearless and aggressive, using their full movement speed to approach their targets, then attacking with spears; if one such attack reduces an enemy to 0 hp, the gnoll Rampages toward another enemy within 15 feet and bites it (bonus action).",                     "As vicious as they are, however, gnolls are creatures of instinct without ideology, and they place their own survival over such concepts as valor or honor. If one is seriously wounded (reduced to 8 hp or fewer), it turns tail and flees, using the {@action Dash} action to get away as fast as possible and potentially exposing itself to one or more opportunity attacks in the process."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll.png"
+		},
+		{
+			"name": "Gnoll Pack Lord",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 40,
+		
+			"_copy": {
+				"name": "Gnoll Pack Lord",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A pack of gnolls may be led by a gnoll pack lord, which is a more able specimen in every respect, including getting two swings per Multiattack action and having the Incite Rampage feature. (It also wields a glaive, which I have to imagine\u2014given that even the gnoll pack lord's Intelligence is only 8\u2014consists of a pillaged sword lashed to the end of a spear. By gnoll standards, this surely qualifies as technological genius.)",                     "Incite Rampage is part of the gnoll pack lord's Multiattack combo, so the gnoll pack lord doesn't have to forgo attacking to use it. Effectively, what Incite Rampage does is grant another gnoll in the pack (a technicality in the wording of Incite Rampage restricts its application to other gnolls, plus giant hyenas, since these are the only creatures with Rampage) the equivalent of an immediate opportunity attack against its opponent. This happens during the gnoll pack lord's action. Incite Rampage consumes that gnoll's reaction, so if its opponent moves out of its reach, it can't make an actual opportunity attack.",                     "Aside from this feature, the only other distinctive thing about the gnoll pack lord is the fact that its \"glaive\" (snicker) gives it 10 feet of reach rather than 5 feet. None of this makes the gnoll pack lord's tactics any more elaborate than a regular gnoll's."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll Pack Lord",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll%20Pack%20Lord.png"
+		},
+		{
+			"name": "Gnoll Fang of Yeenoghu",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 40,
+		
+			"_copy": {
+				"name": "Gnoll Fang of Yeenoghu",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>At first blush, the gnoll Fang of Yeenoghu also appears to be little more than an exceptionally able gnoll, with a Claw/Claw/Bite Multiattack in lieu of weapons. But the Fang of Yeenoghu has some actual intelligence, so it maneuvers around the battlefield and targets vulnerable PCs, particularly those who dish out a lot of damage but can't take it. Gnolls sense weakness and zero in on it, so assume that the Fang of Yeenoghu can \"read\" a PC's hit points and Armor Class and strike accordingly. This also allows the Fang of Yeenoghu to maximize the value of its Rampage feature, because by targeting PCs with fewer hit points first, it increases its chances of getting to Rampage more than once. If you're a tenderhearted DM who wants to protect the fragile flowers in your players' party, don't throw a Fang of Yeenoghu at them, because that thing's gotta follow its nature."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll Fang of Yeenoghu",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll%20Fang%20of%20Yeenoghu.png"
 		}
 	],
 	"monsterFluff": [
@@ -1349,6 +1515,72 @@
 							"name": "Tactics",
 							"entries": [
 								"Last, there’s the orc Eye of Gruumsh, a battlefield cleric. Smarter and wiser than an ordinary orc but not any stronger or tougher, the Eye of Gruumsh is distinguished most by its spellcasting ability. (It also has Gruumsh’s Fury, but again, this is a passive trait whose only function is to increase weapon damage— although this makes more of a difference for the Eye of Gruumsh than for the war chief, because the Eye of Gruumsh uses only a spear, not a greataxe.) The variety of spells at its disposal potentially makes the Eye of Gruumsh’s combat strategy much more complex, so we need to take a look at the effects and effectiveness of each spell and how it fits into the Eye of Gruumsh’s action economy.",                     "One spell stands out: spiritual weapon. Unlike all the Eye of Gruumsh’s other spells, this one is cast as a bonus action and, in addition, gives the caster a new bonus action to use every round. This completely changes the Eye of Gruumsh’s action economy. The Eye of Gruumsh still charges with all the other orcs, because otherwise, its Aggressive trait would be wasted. But on its second combat round it casts spiritual weapon as a bonus action, and on every subsequent round (up to the spell’s 1-minute duration) it continues to use its bonus action, again and again, to attack tougher or harder-to-reach opponents with the Floating Spear of Glowy Force.",                     "The question now is, what does the Eye of Gruumsh do with its action? Spiritual weapon won’t require concentration, so it can start the battle off with a spell that does: bless, guidance, or resistance, of which bless is clearly the strongest. (Which of its companions would the Eye of Gruumsh bless? Orcs aren’t exactly altruistic. I’d say it would first take a blessing for itself, then give one to the orc war chief, if there is one, then to any other individual that stands out in the group.)",                     "How about once combat is underway? Augury takes a full minute to cast and has no purpose in combat. Thaumaturgy is interesting, but one has to consider its primary application to be during the parley phase, when the orcs are trying to maximize their fearsomeness. That leaves command.",                     "Command can have a tide-of-battle-swinging effect. One possible beneficial outcome of command is that a PC may be forced into a position that gives opponents advantage on melee attacks. Another is that a PC, ordered to flee, may be subjected to one or more opportunity attacks.",                     "Let’s look at what the Eye of Gruumsh gives up by doing this: its Spear action. Against AC 13 (what most orcs are used to, as mentioned above), with +5 to hit, the Eye of Gruumsh has a 65 percent chance of dealing an average of 11 damage, for an expected damage per round of 7. For the Eye of Gruumsh to forgo its Spear action in favor of casting command, the effect of the spell needs to inflict at least 8 expected damage.",                     "As we saw previously, giving an ordinary orc advantage on an attack roll increases its expected damage by about 2. That’s not enough for the Eye of Gruumsh to give up its own Spear action. What about an orog? Still not enough: The damage increase is about the same, although it is doubled because of the orog’s Multiattack. An orc war chief? Now it starts to get interesting, because the war chief does so much damage with each hit. But the increase in expected damage from attacking with advantage turns out to be surprisingly small: only about 3 per attack, or 6 altogether. And, of course, the Eye of Gruumsh doesn’t itself benefit from ordering a foe to grovel, because it gives up one attack action to gain advantage on the next, allowing it one hit at most, rather than two. In addition, we have to remember that the target of a command gets to make a saving throw, so all these gains are attenuated by the probability that the target will shrug it off.",                     "However, what if the Eye of Gruumsh can provoke multiple opportunity attacks on an enemy by ordering them to flee? For starters, opportunity attacks are reactions, meaning we’re adding a new element to the action economy. Also, this isn’t about the difference between attacking with advantage and attacking without it—it’s about the difference between getting an attack and not getting an attack. One orc’s expected damage per attack is 6—not as much as the Eye of Gruumsh’s expected damage per attack—but two orcs’ expected damage is double that, and three orcs’ expected damage is triple that, and so on. An orog’s expected damage per attack is 7, and an orc war chief’s is 10. Command’s chance of success is only fifty-fifty even against an average person, so we have to figure that there need to be several orcs on hand to make opportunity attacks for this stunt to be worth trying.",                     "Here’s our conclusion: An orc Eye of Gruumsh forgoes its own Spear action in order to cast command against a foe that’s within reach of four or more ordinary orcs, or two or more plus a leader. It issues the command \"Scram!\" (equivalent to Flee) in order to provoke an opportunity attack from every orc that can reach the target."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Gnoll",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Gnoll",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Gnolls are described in the Monster Manual as rapacious raiders, scavengers, and nomads with hyena-like heads. They have high Strength and low Intelligence; their behavior is driven by their violent and destructive instincts. Like many other humanoid D&D monsters, they have {@sense darkvision}. They wield spears and longbows, according to the Monster Manual, and they have one distinguishing feature, Rampage, which allows them to move half their speed and make a bonus bite attack after reducing a foe to 0 hp in melee.",                     "Honestly, I'd dispense with the longbow\u2014it doesn't make sense in the context of what else the Monster Manual says about gnolls. Their Strength is high enough that they gain little advantage from using one. They aren't smart enough to craft one or social enough to barter for one. According to the flavor text, gnolls prefer to strike at easy targets; longbows are designed to puncture armor. And gnolls' single unique feature is melee-oriented.",                     "So my vision of the gnoll is strictly a hand-to-hand fighter. As creatures with high Strength, high-average Dexterity, average Constitution, and a respectable five hit dice, gnolls are shock troops. When they spot a vulnerable target, most likely during a nighttime patrol ({@sense darkvision} provides advantage on attack rolls against PCs who don't have it), they strike at once. They're fearless and aggressive, using their full movement speed to approach their targets, then attacking with spears; if one such attack reduces an enemy to 0 hp, the gnoll Rampages toward another enemy within 15 feet and bites it (bonus action).",                     "As vicious as they are, however, gnolls are creatures of instinct without ideology, and they place their own survival over such concepts as valor or honor.",                     "If one is seriously wounded (reduced to 8 hp or fewer), it turns tail and flees, using the {@action Dash} action to get away as fast as possible and potentially exposing itself to one or more opportunity attacks in the process."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Gnoll Pack Lord",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Gnoll Pack Lord",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"A pack of gnolls may be led by a gnoll pack lord, which is a more able specimen in every respect, including getting two swings per Multiattack action and having the Incite Rampage feature. (It also wields a glaive, which I have to imagine\u2014given that even the gnoll pack lord's Intelligence is only 8\u2014consists of a pillaged sword lashed to the end of a spear. By gnoll standards, this surely qualifies as technological genius.)",                     "Incite Rampage is part of the gnoll pack lord's Multiattack combo, so the gnoll pack lord doesn't have to forgo attacking to use it. Effectively, what Incite Rampage does is grant another gnoll in the pack (a technicality in the wording of Incite Rampage restricts its application to other gnolls, plus giant hyenas, since these are the only creatures with Rampage) the equivalent of an immediate opportunity attack against its opponent. This happens during the gnoll pack lord's action. Incite Rampage consumes that gnoll's reaction, so if its opponent moves out of its reach, it can't make an actual opportunity attack.",                     "Aside from this feature, the only other distinctive thing about the gnoll pack lord is the fact that its \"glaive\" (snicker) gives it 10 feet of reach rather than 5 feet. None of this makes the gnoll pack lord's tactics any more elaborate than a regular gnoll's."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Gnoll Fang of Yeenoghu",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Gnoll Fang of Yeenoghu",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"At first blush, the gnoll Fang of Yeenoghu also appears to be little more than an exceptionally able gnoll, with a Claw/Claw/Bite Multiattack in lieu of weapons. But the Fang of Yeenoghu has some actual intelligence, so it maneuvers around the battlefield and targets vulnerable PCs, particularly those who dish out a lot of damage but can't take it. Gnolls sense weakness and zero in on it, so assume that the Fang of Yeenoghu can \"read\" a PC's hit points and Armor Class and strike accordingly. This also allows the Fang of Yeenoghu to maximize the value of its Rampage feature, because by targeting PCs with fewer hit points first, it increases its chances of getting to Rampage more than once. If you're a tenderhearted DM who wants to protect the fragile flowers in your players' party, don't throw a Fang of Yeenoghu at them, because that thing's gotta follow its nature.",                     "One other detail about the gnoll Fang of Yeenoghu, which has nothing to do with its tactics but is still worth noting: Unlike gnolls and gnoll pack lords, the Fang of Yeenoghu isn't categorized as a humanoid. It's a fiend, and as such it's detectable by a paladin's Divine Sense or a ranger's Primeval Awareness, and a protection from evil and good spell offers defense against it."
 							]
 						}
 					}
