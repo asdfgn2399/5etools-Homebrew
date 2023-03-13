@@ -1,0 +1,540 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheMonstersKnowWhatTheyreDoingHTML",
+				"abbreviation": "TMKWTD",
+				"full": "The Monsters Know What They're Doing",
+				"authors": [
+					"Keith Ammann"
+				],
+				"convertedBy": [
+					"asdfgn#2399"
+				],
+				"version": "1.0",
+				"color": "780206",
+				"url": "https://www.themonstersknow.com/",
+				"dateReleased": "2019-10-29"
+			}
+		],
+		"status": "ready",
+		"dateAdded": 1677903148,
+		"dateLastModified": 1678509434,
+		"dependencies": {
+			"monster": [
+				"MM"
+			],
+			"monsterFluff": [
+				"TheMonstersKnowWhatTheyreDoing"
+			]
+		}
+	},
+	"monster": [
+		{
+			"name": "Goblin",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 23,
+
+			"_copy": {
+				"name": "Goblin",
+				"source": "MM",
+
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A typical goblin combat turn goes {@footnote Shortbow (action), move, Hide (bonus action)|The sequence is important. Whenever possible, a goblin must end its turn hidden; otherwise, it's vulnerable. Move/Hide/Shortbow would achieve the same offensive result but leave the goblin exposed to retaliation between turns.}. Because they attack from hiding, they roll with advantage. Regardless of whether they hit or miss, the attack gives their position away, so they change it immediately, because they can.",
+								"Being a Small creature, a goblin has a good chance of Hiding successfully behind the trunk of a mature tree; even if it fails, it will still enjoy three-quarters cover (+5 AC). But since you can't hide while someone is looking directly at you, goblins have to use their movement to scramble out of the PCs' field of view, meaning they have to be close enough for their own 30-foot movement speed to describe a significant arc. At the same time, they don't want to be so close that a PC could close the gap between them and attack. So the optimal distance from the targets of their ambush is about 40 feet, no closer—and they don't want to move farther from the PCs than 80 feet, their bows' maximum range for normal shooting."
+							]
+						}
+					}
+				},
+				"_preserve": {
+				"environment": true
+			}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Goblin",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Goblin.png"
+		},
+		{
+			"name": "Goblin Boss",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 26,
+
+			"_copy": {
+				"name": "Goblin Boss",
+				"source": "MM",
+
+				"_mod": {
+					"reaction": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A creature like this, even if it fights in melee, is obnoxiously focused on self- preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has \"meat cover\" against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",
+								"If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Goblin Boss",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Goblin%20Boss.png"
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 27,
+
+			"_copy": {
+				"name": "Hobgoblin",
+				"source": "MM",
+
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>Hobgoblins move and attack at night, when their darkvision gives them an advantage over PCs without it; if they don't have the advantage of darkness, they'll attack only with at least a two-to-one numerical advantage. In groups consisting only of hobgoblins, they move in tight teams of four to six. If there are multiple such teams, one consists of archers, positioned between 60 and 150 feet from the action. With goblin troops, they have to be careful: Hobgoblins don't lack the courage to fight on the front line, but they know that goblins do. Rather than set an example that the goblins won't follow, they give commands from behind the front line, where they can keep an eye on the goblins and shoot at opponents with their longbows. Martial Advantage helps them in this instance, even though they're not engaged in melee themselves, as long as they're choosing targets that the goblins are engaging in melee.",
+								"The more hobgoblin teams that are engaged in melee, the more sophisticated tactics they'll use. For instance, if there are three, one engages directly, one shoots from a distance, and one moves to whichever flank looks weaker before engaging. If there are four, one moves to each flank. Five or more try to encircle the PCs. These movements take place before the battle begins—hobgoblins are intelligent and disciplined enough to prepare. They also take place at a sufficient distance that their lack of Stealth won't be a hindrance.",
+								"Hobgoblins don't flee when they're losing; they execute an orderly retreat. When at least two hobgoblins in a team are seriously injured (reduced to 4 hp or fewer) or killed, the team begins to fall back, starting with the most injured hobgoblins. These Disengage and retreat at their full movement speed. On the next round, the two next-most injured Disengage and also retreat at their full movement speed, while the previous two fall back only 5 feet, so as to remain in contact with the hobgoblins that are now joining them. Meanwhile, in this round, the hobgoblin archer team, if there is one, notices the retreat and focuses its arrows on any potential pursuers, in order to cover the retreat. On the third round, any hobgoblins left in the team Disengage and retreat at full movement speed, joining up with those that have already retreated. They carry out this same maneuver repeatedly, until no enemy is engaging with them anymore."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin.png"
+		},
+		{
+			"name": "Hobgoblin Captain",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 29,
+
+			"_copy": {
+				"name": "Hobgoblin Captain",
+				"source": "MM",
+
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A hobgoblin captain is an extra-tough hobgoblin with Multiattack and Leadership. The Leadership feature is incredible: For 1 minute (that is, 10 rounds), as long as the hobgoblin captain isn't incapacitated, every allied creature within 30 feet of it gets a 1d4 buff on attack rolls and saving throws. It activates this feature just before melee combat begins, so as not to pass up its own attack action. In other respects, it fights as an ordinary hobgoblin. If there are multiple hobgoblin groups but only one hobgoblin captain, it's attached to the main melee group. Hobgoblin captains don't wield bows, but they do carry javelins. They'll hurl one of these at a fleeing opponent rather than break ranks to give chase."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin Captain",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin%20Captain.png"
+		},
+		{
+			"name": "Hobgoblin Warlord",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 29,
+
+			"_copy": {
+				"name": "Hobgoblin Warlord",
+				"source": "MM",
+
+				"_mod": {
+					"reaction": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent prone, and it can Parry a melee blow.",
+								"Parry adds +3 to AC as a reaction, so the decision of when to use it is easy: when a player rolls between 20 and 22 on an attack (assuming the hobgoblin warlord hasn't already used its reaction on something else, of course).",
+								"Hobgoblins aren't dumb; hobgoblin warlords even less so. They know from experience that a weak opponent (one with a negative Strength modifier) usually won't withstand a Shield Bash, but a stronger opponent often will. However, they also know that if one or more of their allies can land melee attacks on a prone target before they get up—if the advantage applies to their allies' attack rolls as well, not just to the hobgoblin warlord's two attacks—then the expected value of Shield Bash is much more likely to exceed its opportunity cost. Also, in most instances, if an ally of a hobgoblin warlord is near enough to take whacks at its target, it's near enough for the warlord's Martial Advantage trait to kick in, which nearly triples the average damage of one of its Longsword attacks and roughly doubles the average total of the two together. Plus, if the ally is also a hobgoblin, its own Martial Advantage comes into play as well. Add it all together, and the Shield Bash tactic becomes effective enough to try even when it has as little as a one-in-three chance of success."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin Warlord",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin%20Warlord.png"
+		},
+		{
+			"name": "Bugbear",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 30,
+		
+			"_copy": {
+				"name": "Bugbear",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>Bugbears are stealthy, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It’s indiscriminate in its target selection: It attacks whoever it can get at first. It doesn’t distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.",
+								"Bugbears carry two weapons: morning star and javelin. They don’t fear in- your-face confrontation, and the morning star does more damage, so the only reason for them to use javelins is if for some reason they can’t get close enough to whomever they want to attack.",
+								"Bugbears love mayhem and will chase down a fleeing opponent. Their survival instinct, however, is powerful. If one is seriously wounded (reduced to 10 hp or fewer), it will become confused and flee, using the Dash action and potentially exposing itself to one or more opportunity attacks."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Bugbear",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Bugbear.png"
+		},
+		{
+			"name": "Bugbear Chief",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 31,
+		
+			"_copy": {
+				"name": "Bugbear Chief",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A bugbear chief is an exceptional member of the species, with Multiattack and the Heart of Hruggek trait, which gives it advantage on saving throws against a variety of conditions. It also has Intimidation +2, so one might suppose that a group of bugbears led by a bugbear chief would initiate a \"parley\" (consisting mostly of taunts and threats) at the beginning of an encounter. However, bugbears’ Stealth proficiency is one of their advantages, so why would they blow their cover simply to hurl taunts and threats? Bugbear chiefs have Intelligence 11 and Wisdom 12; that’s not the sort of mistake they’d make. There can’t be many circumstances in which a party of adventurers and a bugbear chief would have anything like a purposeful conversation, but I can think of a few: Maybe, somehow, the party has managed to surprise the bugbears rather than vice versa. Maybe one side is besieging the other, and they’ve reached a stalemate. Maybe the PCs are high-level enough that the bugbear chief realizes it will be hard to win a fight against them, yet they still have something the bugbears want. (Of course, the bugbear chief’s idea of \"negotiation\" will still consist mainly of demands, threats, and insults.)"
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Bugbear Chief",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Bugbear%20Chief.png"
+		},
+		{
+			"name": "Kobold",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 31,
+		
+			"_copy": {
+				"name": "Kobold",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A kobold attack begins as an ambush: Hiding kobolds (which aren’t exceptionally stealthy but may gain the element of surprise anyway, since they have decently high Dexterity and live in dark places) pop up and pelt the party with sling stones from 20 to 30 feet away in order to soften them up. This lasts until either the player characters close with the kobolds or the kobolds have lost any advantage they had, such as the PCs being restrained by a trap or blinded by darkness. At this point, the kobolds surge forward and engage in melee.",
+								"Kobold melee combat is all about swarming. No kobold will ever fight an enemy hand-to-hand by itself, not even one its own size. Any kobold that’s the only one left fighting a single foe retreats, possibly regrouping with other kobolds fighting a different foe. However, a seriously wounded kobold (1 or 2 hp remaining) turns and runs. It’s not smart enough to Disengage to avoid an opportunity attack; it Dashes instead. If at any point the attacking kobolds no longer outnumber the front-line PCs by at least three to one, they’ll withdraw. They can’t do much damage on their own—on average, just 4 hp per hit—so they have to make every attack count. But kobolds using Pack Tactics against a target wearing chain mail can still deal damage two times out of three."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Kobold",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Kobold.png"
+		},
+		{
+			"name": "Winged Kobold",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 32,
+		
+			"_copy": {
+				"name": "Winged Kobold",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>Because they can fly, they can sustain the ranged-ambush phase longer… unless they run out of rocks to throw. Their flying movement is enough to allow them to swoop down, grab a rock, swoop back up, and throw the rock, but if the PCs block their access to the rocks, so much for that. They also have two more hit points than regular kobolds, but that makes no difference with respect to when they’ll flee."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Winged Kobold",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Winged%20Kobold.png"
+		},
+		{
+			"name": "Orc",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 33,
+		
+			"_copy": {
+				"name": "Orc",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>Orcs initiate combat by charging, using Aggressive (bonus action) plus their movement to close the distance between themselves and the party’s front line, followed immediately by attacking with their greataxes (action). From this point on, it’s a slugfest. As long as the orcs aren’t seriously injured, they keep fighting, using their Greataxe action every round and moving on to the next PC back if they hew down one in the front line. If there’s a PC between 30 and 60 feet past the one the orc has just felled, it has a chance to use Aggressive again—so why not?", "Despite their aggression and stupidity, even orcs know when they’re overmatched. Depending on how you, the DM, believe that this particular group of orcs should act, a seriously injured orc (reduced to 6 hp or fewer) may be willing to fight to the death for honor’s sake, or it may possess more of a will to survive, in which case it will Disengage and retreat its full movement distance. (My own inclination is to have orcs that see their fellows retreating successfully be more willing to retreat themselves, while orcs whose fellows have been slain will fight to the death themselves.) An orc that finds itself fighting two or more foes rather than just one tries to reposition itself so that it has to fight only one, if possible. Since this will always involve moving out of at least one opponent’s reach, there are three possible ways: Dodge, then reposition; Disengage, then reposition; or reposition, risking an opportunity strike, then attack. The first two, frankly, strike me as un-orc-like, while the third strikes me as very orc-like. If there’s no way for the orc to evade its extra attackers without their simply closing with it again, then Disengage/retreat seems like the most likely response—either that or, if its fellows have been slain, fiercely fighting to the death."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Orc",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Orc.png"
+		},
+		{
+			"name": "Orog",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 35,
+		
+			"_copy": {
+				"name": "Orog",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>The orog is a much stronger, tougher, and smarter variant with many more hit points and two swings per Multiattack action. Ordinary orcs aren’t smart enough to strategize, but orogs are. A group of orcs that includes one or more orogs and that knows the PCs are in the area doesn’t go after them right away but rather waits until nightfall, to take advantage of the orcs’ darkvision: In darkness, PCs who lack darkvision are effectively blinded and make attack rolls with disadvantage, while the orcs have advantage on their own attack rolls. Orogs also have the sense to Disengage before repositioning in melee combat and may even order regular orcs to do the same. However, their Wisdom is no higher than that of a regular orc, so they’re prone to the same \"death before dishonor\" attitude when they’re low on hit points."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Orog",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Orog.png"
+		},
+		{
+			"name": "Orc War Chief",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 35,
+		
+			"_copy": {
+				"name": "Orc War Chief",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>An orc war chief is a formidable opponent, even more so than an orog. It possesses the orog’s Strength and Constitution, a high Charisma, less Intelligence than an orog but more than an average orc, Multiattack ability, and proficiency bonuses on several types of saving throws, plus two fearsome features: Gruumsh’s Fury and Battle Cry. The orc war chief will prefer to use Battle Cry rather than charge with its troops and Multiattack when it commands a force of no fewer than ten ordinary orcs. All that being said, the Battle Cry action also allows the orc war chief to make a single attack as a bonus action, meaning that if it’s already next to an enemy, it’s giving up only one of its two potential attacks. So if the war chief is fighting alongside five or more other orcs, but fewer than ten, it still uses Battle Cry—after it’s already charged with the rest of its band."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Orc War Chief",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Orc%20War%20Chief.png"
+		},
+		{
+			"name": "Orc Eye of Gruumsh",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 37,
+		
+			"_copy": {
+				"name": "Orc Eye of Gruumsh",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>The orc Eye of Gruumsh, a battlefield cleric. Smarter and wiser than an ordinary orc but not any stronger or tougher, the Eye of Gruumsh is distinguished most by its spellcasting ability. The variety of spells at its disposal potentially makes the Eye of Gruumsh’s combat strategy much more complex, so we need to take a look at the effects and effectiveness of each spell and how it fits into the Eye of Gruumsh’s action economy.", "One spell stands out: spiritual weapon. Unlike all the Eye of Gruumsh’s other spells, this one is cast as a bonus action and, in addition, gives the caster a new bonus action to use every round. This completely changes the Eye of Gruumsh’s action economy. The Eye of Gruumsh still charges with all the other orcs, because otherwise, its Aggressive trait would be wasted. But on its second combat round it casts spiritual weapon as a bonus action, and on every subsequent round (up to the spell’s 1-minute duration) it continues to use its bonus action, again and again, to attack tougher or harder-to-reach opponents with the Floating Spear of Glowy Force.", "An orc Eye of Gruumsh forgoes its own Spear action in order to cast command against a foe that’s within reach of four or more ordinary orcs, or two or more plus a leader. It issues the command \"Scram!\" (equivalent to Flee) in order to provoke an opportunity attack from every orc that can reach the target."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Orc Eye of Gruumsh",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Orc%20Eye%20of%20Gruumsh.png"
+		},
+		{
+			"name": "Gnoll",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 39,
+		
+			"_copy": {
+				"name": "Gnoll",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>As creatures with high Strength, high-average Dexterity, average Constitution, and a respectable five hit dice, gnolls are shock troops. When they spot a vulnerable target, most likely during a nighttime patrol ({@sense darkvision} provides advantage on attack rolls against PCs who don't have it), they strike at once. They're fearless and aggressive, using their full movement speed to approach their targets, then attacking with spears; if one such attack reduces an enemy to 0 hp, the gnoll Rampages toward another enemy within 15 feet and bites it (bonus action).",                     "As vicious as they are, however, gnolls are creatures of instinct without ideology, and they place their own survival over such concepts as valor or honor. If one is seriously wounded (reduced to 8 hp or fewer), it turns tail and flees, using the {@action Dash} action to get away as fast as possible and potentially exposing itself to one or more opportunity attacks in the process."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll.png"
+		},
+		{
+			"name": "Gnoll Pack Lord",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 40,
+		
+			"_copy": {
+				"name": "Gnoll Pack Lord",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>A pack of gnolls may be led by a gnoll pack lord, which is a more able specimen in every respect, including getting two swings per Multiattack action and having the Incite Rampage feature. (It also wields a glaive, which I have to imagine\u2014given that even the gnoll pack lord's Intelligence is only 8\u2014consists of a pillaged sword lashed to the end of a spear. By gnoll standards, this surely qualifies as technological genius.)",                     "Incite Rampage is part of the gnoll pack lord's Multiattack combo, so the gnoll pack lord doesn't have to forgo attacking to use it. Effectively, what Incite Rampage does is grant another gnoll in the pack (a technicality in the wording of Incite Rampage restricts its application to other gnolls, plus giant hyenas, since these are the only creatures with Rampage) the equivalent of an immediate opportunity attack against its opponent. This happens during the gnoll pack lord's action. Incite Rampage consumes that gnoll's reaction, so if its opponent moves out of its reach, it can't make an actual opportunity attack.",                     "Aside from this feature, the only other distinctive thing about the gnoll pack lord is the fact that its \"glaive\" (snicker) gives it 10 feet of reach rather than 5 feet. None of this makes the gnoll pack lord's tactics any more elaborate than a regular gnoll's."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll Pack Lord",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll%20Pack%20Lord.png"
+		},
+		{
+			"name": "Gnoll Fang of Yeenoghu",
+			"source": "TheMonstersKnowWhatTheyreDoingHTML",
+			"page": 40,
+		
+			"_copy": {
+				"name": "Gnoll Fang of Yeenoghu",
+				"source": "MM",
+		
+				"_mod": {
+					"action": {
+						"mode": "appendArr",
+						"items": {
+							"entries": [
+								"<h3 class=\"mon__sect-header-inner\" style=\"font-style:normal;border-bottom:1px solid #822000;margin: 0.4rem 0 0.5rem;display: inline-block;width: 100%;line-height: 1.1;\">Tactics</h3><p>At first blush, the gnoll Fang of Yeenoghu also appears to be little more than an exceptionally able gnoll, with a Claw/Claw/Bite Multiattack in lieu of weapons. But the Fang of Yeenoghu has some actual intelligence, so it maneuvers around the battlefield and targets vulnerable PCs, particularly those who dish out a lot of damage but can't take it. Gnolls sense weakness and zero in on it, so assume that the Fang of Yeenoghu can \"read\" a PC's hit points and Armor Class and strike accordingly. This also allows the Fang of Yeenoghu to maximize the value of its Rampage feature, because by targeting PCs with fewer hit points first, it increases its chances of getting to Rampage more than once."
+							]
+						}
+					}
+				},
+					"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll Fang of Yeenoghu",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll%20Fang%20of%20Yeenoghu.png"
+		}
+	]
+}
