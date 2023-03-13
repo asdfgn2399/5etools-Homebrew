@@ -486,6 +486,46 @@
 									"entries": [
 										"The goblin boss is distinguished from ordinary goblins by its Multiattack and Redirect Attack features and by the fact that it doesn't use a bow. Additionally, the Redirect Attack action is useful only in a context in which goblins are fighting side by side rather than in an ambush or skirmish. Based on this, I conclude that goblin bosses are found only in goblin lairs\u2014caves, ruins, what have you\u2014where large numbers of goblins can fight in close quarters.",     "By the way, have you read that Redirect Attack feature? The goblin boss uses its reaction to avoid a hit on itself and to cause it to land on one of its goblin minions instead. What a jerk! Here's a critter that's stronger, better at absorbing damage, and capable of landing more blows than most of its kind, and yet it possesses no notion of carrying the team. \"Aw, sorry about that, Jixto! Send me a postcard from Hades!\"",     "A creature like this, even if it fights in melee, is obnoxiously focused on self-preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has \"meat cover\" against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",     "If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
 									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Hobgoblin|TheMonstersKnowWhatTheyreDoing}",
+									"page": 27,
+									"entries": [
+										"Hobgoblins are very different from goblins\u2014they're natural soldiers, tough and disciplined where goblins are squishy, lazy, and craven. They have no physical weakness, they're intelligent enough to make and use swords and bows and to conduct reconnaissance, and their Martial Advantage trait gives them bonus damage for fighting in close formation. On the other hand, they have no {@skill Stealth} proficiency and no Nimble Escape.",     "Hobgoblins move and attack at night, when their {@sense darkvision} gives them an advantage over PCs without it; if they don't have the advantage of darkness, they'll attack only with at least a two-to-one numerical advantage. In groups consisting only of hobgoblins, they move in tight teams of four to six. If there are multiple such teams, one consists of archers, positioned between 60 and 150 feet from the action. With goblin troops, they have to be careful: Hobgoblins don't lack the courage to fight on the front line, but they know that goblins do. Rather than set an example that the goblins won't follow, they give commands from behind the front line, where they can keep an eye on the goblins and shoot at opponents with their longbows. Martial Advantage helps them in this instance, even though they're not engaged in melee themselves, as long as they're choosing targets that the goblins are engaging in melee.",     "The more hobgoblin teams that are engaged in melee, the more sophisticated tactics they'll use. For instance, if there are three, one engages directly, one shoots from a distance, and one moves to whichever flank looks weaker before engaging. If there are four, one moves to each flank. Five or more try to encircle the PCs. These movements take place before the battle begins\u2014hobgoblins are intelligent and disciplined enough to prepare. They also take place at a sufficient distance that their lack of {@skill Stealth} won't be a hindrance.",     "Hobgoblins don't flee when they're losing; they execute an orderly retreat. When at least two hobgoblins in a team are seriously injured (reduced to 4 hp or fewer) or killed, the team begins to fall back, starting with the most injured hobgoblins. These {@action Disengage} and retreat at their full movement speed. On the next round, the two next-most injured {@action Disengage} and also retreat at their full movement speed, while the previous two fall back only 5 feet, so as to remain in contact with the hobgoblins that are now joining them. Meanwhile, in this round, the hobgoblin archer team, if there is one, notices the retreat and focuses its arrows on any potential pursuers, in order to cover the retreat. On the third round, any hobgoblins left in the team {@action Disengage} and retreat at full movement speed, joining up with those that have already retreated. They carry out this same maneuver repeatedly, until no enemy is engaging with them anymore.",     "Despite being the very model of discipline otherwise, according to the Monster Manual, hobgoblins flip their lids when they see an elf. They attack elves first, \"even if doing so would be a tactical error.\" Does this mean they'll charge into combat prematurely, during daylight, with inadequate reconnaissance, just because they see an elf in the party's camp? That's the DM's call. You could play them this way, but given the extent to which they're built up as being militarily savvy, I'd say that before the action starts, their disciplined nature prevails\u2014they simply construct their battle plans around taking out the elves first. Once the battle commences, though, maybe they allow a human warrior to score free hits on them while they concentrate their attacks on an elf warrior. Maybe the hobgoblin archers keep shooting at an elf mage when they should be covering their fellow hobgoblins' retreat. Maybe the sudden appearance of an elf rogue in its midst causes a hobgoblin melee group to forget what it was doing entirely and fixate on getting that elf. Or maybe they hold true to their disciplined nature, elf or no elf."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Hobgoblin Captain|TheMonstersKnowWhatTheyreDoing}",
+									"page": 29,
+									"entries": [
+										"A hobgoblin captain is an extra-tough hobgoblin with Multiattack and Leadership. The Leadership feature is incredible: For 1 minute (that is, 10 rounds), as long as the hobgoblin captain isn't {@condition incapacitated}, every allied creature within 30 feet of it gets a {@dice 1d4} buff on attack rolls and saving throws. It activates this feature just before melee combat begins, so as not to pass up its own attack action. In other respects, it fights as an ordinary hobgoblin. If there are multiple hobgoblin groups but only one hobgoblin captain, it's attached to the main melee group. Hobgoblin captains don't wield bows, but they do carry javelins. They'll hurl one of these at a fleeing opponent rather than break ranks to give chase."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Hobgoblin Warlord|TheMonstersKnowWhatTheyreDoing}",
+									"page": 29,
+									"entries": [
+										"A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent {@condition prone}, and it can Parry a melee blow.",     "Parry adds +3 to AC as a reaction, so the decision of when to use it is easy: when a player rolls between 20 and 22 on an attack (assuming the hobgoblin warlord hasn't already used its reaction on something else, of course).",     "Shield Bash requires a little math to analyze. The hobgoblin warlord's Multiattack allows three consecutive melee swings in one action. The Longsword attack does the most damage, so it's the default, but when is Shield Bash a reasonable alternative? Assuming a hit, Shield Bash does, on average, 2 hp less damage than a Longsword attack, so the crux is whether the chance to knock the opponent {@condition prone} is worth these forfeited points. Attacks against a {@condition prone} opponent have advantage, which raises the probability of a hit by an average of about 20 percentage points. If the hobgoblin warlord uses the Multiattack sequence Shield Bash/Longsword/Longsword, this means it will have advantage on two Longsword attacks after a successful bash. The longsword does an {@footnote average of 8 damage on a hit|In fifth edition D&D play, the general rule is to round fractions down. In this book, while analyzing damage probabilistically rather than applying it to a PC or monster, I round fractions to the nearest whole number, with one-half rounded to the nearest even whole number.}, 15 damage on two. Twenty percent of that is 3, so using Shield Bash before striking twice with a longsword increases the expected damage of those two hits by 3 hp\u2014if it works.",     "The trouble is, the DC 14 for Strength saving throws against a Shield Bash isn't very high. Unmodified, the hobgoblin warlord has just shy of a two-thirds chance of knocking its opponent down. Modified by the opponent's Strength\u2014and keep in mind that it's probably the party's toughest front-line fighters who'll confront the hobgoblin warlord\u2014the chance of success recedes to the neighborhood of fifty-fifty, even less against PCs who get to add their proficiency modifiers to their Strength saves.",     "Hobgoblins aren't dumb; hobgoblin warlords even less so. They know from experience that a weak opponent (one with a negative Strength modifier) usually won't withstand a Shield Bash, but a stronger opponent often will. However, they also know that if one or more of their allies can land melee attacks on a {@condition prone} target before they get up\u2014if the advantage applies to their allies' attack rolls as well, not just to the hobgoblin warlord's two attacks\u2014then the expected value of Shield Bash is much more likely to exceed its opportunity cost. Also, in most instances, if an ally of a hobgoblin warlord is near enough to take whacks at its target, it's near enough for the warlord's Martial Advantage trait to kick in, which nearly triples the average damage of one of its Longsword attacks and roughly doubles the average total of the two together. Plus, if the ally is also a hobgoblin, its own Martial Advantage comes into play as well. Add it all together, and the Shield Bash tactic becomes effective enough to try even when it has as little as a one-in-three chance of success."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Bugbear|TheMonstersKnowWhatTheyreDoing}",
+									"page": 30,
+									"entries": [
+										"Bugbears are even stronger than hobgoblins, but they lack hobgoblins' intelligence and discipline. They do formidable melee damage, thanks to their Brute trait (which is like landing a crit with every hit), and their Surprise Attack ability allows them to nova on the first PC they engage. Bugbears are stealthy, too, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It's indiscriminate in its target selection: It attacks whoever it can get at first. It doesn't distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.",     "Bugbears carry two weapons: morning star and javelin. They don't fear in-your-face confrontation, and the morning star does more damage, so the only reason for them to use javelins is if for some reason they can't get close enough to whomever they want to attack.",     "Bugbears love mayhem and will chase down a fleeing opponent. Their survival instinct, however, is powerful. If one is seriously wounded (reduced to 10 hp or fewer), it will become confused and flee, using the {@action Dash} action and potentially exposing itself to one or more opportunity attacks. If by some miracle a group of PCs captures a bugbear alive, it will be humiliated, traumatized, and willing to do just about anything to preserve its own life."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Bugbear|TheMonstersKnowWhatTheyreDoing}",
+									"page": 31,
+									"entries": [
+										"A bugbear chief is an exceptional member of the species, with Multiattack and the Heart of Hruggek trait, which gives it advantage on saving throws against a variety of conditions. It also has {@skill Intimidation} +2, so one might suppose that a group of bugbears led by a bugbear chief would initiate a \"parley\" (consisting mostly of taunts and threats) at the beginning of an encounter. However, bugbears' {@skill Stealth} proficiency is one of their advantages, so why would they blow their cover simply to hurl taunts and threats? Bugbear chiefs have Intelligence 11 and Wisdom 12; that's not the sort of mistake they'd make. There can't be many circumstances in which a party of adventurers and a bugbear chief would have anything like a purposeful conversation, but I can think of a few: Maybe, somehow, the party has managed to surprise the bugbears rather than vice versa. Maybe one side is besieging the other, and they've reached a stalemate. Maybe the PCs are high-level enough that the bugbear chief realizes it will be hard to win a fight against them, yet they still have something the bugbears want. (Of course, the bugbear chief's idea of \"negotiation\" will still consist mainly of demands, threats, and insults.)"
+									]
 								}
 							]
 						},
@@ -613,6 +653,171 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Goblin%20Boss.png"
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 27,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"Hobgoblins have no physical weakness, they're intelligent enough to make and use swords and bows and to conduct reconnaissance, and their Martial Advantage trait gives them bonus damage for fighting in close formation. On the other hand, they have no {@skill Stealth} proficiency and no Nimble Escape.","Hobgoblins move and attack at night, when their {@sense darkvision} gives them an advantage over PCs without it; if they don't have the advantage of darkness, they'll attack only with at least a two-to-one numerical advantage. In groups consisting only of hobgoblins, they move in tight teams of four to six. If there are multiple such teams, one consists of archers, positioned between 60 and 150 feet from the action.","The more hobgoblin teams that are engaged in melee, the more sophisticated tactics they'll use. For instance, if there are three, one engages directly, one shoots from a distance, and one moves to whichever flank looks weaker before engaging. If there are four, one moves to each flank. Five or more try to encircle the PCs. These movements take place before the battle begins\u2014hobgoblins are intelligent and disciplined enough to prepare. They also take place at a sufficient distance that their lack of {@skill Stealth} won't be a hindrance.","Hobgoblins don't flee when they're losing; they execute an orderly retreat. When at least two hobgoblins in a team are seriously injured (reduced to 4 hp or fewer) or killed, the team begins to fall back, starting with the most injured hobgoblins. These {@action Disengage} and retreat at their full movement speed. On the next round, the two next-most injured {@action Disengage} and also retreat at their full movement speed, while the previous two fall back only 5 feet, so as to remain in contact with the hobgoblins that are now joining them. Meanwhile, in this round, the hobgoblin archer team, if there is one, notices the retreat and focuses its arrows on any potential pursuers, in order to cover the retreat. On the third round, any hobgoblins left in the team {@action Disengage} and retreat at full movement speed, joining up with those that have already retreated. They carry out this same maneuver repeatedly, until no enemy is engaging with them anymore."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Hobgoblin",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin.png"
+		},
+		{
+			"name": "Hobgoblin Captain",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 29,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"A hobgoblin captain is an extra-tough hobgoblin with Multiattack and Leadership. The Leadership feature is incredible: For 1 minute (that is, 10 rounds), as long as the hobgoblin captain isn't {@condition incapacitated}, every allied creature within 30 feet of it gets a {@dice 1d4} buff on attack rolls and saving throws. It activates this feature just before melee combat begins, so as not to pass up its own attack action. In other respects, it fights as an ordinary hobgoblin. If there are multiple hobgoblin groups but only one hobgoblin captain, it's attached to the main melee group. Hobgoblin captains don't wield bows, but they do carry javelins. They'll hurl one of these at a fleeing opponent rather than break ranks to give chase."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Hobgoblin Captain",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin Captain",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin%20Captain.png"
+		},
+		{
+			"name": "Hobgoblin Warlord",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 29,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent {@condition prone}, and it can Parry a melee blow.","Parry adds +3 to AC as a reaction, so the decision of when to use it is easy: when a player rolls between 20 and 22 on an attack","A Hobgoblin Warlord will only shield bash against an enemy when it can use its martial advantage on the prone target."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Hobgoblin Warlord",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Hobgoblin Warlord",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Hobgoblin%20Warlord.png"
+		},
+		{
+			"name": "Bugbear",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 30,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"Bugbears are stealthy, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It's indiscriminate in its target selection: It attacks whoever it can get at first. It doesn't distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.","Bugbears love mayhem and will chase down a fleeing opponent. Their survival instinct, however, is powerful. If one is seriously wounded (reduced to 10 hp or fewer), it will become confused and flee, using the {@action Dash} action and potentially exposing itself to one or more opportunity attacks."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Bugbear",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Bugbear",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Bugbear.png"
+		},
+		{
+			"name": "Bugbear",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 31,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"A bugbear chief is an exceptional member of the species, with Multiattack and the Heart of Hruggek trait, which gives it advantage on saving throws against a variety of conditions. It also has {@skill Intimidation} +2, so one might suppose that a group of bugbears led by a bugbear chief would initiate a \"parley\" (consisting mostly of taunts and threats) at the beginning of an encounter. However, bugbears' {@skill Stealth} proficiency is one of their advantages, so why would they blow their cover simply to hurl taunts and threats? Bugbear chiefs have Intelligence 11 and Wisdom 12; that's not the sort of mistake they'd make. There can't be many circumstances in which a party of adventurers and a bugbear chief would have anything like a purposeful conversation, but I can think of a few: Maybe, somehow, the party has managed to surprise the bugbears rather than vice versa. Maybe one side is besieging the other, and they've reached a stalemate. Maybe the PCs are high-level enough that the bugbear chief realizes it will be hard to win a fight against them, yet they still have something the bugbears want. (Of course, the bugbear chief's idea of \"negotiation\" will still consist mainly of demands, threats, and insults.)"
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Bugbear",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Bugbear",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Bugbear.png"
 		}
 	],
 	"monsterFluff": [
@@ -654,6 +859,116 @@
 							"name": "Tactics",
 							"entries": [
 								"The goblin boss is distinguished from ordinary goblins by its Multiattack and Redirect Attack features and by the fact that it doesn't use a bow. Additionally, the Redirect Attack action is useful only in a context in which goblins are fighting side by side rather than in an ambush or skirmish. Based on this, I conclude that goblin bosses are found only in goblin lairs\u2014caves, ruins, what have you\u2014where large numbers of goblins can fight in close quarters.",     "By the way, have you read that Redirect Attack feature? The goblin boss uses its reaction to avoid a hit on itself and to cause it to land on one of its goblin minions instead. What a jerk! Here's a critter that's stronger, better at absorbing damage, and capable of landing more blows than most of its kind, and yet it possesses no notion of carrying the team. \"Aw, sorry about that, Jixto! Send me a postcard from Hades!\"",     "A creature like this, even if it fights in melee, is obnoxiously focused on self-preservation. Fighting in a group, it begins on the front line with everyone else, using its Multiattack action to attack twice with its scimitar (note that the goblin boss's Multiattack has disadvantage on the second swing). As soon as it's taken even one hit, however, it changes tactics: After its Multiattack action, it Disengages (bonus action) and moves 15 feet to a position behind the front line where melee opponents can't reach it and it has \"meat cover\" against ranged attacks. On subsequent rounds, it moves up to 15 feet into a nearby hole in the front line, Multiattacks (action), Disengages (bonus action), and moves back behind the front line again. (If there's no actual hole, remember that it can move through a square occupied by an ally as if it were difficult terrain. Thus, it has just enough movement speed to go through the front line, and back, if it has to.)",     "If the goblin boss's minions are wiped out, it's out of there, and ditto if it's seriously wounded (reduced to 8 hp or fewer)."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Hobgoblin",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Hobgoblins are very different from goblins\u2014they're natural soldiers, tough and disciplined where goblins are squishy, lazy, and craven. They have no physical weakness, they're intelligent enough to make and use swords and bows and to conduct reconnaissance, and their Martial Advantage trait gives them bonus damage for fighting in close formation. On the other hand, they have no {@skill Stealth} proficiency and no Nimble Escape.",     "Hobgoblins move and attack at night, when their {@sense darkvision} gives them an advantage over PCs without it; if they don't have the advantage of darkness, they'll attack only with at least a two-to-one numerical advantage. In groups consisting only of hobgoblins, they move in tight teams of four to six. If there are multiple such teams, one consists of archers, positioned between 60 and 150 feet from the action. With goblin troops, they have to be careful: Hobgoblins don't lack the courage to fight on the front line, but they know that goblins do. Rather than set an example that the goblins won't follow, they give commands from behind the front line, where they can keep an eye on the goblins and shoot at opponents with their longbows. Martial Advantage helps them in this instance, even though they're not engaged in melee themselves, as long as they're choosing targets that the goblins are engaging in melee.",     "The more hobgoblin teams that are engaged in melee, the more sophisticated tactics they'll use. For instance, if there are three, one engages directly, one shoots from a distance, and one moves to whichever flank looks weaker before engaging. If there are four, one moves to each flank. Five or more try to encircle the PCs. These movements take place before the battle begins\u2014hobgoblins are intelligent and disciplined enough to prepare. They also take place at a sufficient distance that their lack of {@skill Stealth} won't be a hindrance.",     "Hobgoblins don't flee when they're losing; they execute an orderly retreat. When at least two hobgoblins in a team are seriously injured (reduced to 4 hp or fewer) or killed, the team begins to fall back, starting with the most injured hobgoblins. These {@action Disengage} and retreat at their full movement speed. On the next round, the two next-most injured {@action Disengage} and also retreat at their full movement speed, while the previous two fall back only 5 feet, so as to remain in contact with the hobgoblins that are now joining them. Meanwhile, in this round, the hobgoblin archer team, if there is one, notices the retreat and focuses its arrows on any potential pursuers, in order to cover the retreat. On the third round, any hobgoblins left in the team {@action Disengage} and retreat at full movement speed, joining up with those that have already retreated. They carry out this same maneuver repeatedly, until no enemy is engaging with them anymore.",     "Despite being the very model of discipline otherwise, according to the Monster Manual, hobgoblins flip their lids when they see an elf. They attack elves first, \"even if doing so would be a tactical error.\" Does this mean they'll charge into combat prematurely, during daylight, with inadequate reconnaissance, just because they see an elf in the party's camp? That's the DM's call. You could play them this way, but given the extent to which they're built up as being militarily savvy, I'd say that before the action starts, their disciplined nature prevails\u2014they simply construct their battle plans around taking out the elves first. Once the battle commences, though, maybe they allow a human warrior to score free hits on them while they concentrate their attacks on an elf warrior. Maybe the hobgoblin archers keep shooting at an elf mage when they should be covering their fellow hobgoblins' retreat. Maybe the sudden appearance of an elf rogue in its midst causes a hobgoblin melee group to forget what it was doing entirely and fixate on getting that elf. Or maybe they hold true to their disciplined nature, elf or no elf."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin Captain",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Hobgoblin Captain",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"A hobgoblin captain is an extra-tough hobgoblin with Multiattack and Leadership. The Leadership feature is incredible: For 1 minute (that is, 10 rounds), as long as the hobgoblin captain isn't {@condition incapacitated}, every allied creature within 30 feet of it gets a {@dice 1d4} buff on attack rolls and saving throws. It activates this feature just before melee combat begins, so as not to pass up its own attack action. In other respects, it fights as an ordinary hobgoblin. If there are multiple hobgoblin groups but only one hobgoblin captain, it's attached to the main melee group. Hobgoblin captains don't wield bows, but they do carry javelins. They'll hurl one of these at a fleeing opponent rather than break ranks to give chase."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Hobgoblin Warlord",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Hobgoblin Warlord",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"A hobgoblin warlord is everything a hobgoblin captain is and more. It can Shield Bash to knock an opponent {@condition prone}, and it can Parry a melee blow.",     "Parry adds +3 to AC as a reaction, so the decision of when to use it is easy: when a player rolls between 20 and 22 on an attack (assuming the hobgoblin warlord hasn't already used its reaction on something else, of course).",     "Shield Bash requires a little math to analyze. The hobgoblin warlord's Multiattack allows three consecutive melee swings in one action. The Longsword attack does the most damage, so it's the default, but when is Shield Bash a reasonable alternative? Assuming a hit, Shield Bash does, on average, 2 hp less damage than a Longsword attack, so the crux is whether the chance to knock the opponent {@condition prone} is worth these forfeited points. Attacks against a {@condition prone} opponent have advantage, which raises the probability of a hit by an average of about 20 percentage points. If the hobgoblin warlord uses the Multiattack sequence Shield Bash/Longsword/Longsword, this means it will have advantage on two Longsword attacks after a successful bash. The longsword does an {@footnote average of 8 damage on a hit|In fifth edition D&D play, the general rule is to round fractions down. In this book, while analyzing damage probabilistically rather than applying it to a PC or monster, I round fractions to the nearest whole number, with one-half rounded to the nearest even whole number.}, 15 damage on two. Twenty percent of that is 3, so using Shield Bash before striking twice with a longsword increases the expected damage of those two hits by 3 hp\u2014if it works.",     "The trouble is, the DC 14 for Strength saving throws against a Shield Bash isn't very high. Unmodified, the hobgoblin warlord has just shy of a two-thirds chance of knocking its opponent down. Modified by the opponent's Strength\u2014and keep in mind that it's probably the party's toughest front-line fighters who'll confront the hobgoblin warlord\u2014the chance of success recedes to the neighborhood of fifty-fifty, even less against PCs who get to add their proficiency modifiers to their Strength saves.",     "Hobgoblins aren't dumb; hobgoblin warlords even less so. They know from experience that a weak opponent (one with a negative Strength modifier) usually won't withstand a Shield Bash, but a stronger opponent often will. However, they also know that if one or more of their allies can land melee attacks on a {@condition prone} target before they get up\u2014if the advantage applies to their allies' attack rolls as well, not just to the hobgoblin warlord's two attacks\u2014then the expected value of Shield Bash is much more likely to exceed its opportunity cost. Also, in most instances, if an ally of a hobgoblin warlord is near enough to take whacks at its target, it's near enough for the warlord's Martial Advantage trait to kick in, which nearly triples the average damage of one of its Longsword attacks and roughly doubles the average total of the two together. Plus, if the ally is also a hobgoblin, its own Martial Advantage comes into play as well. Add it all together, and the Shield Bash tactic becomes effective enough to try even when it has as little as a one-in-three chance of success."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Bugbear",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Bugbear",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Bugbears are even stronger than hobgoblins, but they lack hobgoblins' intelligence and discipline. They do formidable melee damage, thanks to their Brute trait (which is like landing a crit with every hit), and their Surprise Attack ability allows them to nova on the first PC they engage. Bugbears are stealthy, too, so despite being brute fighters, they fit in well with the ambush strategy that goblins employ. The difference is, while goblins engage in hit-and-run sniper attacks, the bugbear lies hidden until its foe comes within reach (or creeps up on its foe unseen until it comes within reach), then springs out and smashes it to a pulp. It's indiscriminate in its target selection: It attacks whoever it can get at first. It doesn't distinguish between targets that look weaker and targets that look stronger. To the bugbear, they all look weak.",     "Bugbears carry two weapons: morning star and javelin. They don't fear in-your-face confrontation, and the morning star does more damage, so the only reason for them to use javelins is if for some reason they can't get close enough to whomever they want to attack.",     "Bugbears love mayhem and will chase down a fleeing opponent. Their survival instinct, however, is powerful. If one is seriously wounded (reduced to 10 hp or fewer), it will become confused and flee, using the {@action Dash} action and potentially exposing itself to one or more opportunity attacks. If by some miracle a group of PCs captures a bugbear alive, it will be humiliated, traumatized, and willing to do just about anything to preserve its own life."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Bugbear",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Bugbear",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"A bugbear chief is an exceptional member of the species, with Multiattack and the Heart of Hruggek trait, which gives it advantage on saving throws against a variety of conditions. It also has {@skill Intimidation} +2, so one might suppose that a group of bugbears led by a bugbear chief would initiate a \"parley\" (consisting mostly of taunts and threats) at the beginning of an encounter. However, bugbears' {@skill Stealth} proficiency is one of their advantages, so why would they blow their cover simply to hurl taunts and threats? Bugbear chiefs have Intelligence 11 and Wisdom 12; that's not the sort of mistake they'd make. There can't be many circumstances in which a party of adventurers and a bugbear chief would have anything like a purposeful conversation, but I can think of a few: Maybe, somehow, the party has managed to surprise the bugbears rather than vice versa. Maybe one side is besieging the other, and they've reached a stalemate. Maybe the PCs are high-level enough that the bugbear chief realizes it will be hard to win a fight against them, yet they still have something the bugbears want. (Of course, the bugbear chief's idea of \"negotiation\" will still consist mainly of demands, threats, and insults.)"
 							]
 						}
 					}
