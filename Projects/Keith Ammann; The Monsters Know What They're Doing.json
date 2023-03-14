@@ -1062,6 +1062,105 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Orc%20Eye%20of%20Gruumsh.png"
+		},
+		{
+			"name": "Gnoll",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 39,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"As creatures with high Strength, high-average Dexterity, average Constitution, and a respectable five hit dice, gnolls are shock troops. When they spot a vulnerable target, most likely during a nighttime patrol ({@sense darkvision} provides advantage on attack rolls against PCs who don't have it), they strike at once. They're fearless and aggressive, using their full movement speed to approach their targets, then attacking with spears; if one such attack reduces an enemy to 0 hp, the gnoll Rampages toward another enemy within 15 feet and bites it (bonus action).", "As vicious as they are, however, gnolls are creatures of instinct without ideology, and they place their own survival over such concepts as valor or honor. If one is seriously wounded (reduced to 8 hp or fewer), it turns tail and flees, using the {@action Dash} action to get away as fast as possible and potentially exposing itself to one or more opportunity attacks in the process."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Gnoll",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll.png"
+		},
+		{
+			"name": "Gnoll Pack Lord",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 40,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"A pack of gnolls may be led by a gnoll pack lord, which is a more able specimen in every respect, including getting two swings per Multiattack action and having the Incite Rampage feature. (It also wields a glaive, which I have to imagine\u2014given that even the gnoll pack lord's Intelligence is only 8\u2014consists of a pillaged sword lashed to the end of a spear. By gnoll standards, this surely qualifies as technological genius.)", "Incite Rampage is part of the gnoll pack lord's Multiattack combo, so the gnoll pack lord doesn't have to forgo attacking to use it. Effectively, what Incite Rampage does is grant another gnoll in the pack (a technicality in the wording of Incite Rampage restricts its application to other gnolls, plus giant hyenas, since these are the only creatures with Rampage) the equivalent of an immediate opportunity attack against its opponent. This happens during the gnoll pack lord's action. Incite Rampage consumes that gnoll's reaction, so if its opponent moves out of its reach, it can't make an actual opportunity attack.", "Aside from this feature, the only other distinctive thing about the gnoll pack lord is the fact that its \"glaive\" (snicker) gives it 10 feet of reach rather than 5 feet. None of this makes the gnoll pack lord's tactics any more elaborate than a regular gnoll's."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Gnoll Pack Lord",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll Pack Lord",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll%20Pack%20Lord.png"
+		},
+		{
+			"name": "Gnoll Fang of Yeenoghu",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 40,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"At first blush, the gnoll Fang of Yeenoghu also appears to be little more than an exceptionally able gnoll, with a Claw/Claw/Bite Multiattack in lieu of weapons. But the Fang of Yeenoghu has some actual intelligence, so it maneuvers around the battlefield and targets vulnerable PCs, particularly those who dish out a lot of damage but can't take it. Gnolls sense weakness and zero in on it, so assume that the Fang of Yeenoghu can \"read\" a PC's hit points and Armor Class and strike accordingly. This also allows the Fang of Yeenoghu to maximize the value of its Rampage feature, because by targeting PCs with fewer hit points first, it increases its chances of getting to Rampage more than once."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Gnoll Fang of Yeenoghu",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Gnoll Fang of Yeenoghu",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Gnoll%20Fang%20of%20Yeenoghu.png"
 		}
 	],
 	"monsterFluff": [
