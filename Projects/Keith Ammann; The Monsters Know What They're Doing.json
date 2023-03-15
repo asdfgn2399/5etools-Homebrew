@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678837122,
+		"dateLastModified": 1678837172,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -123,6 +123,14 @@
 							"depth": 2
 						},
 						"Lizardfolk",
+						{
+							"header": "Lizardfolk",
+							"depth": 2
+						},
+						{
+							"header": "Lizardfolk Shaman",
+							"depth": 2
+						},
 						"Yuan-ti",
 						"Bullywugs",
 						"Kuo-toa",
@@ -624,6 +632,29 @@
 									"entries": [
 										"At first blush, the gnoll Fang of Yeenoghu also appears to be little more than an exceptionally able gnoll, with a Claw/Claw/Bite Multiattack in lieu of weapons. But the Fang of Yeenoghu has some actual intelligence, so it maneuvers around the battlefield and targets vulnerable PCs, particularly those who dish out a lot of damage but can't take it. Gnolls sense weakness and zero in on it, so assume that the Fang of Yeenoghu can \"read\" a PC's hit points and Armor Class and strike accordingly. This also allows the Fang of Yeenoghu to maximize the value of its Rampage feature, because by targeting PCs with fewer hit points first, it increases its chances of getting to Rampage more than once. If you're a tenderhearted DM who wants to protect the fragile flowers in your players' party, don't throw a Fang of Yeenoghu at them, because that thing's gotta follow its nature.",
 										"One other detail about the gnoll Fang of Yeenoghu, which has nothing to do with its tactics but is still worth noting: Unlike gnolls and gnoll pack lords, the Fang of Yeenoghu isn't categorized as a humanoid. It's a fiend, and as such it's detectable by a paladin's Divine Sense or a ranger's Primeval Awareness, and a protection from evil and good spell offers defense against it."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lizardfolk",
+							"page": 41,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "{@creature Lizardfolk|TheMonstersKnowWhatTheyreDoing}",
+									"page": 41,
+									"entries": [
+										"Lizardfolk aren't sophisticated, but they are significantly tougher than goblins, kobolds, and orcs. According to the Monster Manual flavor text, their most salient behavioral trait is their territoriality, followed by their generally acting like South Seas cannibals in a movie from the 1940s. On the flip side, the text does acknowledge that lizardfolk may occasionally form alliances with outsiders, but we'll set that aside, since it's not going to influence their combat tactics.",     "Lizardfolk, like orcs, are brutes: average Dexterity, high Strength and Constitution. They're also proficient in {@skill Perception} and {@skill Stealth}, and they're more or less amphibious\u2014they can't breathe underwater, but they can hold their breath for up to 15 minutes, and they can swim as fast as they can move on land.",     "Based on this information, the most likely lizardfolk encounter scenario is with a group of scouts patrolling the outskirts of their territory. They'll be alert to intruders\u2014it's why they're out there. Once they notice intruders, they start stalking them (from cover to cover if on land, underwater if in a swamp), until they're close enough to attack. Then they strike first, with surprise if possible.",     "The lizardfolk's Multiattack action specifies, \"The lizardfolk makes two melee attacks, each one with a different weapon.\" The choices available are Bite, Heavy Club, Javelin, and Spiked Shield. Honestly, the only combinations of these that don't strike me as silly are Heavy Club/Spiked Shield and Javelin/Spiked Shield. The lizardfolk's upright physiology makes the idea of their lunging to bite absurd, let alone lunging to bite in combination with swinging or thrusting a melee weapon. Of course, it's all cosmetic, since every one of the lizardfolk's attacks has the same attack modifier and deals the same damage; the only difference is whether the damage done is bludgeoning (the club) or piercing (everything else), and even that isn't a real difference unless a PC is covered by a magic item or spell that provides resistance to one type of damage and not the other. Let's just say that a lizardfolk's Multiattack action consists of one weapon strike and one shield bash and leave it at that.",     "Lizardfolk don't have any feature that grants them bonus actions or unique reactions, and their Intelligence is low, so we can assume that they fight like primitives: They pick an enemy, they bash that enemy, and they keep going until the enemy is dead or they're seriously wounded themselves (reduced to 8 hp or fewer). At that point, whether they keep fighting depends entirely on whether or not they're within their own territory. If they are, they keep fighting to the death.",     "If they're not\u2014if they were scouting beyond their borders, or if they were on a raid\u2014they {@action Dash} back toward their own territory as fast as they can, potentially incurring one or more opportunity attacks. Instinctively, they always attack from the direction of their own territory and position themselves with their backs toward it. They may ambush, but they don't flank.",     "Long-range weapon attacks confuse them, and magic awes and terrifies them. A lizardfolk shot by an arrow or crossbow bolt instinctively moves in the direction of its territory. (If it's already within its territory, it moves toward the center of that territory.) Depending on the type of spell, the damage it does, whether the lizardfolk can see the caster, and whether they can get to them, they either try to rush the caster or run for their lives. Rushing is more likely if they can see the caster, the spell does no more than light damage (5 or less), and/or there's no other PC in the way. Running is more likely if they can't tell where the spell came from, the spell does serious damage (14 or more), and/or there are too many enemies between themselves and the caster.",     "Lizardfolk never surrender voluntarily: They assume that they'll be killed. However, lizardfolk who are subdued and captured are impassive about it and will talk to their captors, if any of them speaks Draconic, without sullenness or bluster. That being said, they'll also turn against their captors in a heartbeat if their chances of success look good. An unarmed lizardfolk will bite, as well as grab the nearest handy object to use as an improvised weapon."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Lizardfolk Shaman|TheMonstersKnowWhatTheyreDoing}",
+									"page": 42,
+									"entries": [
+										"A lizardfolk shaman is basically a reskinned druid. It's distinguished by its spellcasting and shape-changing abilities, the latter of which is restricted to the form of a crocodile. That's pretty good, compared with most of the spells the lizardfolk shaman can cast. But one of its spells is so effective that the crocodile form has to be considered a secondary self-defense measure.",     "That spell is conjure animals, which requires {@status concentration} and therefore prevents the lizardfolk shaman from casting its other most potentially effective spell, entangle. But by itself, conjure animals should give a party of PCs pause. It allows the shaman to summon one CR 2, two CR 1, four CR 1/2, or eight CR 1/4 reptiles. There's no CR 1 reptile in the Monster Manual, but check out the other options:",     {       "type": "list",       "items": [         "One {@creature Swarm of poisonous snakes}",         "Four {@creature crocodile|MM|Crocodiles}",         "Eight {@creature constrictor snake|MM|Constrictor snakes}",         "Eight {@creature giant lizard|MM|Giant lizards}",         "Eight {@creature giant poisonous snake|MM|Giant poisonous snakes}"       ]     },     "You can consider the different abilities these creatures have (crocs and constrictor snakes can grapple, giant lizards are tanks, giant poisonous snakes deal heavy damage), but you can also feel free to base your decision entirely on the emotional reaction you want to elicit from your players: Do you want ickycreepyget-it-away-from-me (one square full of writhing danger noodles), moderate freakout (four crocs), or full-scale panic attack (eight king cobras)?",     "From the caster's point of view, \"more\" usually trumps \"better.\" More creatures mean more attacks, and summoning four or eight rather than just one will bump up the encounter multiplier by one or two levels, unless the lizardfolk group already substantially outnumbers the PCs (see the Encounter Multipliers table, Dungeon Master's Guide, chapter 3).",     "Therefore, unless you're specifically looking to elicit a different reaction, the first thing the lizardfolk shaman is going to do once an encounter commences is cast conjure animals to call up as much reptilian backup as possible. After that, the shaman doesn't enter melee combat\u2014not that it couldn't, being just as strong and tough as any other lizardfolk, but unlike them, it's smart enough to know that if it took a solid hit, its {@status concentration} could be broken, and then there'd go the cobras. Instead, the shaman lobs produce flame cantrips (which do {@damage 2d8} fire damage rather than {@dice 1d8}, because the shaman is a level 5 spellcaster) at any enemies within 30 feet. Its fellow lizardfolk, incidentally, aren't afraid of this magic\u2014on the contrary, since the shaman is on their side, they're feeling extra bold and are much more likely to rush an enemy caster rather than run from them. They'll also become mighty salty if anyone dares to assault their shaman.",     "Speaking of enemy casters, if one makes the mistake of coming within 30 feet of the lizardfolk shaman, it casts thorn whip and yanks them forward, so that the other lizardfolk can pound them into jelly.",     "What if the shaman is targeted by a ranged attacker? It's still caught off guard, but its greater mental flexibility allows it to come up with a purposeful response.",     "If its {@status concentration} isn't broken, it sends a couple of the king cobras (or whatever creatures it summoned) after the PC who shot it. If its {@status concentration} is broken, its main contribution to the battle has just been negated, and until it takes care of that marksman, there's not a lot more that it can do: Most of its spells don't have great range. But since its fellow lizardfolk are useless against ranged attackers, the shaman has to take care of the problem itself. In a swamp, it can Change Shape into crocodile form, submerge, and go after the shooter. In jungle, this won't work, because a crocodile has only 20 feet of movement speed over land, so a marksman can easily keep their distance. The shaman will be forced to conclude that the battle is going south and cast fog cloud, either to cover the lizardfolk's escape (if they're outside their territory) or to enshroud the PCs so that the lizardfolk can reposition themselves more advantageously.",     "In general, any time a battle outside their territory goes badly for the lizardfolk\u2014say, at least half of them seriously wounded\u2014the lizardfolk shaman casts fog cloud to help them get away. (Inside their territory, the shaman will have already cast fog cloud on the PCs first, to allow the lizardfolk warriors to sneak up on them quickly.) If the fog cloud is dispelled (by gust of wind, say) while the lizardfolk are retreating, the shaman will follow up with plant growth to slow their pursuers even further. (What about entangle and spike growth? Their utility diminishes significantly in a swamp or jungle, where the terrain is already difficult. And the fact that they also require {@status concentration} forces a choice between one of them and conjure animals or fog cloud, which are clearly superior.)"
 									]
 								}
 							]
@@ -1161,6 +1192,72 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Gnoll%20Fang%20of%20Yeenoghu.png"
+		},
+		{
+			"name": "Lizardfolk",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 41,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"Lizardfolk don't have any feature that grants them bonus actions or unique reactions, and their Intelligence is low, so we can assume that they fight like primitives: They pick an enemy, they bash that enemy, and they keep going until the enemy is dead or they're seriously wounded themselves (reduced to 8 hp or fewer). At that point, whether they keep fighting depends entirely on whether or not they're within their own territory. If they are, they keep fighting to the death.",     "If they're not\u2014if they were scouting beyond their borders, or if they were on a raid\u2014they {@action Dash} back toward their own territory as fast as they can, potentially incurring one or more opportunity attacks. Instinctively, they always attack from the direction of their own territory and position themselves with their backs toward it. They may ambush, but they don't flank.",     "Long-range weapon attacks confuse them, and magic awes and terrifies them. A lizardfolk shot by an arrow or crossbow bolt instinctively moves in the direction of its territory. (If it's already within its territory, it moves toward the center of that territory.) Depending on the type of spell, the damage it does, whether the lizardfolk can see the caster, and whether they can get to them, they either try to rush the caster or run for their lives. Rushing is more likely if they can see the caster, the spell does no more than light damage (5 or less), and/or there's no other PC in the way. Running is more likely if they can't tell where the spell came from, the spell does serious damage (14 or more), and/or there are too many enemies between themselves and the caster.",     "Lizardfolk never surrender voluntarily: They assume that they'll be killed. However, lizardfolk who are subdued and captured are impassive about it and will talk to their captors, if any of them speaks Draconic, without sullenness or bluster. That being said, they'll also turn against their captors in a heartbeat if their chances of success look good. An unarmed lizardfolk will bite, as well as grab the nearest handy object to use as an improvised weapon."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Lizardfolk",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Lizardfolk",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Lizardfolk.png"
+		},
+		{
+			"name": "Lizardfolk Shaman",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 42,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"The first thing the lizardfolk shaman is going to do once an encounter commences is cast conjure animals to call up as much reptilian backup as possible. After that, the shaman doesn't enter melee combat\u2014not that it couldn't, being just as strong and tough as any other lizardfolk, but unlike them, it's smart enough to know that if it took a solid hit, its {@status concentration} could be broken, and then there'd go the cobras. Instead, the shaman lobs produce flame cantrips (which do {@damage 2d8} fire damage rather than {@dice 1d8}, because the shaman is a level 5 spellcaster) at any enemies within 30 feet. Its fellow lizardfolk, incidentally, aren't afraid of this magic\u2014on the contrary, since the shaman is on their side, they're feeling extra bold and are much more likely to rush an enemy caster rather than run from them. They'll also become mighty salty if anyone dares to assault their shaman.",     "Speaking of enemy casters, if one makes the mistake of coming within 30 feet of the lizardfolk shaman, it casts thorn whip and yanks them forward, so that the other lizardfolk can pound them into jelly.",     "What if the shaman is targeted by a ranged attacker? It's still caught off guard, but its greater mental flexibility allows it to come up with a purposeful response.",     "If its {@status concentration} isn't broken, it sends a couple of the king cobras (or whatever creatures it summoned) after the PC who shot it. If its {@status concentration} is broken, its main contribution to the battle has just been negated, and until it takes care of that marksman, there's not a lot more that it can do: Most of its spells don't have great range. But since its fellow lizardfolk are useless against ranged attackers, the shaman has to take care of the problem itself. In a swamp, it can Change Shape into crocodile form, submerge, and go after the shooter. In jungle, this won't work, because a crocodile has only 20 feet of movement speed over land, so a marksman can easily keep their distance. The shaman will be forced to conclude that the battle is going south and cast fog cloud, either to cover the lizardfolk's escape (if they're outside their territory) or to enshroud the PCs so that the lizardfolk can reposition themselves more advantageously.",     "In general, any time a battle outside their territory goes badly for the lizardfolk\u2014say, at least half of them seriously wounded\u2014the lizardfolk shaman casts fog cloud to help them get away. (Inside their territory, the shaman will have already cast fog cloud on the PCs first, to allow the lizardfolk warriors to sneak up on them quickly.) If the fog cloud is dispelled (by gust of wind, say) while the lizardfolk are retreating, the shaman will follow up with plant growth to slow their pursuers even further."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Lizardfolk Shaman",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Lizardfolk Shaman",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Lizardfolk%20Shaman.png"
 		}
 	],
 	"monsterFluff": [
@@ -1510,6 +1607,50 @@
 							"name": "Tactics",
 							"entries": [
 								"At first blush, the gnoll Fang of Yeenoghu also appears to be little more than an exceptionally able gnoll, with a Claw/Claw/Bite Multiattack in lieu of weapons. But the Fang of Yeenoghu has some actual intelligence, so it maneuvers around the battlefield and targets vulnerable PCs, particularly those who dish out a lot of damage but can't take it. Gnolls sense weakness and zero in on it, so assume that the Fang of Yeenoghu can \"read\" a PC's hit points and Armor Class and strike accordingly. This also allows the Fang of Yeenoghu to maximize the value of its Rampage feature, because by targeting PCs with fewer hit points first, it increases its chances of getting to Rampage more than once. If you're a tenderhearted DM who wants to protect the fragile flowers in your players' party, don't throw a Fang of Yeenoghu at them, because that thing's gotta follow its nature.",                     "One other detail about the gnoll Fang of Yeenoghu, which has nothing to do with its tactics but is still worth noting: Unlike gnolls and gnoll pack lords, the Fang of Yeenoghu isn't categorized as a humanoid. It's a fiend, and as such it's detectable by a paladin's Divine Sense or a ranger's Primeval Awareness, and a protection from evil and good spell offers defense against it."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Lizardfolk",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Lizardfolk",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Lizardfolk aren't sophisticated, but they are significantly tougher than goblins, kobolds, and orcs. According to the Monster Manual flavor text, their most salient behavioral trait is their territoriality, followed by their generally acting like South Seas cannibals in a movie from the 1940s. On the flip side, the text does acknowledge that lizardfolk may occasionally form alliances with outsiders, but we'll set that aside, since it's not going to influence their combat tactics.",     "Lizardfolk, like orcs, are brutes: average Dexterity, high Strength and Constitution. They're also proficient in {@skill Perception} and {@skill Stealth}, and they're more or less amphibious\u2014they can't breathe underwater, but they can hold their breath for up to 15 minutes, and they can swim as fast as they can move on land.",     "Based on this information, the most likely lizardfolk encounter scenario is with a group of scouts patrolling the outskirts of their territory. They'll be alert to intruders\u2014it's why they're out there. Once they notice intruders, they start stalking them (from cover to cover if on land, underwater if in a swamp), until they're close enough to attack. Then they strike first, with surprise if possible.",     "The lizardfolk's Multiattack action specifies, \"The lizardfolk makes two melee attacks, each one with a different weapon.\" The choices available are Bite, Heavy Club, Javelin, and Spiked Shield. Honestly, the only combinations of these that don't strike me as silly are Heavy Club/Spiked Shield and Javelin/Spiked Shield. The lizardfolk's upright physiology makes the idea of their lunging to bite absurd, let alone lunging to bite in combination with swinging or thrusting a melee weapon. Of course, it's all cosmetic, since every one of the lizardfolk's attacks has the same attack modifier and deals the same damage; the only difference is whether the damage done is bludgeoning (the club) or piercing (everything else), and even that isn't a real difference unless a PC is covered by a magic item or spell that provides resistance to one type of damage and not the other. Let's just say that a lizardfolk's Multiattack action consists of one weapon strike and one shield bash and leave it at that.",     "Lizardfolk don't have any feature that grants them bonus actions or unique reactions, and their Intelligence is low, so we can assume that they fight like primitives: They pick an enemy, they bash that enemy, and they keep going until the enemy is dead or they're seriously wounded themselves (reduced to 8 hp or fewer). At that point, whether they keep fighting depends entirely on whether or not they're within their own territory. If they are, they keep fighting to the death.",     "If they're not\u2014if they were scouting beyond their borders, or if they were on a raid\u2014they {@action Dash} back toward their own territory as fast as they can, potentially incurring one or more opportunity attacks. Instinctively, they always attack from the direction of their own territory and position themselves with their backs toward it. They may ambush, but they don't flank.",     "Long-range weapon attacks confuse them, and magic awes and terrifies them. A lizardfolk shot by an arrow or crossbow bolt instinctively moves in the direction of its territory. (If it's already within its territory, it moves toward the center of that territory.) Depending on the type of spell, the damage it does, whether the lizardfolk can see the caster, and whether they can get to them, they either try to rush the caster or run for their lives. Rushing is more likely if they can see the caster, the spell does no more than light damage (5 or less), and/or there's no other PC in the way. Running is more likely if they can't tell where the spell came from, the spell does serious damage (14 or more), and/or there are too many enemies between themselves and the caster.",     "Lizardfolk never surrender voluntarily: They assume that they'll be killed. However, lizardfolk who are subdued and captured are impassive about it and will talk to their captors, if any of them speaks Draconic, without sullenness or bluster. That being said, they'll also turn against their captors in a heartbeat if their chances of success look good. An unarmed lizardfolk will bite, as well as grab the nearest handy object to use as an improvised weapon."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Lizardfolk Shaman",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Lizardfolk Shaman",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"A lizardfolk shaman is basically a reskinned druid. It's distinguished by its spellcasting and shape-changing abilities, the latter of which is restricted to the form of a crocodile. That's pretty good, compared with most of the spells the lizardfolk shaman can cast. But one of its spells is so effective that the crocodile form has to be considered a secondary self-defense measure.",     "That spell is conjure animals, which requires {@status concentration} and therefore prevents the lizardfolk shaman from casting its other most potentially effective spell, entangle. But by itself, conjure animals should give a party of PCs pause. It allows the shaman to summon one CR 2, two CR 1, four CR 1/2, or eight CR 1/4 reptiles. There's no CR 1 reptile in the Monster Manual, but check out the other options:",     {       "type": "list",       "items": [         "One {@creature Swarm of poisonous snakes}",         "Four {@creature crocodile|MM|Crocodiles}",         "Eight {@creature constrictor snake|MM|Constrictor snakes}",         "Eight {@creature giant lizard|MM|Giant lizards}",         "Eight {@creature giant poisonous snake|MM|Giant poisonous snakes}"       ]     },     "You can consider the different abilities these creatures have (crocs and constrictor snakes can grapple, giant lizards are tanks, giant poisonous snakes deal heavy damage), but you can also feel free to base your decision entirely on the emotional reaction you want to elicit from your players: Do you want ickycreepyget-it-away-from-me (one square full of writhing danger noodles), moderate freakout (four crocs), or full-scale panic attack (eight king cobras)?",     "From the caster's point of view, \"more\" usually trumps \"better.\" More creatures mean more attacks, and summoning four or eight rather than just one will bump up the encounter multiplier by one or two levels, unless the lizardfolk group already substantially outnumbers the PCs (see the Encounter Multipliers table, Dungeon Master's Guide, chapter 3).",     "Therefore, unless you're specifically looking to elicit a different reaction, the first thing the lizardfolk shaman is going to do once an encounter commences is cast conjure animals to call up as much reptilian backup as possible. After that, the shaman doesn't enter melee combat\u2014not that it couldn't, being just as strong and tough as any other lizardfolk, but unlike them, it's smart enough to know that if it took a solid hit, its {@status concentration} could be broken, and then there'd go the cobras. Instead, the shaman lobs produce flame cantrips (which do {@damage 2d8} fire damage rather than {@dice 1d8}, because the shaman is a level 5 spellcaster) at any enemies within 30 feet. Its fellow lizardfolk, incidentally, aren't afraid of this magic\u2014on the contrary, since the shaman is on their side, they're feeling extra bold and are much more likely to rush an enemy caster rather than run from them. They'll also become mighty salty if anyone dares to assault their shaman.",     "Speaking of enemy casters, if one makes the mistake of coming within 30 feet of the lizardfolk shaman, it casts thorn whip and yanks them forward, so that the other lizardfolk can pound them into jelly.",     "What if the shaman is targeted by a ranged attacker? It's still caught off guard, but its greater mental flexibility allows it to come up with a purposeful response.",     "If its {@status concentration} isn't broken, it sends a couple of the king cobras (or whatever creatures it summoned) after the PC who shot it. If its {@status concentration} is broken, its main contribution to the battle has just been negated, and until it takes care of that marksman, there's not a lot more that it can do: Most of its spells don't have great range. But since its fellow lizardfolk are useless against ranged attackers, the shaman has to take care of the problem itself. In a swamp, it can Change Shape into crocodile form, submerge, and go after the shooter. In jungle, this won't work, because a crocodile has only 20 feet of movement speed over land, so a marksman can easily keep their distance. The shaman will be forced to conclude that the battle is going south and cast fog cloud, either to cover the lizardfolk's escape (if they're outside their territory) or to enshroud the PCs so that the lizardfolk can reposition themselves more advantageously.",     "In general, any time a battle outside their territory goes badly for the lizardfolk\u2014say, at least half of them seriously wounded\u2014the lizardfolk shaman casts fog cloud to help them get away. (Inside their territory, the shaman will have already cast fog cloud on the PCs first, to allow the lizardfolk warriors to sneak up on them quickly.) If the fog cloud is dispelled (by gust of wind, say) while the lizardfolk are retreating, the shaman will follow up with plant growth to slow their pursuers even further. (What about entangle and spike growth? Their utility diminishes significantly in a swamp or jungle, where the terrain is already difficult. And the fact that they also require {@status concentration} forces a choice between one of them and conjure animals or fog cloud, which are clearly superior.)"
 							]
 						}
 					}
