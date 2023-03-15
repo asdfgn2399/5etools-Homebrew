@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678853022,
+		"dateLastModified": 1678853522,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -137,7 +137,7 @@
 						},
 						"Yuan-ti",
 						{
-							"header": "Yuan-ti Purebloods",
+							"header": "Yuan-ti Pureblood",
 							"depth": 2
 						},
 						{
@@ -691,7 +691,7 @@
 								"Yuan-ti are snake-human hybrids, created in the earliest days of civilization, whose culture fell from an advanced, enlightened state into fanaticism and cruelty. They live in a caste-bound society in which those who most closely resemble humans make up the lowest stratum, while the most snakelike constitute the highest and most powerful. One distinctive characteristic they all share is the innate ability to cast suggestion: Like Kaa in The Jungle Book, they try to win your trust before they mess you up. Another is that they all have magic resistance, so they have no reason to fear spellcasters more than anyone else.",
 								{
 									"type": "entries",
-									"name": "{@creature Yuan-ti Purebloods|TheMonstersKnowWhatTheyreDoing}",
+									"name": "{@creature Yuan-ti Pureblood|TheMonstersKnowWhatTheyreDoing}",
 									"page": 45,
 									"entries": [
 										"The most common and least powerful caste are the yuan-ti purebloods. (Counterintuitively, \"pure\" is a pejorative to the yuan-ti; the more adulterated by reptilian essence they are, the more they're esteemed.) Their physical abilities are average-ish, with a slightly elevated Dexterity; their Intelligence and, particularly, Charisma are higher, implying a species that approaches combat from a mental angle first. This implication is emphasized further by their proficiency in {@skill Deception} and {@skill Stealth}. They have {@sense darkvision}, suggesting that they're most at home in dim places and/or most active at night. Along with suggestion, they can cast the cantrip poison spray three times per day at its base damage level of {@dice 1d12} (I like to imagine that they spit it from their mouths). They can also cast animal friendship on snakes, for whatever that's worth.",     "According to the Monster Manual flavor text, yuan-ti purebloods often put on cloaks and try to pass for human in order to \"kidnap prisoners for interrogation and sacrifice,\" so let's start with that: The yuan-ti wants to kill you, but it doesn't want to kill you right here and now. Instead, it wants to get you someplace where it can kill you in a way that makes its gods happy.",     "Therefore, a yuan-ti pureblood encounter is going to begin with the yuan-ti cloaked and hooded, using {@skill Deception} to hide what they are, and casting suggestion as soon as the player characters approach within 30 feet, saying something along the lines of \"This is a dangerous place, and you look like you could use some extra help. Come with us.\" I'd say that their moderately high Intelligence combined with the fact that this is an innate ability lets them \"read\" the PCs to pick out which ones have the lowest Wisdom saving throws and therefore will be most susceptible. Remember that a single yuan-ti can target only a single PC at once with this ability; if you want to charm more PCs, you need more yuan-ti.",     "If the suggestion succeeds, they'll take the PCs back to their settlement, overwhelm the PCs with numbers and grappling attacks, and prep for their sacrificial ceremony. If it fails, the PCs will undoubtedly attack, and if they don't, the yuan-ti will.",     "Yuan-ti purebloods are competent, though unexceptional, at both melee and ranged combat. In melee, they have Multiattack, letting them attack twice per turn with their scimitars. At range, they have only one shot per action, but their arrows are {@condition poisoned}, which makes ranged attacks marginally better, though not enough to make a meaningful difference. Thus, whether they opt for melee or ranged combat depends in large part on where they are when combat begins. If they're in the thick of things, they choose melee; if they're at a distance, they choose ranged; and they pretty much stay wherever they are unless they're forced to flee. Poison spray doesn't offer them any real advantage over either a scimitar or a shortbow, unless they're disarmed somehow.",     "Yuan-ti have had hundreds of generations to live and adapt on their own, so they'll have the same self-preservation instinct as any evolved species. If they're seriously injured (reduced to 16 hp or fewer), they'll run away, using the {@action Dash} action (yuan-ti purebloods don't have the training to {@action Disengage})."
@@ -1383,7 +1383,7 @@
 			"tokenUrl": "https://5e.tools/img/MM/Lizard%20Queen.png"
 		},
 		{
-			"name": "Yuan-ti Purebloods",
+			"name": "Yuan-ti Pureblood",
 			"source": "TheMonstersKnowWhatTheyreDoing",
 			"page": 45,
 			"footer": [
@@ -1400,7 +1400,7 @@
 			],
 		
 			"_copy": {
-				"name": "Yuan-ti Purebloods",
+				"name": "Yuan-ti Pureblood",
 				"source": "MM",
 		
 				"_preserve": {
@@ -1409,7 +1409,7 @@
 			},
 			"fluff": {
 				"_monsterFluff": {
-					"name": "Yuan-ti Purebloods",
+					"name": "Yuan-ti Pureblood",
 					"source": "TheMonstersKnowWhatTheyreDoing"
 				}
 			},
@@ -1902,11 +1902,11 @@
 			}
 		},
 		{
-			"name": "Yuan-ti Purebloods",
+			"name": "Yuan-ti Pureblood",
 			"source": "TheMonstersKnowWhatTheyreDoing",
 		
 			"_copy": {
-				"name": "Yuan-ti Purebloods",
+				"name": "Yuan-ti Pureblood",
 				"source": "MM",
 		
 				"_mod": {
