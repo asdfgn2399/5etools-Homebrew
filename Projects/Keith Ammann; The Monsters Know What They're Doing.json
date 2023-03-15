@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678854022,
+		"dateLastModified": 1678854522,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -675,7 +675,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@creature Lizard King/Queen|TheMonstersKnowWhatTheyreDoing}",
+									"name": "{@creature Lizard King|TheMonstersKnowWhatTheyreDoing|Lizard King/Queen}",
 									"page": 45,
 									"entries": [
 										"The lizard king/queen isn't complicated at all. Mostly, it's a bigger, badder lizardfolk. For its Multiattack, it can use Claws/Bite, Trident/Bite, or Trident/Trident. Let's get real: If you're leading a bunch of tribespeople carrying clubs and shields, are you going to go out there and chew on your enemies? No, you're going to go out there with an even more impressive weapon and show everyone how it's done. Your Trident attack does more damage than your Bite attack (assume that it's wielded two-handed, since the stat block makes no mention of a shield), and besides, your Skewer feature only works with the trident. Of course you're going to use the trident for both attacks!",     "There is one other detail to note about the lizard king/queen: its immunity to the {@condition frightened} condition. We can infer from this that the lizard king/queen ain't afraid of nothin'... least of all Trawiodol the Uncanny's dancing lights. The Royal Reptile isn't going to run from a spellcaster, ever. No, it's going to single the caster out for special pointy attention, just to show all the other lizardfolk why it's the boss and they're not."
@@ -699,7 +699,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@creature Yuan-ti Malison (Type 1)|TheMonstersKnowWhatTheyreDoing}",
+									"name": "{@creature Yuan-ti Malison (Type 3)|TheMonstersKnowWhatTheyreDoing|Yuan-ti Malison}",
 									"page": 47,
 									"entries": [
 										"Combat with yuan-ti purebloods by themselves isn't that interesting; it gets better, though, when you combine them with Yuan-ti Malison.",
