@@ -131,6 +131,10 @@
 							"header": "Lizardfolk Shaman",
 							"depth": 2
 						},
+						{
+							"header": "Lizardfolk King/Queen",
+							"depth": 2
+						},
 						"Yuan-ti",
 						"Bullywugs",
 						"Kuo-toa",
@@ -655,6 +659,14 @@
 									"page": 42,
 									"entries": [
 										"A lizardfolk shaman is basically a reskinned druid. It's distinguished by its spellcasting and shape-changing abilities, the latter of which is restricted to the form of a crocodile. That's pretty good, compared with most of the spells the lizardfolk shaman can cast. But one of its spells is so effective that the crocodile form has to be considered a secondary self-defense measure.",     "That spell is conjure animals, which requires {@status concentration} and therefore prevents the lizardfolk shaman from casting its other most potentially effective spell, entangle. But by itself, conjure animals should give a party of PCs pause. It allows the shaman to summon one CR 2, two CR 1, four CR 1/2, or eight CR 1/4 reptiles. There's no CR 1 reptile in the Monster Manual, but check out the other options:",     {       "type": "list",       "items": [         "One {@creature Swarm of poisonous snakes}",         "Four {@creature crocodile|MM|Crocodiles}",         "Eight {@creature constrictor snake|MM|Constrictor snakes}",         "Eight {@creature giant lizard|MM|Giant lizards}",         "Eight {@creature giant poisonous snake|MM|Giant poisonous snakes}"       ]     },     "You can consider the different abilities these creatures have (crocs and constrictor snakes can grapple, giant lizards are tanks, giant poisonous snakes deal heavy damage), but you can also feel free to base your decision entirely on the emotional reaction you want to elicit from your players: Do you want ickycreepyget-it-away-from-me (one square full of writhing danger noodles), moderate freakout (four crocs), or full-scale panic attack (eight king cobras)?",     "From the caster's point of view, \"more\" usually trumps \"better.\" More creatures mean more attacks, and summoning four or eight rather than just one will bump up the encounter multiplier by one or two levels, unless the lizardfolk group already substantially outnumbers the PCs (see the Encounter Multipliers table, Dungeon Master's Guide, chapter 3).",     "Therefore, unless you're specifically looking to elicit a different reaction, the first thing the lizardfolk shaman is going to do once an encounter commences is cast conjure animals to call up as much reptilian backup as possible. After that, the shaman doesn't enter melee combat\u2014not that it couldn't, being just as strong and tough as any other lizardfolk, but unlike them, it's smart enough to know that if it took a solid hit, its {@status concentration} could be broken, and then there'd go the cobras. Instead, the shaman lobs produce flame cantrips (which do {@damage 2d8} fire damage rather than {@dice 1d8}, because the shaman is a level 5 spellcaster) at any enemies within 30 feet. Its fellow lizardfolk, incidentally, aren't afraid of this magic\u2014on the contrary, since the shaman is on their side, they're feeling extra bold and are much more likely to rush an enemy caster rather than run from them. They'll also become mighty salty if anyone dares to assault their shaman.",     "Speaking of enemy casters, if one makes the mistake of coming within 30 feet of the lizardfolk shaman, it casts thorn whip and yanks them forward, so that the other lizardfolk can pound them into jelly.",     "What if the shaman is targeted by a ranged attacker? It's still caught off guard, but its greater mental flexibility allows it to come up with a purposeful response.",     "If its {@status concentration} isn't broken, it sends a couple of the king cobras (or whatever creatures it summoned) after the PC who shot it. If its {@status concentration} is broken, its main contribution to the battle has just been negated, and until it takes care of that marksman, there's not a lot more that it can do: Most of its spells don't have great range. But since its fellow lizardfolk are useless against ranged attackers, the shaman has to take care of the problem itself. In a swamp, it can Change Shape into crocodile form, submerge, and go after the shooter. In jungle, this won't work, because a crocodile has only 20 feet of movement speed over land, so a marksman can easily keep their distance. The shaman will be forced to conclude that the battle is going south and cast fog cloud, either to cover the lizardfolk's escape (if they're outside their territory) or to enshroud the PCs so that the lizardfolk can reposition themselves more advantageously.",     "In general, any time a battle outside their territory goes badly for the lizardfolk\u2014say, at least half of them seriously wounded\u2014the lizardfolk shaman casts fog cloud to help them get away. (Inside their territory, the shaman will have already cast fog cloud on the PCs first, to allow the lizardfolk warriors to sneak up on them quickly.) If the fog cloud is dispelled (by gust of wind, say) while the lizardfolk are retreating, the shaman will follow up with plant growth to slow their pursuers even further. (What about entangle and spike growth? Their utility diminishes significantly in a swamp or jungle, where the terrain is already difficult. And the fact that they also require {@status concentration} forces a choice between one of them and conjure animals or fog cloud, which are clearly superior.)"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Lizardfolk King/Queen|TheMonstersKnowWhatTheyreDoing}",
+									"page": 45,
+									"entries": [
+										"The lizard king/queen isn't complicated at all. Mostly, it's a bigger, badder lizardfolk. For its Multiattack, it can use Claws/Bite, Trident/Bite, or Trident/Trident. Let's get real: If you're leading a bunch of tribespeople carrying clubs and shields, are you going to go out there and chew on your enemies? No, you're going to go out there with an even more impressive weapon and show everyone how it's done. Your Trident attack does more damage than your Bite attack (assume that it's wielded two-handed, since the stat block makes no mention of a shield), and besides, your Skewer feature only works with the trident. Of course you're going to use the trident for both attacks!",     "There is one other detail to note about the lizard king/queen: its immunity to the {@condition frightened} condition. We can infer from this that the lizard king/queen ain't afraid of nothin'... least of all Trawiodol the Uncanny's dancing lights. The Royal Reptile isn't going to run from a spellcaster, ever. No, it's going to single the caster out for special pointy attention, just to show all the other lizardfolk why it's the boss and they're not."
 									]
 								}
 							]
@@ -1258,6 +1270,39 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Lizardfolk%20Shaman.png"
+		},
+		{
+			"name": "Lizardfolk King/Queen",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 45,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"The lizard king/queen isn't complicated at all. Mostly, it's a bigger, badder lizardfolk. For its Multiattack, it can use Claws/Bite, Trident/Bite, or Trident/Trident. Let's get real: If you're leading a bunch of tribespeople carrying clubs and shields, are you going to go out there and chew on your enemies? No, you're going to go out there with an even more impressive weapon and show everyone how it's done. Your Trident attack does more damage than your Bite attack (assume that it's wielded two-handed, since the stat block makes no mention of a shield), and besides, your Skewer feature only works with the trident. Of course you're going to use the trident for both attacks!",     "There is one other detail to note about the lizard king/queen: its immunity to the {@condition frightened} condition. We can infer from this that the lizard king/queen ain't afraid of nothin'... least of all Trawiodol the Uncanny's dancing lights. The Royal Reptile isn't going to run from a spellcaster, ever. No, it's going to single the caster out for special pointy attention, just to show all the other lizardfolk why it's the boss and they're not."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Lizardfolk King/Queen",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Lizardfolk King/Queen",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Lizardfolk%20King/Queen.png"
 		}
 	],
 	"monsterFluff": [
@@ -1651,6 +1696,28 @@
 							"name": "Tactics",
 							"entries": [
 								"A lizardfolk shaman is basically a reskinned druid. It's distinguished by its spellcasting and shape-changing abilities, the latter of which is restricted to the form of a crocodile. That's pretty good, compared with most of the spells the lizardfolk shaman can cast. But one of its spells is so effective that the crocodile form has to be considered a secondary self-defense measure.",     "That spell is conjure animals, which requires {@status concentration} and therefore prevents the lizardfolk shaman from casting its other most potentially effective spell, entangle. But by itself, conjure animals should give a party of PCs pause. It allows the shaman to summon one CR 2, two CR 1, four CR 1/2, or eight CR 1/4 reptiles. There's no CR 1 reptile in the Monster Manual, but check out the other options:",     {       "type": "list",       "items": [         "One {@creature Swarm of poisonous snakes}",         "Four {@creature crocodile|MM|Crocodiles}",         "Eight {@creature constrictor snake|MM|Constrictor snakes}",         "Eight {@creature giant lizard|MM|Giant lizards}",         "Eight {@creature giant poisonous snake|MM|Giant poisonous snakes}"       ]     },     "You can consider the different abilities these creatures have (crocs and constrictor snakes can grapple, giant lizards are tanks, giant poisonous snakes deal heavy damage), but you can also feel free to base your decision entirely on the emotional reaction you want to elicit from your players: Do you want ickycreepyget-it-away-from-me (one square full of writhing danger noodles), moderate freakout (four crocs), or full-scale panic attack (eight king cobras)?",     "From the caster's point of view, \"more\" usually trumps \"better.\" More creatures mean more attacks, and summoning four or eight rather than just one will bump up the encounter multiplier by one or two levels, unless the lizardfolk group already substantially outnumbers the PCs (see the Encounter Multipliers table, Dungeon Master's Guide, chapter 3).",     "Therefore, unless you're specifically looking to elicit a different reaction, the first thing the lizardfolk shaman is going to do once an encounter commences is cast conjure animals to call up as much reptilian backup as possible. After that, the shaman doesn't enter melee combat\u2014not that it couldn't, being just as strong and tough as any other lizardfolk, but unlike them, it's smart enough to know that if it took a solid hit, its {@status concentration} could be broken, and then there'd go the cobras. Instead, the shaman lobs produce flame cantrips (which do {@damage 2d8} fire damage rather than {@dice 1d8}, because the shaman is a level 5 spellcaster) at any enemies within 30 feet. Its fellow lizardfolk, incidentally, aren't afraid of this magic\u2014on the contrary, since the shaman is on their side, they're feeling extra bold and are much more likely to rush an enemy caster rather than run from them. They'll also become mighty salty if anyone dares to assault their shaman.",     "Speaking of enemy casters, if one makes the mistake of coming within 30 feet of the lizardfolk shaman, it casts thorn whip and yanks them forward, so that the other lizardfolk can pound them into jelly.",     "What if the shaman is targeted by a ranged attacker? It's still caught off guard, but its greater mental flexibility allows it to come up with a purposeful response.",     "If its {@status concentration} isn't broken, it sends a couple of the king cobras (or whatever creatures it summoned) after the PC who shot it. If its {@status concentration} is broken, its main contribution to the battle has just been negated, and until it takes care of that marksman, there's not a lot more that it can do: Most of its spells don't have great range. But since its fellow lizardfolk are useless against ranged attackers, the shaman has to take care of the problem itself. In a swamp, it can Change Shape into crocodile form, submerge, and go after the shooter. In jungle, this won't work, because a crocodile has only 20 feet of movement speed over land, so a marksman can easily keep their distance. The shaman will be forced to conclude that the battle is going south and cast fog cloud, either to cover the lizardfolk's escape (if they're outside their territory) or to enshroud the PCs so that the lizardfolk can reposition themselves more advantageously.",     "In general, any time a battle outside their territory goes badly for the lizardfolk\u2014say, at least half of them seriously wounded\u2014the lizardfolk shaman casts fog cloud to help them get away. (Inside their territory, the shaman will have already cast fog cloud on the PCs first, to allow the lizardfolk warriors to sneak up on them quickly.) If the fog cloud is dispelled (by gust of wind, say) while the lizardfolk are retreating, the shaman will follow up with plant growth to slow their pursuers even further. (What about entangle and spike growth? Their utility diminishes significantly in a swamp or jungle, where the terrain is already difficult. And the fact that they also require {@status concentration} forces a choice between one of them and conjure animals or fog cloud, which are clearly superior.)"
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Lizardfolk King/Queen",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Lizardfolk King/Queen",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"The lizard king/queen isn't complicated at all. Mostly, it's a bigger, badder lizardfolk. For its Multiattack, it can use Claws/Bite, Trident/Bite, or Trident/Trident. Let's get real: If you're leading a bunch of tribespeople carrying clubs and shields, are you going to go out there and chew on your enemies? No, you're going to go out there with an even more impressive weapon and show everyone how it's done. Your Trident attack does more damage than your Bite attack (assume that it's wielded two-handed, since the stat block makes no mention of a shield), and besides, your Skewer feature only works with the trident. Of course you're going to use the trident for both attacks!",     "There is one other detail to note about the lizard king/queen: its immunity to the {@condition frightened} condition. We can infer from this that the lizard king/queen ain't afraid of nothin'... least of all Trawiodol the Uncanny's dancing lights. The Royal Reptile isn't going to run from a spellcaster, ever. No, it's going to single the caster out for special pointy attention, just to show all the other lizardfolk why it's the boss and they're not."
 							]
 						}
 					}
