@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678837313,
+		"dateLastModified": 1678853022,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -136,6 +136,18 @@
 							"depth": 2
 						},
 						"Yuan-ti",
+						{
+							"header": "Yuan-ti Purebloods",
+							"depth": 2
+						},
+						{
+							"header": "Yuan-ti Malison",
+							"depth": 2
+						},
+						{
+							"header": "Yuan-ti Abomination",
+							"depth": 2
+						},
 						"Bullywugs",
 						"Kuo-toa",
 						"Merfolk",
@@ -667,6 +679,39 @@
 									"page": 45,
 									"entries": [
 										"The lizard king/queen isn't complicated at all. Mostly, it's a bigger, badder lizardfolk. For its Multiattack, it can use Claws/Bite, Trident/Bite, or Trident/Trident. Let's get real: If you're leading a bunch of tribespeople carrying clubs and shields, are you going to go out there and chew on your enemies? No, you're going to go out there with an even more impressive weapon and show everyone how it's done. Your Trident attack does more damage than your Bite attack (assume that it's wielded two-handed, since the stat block makes no mention of a shield), and besides, your Skewer feature only works with the trident. Of course you're going to use the trident for both attacks!",     "There is one other detail to note about the lizard king/queen: its immunity to the {@condition frightened} condition. We can infer from this that the lizard king/queen ain't afraid of nothin'... least of all Trawiodol the Uncanny's dancing lights. The Royal Reptile isn't going to run from a spellcaster, ever. No, it's going to single the caster out for special pointy attention, just to show all the other lizardfolk why it's the boss and they're not."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Yuan-Ti",
+							"page": 45,
+							"entries": [
+								"Yuan-ti are snake-human hybrids, created in the earliest days of civilization, whose culture fell from an advanced, enlightened state into fanaticism and cruelty. They live in a caste-bound society in which those who most closely resemble humans make up the lowest stratum, while the most snakelike constitute the highest and most powerful. One distinctive characteristic they all share is the innate ability to cast suggestion: Like Kaa in The Jungle Book, they try to win your trust before they mess you up. Another is that they all have magic resistance, so they have no reason to fear spellcasters more than anyone else.",
+								{
+									"type": "entries",
+									"name": "{@creature Yuan-ti Purebloods|TheMonstersKnowWhatTheyreDoing}",
+									"page": 45,
+									"entries": [
+										"The most common and least powerful caste are the yuan-ti purebloods. (Counterintuitively, \"pure\" is a pejorative to the yuan-ti; the more adulterated by reptilian essence they are, the more they're esteemed.) Their physical abilities are average-ish, with a slightly elevated Dexterity; their Intelligence and, particularly, Charisma are higher, implying a species that approaches combat from a mental angle first. This implication is emphasized further by their proficiency in {@skill Deception} and {@skill Stealth}. They have {@sense darkvision}, suggesting that they're most at home in dim places and/or most active at night. Along with suggestion, they can cast the cantrip poison spray three times per day at its base damage level of {@dice 1d12} (I like to imagine that they spit it from their mouths). They can also cast animal friendship on snakes, for whatever that's worth.",     "According to the Monster Manual flavor text, yuan-ti purebloods often put on cloaks and try to pass for human in order to \"kidnap prisoners for interrogation and sacrifice,\" so let's start with that: The yuan-ti wants to kill you, but it doesn't want to kill you right here and now. Instead, it wants to get you someplace where it can kill you in a way that makes its gods happy.",     "Therefore, a yuan-ti pureblood encounter is going to begin with the yuan-ti cloaked and hooded, using {@skill Deception} to hide what they are, and casting suggestion as soon as the player characters approach within 30 feet, saying something along the lines of \"This is a dangerous place, and you look like you could use some extra help. Come with us.\" I'd say that their moderately high Intelligence combined with the fact that this is an innate ability lets them \"read\" the PCs to pick out which ones have the lowest Wisdom saving throws and therefore will be most susceptible. Remember that a single yuan-ti can target only a single PC at once with this ability; if you want to charm more PCs, you need more yuan-ti.",     "If the suggestion succeeds, they'll take the PCs back to their settlement, overwhelm the PCs with numbers and grappling attacks, and prep for their sacrificial ceremony. If it fails, the PCs will undoubtedly attack, and if they don't, the yuan-ti will.",     "Yuan-ti purebloods are competent, though unexceptional, at both melee and ranged combat. In melee, they have Multiattack, letting them attack twice per turn with their scimitars. At range, they have only one shot per action, but their arrows are {@condition poisoned}, which makes ranged attacks marginally better, though not enough to make a meaningful difference. Thus, whether they opt for melee or ranged combat depends in large part on where they are when combat begins. If they're in the thick of things, they choose melee; if they're at a distance, they choose ranged; and they pretty much stay wherever they are unless they're forced to flee. Poison spray doesn't offer them any real advantage over either a scimitar or a shortbow, unless they're disarmed somehow.",     "Yuan-ti have had hundreds of generations to live and adapt on their own, so they'll have the same self-preservation instinct as any evolved species. If they're seriously injured (reduced to 16 hp or fewer), they'll run away, using the {@action Dash} action (yuan-ti purebloods don't have the training to {@action Disengage})."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Yuan-ti Malison|TheMonstersKnowWhatTheyreDoing}",
+									"page": 47,
+									"entries": [
+										"Combat with yuan-ti purebloods by themselves isn't that interesting; it gets better, though, when you combine them with Yuan-ti Malison.",
+										"Malisons are mostly-humanoids with serpentine heads (type 1), arms (type 2), or lower bodies (type 3); the third type is my personal favorite, because I think it synergizes best with the yuan-ti pureblood. All three types have high Charisma and Intelligence and also high Strength and Dexterity, making them good commanders and shock troops. They can also Shapechange back and forth between their yuan-ti form and a Medium-size snake form; their equipment doesn't change with them, however.",     "As a snake, a yuan-ti malison gets one Bite attack per action, doing {@damage 1d4 + 3} piercing damage plus {@damage 2d6} poison damage. In contrast, a type 1 or type 3 yuan-ti malison can attack twice with its scimitar, doing {@dice 1d6 + 3} on each hit for about the same total damage, or twice with its longbow, doing {@damage 1d8 + 2} piercing damage plus {@damage 2d6} poison damage on each hit, for roughly twice the damage. I know which one I'd choose. Changing into snake form offers the yuan-ti malison no combat advantage at all, except\u2014implicitly\u2014immunity to the {@condition prone} condition (the stat block doesn't say this explicitly, but think about it for a second), and it comes with the disadvantage of divesting it of its weapons. I'd say this is a dubiously useful ability at best, and I wouldn't have a yuan-ti malison Shapechange during combat, except maybe to escape through a tiny hole.",     "One of the things I like about the type 3 yuan-ti malison is that it has the extra attacking feature Constrict, which does {@damage 2d6 + 3} bludgeoning damage and grapples its target, restraining it as well. Moreover, since it's grappling with its lower body, its hands are still free. That means that on its next turn, it can take two scimitar swings with advantage. I love both the tactical elegance of this combination and the visual image of it. Type 1 and type 2 don't offer anything of the kind. Plus, the idea of a person with snakes for arms\u2014each with its own head\u2014strikes me as goofy rather than horrifying.",     "Say you've got a party of four PCs, encountering a group of five yuan-ti: three purebloods and two type 3 malisons. The malisons hide 120 feet away from the purebloods, while the purebloods use suggestion to charm the PCs. If a pureblood's suggestion fails or is broken, it draws its scimitar and attacks with it. On cue, the malisons begin sniping at the PCs, targeting elves, gnomes, barbarians, and paladins first. (Why on earth these categories? Because they have the best resistance against being {@condition charmed}.) Once all the purebloods are moderately wounded or any one of them is seriously wounded, the malisons then {@action Dash} in to fight hand-to-hand. They begin with a Multiattack comprising an attempt to Constrict followed by a Scimitar attack. As long as their targets remain {@condition grappled}, they'll keep Multiattacking with their scimitars; if a target breaks free, they'll try to Constrict again. Like purebloods, Yuan-ti Malison retreat when seriously injured (reduced to 26 hp or fewer), but unlike purebloods, they have the discipline to {@action Disengage} before retreating."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Yuan-ti Abomination|TheMonstersKnowWhatTheyreDoing}",
+									"page": 48,
+									"entries": [
+										"Yuan-ti abominations are the top caste: giant serpents with humanoid arms. Like malisons, they have the ability to Shapechange into snake form, and like malisons, they suffer from the same disadvantage of not getting to hold on to their equipment. They have the same Constrict ability as the type 3 malison and can combine it with melee attacks in the same way. They have spectacular ability scores across the board, but their Strength of 19 stands out. A yuan-ti abomination is a great boss enemy for a party of intermediate-level PCs.",     "Yuan-ti abominations have mostly the same toolkit as malisons, with one cherry on top: the ability to cast fear once per day. Why would they cast that, though? They're havoc in battle: Once they grapple an enemy, they can take three scimitar swings with advantage and +7 to hit. (That's an 88 percent chance to hit against AC 15.) Whether they're attacking at range with longbows or in melee with scimitars, they do nearly double the malison's damage.",     "There are only two reasons why a yuan-ti abomination would opt for fear over simply beating the tar out of its opponents: Either it's protecting some kind of sacred or otherwise important place, and keeping trespassers away is its foremost priority; or its opponents are tougher than it bargained for, and it's losing the fight.",     "In the former case\u2014that is, when the yuan-ti abomination is more interested in driving the PCs away than in murdering them\u2014it casts fear at the very beginning of the encounter, then fights those too stubborn to go away. In the latter case, it casts fear when it's moderately injured (reduced to 88 hp or fewer), in order to reduce the number of enemies that it and its allies have to deal with right away, and if it's seriously injured (reduced to 50 hp or fewer), it Disengages and attempts to retreat.",     "A yuan-ti abomination fighting to protect a place of importance does so fanatically. If it's seriously injured in that scenario, it won't retreat but rather will fight to the death. If it's accompanied by yuan-ti malisons and purebloods, and if they're in a settlement or other location where reinforcements may be available, one or more of the yuan-ti abomination's allies will break off when the abomination is moderately injured and run/slither to fetch more.",     "Yuan-ti abominations are very intelligent. They issue commands to their allies, telling them what locations to attack or defend and which enemies to prioritize. Because all yuan-ti are magic-resistant, they don't place the same emphasis on spellcasters that other intelligent enemies might. Instead, they focus on strong and tough PCs, double- or triple-teaming them, and on particularly effective ranged fighters. They may single out PC clerics and paladins as well, simply out of sectarian loathing. Also, they direct their allies to make use of choke points, high ground, and other strategically useful terrain.",     "Finally, yuan-ti abominations monologue as they fight, because what more could you want from a fanatically religious enemy boss with Charisma 18? Chew that scenery!"
 									]
 								}
 							]
@@ -1336,6 +1381,105 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Lizard%20Queen.png"
+		},
+		{
+			"name": "Yuan-ti Purebloods",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 45,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"A yuan-ti pureblood encounter is going to begin with the yuan-ti cloaked and hooded, using {@skill Deception} to hide what they are, and casting suggestion as soon as the player characters approach within 30 feet, saying something along the lines of \"This is a dangerous place, and you look like you could use some extra help. Come with us.\" I'd say that their moderately high Intelligence combined with the fact that this is an innate ability lets them \"read\" the PCs to pick out which ones have the lowest Wisdom saving throws and therefore will be most susceptible.", "If the suggestion succeeds, they'll take the PCs back to their settlement, overwhelm the PCs with numbers and grappling attacks, and prep for their sacrificial ceremony. If it fails, the PCs will undoubtedly attack, and if they don't, the yuan-ti will.", "Yuan-ti purebloods are competent, though unexceptional, at both melee and ranged combat. In melee, they have Multiattack, letting them attack twice per turn with their scimitars. At range, they have only one shot per action, but their arrows are {@condition poisoned}, which makes ranged attacks marginally better, though not enough to make a meaningful difference. Thus, whether they opt for melee or ranged combat depends in large part on where they are when combat begins. If they're in the thick of things, they choose melee; if they're at a distance, they choose ranged; and they pretty much stay wherever they are unless they're forced to flee. Poison spray doesn't offer them any real advantage over either a scimitar or a shortbow, unless they're disarmed somehow.", "Yuan-ti have had hundreds of generations to live and adapt on their own, so they'll have the same self-preservation instinct as any evolved species. If they're seriously injured (reduced to 16 hp or fewer), they'll run away, using the {@action Dash} action (yuan-ti purebloods don't have the training to {@action Disengage})."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Yuan-ti Purebloods",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Yuan-ti Purebloods",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Purebloods.png"
+		},
+		{
+			"name": "Yuan-ti Malison",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 47,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"One of the things I like about the type 3 yuan-ti malison is that it has the extra attacking feature Constrict, which does {@damage 2d6 + 3} bludgeoning damage and grapples its target, restraining it as well. Moreover, since it's grappling with its lower body, its hands are still free. That means that on its next turn, it can take two scimitar swings with advantage. I love both the tactical elegance of this combination and the visual image of it. Type 1 and type 2 don't offer anything of the kind. Plus, the idea of a person with snakes for arms\u2014each with its own head\u2014strikes me as goofy rather than horrifying.",     "Say you've got a party of four PCs, encountering a group of five yuan-ti: three purebloods and two type 3 malisons. The malisons hide 120 feet away from the purebloods, while the purebloods use suggestion to charm the PCs. If a pureblood's suggestion fails or is broken, it draws its scimitar and attacks with it. On cue, the malisons begin sniping at the PCs, targeting elves, gnomes, barbarians, and paladins first. (Why on earth these categories? Because they have the best resistance against being {@condition charmed}.) Once all the purebloods are moderately wounded or any one of them is seriously wounded, the malisons then {@action Dash} in to fight hand-to-hand. They begin with a Multiattack comprising an attempt to Constrict followed by a Scimitar attack. As long as their targets remain {@condition grappled}, they'll keep Multiattacking with their scimitars; if a target breaks free, they'll try to Constrict again. Like purebloods, Yuan-ti Malison retreat when seriously injured (reduced to 26 hp or fewer), but unlike purebloods, they have the discipline to {@action Disengage} before retreating."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Yuan-ti Malison",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Yuan-ti Malison",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Malisons.png"
+		},
+		{
+			"name": "Yuan-ti Abomination",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 48,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"Yuan-ti abominations have mostly the same toolkit as malisons, with one cherry on top: the ability to cast fear once per day. Why would they cast that, though? They're havoc in battle: Once they grapple an enemy, they can take three scimitar swings with advantage and +7 to hit. (That's an 88 percent chance to hit against AC 15.) Whether they're attacking at range with longbows or in melee with scimitars, they do nearly double the malison's damage.",     "There are only two reasons why a yuan-ti abomination would opt for fear over simply beating the tar out of its opponents: Either it's protecting some kind of sacred or otherwise important place, and keeping trespassers away is its foremost priority; or its opponents are tougher than it bargained for, and it's losing the fight.",     "In the former case\u2014that is, when the yuan-ti abomination is more interested in driving the PCs away than in murdering them\u2014it casts fear at the very beginning of the encounter, then fights those too stubborn to go away. In the latter case, it casts fear when it's moderately injured (reduced to 88 hp or fewer), in order to reduce the number of enemies that it and its allies have to deal with right away, and if it's seriously injured (reduced to 50 hp or fewer), it Disengages and attempts to retreat.",     "A yuan-ti abomination fighting to protect a place of importance does so fanatically. If it's seriously injured in that scenario, it won't retreat but rather will fight to the death. If it's accompanied by yuan-ti malisons and purebloods, and if they're in a settlement or other location where reinforcements may be available, one or more of the yuan-ti abomination's allies will break off when the abomination is moderately injured and run/slither to fetch more.",     "Yuan-ti abominations are very intelligent. They issue commands to their allies, telling them what locations to attack or defend and which enemies to prioritize. Because all yuan-ti are magic-resistant, they don't place the same emphasis on spellcasters that other intelligent enemies might. Instead, they focus on strong and tough PCs, double- or triple-teaming them, and on particularly effective ranged fighters. They may single out PC clerics and paladins as well, simply out of sectarian loathing. Also, they direct their allies to make use of choke points, high ground, and other strategically useful terrain.",     "Finally, yuan-ti abominations monologue as they fight, because what more could you want from a fanatically religious enemy boss with Charisma 18? Chew that scenery!"
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Yuan-ti Abomination",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Yuan-ti Abomination",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Abomination.png"
 		}
 	],
 	"monsterFluff": [
@@ -1751,6 +1895,72 @@
 							"name": "Tactics",
 							"entries": [
 								"The lizard king/queen isn't complicated at all. Mostly, it's a bigger, badder lizardfolk. For its Multiattack, it can use Claws/Bite, Trident/Bite, or Trident/Trident. Let's get real: If you're leading a bunch of tribespeople carrying clubs and shields, are you going to go out there and chew on your enemies? No, you're going to go out there with an even more impressive weapon and show everyone how it's done. Your Trident attack does more damage than your Bite attack (assume that it's wielded two-handed, since the stat block makes no mention of a shield), and besides, your Skewer feature only works with the trident. Of course you're going to use the trident for both attacks!",     "There is one other detail to note about the lizard king/queen: its immunity to the {@condition frightened} condition. We can infer from this that the lizard king/queen ain't afraid of nothin'... least of all Trawiodol the Uncanny's dancing lights. The Royal Reptile isn't going to run from a spellcaster, ever. No, it's going to single the caster out for special pointy attention, just to show all the other lizardfolk why it's the boss and they're not."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Yuan-ti Purebloods",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Yuan-ti Purebloods",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"The most common and least powerful caste are the yuan-ti purebloods. (Counterintuitively, \"pure\" is a pejorative to the yuan-ti; the more adulterated by reptilian essence they are, the more they're esteemed.) Their physical abilities are average-ish, with a slightly elevated Dexterity; their Intelligence and, particularly, Charisma are higher, implying a species that approaches combat from a mental angle first. This implication is emphasized further by their proficiency in {@skill Deception} and {@skill Stealth}. They have {@sense darkvision}, suggesting that they're most at home in dim places and/or most active at night. Along with suggestion, they can cast the cantrip poison spray three times per day at its base damage level of {@dice 1d12} (I like to imagine that they spit it from their mouths). They can also cast animal friendship on snakes, for whatever that's worth.",     "According to the Monster Manual flavor text, yuan-ti purebloods often put on cloaks and try to pass for human in order to \"kidnap prisoners for interrogation and sacrifice,\" so let's start with that: The yuan-ti wants to kill you, but it doesn't want to kill you right here and now. Instead, it wants to get you someplace where it can kill you in a way that makes its gods happy.",     "Therefore, a yuan-ti pureblood encounter is going to begin with the yuan-ti cloaked and hooded, using {@skill Deception} to hide what they are, and casting suggestion as soon as the player characters approach within 30 feet, saying something along the lines of \"This is a dangerous place, and you look like you could use some extra help. Come with us.\" I'd say that their moderately high Intelligence combined with the fact that this is an innate ability lets them \"read\" the PCs to pick out which ones have the lowest Wisdom saving throws and therefore will be most susceptible. Remember that a single yuan-ti can target only a single PC at once with this ability; if you want to charm more PCs, you need more yuan-ti.",     "If the suggestion succeeds, they'll take the PCs back to their settlement, overwhelm the PCs with numbers and grappling attacks, and prep for their sacrificial ceremony. If it fails, the PCs will undoubtedly attack, and if they don't, the yuan-ti will.",     "Yuan-ti purebloods are competent, though unexceptional, at both melee and ranged combat. In melee, they have Multiattack, letting them attack twice per turn with their scimitars. At range, they have only one shot per action, but their arrows are {@condition poisoned}, which makes ranged attacks marginally better, though not enough to make a meaningful difference. Thus, whether they opt for melee or ranged combat depends in large part on where they are when combat begins. If they're in the thick of things, they choose melee; if they're at a distance, they choose ranged; and they pretty much stay wherever they are unless they're forced to flee. Poison spray doesn't offer them any real advantage over either a scimitar or a shortbow, unless they're disarmed somehow.",     "Yuan-ti have had hundreds of generations to live and adapt on their own, so they'll have the same self-preservation instinct as any evolved species. If they're seriously injured (reduced to 16 hp or fewer), they'll run away, using the {@action Dash} action (yuan-ti purebloods don't have the training to {@action Disengage})."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Yuan-ti Malison",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Yuan-ti Malison",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Malisons are mostly-humanoids with serpentine heads (type 1), arms (type 2), or lower bodies (type 3); the third type is my personal favorite, because I think it synergizes best with the yuan-ti pureblood. All three types have high Charisma and Intelligence and also high Strength and Dexterity, making them good commanders and shock troops. They can also Shapechange back and forth between their yuan-ti form and a Medium-size snake form; their equipment doesn't change with them, however.",     "As a snake, a yuan-ti malison gets one Bite attack per action, doing {@damage 1d4 + 3} piercing damage plus {@damage 2d6} poison damage. In contrast, a type 1 or type 3 yuan-ti malison can attack twice with its scimitar, doing {@dice 1d6 + 3} on each hit for about the same total damage, or twice with its longbow, doing {@damage 1d8 + 2} piercing damage plus {@damage 2d6} poison damage on each hit, for roughly twice the damage. I know which one I'd choose. Changing into snake form offers the yuan-ti malison no combat advantage at all, except\u2014implicitly\u2014immunity to the {@condition prone} condition (the stat block doesn't say this explicitly, but think about it for a second), and it comes with the disadvantage of divesting it of its weapons. I'd say this is a dubiously useful ability at best, and I wouldn't have a yuan-ti malison Shapechange during combat, except maybe to escape through a tiny hole.",     "One of the things I like about the type 3 yuan-ti malison is that it has the extra attacking feature Constrict, which does {@damage 2d6 + 3} bludgeoning damage and grapples its target, restraining it as well. Moreover, since it's grappling with its lower body, its hands are still free. That means that on its next turn, it can take two scimitar swings with advantage. I love both the tactical elegance of this combination and the visual image of it. Type 1 and type 2 don't offer anything of the kind. Plus, the idea of a person with snakes for arms\u2014each with its own head\u2014strikes me as goofy rather than horrifying.",     "Say you've got a party of four PCs, encountering a group of five yuan-ti: three purebloods and two type 3 malisons. The malisons hide 120 feet away from the purebloods, while the purebloods use suggestion to charm the PCs. If a pureblood's suggestion fails or is broken, it draws its scimitar and attacks with it. On cue, the malisons begin sniping at the PCs, targeting elves, gnomes, barbarians, and paladins first. (Why on earth these categories? Because they have the best resistance against being {@condition charmed}.) Once all the purebloods are moderately wounded or any one of them is seriously wounded, the malisons then {@action Dash} in to fight hand-to-hand. They begin with a Multiattack comprising an attempt to Constrict followed by a Scimitar attack. As long as their targets remain {@condition grappled}, they'll keep Multiattacking with their scimitars; if a target breaks free, they'll try to Constrict again. Like purebloods, Yuan-ti Malison retreat when seriously injured (reduced to 26 hp or fewer), but unlike purebloods, they have the discipline to {@action Disengage} before retreating."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Yuan-ti Abomination",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Yuan-ti Abomination",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Yuan-ti abominations are the top caste: giant serpents with humanoid arms. Like malisons, they have the ability to Shapechange into snake form, and like malisons, they suffer from the same disadvantage of not getting to hold on to their equipment. They have the same Constrict ability as the type 3 malison and can combine it with melee attacks in the same way. They have spectacular ability scores across the board, but their Strength of 19 stands out. A yuan-ti abomination is a great boss enemy for a party of intermediate-level PCs.",     "Yuan-ti abominations have mostly the same toolkit as malisons, with one cherry on top: the ability to cast fear once per day. Why would they cast that, though? They're havoc in battle: Once they grapple an enemy, they can take three scimitar swings with advantage and +7 to hit. (That's an 88 percent chance to hit against AC 15.) Whether they're attacking at range with longbows or in melee with scimitars, they do nearly double the malison's damage.",     "There are only two reasons why a yuan-ti abomination would opt for fear over simply beating the tar out of its opponents: Either it's protecting some kind of sacred or otherwise important place, and keeping trespassers away is its foremost priority; or its opponents are tougher than it bargained for, and it's losing the fight.",     "In the former case\u2014that is, when the yuan-ti abomination is more interested in driving the PCs away than in murdering them\u2014it casts fear at the very beginning of the encounter, then fights those too stubborn to go away. In the latter case, it casts fear when it's moderately injured (reduced to 88 hp or fewer), in order to reduce the number of enemies that it and its allies have to deal with right away, and if it's seriously injured (reduced to 50 hp or fewer), it Disengages and attempts to retreat.",     "A yuan-ti abomination fighting to protect a place of importance does so fanatically. If it's seriously injured in that scenario, it won't retreat but rather will fight to the death. If it's accompanied by yuan-ti malisons and purebloods, and if they're in a settlement or other location where reinforcements may be available, one or more of the yuan-ti abomination's allies will break off when the abomination is moderately injured and run/slither to fetch more.",     "Yuan-ti abominations are very intelligent. They issue commands to their allies, telling them what locations to attack or defend and which enemies to prioritize. Because all yuan-ti are magic-resistant, they don't place the same emphasis on spellcasters that other intelligent enemies might. Instead, they focus on strong and tough PCs, double- or triple-teaming them, and on particularly effective ranged fighters. They may single out PC clerics and paladins as well, simply out of sectarian loathing. Also, they direct their allies to make use of choke points, high ground, and other strategically useful terrain.",     "Finally, yuan-ti abominations monologue as they fight, because what more could you want from a fanatically religious enemy boss with Charisma 18? Chew that scenery!"
 							]
 						}
 					}
