@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678837293,
+		"dateLastModified": 1678837313,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -1302,7 +1302,7 @@
 					"source": "TheMonstersKnowWhatTheyreDoing"
 				}
 			},
-			"tokenUrl": "https://5e.tools/img/MM/Lizardfolk%20King.png"
+			"tokenUrl": "https://5e.tools/img/MM/Lizard%20King.png"
 		},
 		{
 			"name": "Lizard Queen",
@@ -1335,7 +1335,7 @@
 					"source": "TheMonstersKnowWhatTheyreDoing"
 				}
 			},
-			"tokenUrl": "https://5e.tools/img/MM/Lizardfolk%20Queen.png"
+			"tokenUrl": "https://5e.tools/img/MM/Lizard%20Queen.png"
 		}
 	],
 	"monsterFluff": [
@@ -1740,7 +1740,7 @@
 			"source": "TheMonstersKnowWhatTheyreDoing",
 		
 			"_copy": {
-				"name": "Lizard King/Queen",
+				"name": "Lizard King",
 				"source": "MM",
 		
 				"_mod": {
