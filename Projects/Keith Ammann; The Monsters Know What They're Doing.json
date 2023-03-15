@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678853522,
+		"dateLastModified": 1678854022,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -699,7 +699,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@creature Yuan-ti Malison|TheMonstersKnowWhatTheyreDoing}",
+									"name": "{@creature Yuan-ti Malison (Type 1)|TheMonstersKnowWhatTheyreDoing}",
 									"page": 47,
 									"entries": [
 										"Combat with yuan-ti purebloods by themselves isn't that interesting; it gets better, though, when you combine them with Yuan-ti Malison.",
@@ -1413,10 +1413,10 @@
 					"source": "TheMonstersKnowWhatTheyreDoing"
 				}
 			},
-			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Purebloods.png"
+			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Pureblood.png"
 		},
 		{
-			"name": "Yuan-ti Malison",
+			"name": "Yuan-ti Malison (Type 1)",
 			"source": "TheMonstersKnowWhatTheyreDoing",
 			"page": 47,
 			"footer": [
@@ -1433,7 +1433,7 @@
 			],
 		
 			"_copy": {
-				"name": "Yuan-ti Malison",
+				"name": "Yuan-ti Malison (Type 1)",
 				"source": "MM",
 		
 				"_preserve": {
@@ -1446,7 +1446,73 @@
 					"source": "TheMonstersKnowWhatTheyreDoing"
 				}
 			},
-			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Malisons.png"
+			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Malison%20(Type%201).png"
+		},
+		{
+			"name": "Yuan-ti Malison (Type 2)",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 47,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"One of the things I like about the type 3 yuan-ti malison is that it has the extra attacking feature Constrict, which does {@damage 2d6 + 3} bludgeoning damage and grapples its target, restraining it as well. Moreover, since it's grappling with its lower body, its hands are still free. That means that on its next turn, it can take two scimitar swings with advantage. I love both the tactical elegance of this combination and the visual image of it. Type 1 and type 2 don't offer anything of the kind. Plus, the idea of a person with snakes for arms\u2014each with its own head\u2014strikes me as goofy rather than horrifying.",     "Say you've got a party of four PCs, encountering a group of five yuan-ti: three purebloods and two type 3 malisons. The malisons hide 120 feet away from the purebloods, while the purebloods use suggestion to charm the PCs. If a pureblood's suggestion fails or is broken, it draws its scimitar and attacks with it. On cue, the malisons begin sniping at the PCs, targeting elves, gnomes, barbarians, and paladins first. (Why on earth these categories? Because they have the best resistance against being {@condition charmed}.) Once all the purebloods are moderately wounded or any one of them is seriously wounded, the malisons then {@action Dash} in to fight hand-to-hand. They begin with a Multiattack comprising an attempt to Constrict followed by a Scimitar attack. As long as their targets remain {@condition grappled}, they'll keep Multiattacking with their scimitars; if a target breaks free, they'll try to Constrict again. Like purebloods, Yuan-ti Malison retreat when seriously injured (reduced to 26 hp or fewer), but unlike purebloods, they have the discipline to {@action Disengage} before retreating."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Yuan-ti Malison (Type 2)",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Yuan-ti Malison",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Malison%20(Type%202).png"
+		},
+		{
+			"name": "Yuan-ti Malison (Type 3)",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 47,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"One of the things I like about the type 3 yuan-ti malison is that it has the extra attacking feature Constrict, which does {@damage 2d6 + 3} bludgeoning damage and grapples its target, restraining it as well. Moreover, since it's grappling with its lower body, its hands are still free. That means that on its next turn, it can take two scimitar swings with advantage. I love both the tactical elegance of this combination and the visual image of it. Type 1 and type 2 don't offer anything of the kind. Plus, the idea of a person with snakes for arms\u2014each with its own head\u2014strikes me as goofy rather than horrifying.",     "Say you've got a party of four PCs, encountering a group of five yuan-ti: three purebloods and two type 3 malisons. The malisons hide 120 feet away from the purebloods, while the purebloods use suggestion to charm the PCs. If a pureblood's suggestion fails or is broken, it draws its scimitar and attacks with it. On cue, the malisons begin sniping at the PCs, targeting elves, gnomes, barbarians, and paladins first. (Why on earth these categories? Because they have the best resistance against being {@condition charmed}.) Once all the purebloods are moderately wounded or any one of them is seriously wounded, the malisons then {@action Dash} in to fight hand-to-hand. They begin with a Multiattack comprising an attempt to Constrict followed by a Scimitar attack. As long as their targets remain {@condition grappled}, they'll keep Multiattacking with their scimitars; if a target breaks free, they'll try to Constrict again. Like purebloods, Yuan-ti Malison retreat when seriously injured (reduced to 26 hp or fewer), but unlike purebloods, they have the discipline to {@action Disengage} before retreating."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Yuan-ti Malison (Type 3)",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Yuan-ti Malison",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Malison%20(Type%203).png"
 		},
 		{
 			"name": "Yuan-ti Abomination",
