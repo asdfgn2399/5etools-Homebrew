@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678854522,
+		"dateLastModified": 1678935019,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -149,7 +149,23 @@
 							"depth": 2
 						},
 						"Bullywugs",
+						{
+							"header": "Bullywug",
+							"depth": 2
+						},
 						"Kuo-toa",
+						{
+							"header": "Kuo-toa",
+							"depth": 2
+						},
+						{
+							"header": "Kuo-toa Whip",
+							"depth": 2
+						},
+						{
+							"header": "Kuo-toa Archpriest",
+							"depth": 2
+						},
 						"Merfolk",
 						"Sahuagin",
 						"Aarakocra",
@@ -712,6 +728,54 @@
 									"page": 48,
 									"entries": [
 										"Yuan-ti abominations are the top caste: giant serpents with humanoid arms. Like malisons, they have the ability to Shapechange into snake form, and like malisons, they suffer from the same disadvantage of not getting to hold on to their equipment. They have the same Constrict ability as the type 3 malison and can combine it with melee attacks in the same way. They have spectacular ability scores across the board, but their Strength of 19 stands out. A yuan-ti abomination is a great boss enemy for a party of intermediate-level PCs.",     "Yuan-ti abominations have mostly the same toolkit as malisons, with one cherry on top: the ability to cast fear once per day. Why would they cast that, though? They're havoc in battle: Once they grapple an enemy, they can take three scimitar swings with advantage and +7 to hit. (That's an 88 percent chance to hit against AC 15.) Whether they're attacking at range with longbows or in melee with scimitars, they do nearly double the malison's damage.",     "There are only two reasons why a yuan-ti abomination would opt for fear over simply beating the tar out of its opponents: Either it's protecting some kind of sacred or otherwise important place, and keeping trespassers away is its foremost priority; or its opponents are tougher than it bargained for, and it's losing the fight.",     "In the former case\u2014that is, when the yuan-ti abomination is more interested in driving the PCs away than in murdering them\u2014it casts fear at the very beginning of the encounter, then fights those too stubborn to go away. In the latter case, it casts fear when it's moderately injured (reduced to 88 hp or fewer), in order to reduce the number of enemies that it and its allies have to deal with right away, and if it's seriously injured (reduced to 50 hp or fewer), it Disengages and attempts to retreat.",     "A yuan-ti abomination fighting to protect a place of importance does so fanatically. If it's seriously injured in that scenario, it won't retreat but rather will fight to the death. If it's accompanied by yuan-ti malisons and purebloods, and if they're in a settlement or other location where reinforcements may be available, one or more of the yuan-ti abomination's allies will break off when the abomination is moderately injured and run/slither to fetch more.",     "Yuan-ti abominations are very intelligent. They issue commands to their allies, telling them what locations to attack or defend and which enemies to prioritize. Because all yuan-ti are magic-resistant, they don't place the same emphasis on spellcasters that other intelligent enemies might. Instead, they focus on strong and tough PCs, double- or triple-teaming them, and on particularly effective ranged fighters. They may single out PC clerics and paladins as well, simply out of sectarian loathing. Also, they direct their allies to make use of choke points, high ground, and other strategically useful terrain.",     "Finally, yuan-ti abominations monologue as they fight, because what more could you want from a fanatically religious enemy boss with Charisma 18? Chew that scenery!"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Bullywugs",
+							"page": 49,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "{@creature Bullywug|TheMonstersKnowWhatTheyreDoing}",
+									"page": 49,
+									"entries": [
+										"Bullywugs are petty, bad-tempered humanoid frogs, native to swampy areas. The Monster Manual flavor text describes them as \"struck with a deep inferiority complex... desperately crav[ing] the fear and respect of outsiders\" and says they'll generally prefer to capture trespassers rather than kill them outright, hauling them back to win favor with their rulers first. One way they do this is by taming giant frogs and having them swallow victims whole; however, this works only on Small or Tiny targets, meaning that unless a party of PCs is made up entirely of halflings and gnomes, this isn't a strategy they can rely on in a typical encounter.",     "For creatures with only two hit dice, bullywugs aren't too shabby in combat. All their physical abilities are modestly above average, and they have proficiency in {@skill Stealth} and the Swamp Camouflage trait, which grants them advantage on Dexterity ({@skill Stealth}) checks in swampy terrain. It's fair to say, therefore, that bullywugs won't venture outside such areas\u2014not when they have such a natural advantage on their home turf.",     "Moreover, their Standing Leap ability lets them move their full speed of 20 feet per turn as a long jump, when the jumping rule would normally allow them to leap only 6 feet. This allows them to cover distance in difficult marshy terrain without having to halve their movement speed. If you want to be nitpicky about it, you can require them to succeed on a DC 10 Dexterity ({@skill Acrobatics}) check when they land, per \"Special Types of Movement: Jumping\" in chapter 8 of the Player's Handbook, but personally, I'd say that bullywugs, whose natural habitat is the swamp, shouldn't have to make that check when landing. And for the sake of flavor, I like the idea of having bullywugs bouncing around like a bunch of ornery little Superballs during combat rather than trudging around in 2-D as we landbound humanoids must. (Mind you, this doesn't exempt them from opportunity attacks when they jump out of PCs' reach.)",     "Okay, so far we've established that bullywug encounters will occur in swamps. Let's also stipulate, based on the aforementioned features, that their favored strategy is ambush (their physical abilities don't indicate a preference for one form of combat over another, but their features do). Now let's add, based on their 40- foot swimming speed, that they prefer combat to take place near open water: This is their favored method of escape. From the bullywugs' point of view, the ideal ambush location is on ground solid enough to fight on but also near water deep enough to swim in. They're Medium creatures, so this depth will be at least 3 feet.",     "Wanting, ideally, to capture rather than kill, bullywugs attack in numbers large enough to surround and overwhelm a party of adventurers\u2014let's say three to one. But here's a question: If you can get a free attack by popping out of hiding and surprising your enemies, will you really forgo that attack and demand their surrender when it costs you the benefit of surprise if they decide to fight back? Bullywugs aren't bright, but I think even they can grasp what the whole point of an ambush is. They'll take that surprise attack, thank you, and with any luck, the damage they do in the first round will serve as further incentive to stand down. If that damage should happen, by some fluke, to knock a target out, they'll make it nonlethal.",     "So here's what round 1 looks like: The bullywugs lie in wait, hidden, at a range of 15 to 20 feet from where they expect the PCs to pass. At the right moment, they spring out of hiding, land next to the PCs, and kick off melee combat with surprise, spearing and biting. In round 2, they keep attacking while demanding the PCs' surrender\u2014in Bullywug, because they're too dumb to realize that the PCs don't speak Bullywug. In round 3, they also keep attacking and demanding the PCs' surrender, still in Bullywug but louder and more slowly. If any PC gets the message and drops their weapon, the nearest bullywug will grab and grapple that PC and pull them away from the fight, rifling through their pockets and pouches for anything valuable.",     "Bullywugs are cowards. If one is moderately wounded (reduced to 7 hp or fewer), it will leap away, but it won't flee just yet\u2014it will look for an opportunity to get back in the fight alongside a couple of less wounded allies, and in the meantime, it Hides and repositions. However, a seriously injured bullywug (reduced to 4 hp or fewer) will indeed flee, using the {@action Dash} action to double its movement speed, leaping into the nearest water deep enough to swim in (and possibly incurring one or more opportunity attacks), then swimming away. If no water of sufficient depth is near enough, it simply leaps twice, 20 feet each time. Bullywugs also flee when their numbers are reduced to fewer than one-and-a-half the number of PCs, then attempt to regroup with other bullywugs in the area, stalk the PCs, and attack again when the opportunity presents itself."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Kuo-toa",
+							"page": 51,
+							"entries": [
+								"Old-school D&D players will recall that the kuo-toa made their debut in the venerated, if somewhat incoherent, D series of adventure modules, which also introduced the drow. In the world of Greyhawk, AD&D's original setting, they and the drow were fierce enemies. In fifth edition, however, the kuo-toa have been retconned into broken ex-subjects of an empire of mind flayers, their rivalry with the drow now mentioned only in passing.",
+								"\"Many weapons of the kuo-toa are designed to capture rather than kill,\" the Monster Manual flavor text informs us, but it leaves open the question of what they want to capture anyone for. Religious sacrifice, maybe? Interrogation? Enslavement? Found-art pieces? Regardless, I'm going to examine their tactics with the assumption that they are, in fact, trying to kill the PCs, or at least knock them out.",
+								{
+									"type": "entries",
+									"name": "{@creature Kuo-toa|TheMonstersKnowWhatTheyreDoing}",
+									"page": 52,
+									"entries": [
+										"The basic kuo-toa stat block has high Strength but average Dexterity and Constitution, and it lacks proficiency in {@skill Stealth}. This is tricky to interpret. Ambush isn't a realistic possibility, but neither is protracted toe-to-toe fighting. Kuo-toa need to be selective about their encounters and maneuver their foes into situations where they're {@condition restrained} and helpless.",     "They do this primarily by using nets. A Net attack restrains an opponent, giving the kuo-toa advantage on attack rolls and giving the opponent disadvantage. However, because of their extremely short range, solo Net attacks always have disadvantage. Also, the net is effortless to escape from, so there need to be a second, third, and fourth kuo-toa on hand to throw more nets, ensuring a reasonable chance that a target will be trapped under at least two. Since a target can escape from only one net at a time, this guarantees that they'll remain {@condition restrained}.",     "What this tells us is that kuo-toa don't attack without a four-to-one numerical advantage or better, throwing nets until a target is covered by two, then attacking with advantage using the Spear action. If you're using the optional Flanking rule (Dungeon Master's Guide, chapter 8), you can get away with a two-to-one advantage: Once the target is under a single net, the battle buddies quickly get on either side of them in order to maintain their advantage in case the captive wriggles free, then begin stabbing.",     "Kuo-toa can breathe underwater, from which we can infer another possible tactic: hauling enemies into the water and trying to drown them. Assuming that the kuo-toa double-team their foes, one grappling and the other taking the {@action Help} action to confer advantage on the check, the grapple-and-drown tactic is reasonable against opponents whose Strength ({@skill Athletics}) and Dexterity ({@skill Acrobatics}) modifiers are both +4 or lower; to have any real confidence of success, they both need to be +1 or lower. If there are more kuo-toa on hand, they can throw nets before grappling; this doesn't impose disadvantage on rolls to escape a grapple, but it overwhelms the target, giving them too many things they have to escape from. Once a target is both {@condition restrained} and {@condition grappled}, any remaining kuo-toa stab.",     "Kuo-toa can't read PCs' stats. They can only know from experience whether a tactic generally works or generally doesn't, and what experience tells them is that it's possible for two of them to drown one average or punier-than-average humanoid, but against a big or brawny one, it doesn't usually work.",     "The Sticky Shield reaction gives the kuo-toa a chance to disable an opponent's weapon. It's only usable in melee. Therefore, kuo-toa prefer melee over ranged combat and close to melee range as soon as they've thrown their nets. (The Monster Manual indicates that monsters with throwable weapons can be assumed to carry {@dice 2d4} of them, but nets are big and bulky. I wouldn't give a single kuo-toa more than one.)",     "If nets and grappling clearly aren't getting the desired result but the kuo-toa still outnumber their opponents at least three to one, they'll switch to attacking with Spear alone, to maximize damage. This is the full extent of their ability to adapt. If they no longer have the numbers, they {@action Dash} away (through water, if possible). They also have a normal self-preservation instinct and {@action Dash} away when seriously injured (7 hp or fewer)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Kuo-toa Whip|TheMonstersKnowWhatTheyreDoing}",
+									"page": 53,
+									"entries": [
+										"The kuo-toa whip is actually a clerical spellcaster, not (as one might reasonably think) a kuo-toa with a whip. It has above-average Constitution and Wisdom; the former makes the kuo-toa whip a more durable melee fighter. Its pincer staff grapples opponents on a melee hit, not on a skill contest, and its escape DC makes it comparable to two regular kuo-toa working together, making it possible to execute the grapple-and-drown tactic with fewer attackers. The execution of this tactic depends on which has higher initiative, the whip or its kuo-toa allies. If the kuo-toa allies go first, they throw their nets, and then the kuotoa whip Multiattacks, gaining advantage on its staff attack rolls if any nets landed. If the whip goes first, it Readies a Pincer Staff attack, the triggering condition being when a kuo-toa ally makes a Net attack; in this case, it doesn't get to Multiattack, because its attack is now a reaction.",     "Shield of faith is a bonus action but also a {@status concentration}-required spell with just one target. Bane requires {@status concentration} as well, affecting up to three creatures but also costing a full action. The kuo-toa whip is more likely to use bane if its allies need help netting their opponents, shield of faith if it's being attacked. The cantrip sacred flame, which costs an action, does {@damage 1d8} radiant damage to one target on a failed Dexterity saving throw. It's good to use against enemy spellcasters, especially close-range supporters; not so good against ranged weapon attackers, who are likely to have high Dex. Once combat has begun, thaumaturgy serves no purpose.",     "Kuo-toa in general aren't super disciplined, and the kuo-toa whip is no exception: It Dashes away when seriously injured (reduced to 26 hp or fewer). It doesn't stick around to help its allies disengage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Kuo-toa Archpriest|TheMonstersKnowWhatTheyreDoing}",
+									"page": 54,
+									"entries": [
+										"The kuo-toa archpriest stands outside the net-and-stab and grapple-anddrown tactics of regular kuo-toa and kuo-toa whips. With very high Strength and Constitution and decently high Dexterity as well\u2014not to mention a magic scepter that does lightning damage\u2014it's well-equipped for melee combat, but its repertoire of spells is impressive too:",     {       "type": "list",       "items": [         "Mass cure wounds can be a tide-turner, good when half a dozen of its allies are moderately wounded or worse (kuo-toa reduced to 12 hp or fewer; kuotoa whips reduced to 45 hp or fewer).",         "Scrying is a 10-minute ritual, not suitable for combat.",         "Control water is super if the kuo-toa are trying to drown their enemies. They can breathe underwater; the PCs, in all likelihood, can't. Therefore, it's a near guarantee that a kuo-toa archpriest will cast this during any encounter. The Flood option can fill a space that has any standing water in it at all to a depth of up to 20 feet, making this an automatic win if the ceiling is no higher than that. If players have already been pulled into a body of water, the Whirlpool option can keep them there and bludgeon them in the process. (One archpriest can't use the two effects in conjunction with each other... but two can.)",         "Divination is a spell for social interaction, not combat.",         "Spirit guardians is great\u2014usually\u2014but in this case, it's got to take a backseat to control water, since both require {@status concentration}. A kuo-toa archpriest casts this spell only when there's no water around to control, and really, why would a kuo-toa archpriest be anyplace where there wasn't water at hand? It seems to me that kuo-toa habitations should exist on a continuum from Venice to Atlantis.",         "Tongues is the only way the kuo-toa can communicate with surface-dwelling creatures, since Undercommon isn't Common. But again, this is for social interaction, not combat, unless someone is signaling a desire to parley in the middle of a combat encounter.",         "Hold person is always useful\u2014as long as you're not trying to sustain either control water or spirit guardians.",         "Spiritual weapon is always useful, period. It's a bonus action that creates a floating energy weapon (in this case, in the shape of a kuo-toa whip's pincer staff), doesn't require {@status concentration} to sustain, and confers a bonus attack action on every subsequent round, for up to 10 rounds. Casting this spell is the first thing the kuo-toa archpriest does in any combat encounter.",         "Detect magic is a spell for another occasion.",         "Sanctuary is an interesting and useful spell but one that I have a hard time imagining a kuo-toa archpriest using, unless it were guarding some fishyhead VIP. I don't think it would cast this spell on any of its allies in combat. It might cast it on itself while Dashing away.",         "Shield of faith is a bonus action and a self-defense measure. If a PC has eluded nets and drowning and is coming at the archpriest, it may be worth it to forgo a spiritual weapon attack for one turn in order to get this spell up and running. But it requires, yep, {@status concentration}, so the archpriest probably won't cast this spell unless and until things are going really awry.",         "Guidance is a cantrip that requires {@status concentration}. Why bother?",         "Sacred flame is useful for smiting a slow opponent at a distance, and that's about it.",         "Thaumaturgy no."       ]     },     "Out of all these spells, only three leap out as unconditionally useful: spiritual weapon, control water, and mass cure wounds, in that order. Two more are situationally useful: spirit guardians and hold person. These should cover the entirety of a combat encounter. If the fighting drags on, a kuo-toa archpriest will probably just start smacking opponents left and right with its electric scepter rather than cast spells.",     "Like the regular kuo-toa and the kuo-toa whip, the kuo-toa archpriest flees when seriously wounded (reduced to 38 hp or fewer), underwater if possible. Unlike some boss monsters, the kuo-toa archpriest won't stand its ground over treasure or a holy site. It's gonna save its skin."
 									]
 								}
 							]
@@ -1546,6 +1610,138 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Yuan-ti%20Abomination.png"
+		},
+		{
+			"name": "Bullywug",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 49,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"The bullywugs lie in wait, hidden, at a range of 15 to 20 feet from where they expect the PCs to pass. At the right moment, they spring out of hiding, land next to the PCs, and kick off melee combat with surprise, spearing and biting. In round 2, they keep attacking while demanding the PCs' surrender\u2014in Bullywug, because they're too dumb to realize that the PCs don't speak Bullywug. In round 3, they also keep attacking and demanding the PCs' surrender, still in Bullywug but louder and more slowly. If any PC gets the message and drops their weapon, the nearest bullywug will grab and grapple that PC and pull them away from the fight, rifling through their pockets and pouches for anything valuable.",     "Bullywugs are cowards. If one is moderately wounded (reduced to 7 hp or fewer), it will leap away, but it won't flee just yet\u2014it will look for an opportunity to get back in the fight alongside a couple of less wounded allies, and in the meantime, it Hides and repositions. However, a seriously injured bullywug (reduced to 4 hp or fewer) will indeed flee, using the {@action Dash} action to double its movement speed, leaping into the nearest water deep enough to swim in (and possibly incurring one or more opportunity attacks), then swimming away. If no water of sufficient depth is near enough, it simply leaps twice, 20 feet each time. Bullywugs also flee when their numbers are reduced to fewer than one-and-a-half the number of PCs, then attempt to regroup with other bullywugs in the area, stalk the PCs, and attack again when the opportunity presents itself."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Bullywug",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Bullywug",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Bullywug.png"
+		},
+		{
+			"name": "Kuo-toa",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 52,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"Kuo-toa don't attack without a four-to-one numerical advantage or better, throwing nets until a target is covered by two, then attacking with advantage using the Spear action. If you're using the optional Flanking rule (Dungeon Master's Guide, chapter 8), you can get away with a two-to-one advantage: Once the target is under a single net, the battle buddies quickly get on either side of them in order to maintain their advantage in case the captive wriggles free, then begin stabbing.",     "Kuo-toa can breathe underwater, from which we can infer another possible tactic: hauling enemies into the water and trying to drown them. Assuming that the kuo-toa double-team their foes, one grappling and the other taking the {@action Help} action to confer advantage on the check, the grapple-and-drown tactic is reasonable against opponents whose Strength ({@skill Athletics}) and Dexterity ({@skill Acrobatics}) modifiers are both +4 or lower; to have any real confidence of success, they both need to be +1 or lower. If there are more kuo-toa on hand, they can throw nets before grappling; this doesn't impose disadvantage on rolls to escape a grapple, but it overwhelms the target, giving them too many things they have to escape from. Once a target is both {@condition restrained} and {@condition grappled}, any remaining kuo-toa stab.",     "Kuo-toa can't read PCs' stats. They can only know from experience whether a tactic generally works or generally doesn't, and what experience tells them is that it's possible for two of them to drown one average or punier-than-average humanoid, but against a big or brawny one, it doesn't usually work.",     "The Sticky Shield reaction gives the kuo-toa a chance to disable an opponent's weapon. It's only usable in melee. Therefore, kuo-toa prefer melee over ranged combat and close to melee range as soon as they've thrown their nets. (The Monster Manual indicates that monsters with throwable weapons can be assumed to carry {@dice 2d4} of them, but nets are big and bulky. I wouldn't give a single kuo-toa more than one.)",     "If nets and grappling clearly aren't getting the desired result but the kuo-toa still outnumber their opponents at least three to one, they'll switch to attacking with Spear alone, to maximize damage. This is the full extent of their ability to adapt. If they no longer have the numbers, they {@action Dash} away (through water, if possible). They also have a normal self-preservation instinct and {@action Dash} away when seriously injured (7 hp or fewer)."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Kuo-toa",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Kuo-toa",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Kuo-toa.png"
+		},
+		{
+			"name": "Kuo-toa Whip",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 53,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"The kuo-toa whip is actually a clerical spellcaster, not (as one might reasonably think) a kuo-toa with a whip. It has above-average Constitution and Wisdom; the former makes the kuo-toa whip a more durable melee fighter. Its pincer staff grapples opponents on a melee hit, not on a skill contest, and its escape DC makes it comparable to two regular kuo-toa working together, making it possible to execute the grapple-and-drown tactic with fewer attackers. The execution of this tactic depends on which has higher initiative, the whip or its kuo-toa allies. If the kuo-toa allies go first, they throw their nets, and then the kuotoa whip Multiattacks, gaining advantage on its staff attack rolls if any nets landed. If the whip goes first, it Readies a Pincer Staff attack, the triggering condition being when a kuo-toa ally makes a Net attack; in this case, it doesn't get to Multiattack, because its attack is now a reaction.",     "Shield of faith is a bonus action but also a {@status concentration}-required spell with just one target. Bane requires {@status concentration} as well, affecting up to three creatures but also costing a full action. The kuo-toa whip is more likely to use bane if its allies need help netting their opponents, shield of faith if it's being attacked. The cantrip sacred flame, which costs an action, does {@damage 1d8} radiant damage to one target on a failed Dexterity saving throw. It's good to use against enemy spellcasters, especially close-range supporters; not so good against ranged weapon attackers, who are likely to have high Dex. Once combat has begun, thaumaturgy serves no purpose.",     "Kuo-toa in general aren't super disciplined, and the kuo-toa whip is no exception: It Dashes away when seriously injured (reduced to 26 hp or fewer). It doesn't stick around to help its allies disengage."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Kuo-toa Whip",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Kuo-toa Whip",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Kuo-toa%20Whip.png"
+		},
+		{
+			"name": "Kuo-toa Archpriest",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 54,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"The kuo-toa archpriest stands outside the net-and-stab and grapple-and-drown tactics of regular kuo-toa and kuo-toa whips. With very high Strength and Constitution and decently high Dexterity as well\u2014not to mention a magic scepter that does lightning damage\u2014it's well-equipped for melee combat, but its repertoire of spells is impressive too", "Out of all these spells, only three leap out as unconditionally useful: spiritual weapon, control water, and mass cure wounds, in that order. Two more are situationally useful: spirit guardians and hold person. These should cover the entirety of a combat encounter. If the fighting drags on, a kuo-toa archpriest will probably just start smacking opponents left and right with its electric scepter rather than cast spells.",     "Like the regular kuo-toa and the kuo-toa whip, the kuo-toa archpriest flees when seriously wounded (reduced to 38 hp or fewer), underwater if possible. Unlike some boss monsters, the kuo-toa archpriest won't stand its ground over treasure or a holy site. It's gonna save its skin."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Kuo-toa Archpriest",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Kuo-toa Archpriest",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Kuo-toa%20Archpriest.png"
 		}
 	],
 	"monsterFluff": [
@@ -2027,6 +2223,94 @@
 							"name": "Tactics",
 							"entries": [
 								"Yuan-ti abominations are the top caste: giant serpents with humanoid arms. Like malisons, they have the ability to Shapechange into snake form, and like malisons, they suffer from the same disadvantage of not getting to hold on to their equipment. They have the same Constrict ability as the type 3 malison and can combine it with melee attacks in the same way. They have spectacular ability scores across the board, but their Strength of 19 stands out. A yuan-ti abomination is a great boss enemy for a party of intermediate-level PCs.",     "Yuan-ti abominations have mostly the same toolkit as malisons, with one cherry on top: the ability to cast fear once per day. Why would they cast that, though? They're havoc in battle: Once they grapple an enemy, they can take three scimitar swings with advantage and +7 to hit. (That's an 88 percent chance to hit against AC 15.) Whether they're attacking at range with longbows or in melee with scimitars, they do nearly double the malison's damage.",     "There are only two reasons why a yuan-ti abomination would opt for fear over simply beating the tar out of its opponents: Either it's protecting some kind of sacred or otherwise important place, and keeping trespassers away is its foremost priority; or its opponents are tougher than it bargained for, and it's losing the fight.",     "In the former case\u2014that is, when the yuan-ti abomination is more interested in driving the PCs away than in murdering them\u2014it casts fear at the very beginning of the encounter, then fights those too stubborn to go away. In the latter case, it casts fear when it's moderately injured (reduced to 88 hp or fewer), in order to reduce the number of enemies that it and its allies have to deal with right away, and if it's seriously injured (reduced to 50 hp or fewer), it Disengages and attempts to retreat.",     "A yuan-ti abomination fighting to protect a place of importance does so fanatically. If it's seriously injured in that scenario, it won't retreat but rather will fight to the death. If it's accompanied by yuan-ti malisons and purebloods, and if they're in a settlement or other location where reinforcements may be available, one or more of the yuan-ti abomination's allies will break off when the abomination is moderately injured and run/slither to fetch more.",     "Yuan-ti abominations are very intelligent. They issue commands to their allies, telling them what locations to attack or defend and which enemies to prioritize. Because all yuan-ti are magic-resistant, they don't place the same emphasis on spellcasters that other intelligent enemies might. Instead, they focus on strong and tough PCs, double- or triple-teaming them, and on particularly effective ranged fighters. They may single out PC clerics and paladins as well, simply out of sectarian loathing. Also, they direct their allies to make use of choke points, high ground, and other strategically useful terrain.",     "Finally, yuan-ti abominations monologue as they fight, because what more could you want from a fanatically religious enemy boss with Charisma 18? Chew that scenery!"
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Bullywug",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Bullywug",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Bullywugs are petty, bad-tempered humanoid frogs, native to swampy areas. The Monster Manual flavor text describes them as \"struck with a deep inferiority complex... desperately crav[ing] the fear and respect of outsiders\" and says they'll generally prefer to capture trespassers rather than kill them outright, hauling them back to win favor with their rulers first. One way they do this is by taming giant frogs and having them swallow victims whole; however, this works only on Small or Tiny targets, meaning that unless a party of PCs is made up entirely of halflings and gnomes, this isn't a strategy they can rely on in a typical encounter.",     "For creatures with only two hit dice, bullywugs aren't too shabby in combat. All their physical abilities are modestly above average, and they have proficiency in {@skill Stealth} and the Swamp Camouflage trait, which grants them advantage on Dexterity ({@skill Stealth}) checks in swampy terrain. It's fair to say, therefore, that bullywugs won't venture outside such areas\u2014not when they have such a natural advantage on their home turf.",     "Moreover, their Standing Leap ability lets them move their full speed of 20 feet per turn as a long jump, when the jumping rule would normally allow them to leap only 6 feet. This allows them to cover distance in difficult marshy terrain without having to halve their movement speed. If you want to be nitpicky about it, you can require them to succeed on a DC 10 Dexterity ({@skill Acrobatics}) check when they land, per \"Special Types of Movement: Jumping\" in chapter 8 of the Player's Handbook, but personally, I'd say that bullywugs, whose natural habitat is the swamp, shouldn't have to make that check when landing. And for the sake of flavor, I like the idea of having bullywugs bouncing around like a bunch of ornery little Superballs during combat rather than trudging around in 2-D as we landbound humanoids must. (Mind you, this doesn't exempt them from opportunity attacks when they jump out of PCs' reach.)",     "Okay, so far we've established that bullywug encounters will occur in swamps. Let's also stipulate, based on the aforementioned features, that their favored strategy is ambush (their physical abilities don't indicate a preference for one form of combat over another, but their features do). Now let's add, based on their 40- foot swimming speed, that they prefer combat to take place near open water: This is their favored method of escape. From the bullywugs' point of view, the ideal ambush location is on ground solid enough to fight on but also near water deep enough to swim in. They're Medium creatures, so this depth will be at least 3 feet.",     "Wanting, ideally, to capture rather than kill, bullywugs attack in numbers large enough to surround and overwhelm a party of adventurers\u2014let's say three to one. But here's a question: If you can get a free attack by popping out of hiding and surprising your enemies, will you really forgo that attack and demand their surrender when it costs you the benefit of surprise if they decide to fight back? Bullywugs aren't bright, but I think even they can grasp what the whole point of an ambush is. They'll take that surprise attack, thank you, and with any luck, the damage they do in the first round will serve as further incentive to stand down. If that damage should happen, by some fluke, to knock a target out, they'll make it nonlethal.",     "So here's what round 1 looks like: The bullywugs lie in wait, hidden, at a range of 15 to 20 feet from where they expect the PCs to pass. At the right moment, they spring out of hiding, land next to the PCs, and kick off melee combat with surprise, spearing and biting. In round 2, they keep attacking while demanding the PCs' surrender\u2014in Bullywug, because they're too dumb to realize that the PCs don't speak Bullywug. In round 3, they also keep attacking and demanding the PCs' surrender, still in Bullywug but louder and more slowly. If any PC gets the message and drops their weapon, the nearest bullywug will grab and grapple that PC and pull them away from the fight, rifling through their pockets and pouches for anything valuable.",     "Bullywugs are cowards. If one is moderately wounded (reduced to 7 hp or fewer), it will leap away, but it won't flee just yet\u2014it will look for an opportunity to get back in the fight alongside a couple of less wounded allies, and in the meantime, it Hides and repositions. However, a seriously injured bullywug (reduced to 4 hp or fewer) will indeed flee, using the {@action Dash} action to double its movement speed, leaping into the nearest water deep enough to swim in (and possibly incurring one or more opportunity attacks), then swimming away. If no water of sufficient depth is near enough, it simply leaps twice, 20 feet each time. Bullywugs also flee when their numbers are reduced to fewer than one-and-a-half the number of PCs, then attempt to regroup with other bullywugs in the area, stalk the PCs, and attack again when the opportunity presents itself."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Kuo-toa",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Kuo-toa",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"The basic kuo-toa stat block has high Strength but average Dexterity and Constitution, and it lacks proficiency in {@skill Stealth}. This is tricky to interpret. Ambush isn't a realistic possibility, but neither is protracted toe-to-toe fighting. Kuo-toa need to be selective about their encounters and maneuver their foes into situations where they're {@condition restrained} and helpless.",     "They do this primarily by using nets. A Net attack restrains an opponent, giving the kuo-toa advantage on attack rolls and giving the opponent disadvantage. However, because of their extremely short range, solo Net attacks always have disadvantage. Also, the net is effortless to escape from, so there need to be a second, third, and fourth kuo-toa on hand to throw more nets, ensuring a reasonable chance that a target will be trapped under at least two. Since a target can escape from only one net at a time, this guarantees that they'll remain {@condition restrained}.",     "What this tells us is that kuo-toa don't attack without a four-to-one numerical advantage or better, throwing nets until a target is covered by two, then attacking with advantage using the Spear action. If you're using the optional Flanking rule (Dungeon Master's Guide, chapter 8), you can get away with a two-to-one advantage: Once the target is under a single net, the battle buddies quickly get on either side of them in order to maintain their advantage in case the captive wriggles free, then begin stabbing.",     "Kuo-toa can breathe underwater, from which we can infer another possible tactic: hauling enemies into the water and trying to drown them. Assuming that the kuo-toa double-team their foes, one grappling and the other taking the {@action Help} action to confer advantage on the check, the grapple-and-drown tactic is reasonable against opponents whose Strength ({@skill Athletics}) and Dexterity ({@skill Acrobatics}) modifiers are both +4 or lower; to have any real confidence of success, they both need to be +1 or lower. If there are more kuo-toa on hand, they can throw nets before grappling; this doesn't impose disadvantage on rolls to escape a grapple, but it overwhelms the target, giving them too many things they have to escape from. Once a target is both {@condition restrained} and {@condition grappled}, any remaining kuo-toa stab.",     "Kuo-toa can't read PCs' stats. They can only know from experience whether a tactic generally works or generally doesn't, and what experience tells them is that it's possible for two of them to drown one average or punier-than-average humanoid, but against a big or brawny one, it doesn't usually work.",     "The Sticky Shield reaction gives the kuo-toa a chance to disable an opponent's weapon. It's only usable in melee. Therefore, kuo-toa prefer melee over ranged combat and close to melee range as soon as they've thrown their nets. (The Monster Manual indicates that monsters with throwable weapons can be assumed to carry {@dice 2d4} of them, but nets are big and bulky. I wouldn't give a single kuo-toa more than one.)",     "If nets and grappling clearly aren't getting the desired result but the kuo-toa still outnumber their opponents at least three to one, they'll switch to attacking with Spear alone, to maximize damage. This is the full extent of their ability to adapt. If they no longer have the numbers, they {@action Dash} away (through water, if possible). They also have a normal self-preservation instinct and {@action Dash} away when seriously injured (7 hp or fewer)."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Kuo-toa Whip",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Kuo-toa Whip",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"The kuo-toa whip is actually a clerical spellcaster, not (as one might reasonably think) a kuo-toa with a whip. It has above-average Constitution and Wisdom; the former makes the kuo-toa whip a more durable melee fighter. Its pincer staff grapples opponents on a melee hit, not on a skill contest, and its escape DC makes it comparable to two regular kuo-toa working together, making it possible to execute the grapple-and-drown tactic with fewer attackers. The execution of this tactic depends on which has higher initiative, the whip or its kuo-toa allies. If the kuo-toa allies go first, they throw their nets, and then the kuotoa whip Multiattacks, gaining advantage on its staff attack rolls if any nets landed. If the whip goes first, it Readies a Pincer Staff attack, the triggering condition being when a kuo-toa ally makes a Net attack; in this case, it doesn't get to Multiattack, because its attack is now a reaction.",     "Shield of faith is a bonus action but also a {@status concentration}-required spell with just one target. Bane requires {@status concentration} as well, affecting up to three creatures but also costing a full action. The kuo-toa whip is more likely to use bane if its allies need help netting their opponents, shield of faith if it's being attacked. The cantrip sacred flame, which costs an action, does {@damage 1d8} radiant damage to one target on a failed Dexterity saving throw. It's good to use against enemy spellcasters, especially close-range supporters; not so good against ranged weapon attackers, who are likely to have high Dex. Once combat has begun, thaumaturgy serves no purpose.",     "Kuo-toa in general aren't super disciplined, and the kuo-toa whip is no exception: It Dashes away when seriously injured (reduced to 26 hp or fewer). It doesn't stick around to help its allies disengage."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Kuo-toa Archpriest",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Kuo-toa Archpriest",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"The kuo-toa archpriest stands outside the net-and-stab and grapple-anddrown tactics of regular kuo-toa and kuo-toa whips. With very high Strength and Constitution and decently high Dexterity as well\u2014not to mention a magic scepter that does lightning damage\u2014it's well-equipped for melee combat, but its repertoire of spells is impressive too:",     {       "type": "list",       "items": [         "Mass cure wounds can be a tide-turner, good when half a dozen of its allies are moderately wounded or worse (kuo-toa reduced to 12 hp or fewer; kuotoa whips reduced to 45 hp or fewer).",         "Scrying is a 10-minute ritual, not suitable for combat.",         "Control water is super if the kuo-toa are trying to drown their enemies. They can breathe underwater; the PCs, in all likelihood, can't. Therefore, it's a near guarantee that a kuo-toa archpriest will cast this during any encounter. The Flood option can fill a space that has any standing water in it at all to a depth of up to 20 feet, making this an automatic win if the ceiling is no higher than that. If players have already been pulled into a body of water, the Whirlpool option can keep them there and bludgeon them in the process. (One archpriest can't use the two effects in conjunction with each other... but two can.)",         "Divination is a spell for social interaction, not combat.",         "Spirit guardians is great\u2014usually\u2014but in this case, it's got to take a backseat to control water, since both require {@status concentration}. A kuo-toa archpriest casts this spell only when there's no water around to control, and really, why would a kuo-toa archpriest be anyplace where there wasn't water at hand? It seems to me that kuo-toa habitations should exist on a continuum from Venice to Atlantis.",         "Tongues is the only way the kuo-toa can communicate with surface-dwelling creatures, since Undercommon isn't Common. But again, this is for social interaction, not combat, unless someone is signaling a desire to parley in the middle of a combat encounter.",         "Hold person is always useful\u2014as long as you're not trying to sustain either control water or spirit guardians.",         "Spiritual weapon is always useful, period. It's a bonus action that creates a floating energy weapon (in this case, in the shape of a kuo-toa whip's pincer staff), doesn't require {@status concentration} to sustain, and confers a bonus attack action on every subsequent round, for up to 10 rounds. Casting this spell is the first thing the kuo-toa archpriest does in any combat encounter.",         "Detect magic is a spell for another occasion.",         "Sanctuary is an interesting and useful spell but one that I have a hard time imagining a kuo-toa archpriest using, unless it were guarding some fishyhead VIP. I don't think it would cast this spell on any of its allies in combat. It might cast it on itself while Dashing away.",         "Shield of faith is a bonus action and a self-defense measure. If a PC has eluded nets and drowning and is coming at the archpriest, it may be worth it to forgo a spiritual weapon attack for one turn in order to get this spell up and running. But it requires, yep, {@status concentration}, so the archpriest probably won't cast this spell unless and until things are going really awry.",         "Guidance is a cantrip that requires {@status concentration}. Why bother?",         "Sacred flame is useful for smiting a slow opponent at a distance, and that's about it.",         "Thaumaturgy no."       ]     },     "Out of all these spells, only three leap out as unconditionally useful: spiritual weapon, control water, and mass cure wounds, in that order. Two more are situationally useful: spirit guardians and hold person. These should cover the entirety of a combat encounter. If the fighting drags on, a kuo-toa archpriest will probably just start smacking opponents left and right with its electric scepter rather than cast spells.",     "Like the regular kuo-toa and the kuo-toa whip, the kuo-toa archpriest flees when seriously wounded (reduced to 38 hp or fewer), underwater if possible. Unlike some boss monsters, the kuo-toa archpriest won't stand its ground over treasure or a holy site. It's gonna save its skin."
 							]
 						}
 					}
