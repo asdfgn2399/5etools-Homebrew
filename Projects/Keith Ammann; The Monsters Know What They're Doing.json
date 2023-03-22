@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1678935019,
+		"dateLastModified": 1678938019,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -167,6 +167,10 @@
 							"depth": 2
 						},
 						"Merfolk",
+						{
+							"header": "Merfolk",
+							"depth": 2
+						},
 						"Sahuagin",
 						"Aarakocra",
 						"Kenku",
@@ -776,6 +780,27 @@
 									"page": 54,
 									"entries": [
 										"The kuo-toa archpriest stands outside the net-and-stab and grapple-anddrown tactics of regular kuo-toa and kuo-toa whips. With very high Strength and Constitution and decently high Dexterity as well\u2014not to mention a magic scepter that does lightning damage\u2014it's well-equipped for melee combat, but its repertoire of spells is impressive too:",     {       "type": "list",       "items": [         "Mass cure wounds can be a tide-turner, good when half a dozen of its allies are moderately wounded or worse (kuo-toa reduced to 12 hp or fewer; kuotoa whips reduced to 45 hp or fewer).",         "Scrying is a 10-minute ritual, not suitable for combat.",         "Control water is super if the kuo-toa are trying to drown their enemies. They can breathe underwater; the PCs, in all likelihood, can't. Therefore, it's a near guarantee that a kuo-toa archpriest will cast this during any encounter. The Flood option can fill a space that has any standing water in it at all to a depth of up to 20 feet, making this an automatic win if the ceiling is no higher than that. If players have already been pulled into a body of water, the Whirlpool option can keep them there and bludgeon them in the process. (One archpriest can't use the two effects in conjunction with each other... but two can.)",         "Divination is a spell for social interaction, not combat.",         "Spirit guardians is great\u2014usually\u2014but in this case, it's got to take a backseat to control water, since both require {@status concentration}. A kuo-toa archpriest casts this spell only when there's no water around to control, and really, why would a kuo-toa archpriest be anyplace where there wasn't water at hand? It seems to me that kuo-toa habitations should exist on a continuum from Venice to Atlantis.",         "Tongues is the only way the kuo-toa can communicate with surface-dwelling creatures, since Undercommon isn't Common. But again, this is for social interaction, not combat, unless someone is signaling a desire to parley in the middle of a combat encounter.",         "Hold person is always useful\u2014as long as you're not trying to sustain either control water or spirit guardians.",         "Spiritual weapon is always useful, period. It's a bonus action that creates a floating energy weapon (in this case, in the shape of a kuo-toa whip's pincer staff), doesn't require {@status concentration} to sustain, and confers a bonus attack action on every subsequent round, for up to 10 rounds. Casting this spell is the first thing the kuo-toa archpriest does in any combat encounter.",         "Detect magic is a spell for another occasion.",         "Sanctuary is an interesting and useful spell but one that I have a hard time imagining a kuo-toa archpriest using, unless it were guarding some fishyhead VIP. I don't think it would cast this spell on any of its allies in combat. It might cast it on itself while Dashing away.",         "Shield of faith is a bonus action and a self-defense measure. If a PC has eluded nets and drowning and is coming at the archpriest, it may be worth it to forgo a spiritual weapon attack for one turn in order to get this spell up and running. But it requires, yep, {@status concentration}, so the archpriest probably won't cast this spell unless and until things are going really awry.",         "Guidance is a cantrip that requires {@status concentration}. Why bother?",         "Sacred flame is useful for smiting a slow opponent at a distance, and that's about it.",         "Thaumaturgy no."       ]     },     "Out of all these spells, only three leap out as unconditionally useful: spiritual weapon, control water, and mass cure wounds, in that order. Two more are situationally useful: spirit guardians and hold person. These should cover the entirety of a combat encounter. If the fighting drags on, a kuo-toa archpriest will probably just start smacking opponents left and right with its electric scepter rather than cast spells.",     "Like the regular kuo-toa and the kuo-toa whip, the kuo-toa archpriest flees when seriously wounded (reduced to 38 hp or fewer), underwater if possible. Unlike some boss monsters, the kuo-toa archpriest won't stand its ground over treasure or a holy site. It's gonna save its skin."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Merfolk",
+							"page": 56,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "{@creature Merfolk|TheMonstersKnowWhatTheyreDoing}",
+									"page": 56,
+									"entries": [
+										"Merfolk may occasionally enjoy sunning themselves on rocks, to be spied by passing sailors, but they pass the vast majority of their time under the sea. This is where their habitations are and where they're most likely to be encountered. With a 40-foot swimming speed and only a 10-foot land speed, getting into a scrap on dry land is a very bad proposition for merfolk. Underwater, their swimming speed is a huge advantage against any creature not native to the depths.",
+										"Although their ability scores all fall into a typical humanoid range, they do have above-average Dexterity and Constitution, and these, combined with their swimming speed, bias them toward a skirmish style of combat. Since the spears they carry can be thrown underwater at normal range without disadvantage, part of a group of merfolk can engage in melee while others throw their spears; some may even do both.",
+										"It's worth a closer examination to see just how big an advantage their swimming speed is for them. For a character who isn't innately aquatic or buffed by a magic item, every foot swum costs an extra foot of movement, effectively halving movement speed in most cases. This means that Silvio the Swordsman is slowed to 15 feet per round underwater, whereas his merfolk opponent can swim 40 feet per round.",
+										"How do they use this to gain an even greater advantage? Mainly, by goading opponents into splitting up. Rather than coalesce around a melee front line, merfolk initiate combat by throwing spears from a distance of exactly 20 feet\u2014no more, no less\u2014from all sides of their foes, if possible. If they're on defense and can attack from only one side, they form a line, from which the ones on the ends spread out while the ones in the center fall back, eventually forming a semicircle around their opponents. (Because underwater combat takes place in three dimensions, some can also go up or down.)",
+										"As they encircle (or en-semicircle, or en-hemisphere) their enemies, they fall back as those enemies advance, maintaining that 20-foot distance. If an enemy does manage to close the distance with a merfolk, it stops throwing spears and starts stabbing with one instead; ditto if the merfolk have managed to lure their foes into spreading out 30 feet or more from one another, or if the withdrawing merfolk is down to its last spear. It's only practical to carry so many spears\u2014three or four is probably the limit\u2014and a merfolk never throws its last one. A seriously wounded merfolk (reduced to 4 hp or fewer), or one forcibly disarmed of its last spear, Disengages and retreats. If reinforcements are available, it then Dashes off to fetch them.",
+										"Against a party of low-level adventurers, {@footnote as many as five merfolk to one PC constitute a winnable fight (although two to one is fairer for novice adventurers just starting out)|According to \"Creating a Combat Encounter\" in chapter 3 of the Dungeon Master's Guide, these merfolk-to-PC ratios constitute Deadly encounters. However, according to the alternative guidelines under \"Encounter Building\" in chapter 2 of Xanathar's Guide to Everything, they produce a balanced encounter. I ran a test scenario comprising ten merfolk against five level 1 PCs with water breathing cast upon them, which ended in the merfolk's being routed with only two PCs wounded. I conclude that Xanathar's is right.}, so there should always be plenty of merfolk on hand to allow some to fight hand-to-hand, some to throw spears, and some to retreat.",
+										"Merfolk are neutral, not evil, which means their initial disposition toward strangers is indifference rather than hostility. They are cautious, however, and order any strangers who approach to between 20 and 60 feet to halt and state their business. If they're not satisfied by the reply they receive (they don't take \"Blurrrbbblllpp!\" for an answer), they cock their spears as a warning. But they don't attack unless and until their visitors take action that could be reasonably interpreted as hostile, and they won't chase down fleeing foes."
 									]
 								}
 							]
@@ -1742,6 +1767,39 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Kuo-toa%20Archpriest.png"
+		},
+		{
+			"name": "Merfolk",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 56,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"Rather than coalesce around a melee front line, merfolk initiate combat by throwing spears from a distance of exactly 20 feet\u2014no more, no less\u2014from all sides of their foes, if possible. If they're on defense and can attack from only one side, they form a line, from which the ones on the ends spread out while the ones in the center fall back, eventually forming a semicircle around their opponents. (Because underwater combat takes place in three dimensions, some can also go up or down.)",     "As they encircle (or en-semicircle, or en-hemisphere) their enemies, they fall back as those enemies advance, maintaining that 20-foot distance. If an enemy does manage to close the distance with a merfolk, it stops throwing spears and starts stabbing with one instead; ditto if the merfolk have managed to lure their foes into spreading out 30 feet or more from one another, or if the withdrawing merfolk is down to its last spear. It's only practical to carry so many spears\u2014three or four is probably the limit\u2014and a merfolk never throws its last one. A seriously wounded merfolk (reduced to 4 hp or fewer), or one forcibly disarmed of its last spear, Disengages and retreats. If reinforcements are available, it then Dashes off to fetch them.",     "Against a party of low-level adventurers, {@footnote as many as five merfolk to one PC constitute a winnable fight (although two to one is fairer for novice adventurers just starting out)|According to \"Creating a Combat Encounter\" in chapter 3 of the Dungeon Master's Guide, these merfolk-to-PC ratios constitute Deadly encounters. However, according to the alternative guidelines under \"Encounter Building\" in chapter 2 of Xanathar's Guide to Everything, they produce a balanced encounter. I ran a test scenario comprising ten merfolk against five level 1 PCs with water breathing cast upon them, which ended in the merfolk's being routed with only two PCs wounded. I conclude that Xanathar's is right.}, so there should always be plenty of merfolk on hand to allow some to fight hand-to-hand, some to throw spears, and some to retreat."
+					]
+				}
+			],
+		
+			"_copy": {
+				"name": "Merfolk",
+				"source": "MM",
+		
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Merfolk",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Merfolk.png"
 		}
 	],
 	"monsterFluff": [
@@ -2311,6 +2369,28 @@
 							"name": "Tactics",
 							"entries": [
 								"The kuo-toa archpriest stands outside the net-and-stab and grapple-anddrown tactics of regular kuo-toa and kuo-toa whips. With very high Strength and Constitution and decently high Dexterity as well\u2014not to mention a magic scepter that does lightning damage\u2014it's well-equipped for melee combat, but its repertoire of spells is impressive too:",     {       "type": "list",       "items": [         "Mass cure wounds can be a tide-turner, good when half a dozen of its allies are moderately wounded or worse (kuo-toa reduced to 12 hp or fewer; kuotoa whips reduced to 45 hp or fewer).",         "Scrying is a 10-minute ritual, not suitable for combat.",         "Control water is super if the kuo-toa are trying to drown their enemies. They can breathe underwater; the PCs, in all likelihood, can't. Therefore, it's a near guarantee that a kuo-toa archpriest will cast this during any encounter. The Flood option can fill a space that has any standing water in it at all to a depth of up to 20 feet, making this an automatic win if the ceiling is no higher than that. If players have already been pulled into a body of water, the Whirlpool option can keep them there and bludgeon them in the process. (One archpriest can't use the two effects in conjunction with each other... but two can.)",         "Divination is a spell for social interaction, not combat.",         "Spirit guardians is great\u2014usually\u2014but in this case, it's got to take a backseat to control water, since both require {@status concentration}. A kuo-toa archpriest casts this spell only when there's no water around to control, and really, why would a kuo-toa archpriest be anyplace where there wasn't water at hand? It seems to me that kuo-toa habitations should exist on a continuum from Venice to Atlantis.",         "Tongues is the only way the kuo-toa can communicate with surface-dwelling creatures, since Undercommon isn't Common. But again, this is for social interaction, not combat, unless someone is signaling a desire to parley in the middle of a combat encounter.",         "Hold person is always useful\u2014as long as you're not trying to sustain either control water or spirit guardians.",         "Spiritual weapon is always useful, period. It's a bonus action that creates a floating energy weapon (in this case, in the shape of a kuo-toa whip's pincer staff), doesn't require {@status concentration} to sustain, and confers a bonus attack action on every subsequent round, for up to 10 rounds. Casting this spell is the first thing the kuo-toa archpriest does in any combat encounter.",         "Detect magic is a spell for another occasion.",         "Sanctuary is an interesting and useful spell but one that I have a hard time imagining a kuo-toa archpriest using, unless it were guarding some fishyhead VIP. I don't think it would cast this spell on any of its allies in combat. It might cast it on itself while Dashing away.",         "Shield of faith is a bonus action and a self-defense measure. If a PC has eluded nets and drowning and is coming at the archpriest, it may be worth it to forgo a spiritual weapon attack for one turn in order to get this spell up and running. But it requires, yep, {@status concentration}, so the archpriest probably won't cast this spell unless and until things are going really awry.",         "Guidance is a cantrip that requires {@status concentration}. Why bother?",         "Sacred flame is useful for smiting a slow opponent at a distance, and that's about it.",         "Thaumaturgy no."       ]     },     "Out of all these spells, only three leap out as unconditionally useful: spiritual weapon, control water, and mass cure wounds, in that order. Two more are situationally useful: spirit guardians and hold person. These should cover the entirety of a combat encounter. If the fighting drags on, a kuo-toa archpriest will probably just start smacking opponents left and right with its electric scepter rather than cast spells.",     "Like the regular kuo-toa and the kuo-toa whip, the kuo-toa archpriest flees when seriously wounded (reduced to 38 hp or fewer), underwater if possible. Unlike some boss monsters, the kuo-toa archpriest won't stand its ground over treasure or a holy site. It's gonna save its skin."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Merfolk",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+		
+			"_copy": {
+				"name": "Merfolk",
+				"source": "MM",
+		
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Merfolk may occasionally enjoy sunning themselves on rocks, to be spied by passing sailors, but they pass the vast majority of their time under the sea. This is where their habitations are and where they're most likely to be encountered. With a 40-foot swimming speed and only a 10-foot land speed, getting into a scrap on dry land is a very bad proposition for merfolk. Underwater, their swimming speed is a huge advantage against any creature not native to the depths.",     "Although their ability scores all fall into a typical humanoid range, they do have above-average Dexterity and Constitution, and these, combined with their swimming speed, bias them toward a skirmish style of combat. Since the spears they carry can be thrown underwater at normal range without disadvantage, part of a group of merfolk can engage in melee while others throw their spears; some may even do both.",     "It's worth a closer examination to see just how big an advantage their swimming speed is for them. For a character who isn't innately aquatic or buffed by a magic item, every foot swum costs an extra foot of movement, effectively halving movement speed in most cases. This means that Silvio the Swordsman is slowed to 15 feet per round underwater, whereas his merfolk opponent can swim 40 feet per round.",     "How do they use this to gain an even greater advantage? Mainly, by goading opponents into splitting up. Rather than coalesce around a melee front line, merfolk initiate combat by throwing spears from a distance of exactly 20 feet\u2014no more, no less\u2014from all sides of their foes, if possible. If they're on defense and can attack from only one side, they form a line, from which the ones on the ends spread out while the ones in the center fall back, eventually forming a semicircle around their opponents. (Because underwater combat takes place in three dimensions, some can also go up or down.)",     "As they encircle (or en-semicircle, or en-hemisphere) their enemies, they fall back as those enemies advance, maintaining that 20-foot distance. If an enemy does manage to close the distance with a merfolk, it stops throwing spears and starts stabbing with one instead; ditto if the merfolk have managed to lure their foes into spreading out 30 feet or more from one another, or if the withdrawing merfolk is down to its last spear. It's only practical to carry so many spears\u2014three or four is probably the limit\u2014and a merfolk never throws its last one. A seriously wounded merfolk (reduced to 4 hp or fewer), or one forcibly disarmed of its last spear, Disengages and retreats. If reinforcements are available, it then Dashes off to fetch them.",     "Against a party of low-level adventurers, {@footnote as many as five merfolk to one PC constitute a winnable fight (although two to one is fairer for novice adventurers just starting out)|According to \"Creating a Combat Encounter\" in chapter 3 of the Dungeon Master's Guide, these merfolk-to-PC ratios constitute Deadly encounters. However, according to the alternative guidelines under \"Encounter Building\" in chapter 2 of Xanathar's Guide to Everything, they produce a balanced encounter. I ran a test scenario comprising ten merfolk against five level 1 PCs with water breathing cast upon them, which ended in the merfolk's being routed with only two PCs wounded. I conclude that Xanathar's is right.}, so there should always be plenty of merfolk on hand to allow some to fight hand-to-hand, some to throw spears, and some to retreat.",     "Merfolk are neutral, not evil, which means their initial disposition toward strangers is indifference rather than hostility. They are cautious, however, and order any strangers who approach to between 20 and 60 feet to halt and state their business. If they're not satisfied by the reply they receive (they don't take \"Blurrrbbblllpp!\" for an answer), they cock their spears as a warning. But they don't attack unless and until their visitors take action that could be reasonably interpreted as hostile, and they won't chase down fleeing foes."
 							]
 						}
 					}
