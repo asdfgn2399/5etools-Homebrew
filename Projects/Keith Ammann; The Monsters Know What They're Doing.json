@@ -20,7 +20,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1681266103,
+		"dateLastModified": 1681266600,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -172,6 +172,18 @@
 							"depth": 2
 						},
 						"Sahuagin",
+						{
+							"header": "Sahuagin",
+							"depth": 2
+						},
+						{
+							"header": "Sahuagin Baron",
+							"depth": 2
+						},
+						{
+							"header": "Sahuagin Priestess",
+							"depth": 2
+						},
 						"Aarakocra",
 						"Kenku",
 						"Thri-kreen",
@@ -929,6 +941,50 @@
 										"As they encircle (or en-semicircle, or en-hemisphere) their enemies, they fall back as those enemies advance, maintaining that 20-foot distance. If an enemy does manage to close the distance with a merfolk, it stops throwing spears and starts stabbing with one instead; ditto if the merfolk have managed to lure their foes into spreading out 30 feet or more from one another, or if the withdrawing merfolk is down to its last spear. It's only practical to carry so many spears\u2014three or four is probably the limit\u2014and a merfolk never throws its last one. A seriously wounded merfolk (reduced to 4 hp or fewer), or one forcibly disarmed of its last spear, Disengages and retreats. If reinforcements are available, it then Dashes off to fetch them.",
 										"Against a party of low-level adventurers, {@footnote as many as five merfolk to one PC constitute a winnable fight (although two to one is fairer for novice adventurers just starting out)|According to \"Creating a Combat Encounter\" in chapter 3 of the Dungeon Master's Guide, these merfolk-to-PC ratios constitute Deadly encounters. However, according to the alternative guidelines under \"Encounter Building\" in chapter 2 of Xanathar's Guide to Everything, they produce a balanced encounter. I ran a test scenario comprising ten merfolk against five level 1 PCs with water breathing cast upon them, which ended in the merfolk's being routed with only two PCs wounded. I conclude that Xanathar's is right.}, so there should always be plenty of merfolk on hand to allow some to fight hand-to-hand, some to throw spears, and some to retreat.",
 										"Merfolk are neutral, not evil, which means their initial disposition toward strangers is indifference rather than hostility. They are cautious, however, and order any strangers who approach to between 20 and 60 feet to halt and state their business. If they're not satisfied by the reply they receive (they don't take \"Blurrrbbblllpp!\" for an answer), they cock their spears as a warning. But they don't attack unless and until their visitors take action that could be reasonably interpreted as hostile, and they won't chase down fleeing foes."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sahuagin",
+							"page": 57,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "{@creature Sahuagin|TheMonstersKnowWhatTheyreDoing}",
+									"page": 57,
+									"entries": [
+										"Sahuagin are fierce amphibious fish-people who live underwater but emerge periodically to raid coastal settlements. Although the Monster Manual says they \"dwell in the deepest trenches of the ocean,\" that's a bit far even for a creature with a 40-foot swimming speed. Those ocean trenches are as far from the coasts as the highest mountains are, and you don't often hear about the yetis of the Himalayas spending an afternoon staging a raid on Kolkata, or the Tatzelwürmer of the Alps popping down to Genoa for some late-night ravaging. These are distances of hundreds of miles we're talking about. So chances are, any sahuagin that PCs encounter are going to be denizens of shallower depths. Maybe they're the border reivers of the ocean kingdom.",
+										"When they come ashore to raid, they do so at night, as implied by their 120 feet of {@sense darkvision} (which also helps them see deep underwater). They can't come far inland, since their Limited Amphibiousness gives them only four hours of air breathing before they have to return to the water. Unlike, say, merrows, sahuagin can move about on land as easily as any other humanoid.",
+										"In this environment, they're basic brutes. Their Multiattack gives them one Spear or Claw attack and one Bite attack. Since their Armor Class doesn't include a shield, we can presume that they wield their spears two-handed for the greater damage.",
+										"Because their Blood Frenzy trait gives them advantage on attacks against any opponent who's taken damage already, they'll press this advantage, continuing to attack any enemy they've bloodied rather than switch targets, even for opportunistic reasons.",
+										"However, sahuagin are not dumb. In fact, their Intelligence and Wisdom are higher than those of the average humanoid. They attack with discipline, in cohesive units, perhaps even splitting up to flank or encircle a group of enemies.",
+										"They'll realize quickly when they're outmatched, retreating if all the members of their fighting group are moderately wounded (reduced to 15 hp or fewer) and their enemies aren't hurt even worse. When they come ashore, they're looking for an easy fight. A hard one isn't worth the effort. Retreating sahuagin are sophisticated enough to use the {@action Disengage} action.",
+										"In the water, they don't fight significantly differently, but they do have a couple of advantages they don't have on land.",
+										"First, they're usually accompanied by sharks. Thanks to the Shark Telepathy trait, any sharks fighting alongside sahuagin will show the same intelligence and discipline that the sahuagin possess.",
+										"Second, being naturally aquatic, they can easily recognize when other creatures aren't naturally aquatic. They're smart enough to know that a halfling isn't a sea creature, and therefore, if it's breathing underwater and swimming as if born to it, there's some kind of magic giving it that ability. Once they see a player character cast a spell, they'll draw the logical (though not necessarily correct) conclusion that that same PC is the one enabling their allies to breathe, and they'll focus their attacks on that PC. If they subsequently see a different PC cast a spell, some of them will break off to attack them as well. (They may or may not be aware that water breathing isn't a spell that requires {@status concentration}. If they are aware of this, they'll fixate less on hunting spellcasters, since they'll know that killing the caster won't break the spell.)",
+										"Sahuagin in the water are also more tenacious than sahuagin on land. When fighting underwater, they'll hang in there until a majority of them are seriously wounded (reduced to 8 hp or fewer). After that, they'll {@action Disengage} and retreat if they're on their own, but they'll fight to the death at the command of a sahuagin baron or priestess\u2014usually in order to defend a location or object."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Sahuagin Baron|TheMonstersKnowWhatTheyreDoing}",
+									"page": 59,
+									"entries": [
+										"The sahuagin baron doesn't differ significantly from an ordinary sahuagin. It's stronger, tougher, and a little smarter; its Multiattack gives it one more poke with a melee weapon; and it gets proficiency on all the most important saving throws, so it has less reason to fear spellcasters\u2014not that sahuagin fear them to begin with. When any group of sahuagin led by a baron launches a coordinated attack on a PC spellcaster, the baron takes part in that attack, rather than just hang back and give orders. Sahuagin raids on land don't usually include a sahuagin baron\u2014not unless they're launching an all-out attack of conquest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Sahuagin Priestess|TheMonstersKnowWhatTheyreDoing}",
+									"page": 59,
+									"entries": [
+										"The sahuagin priestess is primarily a support caster that carries no weapon, although she still has a Claw/Bite Multiattack. She always casts spiritual weapon (bonus action) on the first turn of combat, but lacking any useful cantrip to cast along with it, she uses her initial action to {@action Dodge}.",
+										"On subsequent turns, the priestess's choice of spell depends on what else is going on. If the priestess's allies are focusing attacks on a spellcaster, the priestess casts guiding bolt at that caster to do some radiant damage and also give advantage to the next attacker. If it's clear that the players' ability to breathe water doesn't come from a sustained spell, the priestess casts hold person on the most dangerous looking opponent who has the Extra Attack feature. If there are two, and the priestess can't choose between them, she spends a 3rd-level slot to boost the hold person spell and nab them both. However, that being said, sahuagin priestesses understand the connection between clerical spellcasting and the brandishing of holy symbols, and they also know that spells like hold person don't work as well on the devout, so paladins get a free pass from this.",
+										"The presence of a priestess also keeps a moderately wounded group of sahuagin in the fight longer: Anytime all the sahuagin in the group are reduced to 15 hp or fewer, the priestess casts mass healing word to top them back up, then uses either the {@action Help} action or the {@action Dodge} action, as in round 1, until all her 3rd-level spell slots are gone.",
+										"Finally, in any group of sahuagin with both a baron and a priestess, it's the priestess, not the baron, that's the de facto leader (whether or not the baron cares to admit it). If a PC tries to start a parley, the priestess will call a halt to combat and cast tongues to allow the two groups to communicate. It's unlikely that the sahuagin will ever initiate a parley on their own, however, unless they know they're outmatched and aren't guarding anything super important\u2014and unless they have a priestess with them, because they know most land creatures don't speak their language.",
+										"Sahuagin priestesses call a general retreat when they're moderately wounded (reduced to 23 hp or fewer), unless they're guarding an important location or object, in which case they defend until they're seriously wounded (reduced to 13 hp or fewer). Sahuagin barons will always fight until they're seriously wounded (reduced to 30 hp or fewer), then call a general retreat."
 									]
 								}
 							]
@@ -1915,6 +1971,108 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Merfolk.png"
+		},
+		{
+			"name": "Sahuagin",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 57,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"On land, sahuagin are basic brutes. Their Multiattack gives them one Spear or Claw attack and one Bite attack. Since their Armor Class doesn't include a shield, we can presume that they wield their spears two-handed for the greater damage.",
+						"Because their Blood Frenzy trait gives them advantage on attacks against any opponent who's taken damage already, they'll press this advantage, continuing to attack any enemy they've bloodied rather than switch targets, even for opportunistic reasons.",
+						"However, sahuagin are not dumb. In fact, their Intelligence and Wisdom are higher than those of the average humanoid. They attack with discipline, in cohesive units, perhaps even splitting up to flank or encircle a group of enemies.",
+						"They'll realize quickly when they're outmatched, retreating if all the members of their fighting group are moderately wounded (reduced to 15 hp or fewer) and their enemies aren't hurt even worse. When they come ashore, they're looking for an easy fight. A hard one isn't worth the effort. Retreating sahuagin are sophisticated enough to use the {@action Disengage} action.",
+						"In the water, they don't fight significantly differently, but they do have a couple of advantages they don't have on land.",
+						"First, they're usually accompanied by sharks. Thanks to the Shark Telepathy trait, any sharks fighting alongside sahuagin will show the same intelligence and discipline that the sahuagin possess.",
+						"Second, being naturally aquatic, they can easily recognize when other creatures aren't naturally aquatic. They're smart enough to know that a halfling isn't a sea creature, and therefore, if it's breathing underwater and swimming as if born to it, there's some kind of magic giving it that ability. Once they see a player character cast a spell, they'll draw the logical (though not necessarily correct) conclusion that that same PC is the one enabling their allies to breathe, and they'll focus their attacks on that PC. If they subsequently see a different PC cast a spell, some of them will break off to attack them as well. (They may or may not be aware that water breathing isn't a spell that requires {@status concentration}. If they are aware of this, they'll fixate less on hunting spellcasters, since they'll know that killing the caster won't break the spell.)",
+						"Sahuagin in the water are also more tenacious than sahuagin on land. When fighting underwater, they'll hang in there until a majority of them are seriously wounded (reduced to 8 hp or fewer). After that, they'll {@action Disengage} and retreat if they're on their own, but they'll fight to the death at the command of a sahuagin baron or priestess\u2014usually in order to defend a location or object."
+					]
+				}
+			],
+			"_copy": {
+				"name": "Sahuagin",
+				"source": "MM",
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Sahuagin",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Sahuagin.png"
+		},
+		{
+			"name": "Sahuagin Baron",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 59,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"The sahuagin baron doesn't differ significantly from an ordinary sahuagin. It's stronger, tougher, and a little smarter; its Multiattack gives it one more poke with a melee weapon; and it gets proficiency on all the most important saving throws, so it has less reason to fear spellcasters\u2014not that sahuagin fear them to begin with. When any group of sahuagin led by a baron launches a coordinated attack on a PC spellcaster, the baron takes part in that attack, rather than just hang back and give orders. Sahuagin raids on land don't usually include a sahuagin baron\u2014not unless they're launching an all-out attack of conquest."
+					]
+				}
+			],
+			"_copy": {
+				"name": "Sahuagin Baron",
+				"source": "MM",
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Sahuagin Baron",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Sahuagin%20Baron.png"
+		},
+		{
+			"name": "Sahuagin Priestess",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 59,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"The sahuagin priestess is primarily a support caster that carries no weapon, although she still has a Claw/Bite Multiattack. She always casts spiritual weapon (bonus action) on the first turn of combat, but lacking any useful cantrip to cast along with it, she uses her initial action to {@action Dodge}.",
+						"On subsequent turns, the priestess's choice of spell depends on what else is going on. If the priestess's allies are focusing attacks on a spellcaster, the priestess casts guiding bolt at that caster to do some radiant damage and also give advantage to the next attacker. If it's clear that the players' ability to breathe water doesn't come from a sustained spell, the priestess casts hold person on the most dangerous looking opponent who has the Extra Attack feature. If there are two, and the priestess can't choose between them, she spends a 3rd-level slot to boost the hold person spell and nab them both. However, that being said, sahuagin priestesses understand the connection between clerical spellcasting and the brandishing of holy symbols, and they also know that spells like hold person don't work as well on the devout, so paladins get a free pass from this.",
+						"The presence of a priestess also keeps a moderately wounded group of sahuagin in the fight longer: Anytime all the sahuagin in the group are reduced to 15 hp or fewer, the priestess casts mass healing word to top them back up, then uses either the {@action Help} action or the {@action Dodge} action, as in round 1, until all her 3rd-level spell slots are gone."
+					]
+				}
+			],
+			"_copy": {
+				"name": "Sahuagin Priestess",
+				"source": "MM",
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Sahuagin Priestess",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Sahuagin%20Priestess.png"
 		}
 	],
 	"monsterFluff": [
@@ -2593,6 +2751,77 @@
 								"As they encircle (or en-semicircle, or en-hemisphere) their enemies, they fall back as those enemies advance, maintaining that 20-foot distance. If an enemy does manage to close the distance with a merfolk, it stops throwing spears and starts stabbing with one instead; ditto if the merfolk have managed to lure their foes into spreading out 30 feet or more from one another, or if the withdrawing merfolk is down to its last spear. It's only practical to carry so many spears\u2014three or four is probably the limit\u2014and a merfolk never throws its last one. A seriously wounded merfolk (reduced to 4 hp or fewer), or one forcibly disarmed of its last spear, Disengages and retreats. If reinforcements are available, it then Dashes off to fetch them.",
 								"Against a party of low-level adventurers, {@footnote as many as five merfolk to one PC constitute a winnable fight (although two to one is fairer for novice adventurers just starting out)|According to \"Creating a Combat Encounter\" in chapter 3 of the Dungeon Master's Guide, these merfolk-to-PC ratios constitute Deadly encounters. However, according to the alternative guidelines under \"Encounter Building\" in chapter 2 of Xanathar's Guide to Everything, they produce a balanced encounter. I ran a test scenario comprising ten merfolk against five level 1 PCs with water breathing cast upon them, which ended in the merfolk's being routed with only two PCs wounded. I conclude that Xanathar's is right.}, so there should always be plenty of merfolk on hand to allow some to fight hand-to-hand, some to throw spears, and some to retreat.",
 								"Merfolk are neutral, not evil, which means their initial disposition toward strangers is indifference rather than hostility. They are cautious, however, and order any strangers who approach to between 20 and 60 feet to halt and state their business. If they're not satisfied by the reply they receive (they don't take \"Blurrrbbblllpp!\" for an answer), they cock their spears as a warning. But they don't attack unless and until their visitors take action that could be reasonably interpreted as hostile, and they won't chase down fleeing foes."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Sahuagin",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"_copy": {
+				"name": "Sahuagin",
+				"source": "MM",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Sahuagin are fierce amphibious fish-people who live underwater but emerge periodically to raid coastal settlements. Although the Monster Manual says they \"dwell in the deepest trenches of the ocean,\" that's a bit far even for a creature with a 40-foot swimming speed. Those ocean trenches are as far from the coasts as the highest mountains are, and you don't often hear about the yetis of the Himalayas spending an afternoon staging a raid on Kolkata, or the Tatzelwürmer of the Alps popping down to Genoa for some late-night ravaging. These are distances of hundreds of miles we're talking about. So chances are, any sahuagin that PCs encounter are going to be denizens of shallower depths. Maybe they're the border reivers of the ocean kingdom.",
+								"When they come ashore to raid, they do so at night, as implied by their 120 feet of {@sense darkvision} (which also helps them see deep underwater). They can't come far inland, since their Limited Amphibiousness gives them only four hours of air breathing before they have to return to the water. Unlike, say, merrows, sahuagin can move about on land as easily as any other humanoid.",
+								"In this environment, they're basic brutes. Their Multiattack gives them one Spear or Claw attack and one Bite attack. Since their Armor Class doesn't include a shield, we can presume that they wield their spears two-handed for the greater damage.",
+								"Because their Blood Frenzy trait gives them advantage on attacks against any opponent who's taken damage already, they'll press this advantage, continuing to attack any enemy they've bloodied rather than switch targets, even for opportunistic reasons.",
+								"However, sahuagin are not dumb. In fact, their Intelligence and Wisdom are higher than those of the average humanoid. They attack with discipline, in cohesive units, perhaps even splitting up to flank or encircle a group of enemies.",
+								"They'll realize quickly when they're outmatched, retreating if all the members of their fighting group are moderately wounded (reduced to 15 hp or fewer) and their enemies aren't hurt even worse. When they come ashore, they're looking for an easy fight. A hard one isn't worth the effort. Retreating sahuagin are sophisticated enough to use the {@action Disengage} action.",
+								"In the water, they don't fight significantly differently, but they do have a couple of advantages they don't have on land.",
+								"First, they're usually accompanied by sharks. Thanks to the Shark Telepathy trait, any sharks fighting alongside sahuagin will show the same intelligence and discipline that the sahuagin possess.",
+								"Second, being naturally aquatic, they can easily recognize when other creatures aren't naturally aquatic. They're smart enough to know that a halfling isn't a sea creature, and therefore, if it's breathing underwater and swimming as if born to it, there's some kind of magic giving it that ability. Once they see a player character cast a spell, they'll draw the logical (though not necessarily correct) conclusion that that same PC is the one enabling their allies to breathe, and they'll focus their attacks on that PC. If they subsequently see a different PC cast a spell, some of them will break off to attack them as well. (They may or may not be aware that water breathing isn't a spell that requires {@status concentration}. If they are aware of this, they'll fixate less on hunting spellcasters, since they'll know that killing the caster won't break the spell.)",
+								"Sahuagin in the water are also more tenacious than sahuagin on land. When fighting underwater, they'll hang in there until a majority of them are seriously wounded (reduced to 8 hp or fewer). After that, they'll {@action Disengage} and retreat if they're on their own, but they'll fight to the death at the command of a sahuagin baron or priestess\u2014usually in order to defend a location or object."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Sahuagin Baron",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"_copy": {
+				"name": "Sahuagin Baron",
+				"source": "MM",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"The sahuagin baron doesn't differ significantly from an ordinary sahuagin. It's stronger, tougher, and a little smarter; its Multiattack gives it one more poke with a melee weapon; and it gets proficiency on all the most important saving throws, so it has less reason to fear spellcasters\u2014not that sahuagin fear them to begin with. When any group of sahuagin led by a baron launches a coordinated attack on a PC spellcaster, the baron takes part in that attack, rather than just hang back and give orders. Sahuagin raids on land don't usually include a sahuagin baron\u2014not unless they're launching an all-out attack of conquest."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Sahuagin Priestess",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"_copy": {
+				"name": "Sahuagin Priestess",
+				"source": "MM",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"The sahuagin priestess is primarily a support caster that carries no weapon, although she still has a Claw/Bite Multiattack. She always casts spiritual weapon (bonus action) on the first turn of combat, but lacking any useful cantrip to cast along with it, she uses her initial action to {@action Dodge}.",
+								"On subsequent turns, the priestess's choice of spell depends on what else is going on. If the priestess's allies are focusing attacks on a spellcaster, the priestess casts guiding bolt at that caster to do some radiant damage and also give advantage to the next attacker. If it's clear that the players' ability to breathe water doesn't come from a sustained spell, the priestess casts hold person on the most dangerous looking opponent who has the Extra Attack feature. If there are two, and the priestess can't choose between them, she spends a 3rd-level slot to boost the hold person spell and nab them both. However, that being said, sahuagin priestesses understand the connection between clerical spellcasting and the brandishing of holy symbols, and they also know that spells like hold person don't work as well on the devout, so paladins get a free pass from this.",
+								"The presence of a priestess also keeps a moderately wounded group of sahuagin in the fight longer: Anytime all the sahuagin in the group are reduced to 15 hp or fewer, the priestess casts mass healing word to top them back up, then uses either the {@action Help} action or the {@action Dodge} action, as in round 1, until all her 3rd-level spell slots are gone."
 							]
 						}
 					}
