@@ -1,5 +1,4 @@
 {
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
@@ -20,7 +19,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1681789504,
+		"dateLastModified": 1681869008,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -190,7 +189,19 @@
 							"depth": 2
 						},
 						"Kenku",
+						{
+							"header": "Kenku",
+							"depth": 2
+						},
 						"Thri-kreen",
+						{
+							"header": "Thri-kreen",
+							"depth": 2
+						},
+						{
+							"header": "Variant Thri-kreen",
+							"depth": 2
+						},
 						"Lycanthropes",
 						"Jackalweres",
 						"Drow",
@@ -1012,6 +1023,57 @@
 										"In short, against enemies with good ranged attacks, aarakocra emphasize melee fighting, and against enemies without good ranged attacks, aarakocra emphasize ranged attacks of their own. They Dive Attack to avoid incoming missiles, against seriously injured enemies, or when they're down to their last javelin. Otherwise, they do their best to stay out of reach.",
 										"Untrained aarakocra retreat from melee, using just their normal flying movement, when they're moderately wounded (reduced to 9 hp or fewer), but they'll continue throwing javelins, if it makes sense to do so, until they're seriously wounded (reduced to 5 hp or fewer). Trained aarakocra continue fighting until they're seriously wounded, then fly off to a safe distance as fast as they can. If they're engaged in melee, they {@action Disengage}; otherwise, they {@action Dash}.",
 										"Aarakocra fighting alongside PCs coordinate their attacks with whatever the PCs are doing, in a limited fashion. They're not master strategists, but they know good opportunities when they see them."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Kenku",
+							"page": 62,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "{@creature Kenku|TheMonstersKnowWhatTheyreDoing}",
+									"page": 62,
+									"entries": [
+										"Kenku, loosely based on the tengu of Japanese myth, are feathered bipeds with avian heads and feet; humanoid torsos, legs, and arms; and a marked lack of wings, which their ancestors lost as punishment for their duplicity and avarice. Not only do they lack wings, they also lack speech: They can communicate only by repeating back sounds and phrases they've heard.",
+										"A kenku's only salient ability is its high Dexterity; all its other abilities are average. In combination with its proficiency in {@skill Perception} and {@skill Stealth} and its Ambusher trait, this gives it some melee shock attack potential, but in most cases it's better off as a sniper. Notably, kenku don't have {@sense darkvision}, as many ambush attackers do. They set up ambushes, but they do so during the daytime, not at night.",
+										"A lone kenku may try to pick off an isolated individual, but kenku preying on groups need the force of numbers—at a minimum, two kenku per victim. Using {@skill Stealth}, they either lie hidden or stalk their victims; when the moment is right, they let loose with a surprise volley of Shortbow attacks.",
+										"After the initial volley of arrows, one-half to one-third of a flock of kenku will rush forth to engage softer targets in melee with their shortswords, while their bow-wielding allies loose volley after volley at more formidable fighters. Kenku archers always try to maintain at least a 35-foot distance from their targets; if possible, they shoot from 65 to 80 feet away. When an enemy charges, they retreat the same distance, as other allies continue to shoot. If they have the room, kenku archers space themselves out so that an enemy charging one can't easily reach others. A kenku swordfighter Disengages and backs off if a capable melee fighter starts heading its way. Kenku communicate constantly, through a code of seemingly random sound effects, informing one another of the state of play and calling for help when they need it.",
+										"Kenku don't have much appetite for a knock-down, drag-out fight. A kenku will alert its allies when it's moderately wounded (reduced to 9 hp or fewer); if it's engaged in melee, it Disengages and retreats. An entire flock of kenku will withdraw and disperse if combat isn't over by their fourth turn—sooner if at least half of them are seriously wounded (reduced to 5 hp or fewer).",
+										"Kenku are greedy, but being chaotic neutral, they aren't necessarily malevolent. What they want is precious shiny stuff; killing people is just one way to get it. They understand Common speech and can be bought off for the price of, say, five gold pieces each, or an equivalent amount in gems. Double that price, and you may have bought yourself a favor; quintuple it, and you may have bought yourself a friend, or possibly a retainer. If the PCs happen to notice a flock of skulking kenku before they have a chance to attack, bribery is a good way to stop a fight before it starts."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Thri-kreen",
+							"page": 64,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "{@creature Thri-kreen|TheMonstersKnowWhatTheyreDoing}",
+									"page": 64,
+									"entries": [
+										"Being chaotic neutral, thri-kreen—mantis-like humanoids, not at all eusocial, as one might suppose them to be—largely want to be left to their own business. The Monster Manual flavor text does say they \"consider all other living creatures as potential nourishment,\" and, in a silly twist, \"they love the taste of elf flesh in particular.\" (I suppose that elves must taste like truffles or something.) This seems to me to verge on evil, so I'd say that thri-kreen don't attack other humanoids just to eat them unless they're experiencing some kind of shortage of other foods. That said, having already killed a humanoid for some other reason, they probably wouldn't have any scruples about consuming the corpse.",
+										"Thri-kreen have high Dexterity and above-average Strength and Constitution, and they're also fast-moving (speed: 40 feet per round), biasing them toward hardandfast shock attacks. They also have proficiency in {@skill Perception} and {@skill Stealth}, plus Chameleon Carapace, which gives them advantage when trying to {@action Hide}. All these factors point to ambush as their favored strategy.",
+										"Their Standing Leap trait is useful for surmounting obstacles, moving vertically between ledges and the ground, and crossing rivers or crevasses, but it doesn't do anything to enhance their speed over level ground—unless the terrain is difficult. Then it gives the thri-kreen a pronounced advantage over opponents who must move on foot, since their movement will usually be cut in half. And the thick, tall grass of the savanna, and the sharp rocks or shifting sands of the desert—the favored habitats of the thri-kreen—usually constitute difficult terrain.",
+										"Thri-kreen have AC 15, which isn't quite high enough to make opportunity attacks something they don't need to worry about. Since they can't engage and disengage with impunity, they need to make every attack count.",
+										"The biggest thing they have going for them is the poison in their bite. A {@condition poisoned} opponent makes attack rolls with disadvantage, which gives the thrikreen a better chance to elude a counterattack. However, the DC of the thrikreen's poisonous Bite is pretty easy to beat, especially for an opponent with a high Constitution. Thri-kreen are simple-minded, but they're good at choosing targets, so rank-and-file thri-kreen will steer clear of tougher-looking opponents at first. They'll leave those foes to their armed allies.",
+										"From a place of hiding, thri-kreen initiate combat when foes come within 30 feet of them, springing out and attacking with the element of surprise, distributing their Bite attacks across all opponents who don't appear to have above-average Constitution, and continuing to fight hand-to-hand until either the opponent is down for the count or they themselves are moderately wounded (reduced to 23 hp or fewer). At that point, they'll chitter for help, and other thrikreen who've managed to poison their opponents will leap over to assist, while they themselves leap away to go fight someone easier.",
+										"Thri-kreen communicate constantly during combat, in their impenetrable language, but mostly they just tell each other things like \"I'm hurt,\" \"This one is tough,\" \"This one is fragile but dangerous,\" or \"This one is {@condition poisoned}.\" They exchange information, but they don't really coordinate. If one accidentally engages an opponent that's tougher than it thought, one or two other thri-kreen may come to help, attacking from behind for the flanking bonus (\"Optional Rule: Flanking,\" Dungeon Master's Guide, chapter 8). When half of a group of thrikreen are seriously wounded (reduced to 13 hp or fewer), or when all of them are at least moderately wounded, they'll call a retreat, favoring the {@action Dash} action if they're outnumbered and the {@action Dodge} action otherwise (non-variant thri-kreen aren't quite smart enough to know how to {@action Disengage})."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "{@creature Variant Thri-kreen|TheMonstersKnowWhatTheyreDoing}",
+									"page": 65,
+									"entries": [
+										"Variant thri-kreen that wield weapons may be considered to be better trained than ordinary thri-kreen, and with this training comes a discipline that does allow them to {@action Disengage}. However, these thri-kreen will stay in the fight long enough to cover their allies' escape before Disengaging. They're also the ones who will engage the toughest opponents, if they're present. First, they approach to a distance of 30 feet and throw two \"chatkchas\" in a single Multiattack action.",
+										"After that, they close to melee range and fight with their double-bladed polearms, called \"gythkas,\" also combining two attacks in one Multiattack action. When one of these \"soldier thri-kreen\" is engaged with a melee opponent, a regular thri-kreen will often come up behind it for a flank attack, in the hope of poisoning the foe with its bite. (In any thri-kreen encounter, it's good to have the thri-kreen slightly outnumber their opponents in order to allow a few to dart from opponent to opponent.)",
+										"Because magic weapon is no good without a weapon to enchant, psionic thrikreen will usually also be weapon-wielding thri-kreen themselves or accompanied by weapon-wielding thri-kreen; otherwise, they'll never get to use their ability to cast magic weapon, which seems like a waste. Psionic thri-kreen engaged with the toughest of their opponents use invisibility to vanish and relocate when they take a particularly serious hit (one dealing 10 damage or more). Once they've used this once-per-day ability, they cast blur upon re-manifesting, giving their opponents the same penalty against them as if they were {@condition invisible}. Thri-kreen cast magic weapon on their polearms, not on their chatkchas, which are single-use."
 									]
 								}
 							]
@@ -2134,6 +2196,104 @@
 				}
 			},
 			"tokenUrl": "https://5e.tools/img/MM/Aarakocra.png"
+		},
+		{
+			"name": "Kenku",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 62,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"A lone kenku may try to pick off an isolated individual, but kenku preying on groups need the force of numbers—at a minimum, two kenku per victim. Using {@skill Stealth}, they either lie hidden or stalk their victims; when the moment is right, they let loose with a surprise volley of Shortbow attacks.",
+						"After the initial volley of arrows, one-half to one-third of a flock of kenku will rush forth to engage softer targets in melee with their shortswords, while their bow-wielding allies loose volley after volley at more formidable fighters. Kenku archers always try to maintain at least a 35-foot distance from their targets; if possible, they shoot from 65 to 80 feet away. When an enemy charges, they retreat the same distance, as other allies continue to shoot. If they have the room, kenku archers space themselves out so that an enemy charging one can't easily reach others. A kenku swordfighter Disengages and backs off if a capable melee fighter starts heading its way. Kenku communicate constantly, through a code of seemingly random sound effects, informing one another of the state of play and calling for help when they need it.",
+						"Kenku don't have much appetite for a knock-down, drag-out fight. A kenku will alert its allies when it's moderately wounded (reduced to 9 hp or fewer); if it's engaged in melee, it Disengages and retreats. An entire flock of kenku will withdraw and disperse if combat isn't over by their fourth turn—sooner if at least half of them are seriously wounded (reduced to 5 hp or fewer)."
+					]
+				}
+			],
+			"_copy": {
+				"name": "Kenku",
+				"source": "MM",
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Kenku",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Kenku.png"
+		},
+		{
+			"name": "Thri-kreen",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 64,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"From a place of hiding, thri-kreen initiate combat when foes come within 30 feet of them, springing out and attacking with the element of surprise, distributing their Bite attacks across all opponents who don't appear to have above-average Constitution, and continuing to fight hand-to-hand until either the opponent is down for the count or they themselves are moderately wounded (reduced to 23 hp or fewer). At that point, they'll chitter for help, and other thrikreen who've managed to poison their opponents will leap over to assist, while they themselves leap away to go fight someone easier.",
+						"Thri-kreen communicate constantly during combat, in their impenetrable language, but mostly they just tell each other things like \"I'm hurt,\" \"This one is tough,\" \"This one is fragile but dangerous,\" or \"This one is {@condition poisoned}.\" They exchange information, but they don't really coordinate. If one accidentally engages an opponent that's tougher than it thought, one or two other thri-kreen may come to help, attacking from behind for the flanking bonus (\"Optional Rule: Flanking,\" Dungeon Master's Guide, chapter 8). When half of a group of thrikreen are seriously wounded (reduced to 13 hp or fewer), or when all of them are at least moderately wounded, they'll call a retreat, favoring the {@action Dash} action if they're outnumbered and the {@action Dodge} action otherwise (non-variant thri-kreen aren't quite smart enough to know how to {@action Disengage})."
+					]
+				}
+			],
+			"_copy": {
+				"name": "Thri-kreen",
+				"source": "MM",
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Thri-kreen",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Thri-kreen.png"
+		},
+		{
+			"name": "Variant Thri-kreen",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"page": 65,
+			"footer": [
+				{
+					"type": "hr"
+				},
+				{
+					"type": "entries",
+					"name": "Tactics",
+					"entries": [
+						"Variant thri-kreen that wield weapons may be considered to be better trained than ordinary thri-kreen, and with this training comes a discipline that does allow them to {@action Disengage}. However, these thri-kreen will stay in the fight long enough to cover their allies' escape before Disengaging. They're also the ones who will engage the toughest opponents, if they're present. First, they approach to a distance of 30 feet and throw two \"chatkchas\" in a single Multiattack action.",
+						"After that, they close to melee range and fight with their double-bladed polearms, called \"gythkas,\" also combining two attacks in one Multiattack action. When one of these \"soldier thri-kreen\" is engaged with a melee opponent, a regular thri-kreen will often come up behind it for a flank attack, in the hope of poisoning the foe with its bite. (In any thri-kreen encounter, it's good to have the thri-kreen slightly outnumber their opponents in order to allow a few to dart from opponent to opponent.)",
+						"Because magic weapon is no good without a weapon to enchant, psionic thrikreen will usually also be weapon-wielding thri-kreen themselves or accompanied by weapon-wielding thri-kreen; otherwise, they'll never get to use their ability to cast magic weapon, which seems like a waste. Psionic thri-kreen engaged with the toughest of their opponents use invisibility to vanish and relocate when they take a particularly serious hit (one dealing 10 damage or more). Once they've used this once-per-day ability, they cast blur upon re-manifesting, giving their opponents the same penalty against them as if they were {@condition invisible}. Thri-kreen cast magic weapon on their polearms, not on their chatkchas, which are single-use."
+					]
+				}
+			],
+			"_copy": {
+				"name": "Thri-kreen",
+				"source": "MM",
+				"_preserve": {
+					"environment": true
+				}
+			},
+			"fluff": {
+				"_monsterFluff": {
+					"name": "Variant Thri-kreen",
+					"source": "TheMonstersKnowWhatTheyreDoing"
+				}
+			},
+			"tokenUrl": "https://5e.tools/img/MM/Thri-kreen.png"
 		}
 	],
 	"monsterFluff": [
@@ -2911,6 +3071,79 @@
 								"In short, against enemies with good ranged attacks, aarakocra emphasize melee fighting, and against enemies without good ranged attacks, aarakocra emphasize ranged attacks of their own. They Dive Attack to avoid incoming missiles, against seriously injured enemies, or when they're down to their last javelin. Otherwise, they do their best to stay out of reach.",
 								"Untrained aarakocra retreat from melee, using just their normal flying movement, when they're moderately wounded (reduced to 9 hp or fewer), but they'll continue throwing javelins, if it makes sense to do so, until they're seriously wounded (reduced to 5 hp or fewer). Trained aarakocra continue fighting until they're seriously wounded, then fly off to a safe distance as fast as they can. If they're engaged in melee, they {@action Disengage}; otherwise, they {@action Dash}.",
 								"Aarakocra fighting alongside PCs coordinate their attacks with whatever the PCs are doing, in a limited fashion. They're not master strategists, but they know good opportunities when they see them."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Kenku",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"_copy": {
+				"name": "Kenku",
+				"source": "MM",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Kenku, loosely based on the tengu of Japanese myth, are feathered bipeds with avian heads and feet; humanoid torsos, legs, and arms; and a marked lack of wings, which their ancestors lost as punishment for their duplicity and avarice. Not only do they lack wings, they also lack speech: They can communicate only by repeating back sounds and phrases they've heard.",
+								"A kenku's only salient ability is its high Dexterity; all its other abilities are average. In combination with its proficiency in {@skill Perception} and {@skill Stealth} and its Ambusher trait, this gives it some melee shock attack potential, but in most cases it's better off as a sniper. Notably, kenku don't have {@sense darkvision}, as many ambush attackers do. They set up ambushes, but they do so during the daytime, not at night.",
+								"A lone kenku may try to pick off an isolated individual, but kenku preying on groups need the force of numbers—at a minimum, two kenku per victim. Using {@skill Stealth}, they either lie hidden or stalk their victims; when the moment is right, they let loose with a surprise volley of Shortbow attacks.",
+								"After the initial volley of arrows, one-half to one-third of a flock of kenku will rush forth to engage softer targets in melee with their shortswords, while their bow-wielding allies loose volley after volley at more formidable fighters. Kenku archers always try to maintain at least a 35-foot distance from their targets; if possible, they shoot from 65 to 80 feet away. When an enemy charges, they retreat the same distance, as other allies continue to shoot. If they have the room, kenku archers space themselves out so that an enemy charging one can't easily reach others. A kenku swordfighter Disengages and backs off if a capable melee fighter starts heading its way. Kenku communicate constantly, through a code of seemingly random sound effects, informing one another of the state of play and calling for help when they need it.",
+								"Kenku don't have much appetite for a knock-down, drag-out fight. A kenku will alert its allies when it's moderately wounded (reduced to 9 hp or fewer); if it's engaged in melee, it Disengages and retreats. An entire flock of kenku will withdraw and disperse if combat isn't over by their fourth turn—sooner if at least half of them are seriously wounded (reduced to 5 hp or fewer).",
+								"Kenku are greedy, but being chaotic neutral, they aren't necessarily malevolent. What they want is precious shiny stuff; killing people is just one way to get it. They understand Common speech and can be bought off for the price of, say, five gold pieces each, or an equivalent amount in gems. Double that price, and you may have bought yourself a favor; quintuple it, and you may have bought yourself a friend, or possibly a retainer. If the PCs happen to notice a flock of skulking kenku before they have a chance to attack, bribery is a good way to stop a fight before it starts."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Thri-kreen",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"_copy": {
+				"name": "Thri-kreen",
+				"source": "MM",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Being chaotic neutral, thri-kreen—mantis-like humanoids, not at all eusocial, as one might suppose them to be—largely want to be left to their own business. The Monster Manual flavor text does say they \"consider all other living creatures as potential nourishment,\" and, in a silly twist, \"they love the taste of elf flesh in particular.\" (I suppose that elves must taste like truffles or something.) This seems to me to verge on evil, so I'd say that thri-kreen don't attack other humanoids just to eat them unless they're experiencing some kind of shortage of other foods. That said, having already killed a humanoid for some other reason, they probably wouldn't have any scruples about consuming the corpse.",
+								"Thri-kreen have high Dexterity and above-average Strength and Constitution, and they're also fast-moving (speed: 40 feet per round), biasing them toward hardandfast shock attacks. They also have proficiency in {@skill Perception} and {@skill Stealth}, plus Chameleon Carapace, which gives them advantage when trying to {@action Hide}. All these factors point to ambush as their favored strategy.",
+								"Their Standing Leap trait is useful for surmounting obstacles, moving vertically between ledges and the ground, and crossing rivers or crevasses, but it doesn't do anything to enhance their speed over level ground—unless the terrain is difficult. Then it gives the thri-kreen a pronounced advantage over opponents who must move on foot, since their movement will usually be cut in half. And the thick, tall grass of the savanna, and the sharp rocks or shifting sands of the desert—the favored habitats of the thri-kreen—usually constitute difficult terrain.",
+								"Thri-kreen have AC 15, which isn't quite high enough to make opportunity attacks something they don't need to worry about. Since they can't engage and disengage with impunity, they need to make every attack count.",
+								"The biggest thing they have going for them is the poison in their bite. A {@condition poisoned} opponent makes attack rolls with disadvantage, which gives the thrikreen a better chance to elude a counterattack. However, the DC of the thrikreen's poisonous Bite is pretty easy to beat, especially for an opponent with a high Constitution. Thri-kreen are simple-minded, but they're good at choosing targets, so rank-and-file thri-kreen will steer clear of tougher-looking opponents at first. They'll leave those foes to their armed allies.",
+								"From a place of hiding, thri-kreen initiate combat when foes come within 30 feet of them, springing out and attacking with the element of surprise, distributing their Bite attacks across all opponents who don't appear to have above-average Constitution, and continuing to fight hand-to-hand until either the opponent is down for the count or they themselves are moderately wounded (reduced to 23 hp or fewer). At that point, they'll chitter for help, and other thrikreen who've managed to poison their opponents will leap over to assist, while they themselves leap away to go fight someone easier.",
+								"Thri-kreen communicate constantly during combat, in their impenetrable language, but mostly they just tell each other things like \"I'm hurt,\" \"This one is tough,\" \"This one is fragile but dangerous,\" or \"This one is {@condition poisoned}.\" They exchange information, but they don't really coordinate. If one accidentally engages an opponent that's tougher than it thought, one or two other thri-kreen may come to help, attacking from behind for the flanking bonus (\"Optional Rule: Flanking,\" Dungeon Master's Guide, chapter 8). When half of a group of thrikreen are seriously wounded (reduced to 13 hp or fewer), or when all of them are at least moderately wounded, they'll call a retreat, favoring the {@action Dash} action if they're outnumbered and the {@action Dodge} action otherwise (non-variant thri-kreen aren't quite smart enough to know how to {@action Disengage})."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Variant Thri-kreen",
+			"source": "TheMonstersKnowWhatTheyreDoing",
+			"_copy": {
+				"name": "Thri-kreen",
+				"source": "MM",
+				"_mod": {
+					"entries": {
+						"mode": "appendArr",
+						"items": {
+							"type": "entries",
+							"name": "Tactics",
+							"entries": [
+								"Variant thri-kreen that wield weapons may be considered to be better trained than ordinary thri-kreen, and with this training comes a discipline that does allow them to {@action Disengage}. However, these thri-kreen will stay in the fight long enough to cover their allies' escape before Disengaging. They're also the ones who will engage the toughest opponents, if they're present. First, they approach to a distance of 30 feet and throw two \"chatkchas\" in a single Multiattack action.",
+								"After that, they close to melee range and fight with their double-bladed polearms, called \"gythkas,\" also combining two attacks in one Multiattack action. When one of these \"soldier thri-kreen\" is engaged with a melee opponent, a regular thri-kreen will often come up behind it for a flank attack, in the hope of poisoning the foe with its bite. (In any thri-kreen encounter, it's good to have the thri-kreen slightly outnumber their opponents in order to allow a few to dart from opponent to opponent.)",
+								"Because magic weapon is no good without a weapon to enchant, psionic thrikreen will usually also be weapon-wielding thri-kreen themselves or accompanied by weapon-wielding thri-kreen; otherwise, they'll never get to use their ability to cast magic weapon, which seems like a waste. Psionic thri-kreen engaged with the toughest of their opponents use invisibility to vanish and relocate when they take a particularly serious hit (one dealing 10 damage or more). Once they've used this once-per-day ability, they cast blur upon re-manifesting, giving their opponents the same penalty against them as if they were {@condition invisible}. Thri-kreen cast magic weapon on their polearms, not on their chatkchas, which are single-use."
 							]
 						}
 					}
