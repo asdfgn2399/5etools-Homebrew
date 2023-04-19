@@ -19,7 +19,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1681872020,
+		"dateLastModified": 1681872400,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -2252,6 +2252,9 @@
 				"source": "MM",
 				"_preserve": {
 					"environment": true
+				},
+				"_mod": {
+					"variant": "remove"
 				}
 			},
 			"fluff": {
@@ -2315,7 +2318,7 @@
 					"*": {
 						"mode": "replaceTxt",
 						"replace": "Thri-kreen",
-						"with": "Variant Thri-kreen",
+						"with": "variant Thri-kreen",
 						"flags": "i"
 					},
 					"languages": {
@@ -2329,7 +2332,7 @@
 								"name": "Weapons Multiattack",
 								"type": "entries",
 								"entries": [
-									"The thri-kreen makes two gythka attacks or two chatkcha attacks."
+									"The variant thri-kreen makes two gythka attacks or two chatkcha attacks."
 								]
 							},
 							{
