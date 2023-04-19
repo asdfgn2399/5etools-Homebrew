@@ -19,7 +19,7 @@
 		],
 		"status": "ready",
 		"dateAdded": 1677903148,
-		"dateLastModified": 1681871843,
+		"dateLastModified": 1681872020,
 		"dependencies": {
 			"monster": [
 				"MM"
@@ -2348,9 +2348,7 @@
 							}
 						]
 					},
-					"variant": {
-						"mode": "removeArr"
-					}
+					"variant": "remove"
 				}
 			},
 			"fluff": {
